@@ -5,9 +5,6 @@ EditorVersion:1.0|Description:|HasWeather:0
 /// Objects
 Scene,Geometry/Cuboid,1,0,1,1,1,0,Unnamed,-7.76,-32.03,5.333,0,0,0,134.286,6.407,134.286,Physical,Entities,Default,Basic|172/174/166/255|Nature/Grass1|50/50|0/0,;
 Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
-Scene,Geometry/Cuboid,3,0,1,1,0,0,LegacyBarrier,2453.866,-1698.212,-29.70561,2.401239E-07,187.4921,356.56,500,15,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,4,0,1,1,0,0,LegacyBarrier,2450.448,-1646.613,43.31165,2.401239E-07,187.4921,356.56,500,1,15,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,5,0,1,1,0,0,LegacyBarrier,2461.891,-1691.601,109.9925,2.401239E-07,187.4921,356.56,500,15,1,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,6,0,1,1,0,0,LegacyBarrier,2456.267,-1712.006,43.54315,2.401239E-07,187.4921,356.56,500,1,15,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,7,0,1,0,1,0,Racing Start Barrier Cuboid,4734.42,-1554.194,-258.9854,0,193.9177,0,1,15,20,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,8,0,1,1,1,0,Kill Region Cuboid,2437.856,-1696.211,-34.75856,2.401239E-07,187.4921,356.56,500,15,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
