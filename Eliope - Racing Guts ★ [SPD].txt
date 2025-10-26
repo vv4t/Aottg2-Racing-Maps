@@ -1,0 +1,168 @@
+/// Options
+EditorVersion:1.0|Description:|HasWeather:0
+/// CustomAssets
+raceworm1,https://files.catbox.moe/39ght9
+/// Objects
+Scene,Geometry/Cuboid,4,0,1,1,1,0,Racing Finish Region Cuboid,1009.924,41.33472,383.9189,0,0,0,6,10,20,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cube1,5,0,1,1,1,0,Cube1,998.8249,46.43017,369.4424,0,0,0,10,60,90,Physical,Entities,Default,Basic|255/255/255/255|Misc/Rumbling1|0.1/0.1|0/0,;
+Scene,Geometry/Cube1,6,0,1,1,1,0,Cube1,279.116,50.53669,995.305,0,0,0,110,110,10,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone8|0.01/0.01|0/0,;
+Scene,Buildings/Chimney2,7,0,1,1,1,0,Chimney2,290.1453,-0.6892024,952.8758,0,0,0,4,1,4,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,General/EditorHumanSpawnPoint,8,0,1,1,0,0,Human SpawnPoint,289.4838,25.47832,952.5656,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Geometry/Cuboid,9,0,1,0,1,0,Racing Start Barrier Cuboid,225.3178,42.71378,911.6325,0,45,0,12,12,1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Custom/raceworm1/absolutefinalk,87,0,1,1,1,0,absolutefinalk,-6.771553,-82.43764,-1.011222,0,180,0,1,1,1,Physical,Entities,Default,Basic|255/191/255/255|Misc/Rumbling1|0.25/128|0/0,;
+Scene,Geometry/Sphere1,11,0,1,0,1,0,Sphere1,0,47.04753,114.5317,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,12,0,1,0,1,0,Sphere1,0.570002,47.04753,183.5314,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,22,0,1,0,1,0,Sphere1,74.52848,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/10000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,14,0,1,0,1,0,Sphere1,0,47.04753,251.5289,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,15,0,1,0,1,0,Sphere1,0.570002,47.04753,320.5287,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,16,0,1,0,1,0,Sphere1,0,47.04753,395.7819,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,17,0,1,0,1,0,Sphere1,0.570002,47.04753,464.7816,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,18,0,1,0,1,0,Sphere1,0,47.04753,538.3475,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,19,0,1,0,1,0,Sphere1,0.570002,47.04753,607.3472,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,20,0,1,0,1,0,Sphere1,0,47.04753,677.594,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,21,0,1,0,1,0,Sphere1,0.570002,47.04753,746.5938,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,23,0,1,0,1,0,Sphere1,141.086,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,24,0,1,0,1,0,Sphere1,218.9924,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,25,0,1,0,1,0,Sphere1,285.5499,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,26,0,1,0,1,0,Sphere1,355.0745,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,27,0,1,0,1,0,Sphere1,421.6321,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,28,0,1,0,1,0,Sphere1,502.4729,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,29,0,1,0,1,0,Sphere1,569.0305,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,30,0,1,0,1,0,Sphere1,637.3608,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,31,0,1,0,1,0,Sphere1,703.9183,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,32,0,1,0,1,0,Sphere1,785.5101,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,33,0,1,0,1,0,Sphere1,852.0677,47.04753,0,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/1000|Speed:70|PauseTime:0;
+Scene,FX/LavaCube1,34,0,1,0,1,0,LavaCube1,500,11.27866,500,1,-1.250835E-09,359.5,100,1,100,Region,Characters,Default,DefaultTiled|255/0/0/255|0.25/128,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:blood killed you;
+Scene,Geometry/Sphere1,35,0,1,1,1,0,Sphere1,387.23,77.55183,422.3923,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:1000/0/0|Speed:5|PauseTime:0;
+Scene,Geometry/Sphere1,37,0,1,0,1,0,Sphere1,1000.668,47.04753,746.5938,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,38,0,1,0,1,0,Sphere1,1000.098,47.04753,677.594,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,39,0,1,0,1,0,Sphere1,1000.668,47.04753,607.3472,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,40,0,1,0,1,0,Sphere1,1000.098,47.04753,538.3475,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,41,0,1,0,1,0,Sphere1,1000.668,47.04753,464.7816,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,42,0,1,0,1,0,Sphere1,1000.098,47.04753,395.7819,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,43,0,1,0,1,0,Sphere1,1000.668,47.04753,320.5287,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,44,0,1,0,1,0,Sphere1,1000.098,47.04753,251.5289,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,45,0,1,0,1,0,Sphere1,1000.668,47.04753,183.5314,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,46,0,1,0,1,0,Sphere1,1000.098,47.04753,114.5317,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:-1000/0/0|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,47,0,1,0,1,0,Sphere1,141.086,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:5|PauseTime:0;
+Scene,Geometry/Sphere1,48,0,1,0,1,0,Sphere1,74.52848,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,49,0,1,0,1,0,Sphere1,218.9924,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,50,0,1,0,1,0,Sphere1,285.5499,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,51,0,1,0,1,0,Sphere1,355.0745,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,52,0,1,0,1,0,Sphere1,421.6321,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,53,0,1,0,1,0,Sphere1,502.4729,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,54,0,1,0,1,0,Sphere1,569.0305,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:50|PauseTime:0;
+Scene,Geometry/Sphere1,55,0,1,0,1,0,Sphere1,637.3608,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,56,0,1,0,1,0,Sphere1,703.9183,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,57,0,1,0,1,0,Sphere1,785.5101,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:70|PauseTime:0;
+Scene,Geometry/Sphere1,58,0,1,0,1,0,Sphere1,852.0677,47.04753,999.9674,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/0/-1000|Speed:50|PauseTime:0;
+Scene,Custom/raceworm1/absolutefinalk,86,0,1,1,1,0,absolutefinalk,-6.771553,179.3582,-1.011222,0,180,0,1,-1,1,Physical,Entities,Default,Basic|255/190/255/255|Misc/Rumbling1|0.25/128|0/0,;
+Scene,Geometry/Sphere1,70,0,1,0,1,0,Sphere1,208.437,100,790.0925,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:5|PauseTime:0;
+Scene,Geometry/Sphere1,71,0,1,0,1,0,Sphere1,452.6258,100,865.5952,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,72,0,1,0,1,0,Sphere1,707.8254,100,685.5249,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,73,0,1,0,1,0,Sphere1,707.8254,100,529.5956,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,74,0,1,0,1,0,Sphere1,478.9842,100,685.5249,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,75,0,1,0,1,0,Sphere1,500.6726,100,349.667,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,76,0,1,0,1,0,Sphere1,300.2874,100,503.5244,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,77,0,1,0,1,0,Sphere1,300.2874,100,621.1934,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,78,0,1,0,1,0,Sphere1,139.6348,100,503.5244,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,79,0,1,0,1,0,Sphere1,65.3679,100,287.7782,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,80,0,1,0,1,0,Sphere1,118.7772,100,105.8466,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,81,0,1,0,1,0,Sphere1,381.0751,100,230.9936,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,82,0,1,0,1,0,Sphere1,655.4235,100,170.4252,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,83,0,1,0,1,0,Sphere1,754.9146,100,170.4252,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Geometry/Sphere1,84,0,1,0,1,0,Sphere1,871.2192,100,215.7524,0,0,0,4,4,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/TechGlow1|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:hahahaha,MovePingPong|RelativePositions:true|StartPosition:0/0/0|EndPosition:0/-100/0|Speed:15|PauseTime:0;
+Scene,Decor/DirtMuncherTitan1,90,0,1,1,1,0,DirtMuncherTitan1,407.7513,44.11609,619.3481,0,60,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Decor/Goober1,92,0,1,1,1,0,Goober1,280.8017,-325.7636,1100,0,180,0,50,50,50,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/Goober1,93,0,1,1,1,0,Goober1,1010.335,-9.573536,376.4583,0,90,0,25,25,25,Physical,Entities,Default,Default|255/255/255/255,TeleportRegion|RelativePosition:false|Position:290/26/950|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,FX/SmokeArea6,95,0,1,0,1,0,SmokeArea6,378.9,-20,21.85104,0,0,0,0.25,0.25,0.25,None,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/SmokeArea6,96,0,1,0,1,0,SmokeArea6,378.9,-20,504.4459,0,0,0,0.25,0.25,0.25,None,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/SmokeArea6,97,0,1,0,1,0,SmokeArea6,369.155,-20,300.3509,0,0,0,0.25,0.25,0.25,None,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/SmokeArea6,98,0,1,0,1,0,SmokeArea6,525.3887,-20,722.0364,0,0,0,0.25,0.25,0.25,None,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/SmokeArea6,99,0,1,0,1,0,SmokeArea6,776.8638,-20,279.8566,0,90,0,0.25,0.25,0.25,None,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/SmokeArea6,100,0,1,0,1,0,SmokeArea6,-15.46952,-20,279.8566,0,90,0,0.25,0.25,0.25,None,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,General/EditorDaylight,102,0,1,1,0,0,Daylight,500,100,500,90,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
+Scene,Decor/TitanSkeleton1,103,0,1,1,1,0,TitanSkeleton1,419.5242,10.31122,843.4794,90,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1b,104,0,1,1,1,0,TitanSkeleton1b,825.6986,13.09685,536.8422,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1c,105,0,1,1,1,0,TitanSkeleton1c,322.5639,17.89151,465.5693,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1b,106,0,1,1,1,0,TitanSkeleton1b,148.4478,17.01673,549.6723,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1a,107,0,1,1,1,0,TitanSkeleton1a,391.3759,20.09845,223.0997,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1c,108,0,1,1,1,0,TitanSkeleton1c,693.8253,17.23284,290.1858,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1d,109,0,1,1,1,0,TitanSkeleton1d,702.267,15.53127,281.0969,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1c,111,0,1,1,1,0,TitanSkeleton1c,676.4633,18.35904,264.5994,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1b,112,0,1,1,1,0,TitanSkeleton1b,676.4633,15.4397,293.9142,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/TitanSkeleton1,113,0,1,1,1,0,TitanSkeleton1,658.0053,-46.42584,117.1038,0,134.0741,0,6,6,6,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/Gore2,115,0,1,1,1,0,Gore2,280.6818,49.29281,186.418,0,340,0,200,200,200,Physical,Entities,Default,Default|255/255/255/255,TeleportRegion|RelativePosition:false|Position:290/26/950|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Decor/Gore2,116,0,1,1,1,0,Gore2,339.2368,48.09322,152.1329,0,110,0,200,200,200,Physical,Entities,Default,Default|255/255/255/255,TeleportRegion|RelativePosition:false|Position:290/26/950|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Decor/Gore2,117,0,1,1,1,0,Gore2,295.5901,30.85144,161.1592,90,110,0,200,200,200,Physical,Entities,Default,Default|255/255/255/255,TeleportRegion|RelativePosition:false|Position:290/26/950|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Decor/Gore2,118,0,1,1,1,0,Gore2,295.5901,64.7172,161.1592,90,110,0,200,200,-200,Physical,Entities,Default,Default|255/255/255/255,TeleportRegion|RelativePosition:false|Position:290/26/950|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Decor/Gore2,119,0,1,1,1,0,Gore2,407.3206,46.68996,272.6809,0,0,0,300,300,300,Physical,Entities,Default,Default|255/255/255/255,TeleportRegion|RelativePosition:false|Position:290/26/950|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Decor/Goober1,120,0,1,1,1,0,Goober1,500,129.4741,0,270,180,0,100,100,10,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,FX/FarFog1c,123,0,1,0,1,0,FarFog1c,85.51021,77,778.5589,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,124,0,1,0,1,0,FarFog1c,85.51021,77,571.4238,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,125,0,1,0,1,0,FarFog1c,85.51021,77,359.0627,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,126,0,1,0,1,0,FarFog1c,85.51021,77,136.7183,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,127,0,1,0,1,0,FarFog1c,508.2799,77,136.7183,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,128,0,1,0,1,0,FarFog1c,508.2799,77,349.2196,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,129,0,1,0,1,0,FarFog1c,508.2799,77,589.0853,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
+Scene,FX/FarFog1c,130,0,1,0,1,0,FarFog1c,508.2799,77,763.3959,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,
+/// Logic
+
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false
+}
