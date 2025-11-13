@@ -5,21 +5,21 @@ import re
 import csv
 
 with open('maps.csv', 'w', newline='') as csvfile:
-  fieldnames = ['map_id', 'author', 'name', 'difficulty', 'type']
-  writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+  fieldnames = ['map_id', 'author', 'name', 'difficulty']
+  writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter="|")
 
   writer.writeheader()
 
   for map_id, file in enumerate(os.listdir("maps")):
-    match = re.match(r"(.*) - (.*) ((?:★|☆)+) (\[SPD\]|\[LVA\]|\[SPD, LVA\]).txt", file)
+    match = re.match(r"(.*?) - (.*) ((?:★|☆)+).txt", file)
     if match:
-      author, name, difficulty, tags = (match.group(1), match.group(2), match.group(3), match.group(4))
+      author, name, difficulty = (match.group(1), match.group(2), match.group(3))
+      difficulty = difficulty.count("★") + difficulty.count("☆") * 0.5
       writer.writerow({
         "map_id": map_id,
         "author": author,
         "name": name,
         "difficulty": difficulty,
-        "type": tags
       })
     else:
       print(f"Incorrectly formated: {file}.")
