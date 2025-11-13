@@ -5,7 +5,7 @@ import re
 import csv
 
 with open('maps.csv', 'w', newline='') as csvfile:
-  fieldnames = ['map_id', 'author', 'name', 'difficulty']
+  fieldnames = ['map_id', 'author', 'name', 'difficulty', 'tags', 'notes']
   writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter="|")
 
   writer.writeheader()
@@ -20,6 +20,8 @@ with open('maps.csv', 'w', newline='') as csvfile:
         "author": author,
         "name": name,
         "difficulty": difficulty,
+        "tags": "",
+        "notes": ""
       })
     else:
       print(f"Incorrectly formated: {file}.")
