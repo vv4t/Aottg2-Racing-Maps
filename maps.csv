@@ -182,7 +182,7 @@ map_id|author|name|difficulty|tags|notes
 180|Aila|Aila 1|3.5||
 181|Sebas Tian|SAC - Feng City Run (Lv3)|2.0||
 182|Incendium|Inferno 1 (Campfire Edition)|3.5||
-183|Riblei|Escape Rooms (Puzzle)|0.5||
+183|Riblei|Escape Rooms (Puzzle)|0.5||Find the small yellow cubes hidden in each of the seven level rooms!
 184|Mayoi|OSU Map|5.0||
 185|ZeroX|Final V (Completed, Ceiling Fixed)|4.0||
 186|Sylcium|Hard Racing Map|3.0||
@@ -528,7 +528,7 @@ map_id|author|name|difficulty|tags|notes
 526|Eliope|Makina Honor (Desert, Low Res)|3.0||
 527|Eliope|Alia 3 Reproduction|3.0||
 528|MaskSlave|MaskSlave 5|3.5||
-529|Ryu|Hell On Earth|5.0||
+529|Ryu|Hell on Earth|5.0||
 530|oNoto|Racing BaBaBa|3.0||
 531|Eliope & Riblei|Nano Maps Fused (Lava Edit)|3.5||
 532|oNoto|The End Of LaLy|3.5||
@@ -541,4 +541,5 @@ map_id|author|name|difficulty|tags|notes
 539|Cowcowtony|Random Turns|3.5||
 540|NexS7|The Box (Hard)|2.0||
 541|Riblei|40 Yards Downwards|3.0||
+
 
