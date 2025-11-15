@@ -1,5 +1,6 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Find the small yellow cubes hidden in
+each of the seven level rooms!|HasWeather:0
 /// CustomAssets
 
 /// Objects
