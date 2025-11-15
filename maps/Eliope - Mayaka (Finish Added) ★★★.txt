@@ -1,6 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Mayaka
-By Eliope
+EditorVersion:1.0|Description:Mayaka by Eliope
 12 Golden Eggs are hidden, touch them all !|HasWeather:0
 /// CustomAssets
 
