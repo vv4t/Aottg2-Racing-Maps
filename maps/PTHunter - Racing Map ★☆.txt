@@ -211,7 +211,7 @@ Scene,Geometry/Cube1,207,0,1,1,0,0,Barrier,231.9218,33.53288,-66.46251,0,0,0,20,
 /// Logic
 component GasRemover
 {
-function OnCharacterSpawn(character)
+function OnSecond(character)
 {
 if(character.IsMine)
 {
