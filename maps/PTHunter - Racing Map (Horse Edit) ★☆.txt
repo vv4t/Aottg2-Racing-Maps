@@ -68,7 +68,7 @@ Scene,Geometry/Cuboid,63,0,1,1,1,0,Cuboid,-58.38202,39.77097,-235.4981,0,91.1094
 Scene,Geometry/Cuboid,64,0,1,1,1,0,Cuboid,-10.09968,9.229424,-334.1531,0,0.7881923,0,0.2,0.1,2.1,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
 Scene,Geometry/Cylinder,65,0,1,1,1,0,Cylinder,-82.19942,9.897527,-23.52258,0,189.0922,0,1,2,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone6|1/1|0/0,;
 Scene,Geometry/Cylinder,66,0,1,1,1,0,Cylinder,-122.7175,9.937533,-19.22038,0,189.0922,0,1,2,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone6|1/1|0/0,;
-Scene,Geometry/Cuboid,67,0,1,1,1,0,Racing Checkpoint Region Cuboid,300.131,25.36101,-292,0,1.722503,0,3,4,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
+Scene,Geometry/Cuboid,67,0,1,1,1,0,Racing Checkpoint Region Cuboid,300.131,25.36101,-292,0,1.722503,0,3,4,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,Geometry/Cuboid,68,0,1,1,1,0,Racing Finish Region Cuboid,231.5018,18.80075,-77.63022,0,0,0,2,2,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,69,0,1,1,1,0,Cuboid,231.0952,19.46127,-57.33497,0.03329435,181.797,0.4805118,3,3,0.2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone7|1/1|0/0,;
 Scene,Geometry/Cuboid,70,0,1,1,1,0,Racing Checkpoint Region Cuboid,-338.3759,46.26111,-71.26933,0,0,0,3,1,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
@@ -92,17 +92,17 @@ Scene,Geometry/Cuboid,87,0,1,1,1,0,Cuboid,-330.2692,23.8416,230.882,0,178.6236,0
 Scene,Geometry/Cuboid,88,0,1,1,1,0,Cuboid,-338.9645,38.63269,75.27979,340.88,179.2083,-1.41191E-08,0.5,3,7,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|1/1|0/0,;
 Scene,Geometry/Cuboid,89,0,1,1,1,0,Cuboid,-61.47446,29.48586,109.1752,0,276.2896,0,28,0.5,18,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone6|1/1|0/0,;
 Scene,Geometry/Cuboid,90,0,1,1,1,0,Cuboid,42.68869,29.46823,248.0718,0,278.3701,0,6,0.5,8,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone6|1/1|0/0,;
-Scene,Geometry/Cylinder,91,0,1,1,1,0,Cylinder,-83.31316,25.59588,282.8665,1.707547E-06,281.7617,269,0.3,0.8,0.3,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark3|1/1|0/0,;
+Scene,Geometry/Cylinder,91,0,1,1,1,0,Cylinder,-83.31316,20.83487,282.8665,1.707547E-06,281.7617,269,0.3,0.8,0.3,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark3|1/1|0/0,;
 Scene,Geometry/Cylinder,92,0,1,1,1,0,Cylinder,-230.852,25.89778,312.2704,1.024528E-05,281.7607,269.4,0.3,0.8,0.3,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark3|1/1|0/0,;
 Scene,Geometry/Cuboid,93,0,1,1,1,0,Cuboid,-52.33374,40.50063,275.8301,350.7201,280.3723,359.9803,3,0.8,12,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
 Scene,Geometry/Cuboid,94,0,1,1,1,0,Cuboid,-263.3627,43.0652,317.0563,351.3999,101.4446,359.604,3,0.8,12,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
 Scene,Geometry/Cuboid,95,0,1,1,1,0,Cuboid,-161.218,48.22525,297.8931,0,11.55332,0,15,0.8,2,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
-Scene,Geometry/Cuboid,96,0,1,1,1,0,Cuboid,-201.4794,30.9323,307.6691,351.0108,102.0289,359.5567,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
-Scene,Geometry/Cuboid,97,0,1,1,1,0,Cuboid,-112.6449,31.01279,286.9268,350.2102,281.5798,359.5511,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
-Scene,Geometry/Cuboid,98,0,1,1,1,0,Cuboid,-112.423,20.86261,287.0492,9.400001,281.6889,-1.298091E-06,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
+Scene,Geometry/Cuboid,96,0,1,1,1,0,Cuboid,-201.4794,30.9323,307.6691,351.0108,102.0289,-4.32195E-07,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
+Scene,Geometry/Cuboid,97,0,1,1,1,0,Cuboid,-112.6449,28.63822,286.9268,345.551,281.7867,4.408303E-07,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
+Scene,Geometry/Cuboid,98,0,1,1,1,0,Cuboid,-113.0517,18.26153,287.0492,5.339385,281.5807,2.143736E-07,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
 Scene,Geometry/Cuboid,99,0,1,1,1,0,Cuboid,-202.089,20.012,308.393,11.6,100.1852,-2.614726E-06,2,0.2,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
 Scene,Geometry/Cuboid,100,0,1,1,1,0,Cuboid,-157.6993,14.17819,296.2174,3.24,281.1696,-3.206777E-07,2,0.02,3.5,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
-Scene,Geometry/Cuboid,101,0,1,1,1,0,Cuboid,-157.3527,36.70407,295.9068,0.7599406,281.1943,0.4287013,2,0.02,3.4,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
+Scene,Geometry/Cuboid,101,0,1,1,1,0,Cuboid,-157.3527,36.70407,295.9068,0.7599406,281.1943,0,2,0.02,3.4,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|1/1|0/0,;
 Scene,Geometry/Cuboid,102,0,1,1,1,0,Cuboid,-334.8594,32.74112,333.6781,0,279.7509,0.36,2,0.5,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone6|1/1|0/0,;
 Scene,Geometry/Cuboid,103,0,1,1,1,0,Cuboid,-338.3805,34.76304,265.7049,358,180.6246,-1.668543E-09,1.8,0.5,12,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone6|1/1|0/0,;
 Scene,Geometry/Cuboid,104,0,1,1,1,0,Cuboid,-326.36,48.2405,96.20852,0,358.3938,0,0.6,8,9,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|1/1|0/0,;
@@ -198,7 +198,7 @@ Scene,Geometry/Cuboid,194,0,1,1,1,0,Kill Region Cuboid,-240.1775,0.5115334,310.8
 Scene,Geometry/Cuboid,195,0,1,1,1,0,Kill Region Cuboid,55.73691,26.1552,-397.9083,0,91.85496,0,0.2,3,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,196,0,1,1,1,0,Kill Region Cuboid,53.89714,25.4332,-373.9601,0,90.99437,0,0.2,3,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,197,0,1,1,1,0,Kill Region Cuboid,310.2574,26.50143,-391.0823,0,91.60395,0,2,3,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,198,0,1,1,1,0,Racing Checkpoint Region Cuboid,228.5177,27.09114,-148.5089,0,359.8409,0,2,3,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
+Scene,Geometry/Cuboid,198,0,1,1,1,0,Racing Checkpoint Region Cuboid,228.5177,26.28181,-148.5089,0,359.8409,0,2,3.5,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,Geometry/Tube,199,0,1,1,1,0,Kill Region Tube,231.2723,18.65747,-91.58354,54.60135,359.5253,359.6411,2,3,1,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Buildings/Tower1,200,0,1,1,1,0,Tower1,231.0149,15.21178,-89.58197,54.52006,359.3282,-2.29838E-07,0.2,0.2,0.2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Tower1,201,0,1,1,1,0,Tower1,230.8735,26.24542,-87.22502,307.08,179.5721,180,0.2,0.2,0.2,Physical,Entities,Default,Default|255/255/255/255,;
@@ -207,16 +207,16 @@ Scene,Geometry/Cuboid,203,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,
 Scene,Geometry/Cuboid,204,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,205,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,206,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cube1,207,0,1,1,0,0,Barrier,231.9218,33.53288,-66.46251,0,0,0,20,10,20,Physical,Characters,Default,Default|255/255/255/255,GasRemover|;
+Scene,Geometry/Cube1,207,0,1,1,0,0,Barrier,231.9218,33.53288,-66.46251,0,0,0,20,10,20,Physical,Characters,Default,Default|255/255/255/255,GasRemover|
 /// Logic
 component GasRemover
 {
-function OnSecond(character)
+function OnTick()
 {
-if(character.IsMine)
+if(Network.MyPlayer.Character != null)
 {
-character.CurrentGas = 0;
-character.SetSpecial("Confuse");
+Network.MyPlayer.Character.CurrentGas = 0;
+Network.MyPlayer.Character.SetSpecial("Confuse");
 }
 }
 }
