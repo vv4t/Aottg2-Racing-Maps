@@ -209,6 +209,17 @@ Scene,Geometry/Cuboid,205,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,16
 Scene,Geometry/Cuboid,206,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cube1,207,0,1,1,0,0,Barrier,231.9218,33.53288,-66.46251,0,0,0,20,10,20,Physical,Characters,Default,Default|255/255/255/255,
 /// Logic
+class Main
+{
+function OnCharacterSpawn(character)
+{
+if(character.IsMine)
+{
+character.CurrentGas = 0;
+character.SetSpecial("Confuse");
+}
+}
+}
 
 /// Weather
 {
