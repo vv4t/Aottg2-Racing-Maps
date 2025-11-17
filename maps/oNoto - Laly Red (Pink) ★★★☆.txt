@@ -1,3 +1,5 @@
+// Finish Added by Fruity
+
 //These need to be loaded first;
 misc,region,Clock1,4,4,4,0,50,0;
 misc,region,Clock2,4,4,4,0,45,0;
@@ -2273,3 +2275,4 @@ racing,checkpointcuboid,2,10,10,90,50,-3450,0,1,0,0;
 racing,checkpointcuboid,2,10,10,90,50,-3450,0,1,0,0;
 
 racing,endcuboid,1,10,8.3,2450,50,2350,0,1,0,0;
+
