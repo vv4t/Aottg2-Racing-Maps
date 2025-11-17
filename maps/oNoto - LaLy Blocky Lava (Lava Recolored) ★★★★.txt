@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:+1 Checkpoint, Lava Recolored by Eliope|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -461,3 +461,4 @@ Scene,General/EditorHumanSpawnPoint,398,0,1,1,0,0,Human SpawnPoint,0,56.05,450,0
     "Name" : "Set 1",
     "Preset" : false
 }
+
