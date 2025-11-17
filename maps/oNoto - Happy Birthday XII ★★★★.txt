@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Eliope|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -628,3 +628,4 @@ Scene,Decor/Candle1,569,0,1,1,1,0,Candle1,3055,230.5,1500,0,0,0,3,3,3,None,Entit
     "Name" : "Set 1",
     "Preset" : false
 }
+
