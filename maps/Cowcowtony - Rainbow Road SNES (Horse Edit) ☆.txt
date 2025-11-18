@@ -1,0 +1,736 @@
+/// Options
+EditorVersion:1.0|Description:|HasWeather:0
+/// CustomAssets
+
+/// Objects
+Scene,Geometry/Cuboid,1,0,1,1,1,0,Unnamed,-7.76,-32.03,5.333,0,0,0,134.286,6.407,134.286,Physical,Entities,Default,Basic|172/174/166/255|Nature/Grass1|50/50|0/0,;
+Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
+Scene,Geometry/Cuboid,3,0,1,1,1,0,KillCuboid,-160,80,78,0,180,0,3.2,0.406,0.04,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,4,0,1,1,1,0,KillCuboid,-176,84,6,0,180,0,0.08,1.2,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,5,0,1,1,1,0,KillCuboid,-144,84,6,0,180,0,0.08,1.2,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,6,0,1,1,1,0,KillCuboid,-160,89,6,0,180,0,3.2,0.2,0.04,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Nature/Leaf0,7,0,1,1,1,0,Leaf0,-160,82.6,6,270.0198,180,0,0.64,0.4,0.004,Physical,Entities,Default,Reflective|178/227/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
+Scene,Geometry/Cuboid,8,0,1,1,1,0,KillCuboid,-160,80,2,0,180,0,3.2,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,9,0,1,1,1,0,KillCuboid,-160,80,-6,0,180,0,3.2,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,10,0,1,1,1,0,KillCuboid,-160,80,-14,0,180,0,3.2,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,11,0,1,1,1,0,KillCuboid,-160,80,-22,0,180,0,3.2,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,12,0,1,1,1,0,KillCuboid,-168,80,-42,0,180,0,1.6,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,13,0,1,1,1,0,KillCuboid,-152,80,-62,0,180,0,1.6,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,14,0,1,1,1,0,KillCuboid,-168,80,-82,0,180,0,1.6,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,15,0,1,1,1,0,KillCuboid,-168,80,-122,0,180,0,1.6,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,16,0,1,1,1,0,KillCuboid,-152,80,-102,0,180,0,1.6,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,17,0,1,1,1,0,KillCuboid,-152,80,-142,0,180,0,1.6,0.406,0.36,None,Characters,Default,Basic|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,18,0,1,1,1,0,KillCuboid,-160,80,0,0,180,0,3.2,0.4,32,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,19,0,1,1,1,0,KillCuboid,-40,80,162,0,180,0,24,0.4,3.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,20,0,1,1,1,0,KillCuboid,80,80,100,0,180,0,4.8,0.4,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,21,0,1,1,1,0,KillCuboid,0,80,40,0,180,0,16,0.4,3.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,22,0,1,1,1,0,KillCuboid,-80,80,0,0,180,0,4.8,0.4,8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,23,0,1,1,1,0,KillCuboid,40,80,-40,0,180,0,24,0.4,2.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,24,0,1,1,1,0,KillCuboid,160,80,-100,0,180,0,3.2,0.4,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,25,0,1,1,1,0,KillCuboid,140,80,-160,0,180,0,4,0.4,2.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,26,0,1,1,1,0,KillCuboid,60,80,-160,0,180,0,12,0.4,1.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,27,0,1,1,1,0,KillCuboid,0,80,-160,0,180,0,1.6,0.4,3.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,28,0,1,1,1,0,KillCuboid,-60,80,-176,0,180,0,12,0.4,1.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,29,0,1,1,1,0,KillCuboid,-60,80,-144,0,180,0,12,0.4,1.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,30,0,1,1,1,0,KillCuboid,-120,80,-160,0,180,0,1.6,0.4,3.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,31,0,1,1,1,0,KillCuboid,-140,80,-160,0,180,0,4,0.4,2.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,32,0,1,1,1,0,KillCuboid,-148,80,0,0,180,0,0.04,0.408,32,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,33,0,1,1,1,0,KillCuboid,-152,80,0,0,180,0,0.04,0.408,32,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,34,0,1,1,1,0,KillCuboid,-156,80,0,0,180,0,0.04,0.408,32,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,35,0,1,1,1,0,KillCuboid,-160,80,0,0,180,0,0.04,0.408,34.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,36,0,1,1,1,0,KillCuboid,-164,80,0,0,180,0,0.04,0.408,34.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,37,0,1,1,1,0,KillCuboid,-168,80,0,0,180,0,0.04,0.408,33.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,38,0,1,1,1,0,KillCuboid,-172,80,0,0,180,0,0.04,0.408,32.8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,39,0,1,1,1,0,KillCuboid,-162,80,-170,0,180,0,0.4,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,40,0,1,1,1,0,KillCuboid,-164,80,-166,0,180,0,0.8,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,41,0,1,1,1,0,KillCuboid,-166,80,-162,0,180,0,1.2,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,42,0,1,1,1,0,KillCuboid,-162,80,-170,0,180,0,0.4,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,43,0,1,1,1,0,KillCuboid,-164,80,-166,0,180,0,0.8,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,44,0,1,1,1,0,KillCuboid,-166,80,-162,0,180,0,1.2,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,45,0,1,1,1,0,KillCuboid,-166,80,-158,0,180,0,1.92,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,46,0,1,1,1,0,KillCuboid,-164,80,-154,0,180,0,2.32,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,47,0,1,1,1,0,KillCuboid,-162,80,-150,0,180,0,2.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,48,0,1,1,1,0,KillCuboid,-160,80,-146,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,49,0,1,1,1,0,KillCuboid,-160,80,-142,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,50,0,1,1,1,0,KillCuboid,-160,80,-138,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,51,0,1,1,1,0,KillCuboid,-160,80,-134,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,52,0,1,1,1,0,KillCuboid,-160,80,-130,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,53,0,1,1,1,0,KillCuboid,-160,80,-126,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,54,0,1,1,1,0,KillCuboid,-160,80,-122,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,55,0,1,1,1,0,KillCuboid,-160,80,-118,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,56,0,1,1,1,0,KillCuboid,-160,80,-114,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,57,0,1,1,1,0,KillCuboid,-160,80,-110,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,58,0,1,1,1,0,KillCuboid,-160,80,-106,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,59,0,1,1,1,0,KillCuboid,-160,80,-102,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,60,0,1,1,1,0,KillCuboid,-160,80,-98,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,61,0,1,1,1,0,KillCuboid,-160,80,-94,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,62,0,1,1,1,0,KillCuboid,-160,80,-90,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,63,0,1,1,1,0,KillCuboid,-160,80,-86,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,64,0,1,1,1,0,KillCuboid,-160,80,-82,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,65,0,1,1,1,0,KillCuboid,-160,80,-78,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,66,0,1,1,1,0,KillCuboid,-160,80,-74,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,67,0,1,1,1,0,KillCuboid,-160,80,-70,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,68,0,1,1,1,0,KillCuboid,-160,80,-66,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,69,0,1,1,1,0,KillCuboid,-160,80,-62,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,70,0,1,1,1,0,KillCuboid,-160,80,-58,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,71,0,1,1,1,0,KillCuboid,-160,80,-54,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,72,0,1,1,1,0,KillCuboid,-160,80,-50,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,73,0,1,1,1,0,KillCuboid,-160,80,-46,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,74,0,1,1,1,0,KillCuboid,-160,80,-42,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,75,0,1,1,1,0,KillCuboid,-160,80,-38,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,76,0,1,1,1,0,KillCuboid,-160,80,-34,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,77,0,1,1,1,0,KillCuboid,-160,80,-30,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,78,0,1,1,1,0,KillCuboid,-160,80,-26,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,79,0,1,1,1,0,KillCuboid,-160,80,-22,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,80,0,1,1,1,0,KillCuboid,-160,80,-18,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,81,0,1,1,1,0,KillCuboid,-160,80,-14,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,82,0,1,1,1,0,KillCuboid,-160,80,-10,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,83,0,1,1,1,0,KillCuboid,-160,80,-6,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,84,0,1,1,1,0,KillCuboid,-160,80,-2,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,85,0,1,1,1,0,KillCuboid,-160,80,2,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,86,0,1,1,1,0,KillCuboid,-160,80,6,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,87,0,1,1,1,0,KillCuboid,-160,80,10,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,88,0,1,1,1,0,KillCuboid,-160,80,14,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,89,0,1,1,1,0,KillCuboid,-160,80,18,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,90,0,1,1,1,0,KillCuboid,-160,80,22,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,91,0,1,1,1,0,KillCuboid,-160,80,26,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,92,0,1,1,1,0,KillCuboid,-160,80,30,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,93,0,1,1,1,0,KillCuboid,-160,80,34,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,94,0,1,1,1,0,KillCuboid,-160,80,38,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,95,0,1,1,1,0,KillCuboid,-160,80,42,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,96,0,1,1,1,0,KillCuboid,-160,80,46,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,97,0,1,1,1,0,KillCuboid,-160,80,50,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,98,0,1,1,1,0,KillCuboid,-160,80,54,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,99,0,1,1,1,0,KillCuboid,-160,80,58,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,100,0,1,1,1,0,KillCuboid,-160,80,62,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,101,0,1,1,1,0,KillCuboid,-160,80,66,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,102,0,1,1,1,0,KillCuboid,-160,80,70,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,103,0,1,1,1,0,KillCuboid,-160,80,74,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,104,0,1,1,1,0,KillCuboid,-160,80,78,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,105,0,1,1,1,0,KillCuboid,-160,80,82,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,106,0,1,1,1,0,KillCuboid,-160,80,86,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,107,0,1,1,1,0,KillCuboid,-160,80,90,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,108,0,1,1,1,0,KillCuboid,-160,80,94,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,109,0,1,1,1,0,KillCuboid,-160,80,98,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,110,0,1,1,1,0,KillCuboid,-160,80,102,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,111,0,1,1,1,0,KillCuboid,-160,80,106,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,112,0,1,1,1,0,KillCuboid,-160,80,110,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,113,0,1,1,1,0,KillCuboid,-160,80,114,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,114,0,1,1,1,0,KillCuboid,-160,80,118,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,115,0,1,1,1,0,KillCuboid,-160,80,122,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,116,0,1,1,1,0,KillCuboid,-160,80,126,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,117,0,1,1,1,0,KillCuboid,-160,80,130,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,118,0,1,1,1,0,KillCuboid,-160,80,134,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,119,0,1,1,1,0,KillCuboid,-160,80,138,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,120,0,1,1,1,0,KillCuboid,-160,80,142,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,121,0,1,1,1,0,KillCuboid,-160,80,146,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,122,0,1,1,1,0,KillCuboid,-162,80,150,0,180,0,2.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,123,0,1,1,1,0,KillCuboid,-164,80,154,0,180,0,2.32,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,124,0,1,1,1,0,KillCuboid,-166,80,158,0,180,0,1.92,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,125,0,1,1,1,0,KillCuboid,-166,80,162,0,180,0,1.2,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,126,0,1,1,1,0,KillCuboid,-164,80,166,0,180,0,0.8,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,127,0,1,1,1,0,KillCuboid,-162,80,170,0,180,0,0.4,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,128,0,1,1,1,0,KillCuboid,-166,80,162,0,180,0,1.2,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,129,0,1,1,1,0,KillCuboid,-164,80,166,0,180,0,0.8,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,130,0,1,1,1,0,KillCuboid,-162,80,170,0,180,0,0.4,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,131,0,1,1,1,0,KillCuboid,-162,80,174,0,180,0,0.6,0.4,0.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,132,0,1,1,1,0,KillCuboid,-162,80,174,0,180,0,0.36,0.404,0.4,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,133,0,1,1,1,0,KillCuboid,-158,80,170,0,180,0,0.36,0.404,1.96,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,134,0,1,1,1,0,KillCuboid,-154,80,168,0,180,0,0.36,0.404,2.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,135,0,1,1,1,0,KillCuboid,-150,80,166,0,180,0,0.36,0.404,2.76,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,136,0,1,1,1,0,KillCuboid,-146,80,164,0,180,0,0.36,0.404,3.16,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,137,0,1,1,1,0,KillCuboid,-142,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,138,0,1,1,1,0,KillCuboid,-138,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,139,0,1,1,1,0,KillCuboid,-134,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,140,0,1,1,1,0,KillCuboid,-130,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,141,0,1,1,1,0,KillCuboid,-126,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,142,0,1,1,1,0,KillCuboid,-122,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,143,0,1,1,1,0,KillCuboid,-118,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,144,0,1,1,1,0,KillCuboid,-114,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,145,0,1,1,1,0,KillCuboid,-110,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,146,0,1,1,1,0,KillCuboid,-106,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,147,0,1,1,1,0,KillCuboid,-102,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,148,0,1,1,1,0,KillCuboid,-98,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,149,0,1,1,1,0,KillCuboid,-94,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,150,0,1,1,1,0,KillCuboid,-90,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,151,0,1,1,1,0,KillCuboid,-86,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,152,0,1,1,1,0,KillCuboid,-82,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,153,0,1,1,1,0,KillCuboid,-78,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,154,0,1,1,1,0,KillCuboid,-74,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,155,0,1,1,1,0,KillCuboid,-70,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,156,0,1,1,1,0,KillCuboid,-66,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,157,0,1,1,1,0,KillCuboid,-62,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,158,0,1,1,1,0,KillCuboid,-58,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,159,0,1,1,1,0,KillCuboid,-54,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,160,0,1,1,1,0,KillCuboid,-50,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,161,0,1,1,1,0,KillCuboid,-46,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,162,0,1,1,1,0,KillCuboid,-42,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,163,0,1,1,1,0,KillCuboid,-38,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,164,0,1,1,1,0,KillCuboid,-34,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,165,0,1,1,1,0,KillCuboid,-30,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,166,0,1,1,1,0,KillCuboid,-26,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,167,0,1,1,1,0,KillCuboid,-22,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,168,0,1,1,1,0,KillCuboid,-18,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,169,0,1,1,1,0,KillCuboid,-14,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,170,0,1,1,1,0,KillCuboid,-10,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,171,0,1,1,1,0,KillCuboid,-6,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,172,0,1,1,1,0,KillCuboid,-2,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,173,0,1,1,1,0,KillCuboid,2,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,174,0,1,1,1,0,KillCuboid,6,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,175,0,1,1,1,0,KillCuboid,10,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,176,0,1,1,1,0,KillCuboid,14,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,177,0,1,1,1,0,KillCuboid,18,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,178,0,1,1,1,0,KillCuboid,22,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,179,0,1,1,1,0,KillCuboid,26,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,180,0,1,1,1,0,KillCuboid,30,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,181,0,1,1,1,0,KillCuboid,34,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,182,0,1,1,1,0,KillCuboid,38,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,183,0,1,1,1,0,KillCuboid,42,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,184,0,1,1,1,0,KillCuboid,46,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,185,0,1,1,1,0,KillCuboid,50,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,186,0,1,1,1,0,KillCuboid,54,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,187,0,1,1,1,0,KillCuboid,58,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,188,0,1,1,1,0,KillCuboid,62,80,162,0,180,0,0.36,0.404,3.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,189,0,1,1,1,0,KillCuboid,66,80,164,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,190,0,1,1,1,0,KillCuboid,70,80,166,0,180,0,0.36,0.404,2.72,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,191,0,1,1,1,0,KillCuboid,74,80,168,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,192,0,1,1,1,0,KillCuboid,78,80,170,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,193,0,1,1,1,0,KillCuboid,82,80,168,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,194,0,1,1,1,0,KillCuboid,86,80,166,0,180,0,0.36,0.404,1.2,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,195,0,1,1,1,0,KillCuboid,90,80,164,0,180,0,0.36,0.404,0.8,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,196,0,1,1,1,0,KillCuboid,94,80,162,0,180,0,0.36,0.404,0.4,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,197,0,1,1,1,0,KillCuboid,98,80,162,0,180,0,0.36,0.404,0.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,198,0,1,1,1,0,KillCuboid,90,80,162,0,180,0,2,0.4,0.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,199,0,1,1,1,0,KillCuboid,-40,80,176,0,180,0,24.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,200,0,1,1,1,0,KillCuboid,-38,80,172,0,180,0,25.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,201,0,1,1,1,0,KillCuboid,-36,80,168,0,180,0,25.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,202,0,1,1,1,0,KillCuboid,-36,80,164,0,180,0,26.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,203,0,1,1,1,0,KillCuboid,-36,80,160,0,180,0,27.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,204,0,1,1,1,0,KillCuboid,-36,80,156,0,180,0,28,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,205,0,1,1,1,0,KillCuboid,-36,80,152,0,180,0,28,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,206,0,1,1,1,0,KillCuboid,-36,80,148,0,180,0,28,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,207,0,1,1,1,0,KillCuboid,90,80,158,0,180,0,2.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,208,0,1,1,1,0,KillCuboid,88,80,154,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,209,0,1,1,1,0,KillCuboid,86,80,150,0,180,0,3.52,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,210,0,1,1,1,0,KillCuboid,84,80,146,0,180,0,3.92,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,211,0,1,1,1,0,KillCuboid,80,80,142,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,212,0,1,1,1,0,KillCuboid,80,80,138,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,213,0,1,1,1,0,KillCuboid,80,80,134,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,214,0,1,1,1,0,KillCuboid,80,80,130,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,215,0,1,1,1,0,KillCuboid,80,80,126,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,216,0,1,1,1,0,KillCuboid,80,80,122,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,217,0,1,1,1,0,KillCuboid,80,80,118,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,218,0,1,1,1,0,KillCuboid,80,80,114,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,219,0,1,1,1,0,KillCuboid,80,80,110,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,220,0,1,1,1,0,KillCuboid,80,80,106,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,221,0,1,1,1,0,KillCuboid,80,80,102,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,222,0,1,1,1,0,KillCuboid,80,80,98,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,223,0,1,1,1,0,KillCuboid,80,80,94,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,224,0,1,1,1,0,KillCuboid,80,80,90,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,225,0,1,1,1,0,KillCuboid,80,80,86,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,226,0,1,1,1,0,KillCuboid,80,80,82,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,227,0,1,1,1,0,KillCuboid,80,80,78,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,228,0,1,1,1,0,KillCuboid,80,80,74,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,229,0,1,1,1,0,KillCuboid,80,80,70,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,230,0,1,1,1,0,KillCuboid,80,80,66,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,231,0,1,1,1,0,KillCuboid,80,80,62,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,232,0,1,1,1,0,KillCuboid,80,80,58,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,233,0,1,1,1,0,KillCuboid,81.8,80,54,0,180,0,4.38,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,234,0,1,1,1,0,KillCuboid,83.8,80,50,0,180,0,3.98,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,235,0,1,1,1,0,KillCuboid,85.8,80,46,0,180,0,3.58,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,236,0,1,1,1,0,KillCuboid,87.8,80,42,0,180,0,3.18,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,237,0,1,1,1,0,KillCuboid,88,80,38,0,180,0,2.36,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,238,0,1,1,1,0,KillCuboid,84,80,34,0,180,0,1.56,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,239,0,1,1,1,0,KillCuboid,82,80,30,0,180,0,1.16,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,240,0,1,1,1,0,KillCuboid,80,80,26,0,180,0,0.76,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,241,0,1,1,1,0,KillCuboid,60,80,100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,242,0,1,1,1,0,KillCuboid,64,80,100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,243,0,1,1,1,0,KillCuboid,68,80,100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,244,0,1,1,1,0,KillCuboid,72,80,100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,245,0,1,1,1,0,KillCuboid,76,80,100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,246,0,1,1,1,0,KillCuboid,80,80,100,0,180,0,0.04,0.408,15.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,247,0,1,1,1,0,KillCuboid,84,80,100,0,180,0,0.04,0.408,15.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,248,0,1,1,1,0,KillCuboid,88,80,100,0,180,0,0.04,0.408,14.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,249,0,1,1,1,0,KillCuboid,92,80,100,0,180,0,0.04,0.408,13.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,250,0,1,1,1,0,KillCuboid,96,80,100,0,180,0,0.04,0.408,12.8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,251,0,1,1,1,0,KillCuboid,100,80,100,0,180,0,0.04,0.408,12.8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,252,0,1,1,1,0,KillCuboid,-98,80,42,0,180,0,0.36,0.404,0.4,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,253,0,1,1,1,0,KillCuboid,-94,80,42,0,180,0,0.36,0.404,0.4,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,254,0,1,1,1,0,KillCuboid,-90,80,44,0,180,0,0.36,0.404,0.8,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,255,0,1,1,1,0,KillCuboid,-86,80,46,0,180,0,0.36,0.404,1.2,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,256,0,1,1,1,0,KillCuboid,-82,80,46,0,180,0,0.36,0.404,1.2,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,257,0,1,1,1,0,KillCuboid,-78,80,48,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,258,0,1,1,1,0,KillCuboid,-74,80,46,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,259,0,1,1,1,0,KillCuboid,-70,80,44,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,260,0,1,1,1,0,KillCuboid,-66,80,42,0,180,0,0.36,0.404,2.72,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,261,0,1,1,1,0,KillCuboid,-62,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,262,0,1,1,1,0,KillCuboid,-58,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,263,0,1,1,1,0,KillCuboid,-54,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,264,0,1,1,1,0,KillCuboid,-50,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,265,0,1,1,1,0,KillCuboid,-46,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,266,0,1,1,1,0,KillCuboid,-42,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,267,0,1,1,1,0,KillCuboid,-38,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,268,0,1,1,1,0,KillCuboid,-34,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,269,0,1,1,1,0,KillCuboid,-30,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,270,0,1,1,1,0,KillCuboid,-26,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,271,0,1,1,1,0,KillCuboid,-22,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,272,0,1,1,1,0,KillCuboid,-18,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,273,0,1,1,1,0,KillCuboid,-14,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,274,0,1,1,1,0,KillCuboid,-10,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,275,0,1,1,1,0,KillCuboid,-6,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,276,0,1,1,1,0,KillCuboid,-2,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,277,0,1,1,1,0,KillCuboid,2,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,278,0,1,1,1,0,KillCuboid,6,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,279,0,1,1,1,0,KillCuboid,10,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,280,0,1,1,1,0,KillCuboid,14,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,281,0,1,1,1,0,KillCuboid,18,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,282,0,1,1,1,0,KillCuboid,22,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,283,0,1,1,1,0,KillCuboid,26,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,284,0,1,1,1,0,KillCuboid,30,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,285,0,1,1,1,0,KillCuboid,34,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,286,0,1,1,1,0,KillCuboid,38,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,287,0,1,1,1,0,KillCuboid,42,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,288,0,1,1,1,0,KillCuboid,46,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,289,0,1,1,1,0,KillCuboid,50,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,290,0,1,1,1,0,KillCuboid,54,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,291,0,1,1,1,0,KillCuboid,58,80,40,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,292,0,1,1,1,0,KillCuboid,62,80,38,0,180,0,0.36,0.404,2.72,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,293,0,1,1,1,0,KillCuboid,66,80,36,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,294,0,1,1,1,0,KillCuboid,70,80,34,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,295,0,1,1,1,0,KillCuboid,74,80,32,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,296,0,1,1,1,0,KillCuboid,0,80,52,0,180,0,17.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,297,0,1,1,1,0,KillCuboid,0,80,48,0,180,0,18.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,298,0,1,1,1,0,KillCuboid,0,80,44,0,180,0,20,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,299,0,1,1,1,0,KillCuboid,0,80,40,0,180,0,20,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,300,0,1,1,1,0,KillCuboid,0,80,36,0,180,0,20,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,301,0,1,1,1,0,KillCuboid,0,80,32,0,180,0,18.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,302,0,1,1,1,0,KillCuboid,0,80,28,0,180,0,17.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,303,0,1,1,1,0,KillCuboid,0,80,24,0,180,0,16.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,304,0,1,1,1,0,KillCuboid,-90,80,38,0,180,0,2.72,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,305,0,1,1,1,0,KillCuboid,-88,80,34,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,306,0,1,1,1,0,KillCuboid,-86,80,30,0,180,0,3.52,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,307,0,1,1,1,0,KillCuboid,-84,80,26,0,180,0,3.92,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,308,0,1,1,1,0,KillCuboid,-80,80,22,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,309,0,1,1,1,0,KillCuboid,-80,80,18,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,310,0,1,1,1,0,KillCuboid,-80,80,14,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,311,0,1,1,1,0,KillCuboid,-80,80,10,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,312,0,1,1,1,0,KillCuboid,-80,80,6,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,313,0,1,1,1,0,KillCuboid,-80,80,2,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,314,0,1,1,1,0,KillCuboid,-80,80,-2,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,315,0,1,1,1,0,KillCuboid,-80,80,-6,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,316,0,1,1,1,0,KillCuboid,-80,80,-10,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,317,0,1,1,1,0,KillCuboid,-80,80,-14,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,318,0,1,1,1,0,KillCuboid,-80,80,-18,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,319,0,1,1,1,0,KillCuboid,-80,80,-22,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,320,0,1,1,1,0,KillCuboid,-80,80,-26,0,180,0,4.72,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,321,0,1,1,1,0,KillCuboid,-82,80,-30,0,180,0,4.32,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,322,0,1,1,1,0,KillCuboid,-84,80,-34,0,180,0,3.92,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,323,0,1,1,1,0,KillCuboid,-86,80,-38,0,180,0,3.52,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,324,0,1,1,1,0,KillCuboid,-86,80,-42,0,180,0,2.8,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,325,0,1,1,1,0,KillCuboid,-82,80,-46,0,180,0,2,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,326,0,1,1,1,0,KillCuboid,-80,80,-50,0,180,0,1.6,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,327,0,1,1,1,0,KillCuboid,-80,80,-50,0,180,0,1.6,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,328,0,1,1,1,0,KillCuboid,-60,80,0,0,180,0,0.04,0.408,8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,329,0,1,1,1,0,KillCuboid,-64,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,330,0,1,1,1,0,KillCuboid,-68,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,331,0,1,1,1,0,KillCuboid,-72,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,332,0,1,1,1,0,KillCuboid,-76,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,333,0,1,1,1,0,KillCuboid,-80,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,334,0,1,1,1,0,KillCuboid,-84,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,335,0,1,1,1,0,KillCuboid,-88,80,0,0,180,0,0.04,0.408,10.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,336,0,1,1,1,0,KillCuboid,-92,80,0,0,180,0,0.04,0.408,9.6,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,337,0,1,1,1,0,KillCuboid,-96,80,0,0,180,0,0.04,0.408,8.8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,338,0,1,1,1,0,KillCuboid,-100,80,0,0,180,0,0.04,0.408,8.8,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,339,0,1,1,1,0,KillCuboid,-70,80,-46,0,180,0,0.36,0.404,1.12,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,340,0,1,1,1,0,KillCuboid,-66,80,-44,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,341,0,1,1,1,0,KillCuboid,-62,80,-42,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,342,0,1,1,1,0,KillCuboid,-58,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,343,0,1,1,1,0,KillCuboid,-54,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,344,0,1,1,1,0,KillCuboid,-50,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,345,0,1,1,1,0,KillCuboid,-46,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,346,0,1,1,1,0,KillCuboid,-42,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,347,0,1,1,1,0,KillCuboid,-38,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,348,0,1,1,1,0,KillCuboid,-34,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,349,0,1,1,1,0,KillCuboid,-30,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,350,0,1,1,1,0,KillCuboid,-26,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,351,0,1,1,1,0,KillCuboid,-22,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,352,0,1,1,1,0,KillCuboid,-18,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,353,0,1,1,1,0,KillCuboid,-14,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,354,0,1,1,1,0,KillCuboid,-10,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,355,0,1,1,1,0,KillCuboid,-6,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,356,0,1,1,1,0,KillCuboid,-2,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,357,0,1,1,1,0,KillCuboid,2,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,358,0,1,1,1,0,KillCuboid,6,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,359,0,1,1,1,0,KillCuboid,10,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,360,0,1,1,1,0,KillCuboid,14,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,361,0,1,1,1,0,KillCuboid,18,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,362,0,1,1,1,0,KillCuboid,22,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,363,0,1,1,1,0,KillCuboid,26,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,364,0,1,1,1,0,KillCuboid,30,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,365,0,1,1,1,0,KillCuboid,34,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,366,0,1,1,1,0,KillCuboid,38,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,367,0,1,1,1,0,KillCuboid,42,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,368,0,1,1,1,0,KillCuboid,46,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,369,0,1,1,1,0,KillCuboid,50,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,370,0,1,1,1,0,KillCuboid,54,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,371,0,1,1,1,0,KillCuboid,58,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,372,0,1,1,1,0,KillCuboid,62,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,373,0,1,1,1,0,KillCuboid,66,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,374,0,1,1,1,0,KillCuboid,70,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,375,0,1,1,1,0,KillCuboid,74,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,376,0,1,1,1,0,KillCuboid,78,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,377,0,1,1,1,0,KillCuboid,82,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,378,0,1,1,1,0,KillCuboid,86,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,379,0,1,1,1,0,KillCuboid,90,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,380,0,1,1,1,0,KillCuboid,94,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,381,0,1,1,1,0,KillCuboid,98,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,382,0,1,1,1,0,KillCuboid,102,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,383,0,1,1,1,0,KillCuboid,106,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,384,0,1,1,1,0,KillCuboid,110,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,385,0,1,1,1,0,KillCuboid,114,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,386,0,1,1,1,0,KillCuboid,118,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,387,0,1,1,1,0,KillCuboid,122,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,388,0,1,1,1,0,KillCuboid,126,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,389,0,1,1,1,0,KillCuboid,130,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,390,0,1,1,1,0,KillCuboid,134,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,391,0,1,1,1,0,KillCuboid,138,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,392,0,1,1,1,0,KillCuboid,142,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,393,0,1,1,1,0,KillCuboid,146,80,-40,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,394,0,1,1,1,0,KillCuboid,150,80,-38,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,395,0,1,1,1,0,KillCuboid,154,80,-36,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,396,0,1,1,1,0,KillCuboid,158,80,-34,0,180,0,0.36,0.404,1.12,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,397,0,1,1,1,0,KillCuboid,162,80,-36,0,180,0,0.36,0.404,0.8,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,398,0,1,1,1,0,KillCuboid,166,80,-38,0,180,0,0.36,0.404,0.4,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,399,0,1,1,1,0,KillCuboid,40,80,-48,0,180,0,26.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,400,0,1,1,1,0,KillCuboid,36,80,-44,0,180,0,27.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,401,0,1,1,1,0,KillCuboid,40,80,-40,0,180,0,25.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,402,0,1,1,1,0,KillCuboid,40,80,-36,0,180,0,25.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,403,0,1,1,1,0,KillCuboid,40,80,-32,0,180,0,24.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,404,0,1,1,1,0,KillCuboid,162,80,-170,0,180,0,0.4,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,405,0,1,1,1,0,KillCuboid,164,80,-166,0,180,0,0.8,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,406,0,1,1,1,0,KillCuboid,166,80,-162,0,180,0,1.2,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,407,0,1,1,1,0,KillCuboid,162,80,-170,0,180,0,0.4,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,408,0,1,1,1,0,KillCuboid,164,80,-166,0,180,0,0.8,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,409,0,1,1,1,0,KillCuboid,166,80,-162,0,180,0,1.2,0.4,0.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,410,0,1,1,1,0,KillCuboid,166,80,-158,0,180,0,1.92,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,411,0,1,1,1,0,KillCuboid,164,80,-154,0,180,0,2.32,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,412,0,1,1,1,0,KillCuboid,162,80,-150,0,180,0,2.72,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,413,0,1,1,1,0,KillCuboid,160,80,-146,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,414,0,1,1,1,0,KillCuboid,160,80,-142,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,415,0,1,1,1,0,KillCuboid,160,80,-138,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,416,0,1,1,1,0,KillCuboid,160,80,-134,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,417,0,1,1,1,0,KillCuboid,160,80,-130,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,418,0,1,1,1,0,KillCuboid,160,80,-126,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,419,0,1,1,1,0,KillCuboid,160,80,-122,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,420,0,1,1,1,0,KillCuboid,160,80,-118,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,421,0,1,1,1,0,KillCuboid,160,80,-114,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,422,0,1,1,1,0,KillCuboid,160,80,-110,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,423,0,1,1,1,0,KillCuboid,160,80,-106,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,424,0,1,1,1,0,KillCuboid,160,80,-102,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,425,0,1,1,1,0,KillCuboid,160,80,-98,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,426,0,1,1,1,0,KillCuboid,160,80,-94,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,427,0,1,1,1,0,KillCuboid,160,80,-90,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,428,0,1,1,1,0,KillCuboid,160,80,-86,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,429,0,1,1,1,0,KillCuboid,160,80,-82,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,430,0,1,1,1,0,KillCuboid,160,80,-78,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,431,0,1,1,1,0,KillCuboid,160,80,-74,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,432,0,1,1,1,0,KillCuboid,160,80,-70,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,433,0,1,1,1,0,KillCuboid,160,80,-66,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,434,0,1,1,1,0,KillCuboid,160,80,-62,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,435,0,1,1,1,0,KillCuboid,160,80,-58,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,436,0,1,1,1,0,KillCuboid,160,80,-54,0,180,0,3.12,0.404,0.36,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,437,0,1,1,1,0,KillCuboid,162,80,-50,0,180,0,2.72,0.404,0.36,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,438,0,1,1,1,0,KillCuboid,164,80,-46,0,180,0,2.32,0.404,0.36,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,439,0,1,1,1,0,KillCuboid,166,80,-42,0,180,0,1.92,0.404,0.36,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,440,0,1,1,1,0,KillCuboid,172,80,-102,0,180,0,0.04,0.408,12.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,441,0,1,1,1,0,KillCuboid,168,80,-102,0,180,0,0.04,0.408,13.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,442,0,1,1,1,0,KillCuboid,164,80,-102,0,180,0,0.04,0.408,14,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,443,0,1,1,1,0,KillCuboid,160,80,-100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,444,0,1,1,1,0,KillCuboid,156,80,-100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,445,0,1,1,1,0,KillCuboid,152,80,-100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,446,0,1,1,1,0,KillCuboid,148,80,-100,0,180,0,0.04,0.408,12,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,447,0,1,1,1,0,KillCuboid,122,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,448,0,1,1,1,0,KillCuboid,126,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,449,0,1,1,1,0,KillCuboid,130,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,450,0,1,1,1,0,KillCuboid,134,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,451,0,1,1,1,0,KillCuboid,138,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,452,0,1,1,1,0,KillCuboid,142,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,453,0,1,1,1,0,KillCuboid,146,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,454,0,1,1,1,0,KillCuboid,150,80,-162,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,455,0,1,1,1,0,KillCuboid,154,80,-164,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,456,0,1,1,1,0,KillCuboid,158,80,-166,0,180,0,0.36,0.404,1.12,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,457,0,1,1,1,0,KillCuboid,140,80,-168,0,180,0,4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,458,0,1,1,1,0,KillCuboid,140,80,-164,0,180,0,4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,459,0,1,1,1,0,KillCuboid,140,80,-160,0,180,0,4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,460,0,1,1,1,0,KillCuboid,140,80,-156,0,180,0,4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,461,0,1,1,1,0,KillCuboid,140,80,-152,0,180,0,4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,462,0,1,1,1,0,KillCuboid,2,80,-160,0,180,0,0.4,0.4,4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,463,0,1,1,1,0,KillCuboid,10,80,-160,0,180,0,0.4,0.4,2.4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,464,0,1,1,1,0,KillCuboid,-6,80,-160,0,180,0,0.36,0.404,4.72,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,465,0,1,1,1,0,KillCuboid,-2,80,-160,0,180,0,0.36,0.404,4.72,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,466,0,1,1,1,0,KillCuboid,2,80,-160,0,180,0,0.36,0.404,3.92,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,467,0,1,1,1,0,KillCuboid,6,80,-160,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,468,0,1,1,1,0,KillCuboid,10,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,469,0,1,1,1,0,KillCuboid,14,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,470,0,1,1,1,0,KillCuboid,18,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,471,0,1,1,1,0,KillCuboid,22,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,472,0,1,1,1,0,KillCuboid,26,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,473,0,1,1,1,0,KillCuboid,30,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,474,0,1,1,1,0,KillCuboid,34,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,475,0,1,1,1,0,KillCuboid,38,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,476,0,1,1,1,0,KillCuboid,42,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,477,0,1,1,1,0,KillCuboid,46,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,478,0,1,1,1,0,KillCuboid,50,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,479,0,1,1,1,0,KillCuboid,54,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,480,0,1,1,1,0,KillCuboid,58,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,481,0,1,1,1,0,KillCuboid,62,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,482,0,1,1,1,0,KillCuboid,66,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,483,0,1,1,1,0,KillCuboid,70,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,484,0,1,1,1,0,KillCuboid,74,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,485,0,1,1,1,0,KillCuboid,78,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,486,0,1,1,1,0,KillCuboid,82,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,487,0,1,1,1,0,KillCuboid,86,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,488,0,1,1,1,0,KillCuboid,90,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,489,0,1,1,1,0,KillCuboid,94,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,490,0,1,1,1,0,KillCuboid,98,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,491,0,1,1,1,0,KillCuboid,102,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,492,0,1,1,1,0,KillCuboid,106,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,493,0,1,1,1,0,KillCuboid,110,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,494,0,1,1,1,0,KillCuboid,114,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,495,0,1,1,1,0,KillCuboid,118,80,-160,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,496,0,1,1,1,0,KillCuboid,60,80,-164,0,180,0,12,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,497,0,1,1,1,0,KillCuboid,60,80,-160,0,180,0,12,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,498,0,1,1,1,0,KillCuboid,60,80,-156,0,180,0,12,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,499,0,1,1,1,0,KillCuboid,-4,80,-180,0,180,0,0.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,500,0,1,1,1,0,KillCuboid,-2,80,-176,0,180,0,1.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,501,0,1,1,1,0,KillCuboid,0,80,-172,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,502,0,1,1,1,0,KillCuboid,2,80,-168,0,180,0,2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,503,0,1,1,1,0,KillCuboid,4,80,-164,0,180,0,2.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,504,0,1,1,1,0,KillCuboid,4,80,-160,0,180,0,2.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,505,0,1,1,1,0,KillCuboid,4,80,-156,0,180,0,2.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,506,0,1,1,1,0,KillCuboid,2,80,-152,0,180,0,2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,507,0,1,1,1,0,KillCuboid,0,80,-148,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,508,0,1,1,1,0,KillCuboid,-2,80,-144,0,180,0,1.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,509,0,1,1,1,0,KillCuboid,-4,80,-140,0,180,0,0.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,510,0,1,1,1,0,KillCuboid,-110,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,511,0,1,1,1,0,KillCuboid,-106,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,512,0,1,1,1,0,KillCuboid,-102,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,513,0,1,1,1,0,KillCuboid,-98,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,514,0,1,1,1,0,KillCuboid,-94,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,515,0,1,1,1,0,KillCuboid,-90,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,516,0,1,1,1,0,KillCuboid,-86,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,517,0,1,1,1,0,KillCuboid,-82,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,518,0,1,1,1,0,KillCuboid,-78,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,519,0,1,1,1,0,KillCuboid,-74,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,520,0,1,1,1,0,KillCuboid,-70,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,521,0,1,1,1,0,KillCuboid,-66,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,522,0,1,1,1,0,KillCuboid,-62,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,523,0,1,1,1,0,KillCuboid,-58,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,524,0,1,1,1,0,KillCuboid,-54,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,525,0,1,1,1,0,KillCuboid,-50,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,526,0,1,1,1,0,KillCuboid,-46,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,527,0,1,1,1,0,KillCuboid,-42,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,528,0,1,1,1,0,KillCuboid,-38,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,529,0,1,1,1,0,KillCuboid,-34,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,530,0,1,1,1,0,KillCuboid,-30,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,531,0,1,1,1,0,KillCuboid,-26,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,532,0,1,1,1,0,KillCuboid,-22,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,533,0,1,1,1,0,KillCuboid,-18,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,534,0,1,1,1,0,KillCuboid,-14,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,535,0,1,1,1,0,KillCuboid,-10,80,-176,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,536,0,1,1,1,0,KillCuboid,-110,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,537,0,1,1,1,0,KillCuboid,-106,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,538,0,1,1,1,0,KillCuboid,-102,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,539,0,1,1,1,0,KillCuboid,-98,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,540,0,1,1,1,0,KillCuboid,-94,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,541,0,1,1,1,0,KillCuboid,-90,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,542,0,1,1,1,0,KillCuboid,-86,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,543,0,1,1,1,0,KillCuboid,-82,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,544,0,1,1,1,0,KillCuboid,-78,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,545,0,1,1,1,0,KillCuboid,-74,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,546,0,1,1,1,0,KillCuboid,-70,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,547,0,1,1,1,0,KillCuboid,-66,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,548,0,1,1,1,0,KillCuboid,-62,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,549,0,1,1,1,0,KillCuboid,-58,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,550,0,1,1,1,0,KillCuboid,-54,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,551,0,1,1,1,0,KillCuboid,-50,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,552,0,1,1,1,0,KillCuboid,-46,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,553,0,1,1,1,0,KillCuboid,-42,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,554,0,1,1,1,0,KillCuboid,-38,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,555,0,1,1,1,0,KillCuboid,-34,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,556,0,1,1,1,0,KillCuboid,-30,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,557,0,1,1,1,0,KillCuboid,-26,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,558,0,1,1,1,0,KillCuboid,-22,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,559,0,1,1,1,0,KillCuboid,-18,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,560,0,1,1,1,0,KillCuboid,-14,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,561,0,1,1,1,0,KillCuboid,-10,80,-144,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,562,0,1,1,1,0,KillCuboid,-60,80,-172,0,180,0,10.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,563,0,1,1,1,0,KillCuboid,-60,80,-176,0,180,0,10.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,564,0,1,1,1,0,KillCuboid,-60,80,-180,0,180,0,10.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,565,0,1,1,1,0,KillCuboid,-60,80,-140,0,180,0,10.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,566,0,1,1,1,0,KillCuboid,-60,80,-144,0,180,0,10.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,567,0,1,1,1,0,KillCuboid,-60,80,-148,0,180,0,10.4,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,568,0,1,1,1,0,KillCuboid,-122,80,-160,0,180,0,0.4,0.4,4,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,569,0,1,1,1,0,KillCuboid,-158,80,-166,0,180,0,0.36,0.404,1.12,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,570,0,1,1,1,0,KillCuboid,-154,80,-164,0,180,0,0.36,0.404,1.52,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,571,0,1,1,1,0,KillCuboid,-150,80,-162,0,180,0,0.36,0.404,1.92,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,572,0,1,1,1,0,KillCuboid,-146,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,573,0,1,1,1,0,KillCuboid,-142,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,574,0,1,1,1,0,KillCuboid,-138,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|255/76/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,575,0,1,1,1,0,KillCuboid,-134,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|0/51/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,576,0,1,1,1,0,KillCuboid,-130,80,-160,0,180,0,0.36,0.404,2.32,None,Characters,Default,Basic|127/255/255/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,577,0,1,1,1,0,KillCuboid,-126,80,-160,0,180,0,0.36,0.404,3.12,None,Characters,Default,Basic|51/255/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,578,0,1,1,1,0,KillCuboid,-122,80,-160,0,180,0,0.36,0.404,3.92,None,Characters,Default,Basic|255/255/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,579,0,1,1,1,0,KillCuboid,-118,80,-160,0,180,0,0.36,0.404,4.72,None,Characters,Default,Basic|255/127/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,580,0,1,1,1,0,KillCuboid,-114,80,-160,0,180,0,0.36,0.404,4.72,None,Characters,Default,Basic|255/25/51/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,581,0,1,1,1,0,KillCuboid,-116,80,-180,0,180,0,0.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,582,0,1,1,1,0,KillCuboid,-118,80,-176,0,180,0,1.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,583,0,1,1,1,0,KillCuboid,-120,80,-172,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,584,0,1,1,1,0,KillCuboid,-120,80,-168,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,585,0,1,1,1,0,KillCuboid,-120,80,-164,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,586,0,1,1,1,0,KillCuboid,-120,80,-160,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,587,0,1,1,1,0,KillCuboid,-120,80,-156,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,588,0,1,1,1,0,KillCuboid,-120,80,-152,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,589,0,1,1,1,0,KillCuboid,-120,80,-148,0,180,0,1.6,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,590,0,1,1,1,0,KillCuboid,-118,80,-144,0,180,0,1.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,591,0,1,1,1,0,KillCuboid,-116,80,-140,0,180,0,0.8,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,592,0,1,1,1,0,KillCuboid,-144,80,-168,0,180,0,3.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,593,0,1,1,1,0,KillCuboid,-144,80,-164,0,180,0,3.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,594,0,1,1,1,0,KillCuboid,-144,80,-160,0,180,0,3.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,595,0,1,1,1,0,KillCuboid,-144,80,-156,0,180,0,3.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,596,0,1,1,1,0,KillCuboid,-144,80,-152,0,180,0,3.2,0.408,0.04,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,597,0,1,1,0,0,LegacyBarrier,-160,80,0,0,180,0,3.2,0.6,32,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,598,0,1,1,0,0,LegacyBarrier,-40,80,162,0,180,0,24,0.6,3.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,599,0,1,1,0,0,LegacyBarrier,80,80,100,0,180,0,4.8,0.6,12,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,600,0,1,1,0,0,LegacyBarrier,0,80,40,0,180,0,16,0.6,3.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,601,0,1,1,0,0,LegacyBarrier,-80,80,0,0,180,0,4.8,0.6,8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,602,0,1,1,0,0,LegacyBarrier,40,80,-40,0,180,0,24,0.6,2.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,603,0,1,1,0,0,LegacyBarrier,160,80,-100,0,180,0,3.2,0.6,12,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,604,0,1,1,0,0,LegacyBarrier,140,80,-160,0,180,0,4,0.6,2.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,605,0,1,1,0,0,LegacyBarrier,60,80,-160,0,180,0,12,0.6,1.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,606,0,1,1,0,0,LegacyBarrier,0,80,-160,0,180,0,1.6,0.6,3.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,607,0,1,1,0,0,LegacyBarrier,-60,80,-176,0,180,0,12,0.6,1.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,608,0,1,1,0,0,LegacyBarrier,-60,80,-144,0,180,0,12,0.6,1.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,609,0,1,1,0,0,LegacyBarrier,-120,80,-160,0,180,0,1.6,0.6,3.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,610,0,1,1,0,0,LegacyBarrier,-140,80,-160,0,180,0,4,0.6,2.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,611,0,1,1,0,0,LegacyBarrier,-162,80,168,0,180,0,0.4,0.6,1.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,612,0,1,1,0,0,LegacyBarrier,-166,80,164,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,613,0,1,1,0,0,LegacyBarrier,-170,80,162,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,614,0,1,1,0,0,LegacyBarrier,82,80,168,0,180,0,0.4,0.6,1.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,615,0,1,1,0,0,LegacyBarrier,86,80,166,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,616,0,1,1,0,0,LegacyBarrier,90,80,164,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,617,0,1,1,0,0,LegacyBarrier,94,80,162,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,618,0,1,1,0,0,LegacyBarrier,98,80,162,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,619,0,1,1,0,0,LegacyBarrier,82,80,32,0,180,0,0.4,0.6,1.6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,620,0,1,1,0,0,LegacyBarrier,86,80,34,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,621,0,1,1,0,0,LegacyBarrier,90,80,36,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,622,0,1,1,0,0,LegacyBarrier,94,80,38,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,623,0,1,1,0,0,LegacyBarrier,98,80,38,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,624,0,1,1,0,0,LegacyBarrier,-82,80,46,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,625,0,1,1,0,0,LegacyBarrier,-86,80,46,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,626,0,1,1,0,0,LegacyBarrier,-90,80,44,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,627,0,1,1,0,0,LegacyBarrier,-94,80,42,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,628,0,1,1,0,0,LegacyBarrier,-98,80,42,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,629,0,1,1,0,0,LegacyBarrier,-82,80,-46,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,630,0,1,1,0,0,LegacyBarrier,-86,80,-46,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,631,0,1,1,0,0,LegacyBarrier,-90,80,-44,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,632,0,1,1,0,0,LegacyBarrier,-94,80,-42,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,633,0,1,1,0,0,LegacyBarrier,-98,80,-42,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,634,0,1,1,0,0,LegacyBarrier,162,80,-36,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,635,0,1,1,0,0,LegacyBarrier,166,80,-38,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,636,0,1,1,0,0,LegacyBarrier,162,80,-166,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,637,0,1,1,0,0,LegacyBarrier,166,80,-164,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,638,0,1,1,0,0,LegacyBarrier,170,80,-162,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,639,0,1,1,0,0,LegacyBarrier,2,80,-178,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,640,0,1,1,0,0,LegacyBarrier,2,80,-142,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,641,0,1,1,0,0,LegacyBarrier,-122,80,-178,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,642,0,1,1,0,0,LegacyBarrier,-122,80,-142,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,643,0,1,1,0,0,LegacyBarrier,-162,80,-166,0,180,0,0.4,0.6,1.2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,644,0,1,1,0,0,LegacyBarrier,-166,80,-164,0,180,0,0.4,0.6,0.8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,645,0,1,1,0,0,LegacyBarrier,-170,80,-162,0,180,0,0.4,0.6,0.4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Plane,646,0,1,1,1,0,Kill Region Plane,0,80,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Plane,647,0,1,1,1,0,Kill Region Plane,0,76,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Plane,648,0,1,1,1,0,Kill Region Plane,0,72,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Plane,649,0,1,1,1,0,Kill Region Plane,0,68,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,650,0,1,1,1,0,Racing Finish Region Cuboid,-160,84,10,0,180,0,3.2,0.8,0.8,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cuboid,651,0,1,0,1,0,Racing Start Barrier Cuboid,-160,84,80,0,180,0,3.2,0.8,0.8,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,652,0,1,1,0,0,LegacyBarrier,-200.2954,80,0,0,180,0,0.4,1.6,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,653,0,1,1,0,0,LegacyBarrier,-142,80,0,0,180,0,0.4,1.6,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,654,0,1,1,0,0,LegacyBarrier,0,90,0,0,180,0,40,0.4,40,Physical,Characters,Default,Default|255/255/255/255,GasRemover|;
+Scene,Geometry/Plane,655,0,1,1,1,0,Kill Region Plane,-160,84,68,270.0198,180,0,4,0.4,1.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,General/EditorHumanSpawnPointBlue,656,0,1,1,0,0,Human SpawnPoint (blue),-160,84,72,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,Geometry/Cuboid,657,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,658,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,659,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,660,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,661,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,
+/// Logic
+component GasRemover
+{
+function OnTick()
+{
+if(Network.MyPlayer.Character != null)
+{
+Network.MyPlayer.Character.CurrentGas = 0;
+Network.MyPlayer.Character.SetSpecial("Confuse");
+}
+}
+}
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false
+}
