@@ -1,4 +1,3 @@
-// ft. Alex4win & Sylvia
 map,disablebounds;
 racing,startcuboid,19.25,9,1,0,45,-95,0,0,0,1;
 spawnpoint,playerC,-1.5,10,-558.25,0,0,0,1;
@@ -2607,4 +2606,5 @@ custom,cuboid,brick1,5,3,30,0,1,1,1,1.0,0.25,-125,15,4025,0,0,0,0;
 custom,cuboid,brick1,4.9,3.1,29.9,0,1,1,1,0.25,2.0,-125,15,4025,0,0,0,0;
 custom,cuboid,brick1,5,3,30,0,1,1,1,1.0,0.25,125,15,4025,0,0,0,0;
 custom,cuboid,brick1,4.9,3.1,29.9,0,1,1,1,0.25,2.0,125,15,4025,0,0,0,0;
+
 
