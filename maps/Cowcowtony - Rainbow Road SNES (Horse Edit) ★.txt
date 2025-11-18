@@ -734,3 +734,4 @@ Network.MyPlayer.Character.SetSpecial("Confuse");
     "Name" : "Set 1",
     "Preset" : false
 }
+
