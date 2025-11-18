@@ -657,7 +657,7 @@ Scene,Geometry/Cuboid,651,0,1,0,1,0,Racing Start Barrier Cuboid,-160,84,80,0,180
 Scene,Geometry/Cuboid,652,0,1,1,0,0,LegacyBarrier,-200.2954,80,0,0,180,0,0.4,1.6,20,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,653,0,1,1,0,0,LegacyBarrier,-142,80,0,0,180,0,0.4,1.6,20,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,654,0,1,1,0,0,LegacyBarrier,0,90,0,0,180,0,40,0.4,40,Physical,Characters,Default,Default|255/255/255/255,GasRemover|;
-Scene,Geometry/Plane,655,0,1,1,1,0,Kill Region Plane,-160,84,68,270.0198,180,0,4,0.4,1.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Plane,655,0,1,1,1,0,Kill Region Plane,-160,84,68,270.0198,180,0,4,0.4,1.2,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,General/EditorHumanSpawnPointBlue,656,0,1,1,0,0,Human SpawnPoint (blue),-160,84,72,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
 Scene,Geometry/Cuboid,657,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,658,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
