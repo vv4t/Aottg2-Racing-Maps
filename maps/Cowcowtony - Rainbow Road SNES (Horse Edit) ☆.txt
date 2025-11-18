@@ -652,7 +652,7 @@ Scene,Geometry/Plane,646,0,1,1,1,0,Kill Region Plane,0,80,0,359.8853,0,180,56,0.
 Scene,Geometry/Plane,647,0,1,1,1,0,Kill Region Plane,0,76,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,648,0,1,1,1,0,Kill Region Plane,0,72,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Plane,649,0,1,1,1,0,Kill Region Plane,0,68,0,359.8853,0,180,56,0.4,56,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,Geometry/Cuboid,650,0,1,1,1,0,Racing Finish Region Cuboid,-160,84,31,0,180,0,3.2,0.8,5,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cuboid,650,0,1,1,1,0,Racing Finish Region Cuboid,-160,84,6,0,180,0,3.2,0.8,0.04,Physical,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,651,0,1,0,1,0,Racing Start Barrier Cuboid,-160,84,80,0,180,0,3.2,0.8,0.8,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,652,0,1,1,0,0,LegacyBarrier,-178,80,0,0,180,0,0.4,1.6,20,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,653,0,1,1,0,0,LegacyBarrier,-142,80,0,0,180,0,0.4,1.6,20,Physical,Characters,Default,Default|255/255/255/255,;
