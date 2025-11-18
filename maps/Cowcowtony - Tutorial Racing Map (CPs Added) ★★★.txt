@@ -1,4 +1,3 @@
-// CPs Added by Fruity
 map,disablebounds;
 spawnpoint,playerC,256.9381,30,-698.1433,0,0,0,1;
 spawnpoint,playerM,256.9381,30,-698.1433,0,0,0,1;
@@ -641,4 +640,5 @@ racing,killcuboid,2,6,2,736.9382,30,-508.1432,0,-1,0,0;
 racing,checkpointCuboid,5,5,1,556.9465,29.97698,231.8655,0,0,0,1;
 racing,checkpointCuboid,5,5,1,-583.0819,30.04164,-128.1656,0,0,0,1;
 racing,checkpointCuboid,5,5,1,796.9247,29.98427,-1088.12,0,0,0,1;
+
 
