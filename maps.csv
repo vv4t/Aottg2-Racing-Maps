@@ -14,7 +14,7 @@ map_id|author|name|difficulty|tags|notes
 12|Riblei|Celestial Dreams Jr.|1.0||Updated on 2025-10-26
 13|oNoto|Racing 001 Normal (Semi Lava)|2.0||
 14|Eliope|Blood of the Racers 1 (Hard Edition)|5.0|botr botr1|
-15|Eliope|The Way of the Racers (Winter)|1.5||
+15|Eliope|The Way of the Racers (Winter)|1.5|twotr twor|
 16|Mb12|Cave Race|1.0||
 17|Chrysoprase|Brutalism|0.5||
 18|Eliope|Volcano Race|3.5||
@@ -40,7 +40,7 @@ map_id|author|name|difficulty|tags|notes
 38|Zender|Spear (No Lava)|0.5||
 39|Cowcowtony|Future Trax 9|3.5||
 40|Chrysoprase|Another Brick in the Wall|0.5||
-41|Eliope|The Way of the Racers (Luxueux)|1.5||
+41|Eliope|The Way of the Racers (Luxueux)|1.5|twotr twor|
 42|Esli|Esli's Balltower|5.0||
 43|Zil|puzzle|1.0||
 44|oNoto|The End Of Laly (Transparent Tube Edit)|4.5||
@@ -82,7 +82,7 @@ map_id|author|name|difficulty|tags|notes
 80|MaskSlave|MS Racing 1|4.0||
 81|ZeroX|FALR (Mini Version)|3.5||
 82|Fate|Fuck It|3.0||
-83|Eliope|The Way of the Racers (Ancient)|1.5||
+83|Eliope|The Way of the Racers (Ancient)|1.5|twotr twor|
 84|Cowcowtony|Future Trax 2|4.5||
 85|Guest Creator|Fall Race|4.0||
 86|oNoto|Racing 001 Hard (Full Lava)|3.0||
@@ -106,7 +106,7 @@ map_id|author|name|difficulty|tags|notes
 104|PTHunter|Racing Map (Horse Edit)|1.5|horse|
 105|ZeroX|Code 30|3.5||
 106|Eliope|Nano Racing T|0.5||
-107|Eliope|Blood of the Racers (Water Edit)|0.5|botr botr1|Water Edit by Riblei
+107|Eliope|Blood of the Racers (Water Edit by Riblei)|0.5|botr botr1|
 108|AndyXest|Devil's Corridor|3.0||
 109|Eliope & Riblei|Makina Honor + Makina Source 3|3.5||
 110|Hongyao|Hong's Racing Akina (Grey Walls)|2.0||
@@ -136,14 +136,14 @@ map_id|author|name|difficulty|tags|notes
 134|Eliope|Nano Racing Zig-Zag V|0.5||
 135|Alex4win|Akina (Lava, Upside Down)|3.5||
 136|oNoto|LaLy RaceZy|3.0||
-137|Riblei|Celestial Marine (Water Edit)|0.5||
+137|Riblei|Celestial Marine (Water Edit)|0.5||ft. Alex4win & Sylvia
 138|Parls|PNC|3.5||
 139|Dany|The Nuke (Hard)|5.0||
 140|Eliope & Zender|Blood of the Racers 4|4.5|botr botr4|
 141|oNoto|Racing Lava (Tited Stairs)|3.5||
 142|Eliope|Makina Volcano|5.0||
 143|Eliope|Nano Racing Curve Left|0.5||
-144|Eliope|Makina ABC (Water Edit)|0.5||Water Edit by Riblei
+144|Eliope|Makina ABC (Water Edit by Riblei)|0.5||
 145|Aether Ko|The Tower's Trail Route 5|4.0||
 146|Cowcowtony|Lost In Wormhole|0.5||
 147|Esli|Tunnel Racing|3.0||
@@ -194,7 +194,7 @@ map_id|author|name|difficulty|tags|notes
 193|oNoto|RX001 (V2)|3.5||
 194|Naito|NTK 2|4.5||
 195|Konor|Fire Tail; Fire Snake (V1)|3.0||
-196|Pixell|Winter Speed (Snow Mountain)|2.0||
+196|Pixell|Winter Speed (Snow Mountain)|2.0||ft. Riblei, Eliope, Sylcium, Zechten
 197|Eliope & Alex4win|Makina ABC (Drunk)|4.0||
 198|oNoto|LaLy LoZy Lava|3.5||
 199|oNoto|Racing 001 Normal Reversed (Semi Lava)|1.0||
@@ -230,17 +230,17 @@ map_id|author|name|difficulty|tags|notes
 230|Kari|Racing 2 (Nightmare)|4.0||
 231|Alpi|Galactic Hell|4.5||
 232|Eliope|Makina Fire (Lighter+Lava)|1.0||
-233|Puttepers & Sylvy|PS2|5.0||
+233|Puttepers & Sylvy|PS2|5.0||Fixed on 2025-11-18
 234|Zil|UwU|3.0||
 235|Guest Creator|Saturn|5.0||
 236|MaskSlave|Sweet Wood Racing|2.5||
 237|Eliope & Riblei|Makina ZYX + ZYX (Drunk)|4.0||
 238|Riblei & Eliope|Machina 2|4.5||
 239|Eliope & Riblei|Port Racers + TWotR|2.5||
-240|Cowcowtony|Escape from the Sun (Water Edit)|0.5||Water Edit by Riblei
+240|Cowcowtony|Escape from the Sun (Water Edit by Riblei)|0.5||
 241|Eliope|Makina Speed (ASO)|0.5||
 242|ZeroX|Yato|1.5||
-244|Pixell|Winter Speed (Monochrome)|2.0||
+244|Pixell|Winter Speed (Monochrome)|2.0||ft. Eliope, Zender, Sylcium, Zechten
 245|MaskSlave|MaskSlave 6|4.0||
 246|Kyoi|Team Death Run|4.5||
 247|Mayoi|[DC] Speed Race|3.0||
@@ -311,7 +311,7 @@ map_id|author|name|difficulty|tags|notes
 312|Cowcowtony|Rainbow Road SNES (Hookable)|0.5||
 313|Hongyao|Hong’s Racing Akina (Brown Walls)|2.0||
 314|Appolina|Endless Lava Obstacles 3 'Tribute' (Final)|3.5||
-315|Eliope|The Way of the Racers (Dark)|1.5||
+315|Eliope|The Way of the Racers (Dark)|1.5|twotr twor|
 316|Eliope & Riblei|Makina Fire + Ice|1.0||
 317|Hongyao|Going Around|1.0||
 318|Cowcowtony|Future Trax 3|3.5||
@@ -320,13 +320,13 @@ map_id|author|name|difficulty|tags|notes
 321|Cowcowtony|Escape from the Sun (HD)|3.5||
 322|Eliope|Makina Honor (Black Texture)|3.0||
 323|Eliope|Makina Honor (Misty)|3.0||
-324|Leafy|OCD|4.0||
+324|Leafy|OCD|4.5||
 325|Charlotte|Chess ll “Rook”|5.0||
 326|Eliope|Nawak 4|0.5||
 327|Loki|Racing Hard 123|4.5||
 328|Sub|Unfinished Map|3.0||
 329|Naito|N3|3.5||
-330|Eliope|Blood of the Racers 2 (Water Edit)|0.5|botr botr2|Water Edit by Riblei
+330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2|
 331|Ace|Race 2|1.5||
 332|Hongyao|Hong Racing|1.0||
 333|Konor|Hot Lava (Easy)|2.5||
@@ -374,7 +374,7 @@ map_id|author|name|difficulty|tags|notes
 376|Eliope|Makina Honor (Transparent)|3.0||
 377|Eliope|Mayaka (Finish Added)|3.0||Finish Added
 378|Rayzu & Riblei|Ex'd|3.0||
-379|Riblei|Celestial Marine I|4.0||
+379|Riblei|Celestial Marine I|4.0||ft. Alex4win & Sylvia
 380|Eliope & Riblei|Blood of the Racers I,  II,  IV|4.5|botr botr1 botr2 botr4|
 381|Unknown|Wind Series 'Vata Racing'|3.0||
 382|Unknown|Wind Series 'Vata Racing' (Lv2)|4.0||
@@ -402,7 +402,7 @@ map_id|author|name|difficulty|tags|notes
 404|Cowcowtony|Future Trax 4|5.0||
 405|Eliope|Makina Source LV2 (Texture Edit)|3.0||
 406|Sylvia|Pinku|5.0||
-407|Sebas Tian|SAC - Cargo Chase 2 (Eliope Edit)|2.0||Modified by Eliope
+407|Sebas Tian|SAC - Cargo Chase 2 (Eliope Edit)|2.0||
 408|Riblei|Machina Classic|3.5||
 409|oNoto|Obstacle Rooms|4.0||
 410|Naito|NTK 4|5.0||
@@ -454,7 +454,6 @@ map_id|author|name|difficulty|tags|notes
 456|oNoto|100 Subs Map|3.5||
 457|Rin|Bus To Hell 2 (Fixed)|3.5||
 458|Kido|Cube Race|3.0||
-459|Eliope|The Way of the Racers Lv2 (Optimized, Lava Floor Fixed by Zender)|3.5||
 460|Eliope|Port Racers II|1.0||
 461|Riblei & Eliope|Longest Line|2.0||
 462|Sylcium|Long Racing Map (Lava, Texture Edit by Riblei)|3.5||
@@ -463,7 +462,7 @@ map_id|author|name|difficulty|tags|notes
 465|Eliope|222 + 2 (Edit by Riblei)|3.0||
 466|Naito|NTK 7|5.0||
 467|Zender|EWeek Map|0.5||
-468|Eliope|The Way of the Racers (Bois)|1.5||
+468|Eliope|The Way of the Racers (Bois)|1.5|twotr twor|
 469|MaskSlave|Letters Map|3.5||
 470|ZeroX|Final V (Incomplete, Ceiling Fixed)|4.0||
 471|Hixan|The Large Maze V3|3.5||
@@ -473,14 +472,13 @@ map_id|author|name|difficulty|tags|notes
 475|Riblei|Chimera|4.5||
 476|Cowcowtony|Watch Out Your Head|1.0||
 477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|
-478|Eliope|The Way of the Racers (Aride)|1.5||
+478|Eliope|The Way of the Racers (Aride)|1.5|twotr twor|
 479|Sylcium|Racing Map|1.0||Fixed by Appolina
 480|Eliope|Makina Honor (Brick)|3.0||
 481|Eliope|Makina Ice (Fixed Holes)|0.5||
 482|Eliope & Riblei|Makina Speed (Lava, Reverse)|3.5||
 483|Unknown|Unknown Lava Racing Map|3.5||
 484|Naito|NTK 6|5.0||
-485|Eliope|The Way of the Racers Lv2 (Optimized)|3.5||
 486|Eliope|Makina Red and More (Rainbow Edit by Riblei)|3.0||
 487|ZeroX|Reel-In Practice|1.0||
 488|Eliope|Nawak 3|3.5||
@@ -497,7 +495,7 @@ map_id|author|name|difficulty|tags|notes
 499|Eliope|Makina Speed ASO (Lava Edit by NexS7)|2.0||
 500|Eliope|Makina Honor (Semi Lava Reskin)|3.0||
 501|Eliope|Makina Royal|2.0||
-502|oNoto|Laly Red (Pink)|3.5||Finish Added by Fruity
+502|oNoto|Laly Red (Pink)|3.5||
 503|LuigiKkjk|Dark Racing|1.5||
 504|Hongyao|Hong's Laboratory|0.5||
 505|Sebas Tian|Yegrocia Region (ft. Riblei)|0.5||
@@ -507,13 +505,13 @@ map_id|author|name|difficulty|tags|notes
 509|Eliope & Zil|Makina Dro + Port Racers 1|3.5||
 510|Guest Creator|Lava Maze Map|5.0||
 511|oNoto|Racing 001 Easy (No Lava)|0.5||
-512|Eliope|The Way of the Racers Lv2|3.5||
+512|Eliope|The Way of the Racers Lv2|3.5|twotr twor|
 513|Zender|Eternal Haste|4.0||
 514|Eliope|Nano Racing Zig-Zag H|0.5||
 515|Eliope|222 'Towers Map' (Retextured3)|3.0||
 516|Cowcowtony|Tutorial Racing Map (CPs Added)|3.0||CPs Added by Fruity
 517|Eliope|Makina Honor (Wooden)|3.0||
-518|Eliope|The Way of the Racers|1.5||
+518|Eliope|The Way of the Racers|1.5|twotr twor|
 519|Sebas Tian|SAC - City Run|0.5||
 520|Fate & Riblei & Alex4win|Fuck It|3.5||
 521|Zechten|Velocity Midori|2.0||
@@ -541,7 +539,4 @@ map_id|author|name|difficulty|tags|notes
 543|Eliope|Horseside the walls|3.0|horse|
 544|Eliope|Horsescape the Walls|4.5|horse|
 545|PTHunter|Racing Map|1.5||
-
-
-
 
