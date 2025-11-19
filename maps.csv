@@ -68,7 +68,7 @@ map_id|author|name|difficulty|tags|notes
 66|Yuukihito|Unnamed (Speed)|2.0||
 67|Eliope|Rayt Racing|4.0||
 68|cowcowtony|Future Trax 10|3.5||
-69|Eliope|Makina Honor (Grassy)|3.0||
+69|Eliope|Makina Honor (Grassy)|2.0||
 70|Naito|Double Hooks|4.5||
 71|Eliope|Makina Royal (Lava)|3.0||
 72|Rayzu|RBLR 2|4.0||
@@ -318,8 +318,8 @@ map_id|author|name|difficulty|tags|notes
 319|Naito|N1 Map|3.0||
 320|Sebas Tian|SAC - Feng City Run (Lv2)|0.5||
 321|cowcowtony|Escape from the Sun (HD)|3.5||
-322|Eliope|Makina Honor (Black Texture)|3.0||
-323|Eliope|Makina Honor (Misty)|3.0||
+322|Eliope|Makina Honor (Black Texture)|2.0||
+323|Eliope|Makina Honor (Misty)|2.0||
 324|Leafy|OCD|4.0||
 325|Charlotte|Chess ll “Rook”|5.0||
 326|Eliope|Nawak 4|0.5||
@@ -334,7 +334,7 @@ map_id|author|name|difficulty|tags|notes
 335|Kari|Skate|1.0||
 336|Riblei|Celestial Marine II|3.5||
 337|Zil|Irì spid 2.0|1.0||
-338|Eliope|Makina Honor|3.0||
+338|Eliope|Makina Honor|2.0||
 339|cowcowtony|Roller Coaster Type B (Easy)|0.5||
 340|Mb12|Lava Madness|3.0||
 341|Zender|Spear (Everything Hookable)|4.0||
@@ -371,7 +371,7 @@ map_id|author|name|difficulty|tags|notes
 373|Riblei|Ex'd IV|1.0||Updated on 2025-10-26
 374|Envy|Racing Forest (Short)|1.5||
 375|oNoto|LaLy Red Lava|3.5||
-376|Eliope|Makina Honor (Transparent)|3.0||
+376|Eliope|Makina Honor (Transparent)|2.0||
 377|Eliope|Mayaka (Finish Added)|3.0||Finish Added
 378|Rayzu & Riblei|Ex'd|3.0||
 379|Riblei|Celestial Marine I|4.0||ft. Alex4win & Sylvia
@@ -438,7 +438,7 @@ map_id|author|name|difficulty|tags|notes
 440|oNoto|LaLy Blocky Lava (Lava Recolored)|4.0||+1 Checkpoint, Lava Recolored by Eliope
 441|Riblei|Ultra Steps|3.0||
 442|Eliope|The Flowers of the Racers 1|0.5||
-443|Eliope|Makina Honor (MistyLava)|3.0||
+443|Eliope|Makina Honor (MistyLava)|2.0||
 444|El_Mata_Pokemon|No Hook No Gas Map|3.5||
 445|Pixell|Pixo Map|3.0||
 446|cowcowtony|No Room for Hesitation|3.5||
@@ -474,7 +474,7 @@ map_id|author|name|difficulty|tags|notes
 477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|
 478|Eliope|The Way of the Racers (Aride)|1.0|twotr twor|
 479|Sylcium|Racing Map|1.0||Fixed by Appolina
-480|Eliope|Makina Honor (Brick)|3.0||
+480|Eliope|Makina Honor (Brick)|2.0||
 481|Eliope|Makina Ice (Fixed Holes)|0.5||
 482|Eliope & Riblei|Makina Speed (Lava, Reverse)|3.5||
 483|Unknown|Unknown Lava Racing Map|3.5||
@@ -493,7 +493,7 @@ map_id|author|name|difficulty|tags|notes
 497|Eliope|Makina Dro (Full Lava Edit by Riblei)|4.0||
 498|Riblei & Eliope|Makina Royal + Machina II|3.5||
 499|Eliope|Makina Speed ASO (Lava Edit by NexS7)|2.0||
-500|Eliope|Makina Honor (Semi Lava Reskin)|3.0||
+500|Eliope|Makina Honor (Semi Lava Reskin)|2.0||
 501|Eliope|Makina Royal|2.0||
 502|oNoto|Laly Red (Pink)|3.5||
 503|LuigiKkjk|Dark Racing|1.5||
@@ -510,7 +510,7 @@ map_id|author|name|difficulty|tags|notes
 514|Eliope|Nano Racing Zig-Zag H|0.5||
 515|Eliope|222 'Towers Map' (Retextured3)|3.0||
 516|cowcowtony|Tutorial Racing Map (CPs Added)|3.0||CPs Added by Fruity
-517|Eliope|Makina Honor (Wooden)|3.0||
+517|Eliope|Makina Honor (Wooden)|2.0||
 518|Eliope|The Way of the Racers|1.0|twotr twor|
 519|Sebas Tian|SAC - City Run|0.5||
 520|Fate & Riblei & Alex4win|Fuck It|3.5||
@@ -519,7 +519,7 @@ map_id|author|name|difficulty|tags|notes
 523|Madzik|Horse Racing|2.0|horse|
 524|Riblei & Eliope|Machina 2 (Pyramid Skip Ver.)|3.5||
 525|Guest Creator|Anthill Race|2.0||
-526|Eliope|Makina Honor (Desert, Low Res)|3.0||
+526|Eliope|Makina Honor (Desert, Low Res)|2.0||
 527|Eliope|Alia 3 Reproduction|3.0||
 528|MaskSlave|MaskSlave 5|3.5||
 529|Ryu|Hell on Earth|5.0||
@@ -541,5 +541,4 @@ map_id|author|name|difficulty|tags|notes
 545|PTHunter|Racing Map|1.0||
 546|cowcowtony|Rainbow Road SNES (Horse Edit)|1.0|horse|
 547|cowcowtony|Fair Map|2.0||
-
 
