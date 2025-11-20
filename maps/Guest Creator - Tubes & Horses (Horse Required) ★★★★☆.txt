@@ -33,36 +33,36 @@ Scene,General/EditorTitanSpawnPoint,27,0,1,1,0,0,Titan SpawnPoint,4000,-3500,-36
 Scene,Geometry/Cuboid,28,0,1,1,1,0,Kill Region Cuboid,0,-4400,3375,0,0,0,1010,1,150,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,29,0,1,1,1,0,Cuboid,2210,-4420,3375,0,0,0,518,1,145,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,30,0,1,1,1,0,Kill Region Cuboid,4800,925.5,0,0,0,0,2,1014.9,10000,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,31,0,1,1,0,0,LegacyBarrier,0,0,-5200,0,0,0,10000,10000,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,32,0,1,1,0,0,LegacyBarrier,1000,2000,-1800,0,0,0,5,800,680,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,33,0,1,1,0,0,LegacyBarrier,-1500,1500,1500,0,0,0,500,700,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,34,0,1,1,0,0,LegacyBarrier,-2140,0,-3500,0,0,0,400,10000,10,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,35,0,1,1,0,0,LegacyBarrier,600,-70,-700,0,0,0,113,12,450,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,36,0,1,1,0,0,LegacyBarrier,-600,-70,-700,0,0,0,113,12,450,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,37,0,1,1,0,0,LegacyBarrier,-140,2000,-5080,0,0,0,5,800,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,38,0,1,1,0,0,LegacyBarrier,-140,-1430,-4700,0,0,0,5,400,60,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,31,0,1,1,0,0,LegacyBarrier,0,0,-5200,0,0,0,10000,10000,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,32,0,1,1,0,0,LegacyBarrier,1000,2000,-1800,0,0,0,5,800,680,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,33,0,1,1,0,0,LegacyBarrier,-1500,1500,1500,0,0,0,500,700,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,34,0,1,1,0,0,LegacyBarrier,-2140,0,-3500,0,0,0,400,10000,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,35,0,1,1,0,0,LegacyBarrier,600,-70,-700,0,0,0,113,12,450,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,36,0,1,1,0,0,LegacyBarrier,-600,-70,-700,0,0,0,113,12,450,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,37,0,1,1,0,0,LegacyBarrier,-140,2000,-5080,0,0,0,5,800,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,38,0,1,1,0,0,LegacyBarrier,-140,-1430,-4700,0,0,0,5,400,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,39,0,1,1,1,0,Kill Region Cuboid,-2000,-2000,-1900,0,0,0,650,5,680,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,40,0,1,1,0,0,LegacyBarrier,-140,3500,-4700,0,0,0,5,500,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,41,0,1,1,0,0,LegacyBarrier,-140,1500,-1470,0,0,0,5,1000,602,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,40,0,1,1,0,0,LegacyBarrier,-140,3500,-4700,0,0,0,5,500,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,41,0,1,1,0,0,LegacyBarrier,-140,1500,-1470,0,0,0,5,1000,602,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,42,0,1,1,1,0,Kill Region Cuboid,-3000,-200,0,0,0,0,450,50,10000,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,43,0,1,1,1,0,Kill Region Cuboid,-500,-200,-4100,0,0,0,80,50,230,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,44,0,1,1,0,0,LegacyBarrier,-4500,-875,-3250,0,0,0,370,825,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,45,0,1,1,0,0,LegacyBarrier,-4500,4210,-3250,0,0,0,370,125,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,46,0,1,1,0,0,LegacyBarrier,-6500,1500,-3250,0,0,0,370,10000,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,47,0,1,1,0,0,LegacyBarrier,-2500,1500,-3250,0,0,0,370,10000,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,48,0,1,1,0,0,LegacyBarrier,-4500,-454.5,3600,0,0,0,370,738.9,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,49,0,1,1,0,0,LegacyBarrier,-6500,925.5,3600,0,0,0,370,1014.9,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,50,0,1,1,0,0,LegacyBarrier,-4500,4170,3600,0,0,0,370,120,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,51,0,1,1,0,0,LegacyBarrier,-2500,1500,3650,0,0,0,370,10000,40,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,52,0,1,1,0,0,LegacyBarrier,-4500,4870,3600,0,0,0,40,26,90,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,53,0,1,1,0,0,LegacyBarrier,-4280,4800,4100,0,0,0,50,150,20,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,54,0,1,1,0,0,LegacyBarrier,-4850,4800,4100,0,0,0,50,150,20,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,55,0,1,1,0,0,LegacyBarrier,-4565,4745,4100,0,0,0,7.45,50,20,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,56,0,1,1,0,0,LegacyBarrier,-3200,1500,4250,0,0,0,50,800,150,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,44,0,1,1,0,0,LegacyBarrier,-4500,-875,-3250,0,0,0,370,825,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,45,0,1,1,0,0,LegacyBarrier,-4500,4210,-3250,0,0,0,370,125,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,46,0,1,1,0,0,LegacyBarrier,-6500,1500,-3250,0,0,0,370,10000,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,47,0,1,1,0,0,LegacyBarrier,-2500,1500,-3250,0,0,0,370,10000,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,48,0,1,1,0,0,LegacyBarrier,-4500,-454.5,3600,0,0,0,370,738.9,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,49,0,1,1,0,0,LegacyBarrier,-6500,925.5,3600,0,0,0,370,1014.9,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,50,0,1,1,0,0,LegacyBarrier,-4500,4170,3600,0,0,0,370,120,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,51,0,1,1,0,0,LegacyBarrier,-2500,1500,3650,0,0,0,370,10000,40,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,52,0,1,1,0,0,LegacyBarrier,-4500,4870,3600,0,0,0,40,26,90,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,53,0,1,1,0,0,LegacyBarrier,-4280,4800,4100,0,0,0,50,150,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,54,0,1,1,0,0,LegacyBarrier,-4850,4800,4100,0,0,0,50,150,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,55,0,1,1,0,0,LegacyBarrier,-4565,4745,4100,0,0,0,7.45,50,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,56,0,1,1,0,0,LegacyBarrier,-3200,1500,4250,0,0,0,50,800,150,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,57,0,1,1,1,0,Kill Region Cuboid,-4350,0,4250,0,0,0,230,50,150,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,58,0,1,1,0,0,LegacyBarrier,3400,-3000,3350,0,0,0,225,300,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,59,0,1,1,0,0,LegacyBarrier,4550,-3520,3370,0,0,0,50,170,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,60,0,1,1,0,0,LegacyBarrier,3550,-3000,2650,0,0,0,250,300,2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,58,0,1,1,0,0,LegacyBarrier,3400,-3000,3350,0,0,0,225,300,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,59,0,1,1,0,0,LegacyBarrier,4550,-3520,3370,0,0,0,50,170,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,60,0,1,1,0,0,LegacyBarrier,3550,-3000,2650,0,0,0,250,300,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,61,0,1,1,1,0,Kill Region Cuboid,2300,-3740,3000,0,0,0,2,143,70,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,62,0,1,1,1,0,Kill Region Cuboid,3550,-2840,3000,0,0,0,250,10,70,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,63,0,1,1,1,0,Kill Region Cuboid,2300,-2780,3200,0,0,0,2,103,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -239,9 +239,9 @@ Scene,Geometry/Cuboid,233,0,1,1,1,0,Cuboid,-4565,5030,4395,0,0,0,7.45,0.01,0.01,
 Scene,Geometry/Cuboid,234,0,1,1,1,0,Cuboid,-4565,4999,0,0,0,0,7.45,1,880,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
 Scene,Geometry/Cuboid,235,0,1,1,1,0,Cuboid,-4525,5070,0,0,0,0,1,5,880,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
 Scene,Geometry/Cuboid,236,0,1,1,1,0,Cuboid,-4605,5070,0,0,0,0,1,5,880,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
-Scene,Geometry/Cuboid,237,0,1,1,0,0,LegacyBarrier,-4565,5000,0,0,0,0,7.45,1,880,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,238,0,1,1,0,0,LegacyBarrier,-4525,5070,0,0,0,0,1,20,880,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,239,0,1,1,0,0,LegacyBarrier,-4605,5070,0,0,0,0,1,20,880,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,237,0,1,1,0,0,LegacyBarrier,-4565,5000,0,0,0,0,7.45,1,880,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,238,0,1,1,0,0,LegacyBarrier,-4525,5070,0,0,0,0,1,20,880,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,239,0,1,1,0,0,LegacyBarrier,-4605,5070,0,0,0,0,1,20,880,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,240,0,1,1,1,0,Kill Region Cuboid,-4565,5045,4250,0,0,0,7.45,6.5,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,241,0,1,1,1,0,Kill Region Cuboid,-4560,5045,4000,0,0,0,6,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,242,0,1,1,1,0,Kill Region Cuboid,-4565,5035,4000,0,0,0,7.45,6.5,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -283,14 +283,14 @@ Scene,Geometry/Torus,277,0,1,1,1,0,Torus,-4565,5000,-4395,90,0,0,7.45,1,10,Physi
 Scene,Geometry/Cuboid,278,0,1,1,1,0,Cuboid,-4565,5015,-4395,0,0,0,7.45,0.01,0.01,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
 Scene,Geometry/Cuboid,279,0,1,1,1,0,Cuboid,-4565,5030,-4395,0,0,0,7.45,0.01,0.01,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
 Scene,Buildings/Wall1,280,0,1,1,1,0,Wall1,-4565,4830,-4495,0,0,0,0.7,5,0.7,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,281,0,1,1,0,0,LegacyBarrier,-4590,4825,-4495,0,0,0,895,1,200,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,281,0,1,1,0,0,LegacyBarrier,-4590,4825,-4495,0,0,0,895,1,200,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,282,0,1,1,1,0,Racing Checkpoint Region Cuboid,-4570,4956.5,-4590.3,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,283,0,1,1,1,0,Supply1,-4570,4953.87,-4590,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,284,0,1,1,1,0,Cuboid,-4570,4950,-4593,0,0,0,5,1,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,285,0,1,1,1,0,Cuboid,-4565,4839,0,0,0,0,7.45,1,880,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
-Scene,Geometry/Cuboid,286,0,1,1,0,0,LegacyBarrier,-4565,4840,0,0,0,0,7.45,1,880,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,287,0,1,1,0,0,LegacyBarrier,-4565,4940,-4095,11.42119,0,0,70,1,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,288,0,1,1,0,0,LegacyBarrier,-4565,4880,-1185,0,0,0,70,1,529,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,286,0,1,1,0,0,LegacyBarrier,-4565,4840,0,0,0,0,7.45,1,880,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,287,0,1,1,0,0,LegacyBarrier,-4565,4940,-4095,11.42119,0,0,70,1,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,288,0,1,1,0,0,LegacyBarrier,-4565,4880,-1185,0,0,0,70,1,529,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Sphere,289,0,1,1,1,0,Kill Region Sphere,-4565,4890,-4200,0,0,0,5,8,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Sphere,290,0,1,1,1,0,Kill Region Sphere,-4575,4840,-3900,0,0,0,5,5,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Sphere,291,0,1,1,1,0,Kill Region Sphere,-4555,4840,-3500,0,0,0,5,5,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -310,31 +310,31 @@ Scene,Geometry/Sphere,304,0,1,1,1,0,Kill Region Sphere,-4595,4840,800,0,0,0,5,5,
 Scene,Geometry/Sphere,305,0,1,1,1,0,Kill Region Sphere,-4535,4840,800,0,0,0,5,5,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Sphere,306,0,1,1,1,0,Kill Region Sphere,-4565,4840,1200,0,0,0,5,5,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,307,0,1,1,1,0,Cuboid,-4565,4859,1500,342.9385,0,0,7.45,0.5,20,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
-Scene,Geometry/Cuboid,308,0,1,1,0,0,LegacyBarrier,-4565,4860,1500,342.9385,0,0,7.45,0.5,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,308,0,1,1,0,0,LegacyBarrier,-4565,4860,1500,342.9385,0,0,7.45,0.5,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,309,0,1,1,1,0,Kill Region Cuboid,-4575,4915,1650,0,0,0,6,16,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,310,0,1,1,1,0,Kill Region Cuboid,-4565,4945,1800,0,0,0,20,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,311,0,1,1,1,0,Cuboid,-4565,4859,2000,342.9385,0,0,7.45,0.5,20,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
-Scene,Geometry/Cuboid,312,0,1,1,0,0,LegacyBarrier,-4565,4860,2000,342.9385,0,0,7.45,0.5,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,312,0,1,1,0,0,LegacyBarrier,-4565,4860,2000,342.9385,0,0,7.45,0.5,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,313,0,1,1,1,0,Kill Region Cuboid,-4555,4915,2150,0,0,0,6,16,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,314,0,1,1,1,0,Kill Region Cuboid,-4565,4945,2300,0,0,0,20,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,315,0,1,1,1,0,Cuboid,-4565,4859,2500,342.9385,0,0,7.45,0.5,20,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
-Scene,Geometry/Cuboid,316,0,1,1,0,0,LegacyBarrier,-4565,4860,2500,342.9385,0,0,7.45,0.5,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,316,0,1,1,0,0,LegacyBarrier,-4565,4860,2500,342.9385,0,0,7.45,0.5,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,317,0,1,1,1,0,Kill Region Cuboid,-4430,4830,-85,0,0,0,100,1,860,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,318,0,1,1,1,0,Kill Region Cuboid,-4430,5000,-85,0,0,0,100,0.5,860,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,319,0,1,1,0,0,LegacyBarrier,-3960,5000,-85,0,0,0,100,100,860,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,320,0,1,1,0,0,LegacyBarrier,-5260,5000,4100,0,0,0,100,200,200,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,321,0,1,1,0,0,LegacyBarrier,-3930,4915,-85,0,0,0,5,18,860,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,322,0,1,1,0,0,LegacyBarrier,-4930,4915,-818,0,0,0,5,18,760,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,323,0,1,1,0,0,LegacyBarrier,-4930,4915,3817,0,0,0,5,18,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,324,0,1,1,0,0,LegacyBarrier,-4930,4980,3000,0,0,0,5,20,10,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,325,0,1,1,0,0,LegacyBarrier,-4160,4915,-4390,0,0,0,56,20,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,326,0,1,1,0,0,LegacyBarrier,-4860,4915,-4390,0,0,0,56,20,5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,319,0,1,1,0,0,LegacyBarrier,-3960,5000,-85,0,0,0,100,100,860,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,320,0,1,1,0,0,LegacyBarrier,-5260,5000,4100,0,0,0,100,200,200,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,321,0,1,1,0,0,LegacyBarrier,-3930,4915,-85,0,0,0,5,18,860,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,322,0,1,1,0,0,LegacyBarrier,-4930,4915,-818,0,0,0,5,18,760,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,323,0,1,1,0,0,LegacyBarrier,-4930,4915,3817,0,0,0,5,18,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,324,0,1,1,0,0,LegacyBarrier,-4930,4980,3000,0,0,0,5,20,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,325,0,1,1,0,0,LegacyBarrier,-4160,4915,-4390,0,0,0,56,20,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,326,0,1,1,0,0,LegacyBarrier,-4860,4915,-4390,0,0,0,56,20,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,327,0,1,1,1,0,Racing Checkpoint Region Cuboid,-4570,4846.5,3000.3,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,328,0,1,1,1,0,Supply1,-4570,4843.87,3000,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,329,0,1,1,1,0,Cuboid,-4570,4840,3000,0,0,0,5,1,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,330,0,1,1,0,0,LegacyBarrier,-4608,4920,2788,0,0,0,1,40,40,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,331,0,1,1,0,0,LegacyBarrier,-4608,4920,3212,0,0,0,1,40,40,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,332,0,1,1,0,0,LegacyBarrier,-4608,4970,3000,0,0,0,1,20,40,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,330,0,1,1,0,0,LegacyBarrier,-4608,4920,2788,0,0,0,1,40,40,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,331,0,1,1,0,0,LegacyBarrier,-4608,4920,3212,0,0,0,1,40,40,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,332,0,1,1,0,0,LegacyBarrier,-4608,4970,3000,0,0,0,1,20,40,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Buildings/Wall1,333,0,1,1,1,0,Wall1,-4950,4839,2999,0,90,0,0.1,0.55,0.11,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Tube,334,0,1,1,1,0,Tube,-4760,4857,3000,0,0,90,3,46,3,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
 Scene,Geometry/Tube,335,0,1,1,1,0,Tube,-4950,4560,3000,0,0,0,4,74,4,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
@@ -394,7 +394,7 @@ Scene,Geometry/Cuboid,388,0,1,1,1,0,Cuboid,3600,-4207,3000,0,0,0,20,1,20,Physica
 Scene,Geometry/Torus,389,0,1,1,1,0,Torus,3700,-4199,3000,0,0,270,2,1,1,Physical,Entities,Default,Basic|127/255/0/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Torus,390,0,1,1,1,0,Torus,3710,-4207,3000,0,0,0,2,1,2,Physical,Entities,Default,Basic|127/255/0/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,391,0,1,1,1,0,Cuboid,4100,-4396,3000,0,0,0,100,0.2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
-Scene,Geometry/Cuboid,392,0,1,1,0,0,LegacyBarrier,4100,-4395,3000,0,0,0,100,0.2,2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,392,0,1,1,0,0,LegacyBarrier,4100,-4395,3000,0,0,0,100,0.2,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,393,0,1,1,1,0,Cuboid,4610,-4395,3000,0,0,0,2,0.2,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,394,0,1,1,1,0,Cuboid,4610,-4397,3200,0,0,0,2,0.2,40,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,395,0,1,1,1,0,Cuboid,4610,-4395,3400,0,0,0,4,0.2,4,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -410,12 +410,12 @@ Scene,Geometry/Cuboid,404,0,1,1,1,0,Cuboid,4340,-4397,3700,0,0,0,1,0.2,60,Physic
 Scene,Geometry/Cuboid,405,0,1,1,1,0,Racing Checkpoint Region Cuboid,4340,-4392.5,4000.3,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,406,0,1,1,1,0,Supply1,4340,-4395.13,4000,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,407,0,1,1,1,0,Cuboid,4340,-4395,4000,0,0,0,4,0.2,4,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,408,0,1,1,0,0,LegacyBarrier,4550,-4397,3665,0,0,0,5,5,65,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,408,0,1,1,0,0,LegacyBarrier,4550,-4397,3665,0,0,0,5,5,65,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,409,0,1,1,1,0,Cuboid,3870,-4397,4000,0,0,0,100,0.2,1.5,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Tube,410,0,1,1,1,0,Tube,3870,-4397,4000,0,0,90,5.1,90,6.1,Physical,Entities,Default,Basic|0/0/0/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Tube,411,0,1,1,1,0,Kill Region Tube,3870,-4397,4000,0,0,90,5,90,6,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,412,0,1,1,0,0,LegacyBarrier,3800,-4397,4070,0,0,0,2,5,9,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,413,0,1,1,0,0,LegacyBarrier,3970,-4397,3930,0,0,0,2,5,9,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,412,0,1,1,0,0,LegacyBarrier,3800,-4397,4070,0,0,0,2,5,9,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,413,0,1,1,0,0,LegacyBarrier,3970,-4397,3930,0,0,0,2,5,9,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,414,0,1,1,1,0,Cuboid,3370,-4395,4000,0,0,0,4,0.2,4,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Sphere,415,0,1,1,1,0,Kill Region Sphere,4170,-4395,4028,0,0,0,7,7,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Sphere,416,0,1,1,1,0,Kill Region Sphere,3970,-4395,3977,0,0,0,7,7,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -445,9 +445,9 @@ Scene,Geometry/Cuboid,439,0,1,1,1,0,Kill Region Cuboid,780,-4158,4000,0,0,0,1,31
 Scene,Geometry/Cuboid,440,0,1,1,1,0,Kill Region Cuboid,480,-4258,4000,0,0,0,1,31,21,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,441,0,1,1,1,0,Kill Region Cuboid,180,-4158,4000,0,0,0,1,31,21,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,442,0,1,1,1,0,Kill Region Cuboid,-80,-4258,4000,0,0,0,1,31,21,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,443,0,1,1,0,0,LegacyBarrier,500,-4200,4100,0,0,0,140,43,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,444,0,1,1,0,0,LegacyBarrier,500,-4200,3900,0,0,0,140,43,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,445,0,1,1,0,0,LegacyBarrier,500,-4000,4000,0,0,0,140,1,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,443,0,1,1,0,0,LegacyBarrier,500,-4200,4100,0,0,0,140,43,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,444,0,1,1,0,0,LegacyBarrier,500,-4200,3900,0,0,0,140,43,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,445,0,1,1,0,0,LegacyBarrier,500,-4000,4000,0,0,0,140,1,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,446,0,1,1,1,0,Racing Checkpoint Region Cuboid,-380,-4388.5,4000.3,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,447,0,1,1,1,0,Supply1,-380,-4391.13,4000,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,448,0,1,1,1,0,Cuboid,-380,-4395,4000,0,0,0,6,1,6,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -496,7 +496,7 @@ Scene,Geometry/Cuboid,490,0,1,1,1,0,Cuboid,-4900,-4070,4000,0,0,0,30,1,30,Physic
 Scene,Geometry/Cuboid,491,0,1,1,1,0,Cuboid,-4980,-4269.5,4000,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,492,0,1,1,1,0,Kill Region Cuboid,-4380,-4276,3500,0,0,0,6,25.5,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,493,0,1,1,1,0,Kill Region Cuboid,-4780,-4386,4100,0,0,0,8,5,8,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,494,0,1,1,0,0,LegacyBarrier,-4900,-4410,4000,0,179.8854,0,30,1,30,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,494,0,1,1,0,0,LegacyBarrier,-4900,-4410,4000,0,179.8854,0,30,1,30,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,495,0,1,1,1,0,Cuboid,-4950,-4345,3890,0,0,0,22,15,5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,496,0,1,1,1,0,Cuboid,-4870,-4270,3655,0,43.60283,0,3,26,30,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,497,0,1,1,1,0,Cuboid,-52801.97,0,0,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -540,10 +540,10 @@ Scene,Geometry/Cuboid,534,0,1,1,1,0,Kill Region Cuboid,-52801.97,-80,1000,0,0,0,
 Scene,Geometry/Cuboid,535,0,1,1,1,0,Kill Region Cuboid,-52891.97,0,1000,0,0,0,2,20,220,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,536,0,1,1,1,0,Kill Region Cuboid,-52711.97,0,1000,0,0,0,2,20,220,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,537,0,1,1,1,0,Kill Region Cuboid,-52801.97,0,-50,0,0,0,20,20,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,538,0,1,1,0,0,LegacyBarrier,-52801.97,80,1000,0,0,0,25,1,280,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,539,0,1,1,0,0,LegacyBarrier,-52801.97,-80,1000,0,0,0,25,1,220,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,540,0,1,1,0,0,LegacyBarrier,-52891.97,0,1000,0,0,0,1,25,280,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,541,0,1,1,0,0,LegacyBarrier,-52711.97,0,1000,0,0,0,1,25,280,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,538,0,1,1,0,0,LegacyBarrier,-52801.97,80,1000,0,0,0,25,1,280,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,539,0,1,1,0,0,LegacyBarrier,-52801.97,-80,1000,0,0,0,25,1,220,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,540,0,1,1,0,0,LegacyBarrier,-52891.97,0,1000,0,0,0,1,25,280,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,541,0,1,1,0,0,LegacyBarrier,-52711.97,0,1000,0,0,0,1,25,280,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cylinder,542,0,1,1,1,0,Cylinder,-52781.97,0,1090,0,0,0,2,10,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cylinder,543,0,1,1,1,0,Cylinder,-52821.97,0,1180,0,0,0,2,10,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cylinder,544,0,1,1,1,0,Cylinder,-52781.97,0,1270,0,0,0,2,10,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -563,21 +563,21 @@ Scene,Geometry/Tube,557,0,1,1,1,0,Kill Region Tube,-52801.97,-2700,4600,316.3972
 Scene,Geometry/Tube,558,0,1,1,1,0,CheckpointTube,-52801.97,-2700,4600,316.3972,0,0,21,990,21,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
 Scene,Geometry/Tube,559,0,1,1,1,0,CheckpointTube,-52801.97,-2700,4600,316.3972,0,0,16,749,16,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
 Scene,Geometry/Tube,560,0,1,1,1,0,CheckpointTube,-52801.97,-2700,4600,316.3972,0,0,9,499,9,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
-Scene,Geometry/Cuboid,561,0,1,1,0,0,LegacyBarrier,-52801.97,-11600,6600,0,0,0,300,1319,10,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,561,0,1,1,0,0,LegacyBarrier,-52801.97,-11600,6600,0,0,0,300,1319,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,562,0,1,1,1,0,Cuboid,-52801.97,-5406,7200,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Interact/Supply1,563,0,1,1,1,0,Supply1,-52801.97,-5402.13,7200,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,564,0,1,1,1,0,Racing Checkpoint Region Cuboid,-52801.97,-5400,7200.5,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Tube,565,0,1,1,1,0,Kill Region Tube,-52801.97,-10400,7000,0,0,0,20,1320,20,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Tube,566,0,1,1,1,0,Tube,-52801.97,-10400,7000,0,0,0,21,1319,21,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cylinder,567,0,1,1,1,0,Cylinder,-52801.97,-10400,7000,0,0,0,2,500,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,568,0,1,1,0,0,LegacyBarrier,-53001.97,-10000,7000,0,0,0,1,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,569,0,1,1,0,0,LegacyBarrier,-52601.97,-10000,7000,0,0,0,1,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,570,0,1,1,0,0,LegacyBarrier,-53111.97,-10000,7000,0,0,0,20,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,571,0,1,1,0,0,LegacyBarrier,-52491.97,-10000,7000,0,0,0,20,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,572,0,1,1,0,0,LegacyBarrier,-52801.97,-10000,7400,0,0,0,40,1500.5,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,573,0,1,1,0,0,LegacyBarrier,-52801.97,-10400,6600,0,0,0,40,1080.5,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,574,0,1,1,0,0,LegacyBarrier,-52801.97,-4600,7000,0,0,0,40,1,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,575,0,1,1,0,0,LegacyBarrier,-52801.97,-15800,7000,0,0,0,40,1,80,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,568,0,1,1,0,0,LegacyBarrier,-53001.97,-10000,7000,0,0,0,1,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,569,0,1,1,0,0,LegacyBarrier,-52601.97,-10000,7000,0,0,0,1,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,570,0,1,1,0,0,LegacyBarrier,-53111.97,-10000,7000,0,0,0,20,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,571,0,1,1,0,0,LegacyBarrier,-52491.97,-10000,7000,0,0,0,20,1500.5,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,572,0,1,1,0,0,LegacyBarrier,-52801.97,-10000,7400,0,0,0,40,1500.5,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,573,0,1,1,0,0,LegacyBarrier,-52801.97,-10400,6600,0,0,0,40,1080.5,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,574,0,1,1,0,0,LegacyBarrier,-52801.97,-4600,7000,0,0,0,40,1,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,575,0,1,1,0,0,LegacyBarrier,-52801.97,-15800,7000,0,0,0,40,1,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cylinder,576,0,1,1,1,0,Kill Region Cylinder,-52801.97,-10400,7000,0,0,0,2.1,500.5,2.1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,577,0,1,1,1,0,Kill Region Cuboid,-52801.97,-6000,7000,0,0,0,20,10,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,578,0,1,1,1,0,Kill Region Cuboid,-52801.97,-6500,7000,0,0,0,10,10,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -623,13 +623,13 @@ Scene,Geometry/Cuboid,617,0,1,1,1,0,Racing Checkpoint Region Cuboid,-4800,-4270,
 Scene,Geometry/Cuboid,618,0,1,1,1,0,Cuboid,-4850,-4267,3885,0,0,0,7,200,7.5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,619,0,1,1,1,0,Cuboid,-4920,-4297,4125,0,0,0,23,20,1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,620,0,1,1,1,0,Cuboid,-4900,-4149,3855,0,0,0,10,0.8,5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
-Scene,Geometry/Cuboid,621,0,1,1,0,0,LegacyBarrier,0,-4389.7,0,0,306.8699,0,30,1,1350,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,621,0,1,1,0,0,LegacyBarrier,0,-4389.7,0,0,306.8699,0,30,1,1350,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,622,0,1,1,1,0,Cuboid,-75,-4267,-130,0,306.8699,0,2,26,1240,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,623,0,1,1,1,0,Cuboid,75,-4267,130,0,306.8699,0,2,26,1240,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,624,0,1,1,1,0,Cuboid,0,-4395,0,0,306.8699,0,30,2,1350,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,625,0,1,1,1,0,Cuboid,0,-4149,0,0,306.8699,0,30,2,1350,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
-Scene,Geometry/Cuboid,626,0,1,1,0,0,LegacyBarrier,0,-4129,0,0,306.8699,0,30,3.9,1350,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,627,0,1,1,0,0,LegacyBarrier,0,-4550,0,0,306.8699,0,30,30,1350,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,626,0,1,1,0,0,LegacyBarrier,0,-4129,0,0,306.8699,0,30,3.9,1350,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,627,0,1,1,0,0,LegacyBarrier,0,-4550,0,0,306.8699,0,30,30,1350,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Sphere,628,0,1,1,1,0,Sphere,-1000,-4272,750,0,0,0,3,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Sphere,629,0,1,1,1,0,Sphere,-1500,-4272,1125,0,0,0,3,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Sphere,630,0,1,1,1,0,Sphere,-2000,-4272,1500,0,0,0,3,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -717,40 +717,40 @@ Scene,Geometry/Cuboid,711,0,1,1,1,0,Cuboid,4444.4,-4354,-3450,0,36.52579,0,1,8.2
 Scene,Geometry/Cuboid,712,0,1,1,1,0,Cuboid,4514,-4272,-3432,0,306.8699,0,1,26,8.7,Physical,Entities,Default,Basic|255/255/255/255|Brick/Brick3|1/1|0/0,;
 Scene,Geometry/Cuboid,713,0,1,1,1,0,Cuboid,4572,-4272,-3423,0,36.52579,0,1,26,9.3,Physical,Entities,Default,Basic|255/255/255/255|Brick/Brick3|1/1|0/0,;
 Scene,Geometry/Cuboid,714,0,1,1,1,0,Cuboid,4564,-4272,-3365,0,306.8699,0,1,26,8.7,Physical,Entities,Default,Basic|255/255/255/255|Brick/Brick3|1/1|0/0,;
-Scene,Geometry/Cuboid,715,0,1,1,0,0,LegacyBarrier,4514,-4272,-3432,0,306.8699,0,1,26,9,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,716,0,1,1,0,0,LegacyBarrier,4564,-4272,-3365,0,306.8699,0,1,26,9,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,715,0,1,1,0,0,LegacyBarrier,4514,-4272,-3432,0,306.8699,0,1,26,9,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,716,0,1,1,0,0,LegacyBarrier,4564,-4272,-3365,0,306.8699,0,1,26,9,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,717,0,1,1,1,0,Racing Checkpoint Region Cuboid,4900,-4383,-3680,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,718,0,1,1,1,0,Supply1,4900,-4385.63,-3680,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,719,0,1,1,1,0,Cuboid,4900,-4389.5,-3680,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Decor/Statue1,720,0,1,1,1,0,Statue1,4850,-4390,-3720,0,247.3801,0,1,1,1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
-Scene,Geometry/Cuboid,721,0,1,1,0,0,LegacyBarrier,4950,-3900,-4370,0,0,0,50,50,400,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,721,0,1,1,0,0,LegacyBarrier,4950,-3900,-4370,0,0,0,50,50,400,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Prism,722,0,1,1,1,0,Prism,4930,-4345,-3800,0,0,90,8,1,8,Physical,Entities,Default,Default|127/255/0/255,;
-Scene,Geometry/Cuboid,723,0,1,1,0,0,LegacyBarrier,4890,-4375.5,-4500,337.3801,0,0,4,1,110,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,723,0,1,1,0,0,LegacyBarrier,4890,-4375.5,-4500,337.3801,0,0,4,1,110,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Sphere,724,0,1,1,1,0,Sphere,4000,-4149,-4200,0,0,0,167,1,167,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Cuboid,725,0,1,1,1,0,Kill Region Cuboid,0,-4805.5,-4500,0,0,0,10000,1,200,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,726,0,1,1,1,0,Kill Region Cuboid,4875,-4372,-4415,0,0,0,1,200,115,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,727,0,1,1,1,0,Kill Region Cuboid,2975,-4372,-4985,0,0,0,381,200,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,728,0,1,1,1,0,Kill Region Cuboid,2975,-4602,-5085,0,0,0,381,1,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,729,0,1,1,1,0,Kill Region Cuboid,900,-4342,-2630,0,0,0,1,88,346,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,730,0,1,1,0,0,LegacyBarrier,900,-4342,-2630,0,0,0,1,88,346,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,730,0,1,1,0,0,LegacyBarrier,900,-4342,-2630,0,0,0,1,88,346,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,731,0,1,1,1,0,Kill Region Cuboid,2887.5,-4300,-4415,0,0,0,397.5,1,115,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,732,0,1,1,1,0,Kill Region Cuboid,2837.5,-4372,-3900,0,0,0,395,88,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,733,0,1,1,1,0,Cuboid,4890,-4396.3,-4000,0,0,0,3,1,30,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,734,0,1,1,0,0,LegacyBarrier,4890,-4396,-4000,0,0,0,3,1,30,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,734,0,1,1,0,0,LegacyBarrier,4890,-4396,-4000,0,0,0,3,1,30,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,735,0,1,1,1,0,Cuboid,4890,-4472.7,-4332.7,337.3801,0,0,3,1,40,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,736,0,1,1,0,0,LegacyBarrier,4890,-4472.5,-4332.7,337.3801,0,0,3,1,40,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,736,0,1,1,0,0,LegacyBarrier,4890,-4472.5,-4332.7,337.3801,0,0,3,1,40,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,737,0,1,1,1,0,Cuboid,4890,-4800.5,-5000,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,738,0,1,1,1,0,Cuboid,4680,-4768.9,-5000,0,0,348.5788,40,1,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,739,0,1,1,0,0,LegacyBarrier,4680,-4768.6,-5000,0,0,348.5788,40,1,2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,739,0,1,1,0,0,LegacyBarrier,4680,-4768.6,-5000,0,0,348.5788,40,1,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,740,0,1,1,1,0,Cuboid,4090,-4800.5,-5000,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,741,0,1,1,1,0,Cuboid,3880,-4768.9,-5000,0,0,348.5788,40,1,1.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,742,0,1,1,0,0,LegacyBarrier,3880,-4768.6,-5000,0,0,348.5788,40,1,1.5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,742,0,1,1,0,0,LegacyBarrier,3880,-4768.6,-5000,0,0,348.5788,40,1,1.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,743,0,1,1,1,0,Cuboid,3080,-4800.5,-5000,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,744,0,1,1,1,0,Cuboid,2870,-4768.9,-5000,0,0,348.5788,40,1,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,745,0,1,1,0,0,LegacyBarrier,2870,-4768.6,-5000,0,0,348.5788,40,1,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,745,0,1,1,0,0,LegacyBarrier,2870,-4768.6,-5000,0,0,348.5788,40,1,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,746,0,1,1,1,0,Cuboid,2070,-4800.5,-5000,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,747,0,1,1,1,0,Cuboid,1860,-4768.9,-5000,0,0,348.5788,40,1,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,748,0,1,1,0,0,LegacyBarrier,1860,-4768.6,-5000,0,0,348.5788,40,1,0.5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,748,0,1,1,0,0,LegacyBarrier,1860,-4768.6,-5000,0,0,348.5788,40,1,0.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,749,0,1,1,1,0,Cuboid,1060,-4800.5,-5000,0,0,0,1.5,1,1.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,750,0,1,1,1,0,Racing Checkpoint Region Cuboid,1060,-4794,-5000,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,751,0,1,1,1,0,Supply1,1060,-4796.63,-5000,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
@@ -758,21 +758,21 @@ Scene,Geometry/Cuboid,752,0,1,1,1,0,Cuboid,1060,-4798.5,-4985,0,0,0,1,1,1,Physic
 Scene,Geometry/Cuboid,753,0,1,1,1,0,Cuboid,1060,-4796.5,-4970,0,0,0,1,1,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,754,0,1,1,1,0,Cuboid,962.5,-4800.5,-4970,0,0,0,19.5,1,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,755,0,1,1,1,0,Kill Region Cuboid,962.5,-4800.5,-4970,0,0,0,19.6,1.25,2.3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,756,0,1,1,0,0,LegacyBarrier,-35,-4385,-4675,0,0,0,224,83,7,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,757,0,1,1,0,0,LegacyBarrier,-55,-3950,-4975,0,0,0,220,5,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,758,0,1,1,0,0,LegacyBarrier,250.5,-4370,-4975,0,0,0,4,80,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,759,0,1,1,0,0,LegacyBarrier,-450.5,-4370,-4975,0,0,0,4,80,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,760,0,1,1,0,0,LegacyBarrier,-1150.5,-4370,-4975,0,0,0,4,80,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,761,0,1,1,0,0,LegacyBarrier,550,-4120,-5280,0,0,0,4,150,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,762,0,1,1,0,0,LegacyBarrier,-150,-4120,-5280,0,0,0,4,150,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,763,0,1,1,0,0,LegacyBarrier,-850,-4120,-5280,0,0,0,4,150,60,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,756,0,1,1,0,0,LegacyBarrier,-35,-4385,-4675,0,0,0,224,83,7,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,757,0,1,1,0,0,LegacyBarrier,-55,-3950,-4975,0,0,0,220,5,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,758,0,1,1,0,0,LegacyBarrier,250.5,-4370,-4975,0,0,0,4,80,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,759,0,1,1,0,0,LegacyBarrier,-450.5,-4370,-4975,0,0,0,4,80,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,760,0,1,1,0,0,LegacyBarrier,-1150.5,-4370,-4975,0,0,0,4,80,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,761,0,1,1,0,0,LegacyBarrier,550,-4120,-5280,0,0,0,4,150,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,762,0,1,1,0,0,LegacyBarrier,-150,-4120,-5280,0,0,0,4,150,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,763,0,1,1,0,0,LegacyBarrier,-850,-4120,-5280,0,0,0,4,150,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,764,0,1,1,1,0,Cuboid,700,-4800,-4830,0,0,0,33,1,31,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,765,0,1,1,1,0,Cuboid,700,-4370,-4830,0,0,0,8,1,8,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,766,0,1,1,1,0,Kill Region Cuboid,535,-4160,-4830,0,0,0,1,40,31,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,767,0,1,1,0,0,LegacyBarrier,523,-4160,-4830,0,0,0,3,40,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,768,0,1,1,0,0,LegacyBarrier,535,-4685,-4830,0,0,0,4,63,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,769,0,1,1,0,0,LegacyBarrier,865,-4385,-4830,0,0,0,4,81,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,770,0,1,1,0,0,LegacyBarrier,700,-4385,-4998,0,0,0,33,83,4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,767,0,1,1,0,0,LegacyBarrier,523,-4160,-4830,0,0,0,3,40,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,768,0,1,1,0,0,LegacyBarrier,535,-4685,-4830,0,0,0,4,63,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,769,0,1,1,0,0,LegacyBarrier,865,-4385,-4830,0,0,0,4,81,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,770,0,1,1,0,0,LegacyBarrier,700,-4385,-4998,0,0,0,33,83,4,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,771,0,1,1,1,0,Cuboid,570.5,-4370.5,-4830,0,0,0,17.6,1,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,772,0,1,1,1,0,Kill Region Cuboid,570,-4370.5,-4830,0,0,0,17.6,1.25,2.3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,773,0,1,1,1,0,Cuboid,400,-4800,-4970,0,0,0,5,3,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -783,10 +783,10 @@ Scene,Geometry/Cuboid,777,0,1,1,1,0,Kill Region Cuboid,250.5,-4800.5,-4970,0,0,0
 Scene,Geometry/Cuboid,778,0,1,1,1,0,Cuboid,0,-4800,-4830,0,0,0,33,1,31,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,779,0,1,1,1,0,Cuboid,0,-4270,-4830,0,0,0,8,1,8,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,780,0,1,1,1,0,Kill Region Cuboid,-165,-4060,-4830,0,0,0,1,40,31,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,781,0,1,1,0,0,LegacyBarrier,-177,-4060,-4830,0,0,0,3,40,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,782,0,1,1,0,0,LegacyBarrier,-165,-4585,-4830,0,0,0,4,63,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,783,0,1,1,0,0,LegacyBarrier,165,-4385,-4830,0,0,0,4,81,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,784,0,1,1,0,0,LegacyBarrier,0,-4385,-4998,0,0,0,33,83,4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,781,0,1,1,0,0,LegacyBarrier,-177,-4060,-4830,0,0,0,3,40,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,782,0,1,1,0,0,LegacyBarrier,-165,-4585,-4830,0,0,0,4,63,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,783,0,1,1,0,0,LegacyBarrier,165,-4385,-4830,0,0,0,4,81,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,784,0,1,1,0,0,LegacyBarrier,0,-4385,-4998,0,0,0,33,83,4,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,785,0,1,1,1,0,Cuboid,-129.5,-4270.5,-4830,0,0,0,17.6,1,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,786,0,1,1,1,0,Kill Region Cuboid,-129,-4270.5,-4830,0,0,0,17.6,1.25,2.3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,787,0,1,1,1,0,Cuboid,-300,-4800,-4970,0,0,0,5,3,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -797,10 +797,10 @@ Scene,Geometry/Cuboid,791,0,1,1,1,0,Kill Region Cuboid,-450.5,-4800.5,-4970,0,0,
 Scene,Geometry/Cuboid,792,0,1,1,1,0,Cuboid,-700,-4800,-4830,0,0,0,33,1,31,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,793,0,1,1,1,0,Cuboid,-700,-4170,-4830,0,0,0,8,1,8,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,794,0,1,1,1,0,Kill Region Cuboid,-865,-3960,-4830,0,0,0,1,40,31,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,795,0,1,1,0,0,LegacyBarrier,-877,-3960,-4830,0,0,0,3,40,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,796,0,1,1,0,0,LegacyBarrier,-865,-4485,-4830,0,0,0,4,63,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,797,0,1,1,0,0,LegacyBarrier,-535,-4385,-4830,0,0,0,4,81,31,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,798,0,1,1,0,0,LegacyBarrier,-700,-4385,-4998,0,0,0,33,83,4,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,795,0,1,1,0,0,LegacyBarrier,-877,-3960,-4830,0,0,0,3,40,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,796,0,1,1,0,0,LegacyBarrier,-865,-4485,-4830,0,0,0,4,63,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,797,0,1,1,0,0,LegacyBarrier,-535,-4385,-4830,0,0,0,4,81,31,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,798,0,1,1,0,0,LegacyBarrier,-700,-4385,-4998,0,0,0,33,83,4,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,799,0,1,1,1,0,Cuboid,-829.5,-4170.5,-4830,0,0,0,17.6,1,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|1/1|0/0,;
 Scene,Geometry/Cuboid,800,0,1,1,1,0,Kill Region Cuboid,-829,-4170.5,-4830,0,0,0,17.6,1.25,2.3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,801,0,1,1,1,0,Cuboid,-1000,-4800,-4970,0,0,0,5,3,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -820,33 +820,33 @@ Scene,Geometry/Cuboid,814,0,1,1,1,0,Cuboid,-3830,-4805,-4970,0,0,0,100,1,0.1,Phy
 Scene,Geometry/Cuboid,815,0,1,1,1,0,Cuboid,-3830,-4797,-4970,0,0,0,100,0.01,0.1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,816,0,1,1,1,0,Cuboid,-3830,-4798.8,-4969.4,0,0,0,100,0.2,0.01,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,817,0,1,1,1,0,Cuboid,-3830,-4798.8,-4970.6,0,0,0,100,0.2,0.01,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,818,0,1,1,0,0,LegacyBarrier,-3830,-4804.7,-4970,0,0,0,100,1,0.1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,819,0,1,1,0,0,LegacyBarrier,-2630,-4385,-4675,0,0,0,304,83,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,820,0,1,1,0,0,LegacyBarrier,-4150,-4382,-4865,0,0,0,5,83,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,821,0,1,1,0,0,LegacyBarrier,-2250,-3950,-5175,0,0,0,666,5,100,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,822,0,1,1,0,0,LegacyBarrier,1110,-4385,-4810,0,0,0,6,83,35,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,818,0,1,1,0,0,LegacyBarrier,-3830,-4804.7,-4970,0,0,0,100,1,0.1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,819,0,1,1,0,0,LegacyBarrier,-2630,-4385,-4675,0,0,0,304,83,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,820,0,1,1,0,0,LegacyBarrier,-4150,-4382,-4865,0,0,0,5,83,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,821,0,1,1,0,0,LegacyBarrier,-2250,-3950,-5175,0,0,0,666,5,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,822,0,1,1,0,0,LegacyBarrier,1110,-4385,-4810,0,0,0,6,83,35,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Sphere,823,0,1,1,1,0,Sphere,-4400,-4830.5,-4960,0,0,0,20,5,20,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Prism,824,0,1,1,1,0,Prism,-4400,-4800.5,-4939.5,0.1145915,180,180,2,0.1,2,Physical,Entities,Default,Default|127/255/0/255,;
 Scene,Geometry/Sphere,825,0,1,1,1,0,Sphere,-4400,-4530.5,-4960,0,0,0,5,5,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Sphere,826,0,1,1,1,0,Sphere,-4400,-4620.5,-4960,0,0,0,5,5,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,827,0,1,1,0,0,LegacyBarrier,-4235,-4747.5,-4969.4,0,0,0,19,10,6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,827,0,1,1,0,0,LegacyBarrier,-4235,-4747.5,-4969.4,0,0,0,19,10,6,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,828,0,1,1,1,0,Kill Region Cuboid,-4235,-4747,-4969.4,0,0,0,19.3,10,7,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,829,0,1,1,1,0,Kill Region Cuboid,-4900,-4530.5,-4820,0,0,0,200,60,3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,830,0,1,1,0,0,LegacyBarrier,-4400,-4530.5,-4820,0,0,0,50,60,3,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,830,0,1,1,0,0,LegacyBarrier,-4400,-4530.5,-4820,0,0,0,50,60,3,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Sphere,831,0,1,1,1,0,Sphere,-4400,-4830.5,-4600,0,0,0,20,5,20,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,832,0,1,1,1,0,Cuboid,-4394.7,-4803.5,-4611,0,0,0,1.2,1,1.2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,833,0,1,1,1,0,Racing Checkpoint Region Cuboid,-4394.7,-4797,-4610.8,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,834,0,1,1,1,0,Supply1,-4394.7,-4799.63,-4611,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Sphere,835,0,1,1,1,0,Sphere,-4600,-4830.5,-4600,0,0,0,20,5,20,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Sphere,836,0,1,1,1,0,Sphere,-4800,-4830.5,-4600,0,0,0,20,5,20,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
-Scene,Geometry/Cuboid,837,0,1,1,0,0,LegacyBarrier,-4220,-4450,-4520,0,53.1301,0,24,100,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,838,0,1,1,0,0,LegacyBarrier,-4900,-4300,-4500,0,0,0,20,64,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,839,0,1,1,0,0,LegacyBarrier,-4300,-4000,-4000,0,0,0,2,164,100,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,837,0,1,1,0,0,LegacyBarrier,-4220,-4450,-4520,0,53.1301,0,24,100,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,838,0,1,1,0,0,LegacyBarrier,-4900,-4300,-4500,0,0,0,20,64,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,839,0,1,1,0,0,LegacyBarrier,-4300,-4000,-4000,0,0,0,2,164,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,840,0,1,1,1,0,Kill Region Cuboid,-4650,-4600,-4100,0,0,0,80,2,80,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,841,0,1,1,1,0,Kill Region Cuboid,-4650,-4400,-3900,0,0,0,80,2,80,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,842,0,1,1,1,0,Kill Region Cuboid,-4650,-4200,-4100,0,0,0,80,2,80,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,843,0,1,1,1,0,Cuboid,-4800,-4500,-4500,0,0,0,2,64,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,844,0,1,1,0,0,LegacyBarrier,-4550,-4400,-4500,0,0,0,50,84,2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,844,0,1,1,0,0,LegacyBarrier,-4550,-4400,-4500,0,0,0,50,84,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,845,0,1,1,1,0,Cuboid,-4500,-4500,-4300,0,0,0,2,64,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,846,0,1,1,1,0,Kill Region Cuboid,-4750,-4500,-4300,0,0,0,50,64,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,847,0,1,1,1,0,Cuboid,-4800,-4500,-4100,0,0,0,2,64,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -932,8 +932,8 @@ Scene,Geometry/Prism,926,0,1,1,1,0,Kill Region Prism,100,-4100,-4450,0,22.61986,
 Scene,Geometry/Prism,927,0,1,1,1,0,Kill Region Prism,400,-4400,-4500,0,22.61986,0,5,0.001,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,928,0,1,1,1,0,Cuboid,860,-4807,-4600,0,0,0,5,3,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,929,0,1,1,1,0,Cuboid,960,-4807,-4600,0,0,0,20,2,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,930,0,1,1,0,0,LegacyBarrier,930,-4257,-4450,0,0,0,5,100,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,931,0,1,1,0,0,LegacyBarrier,0,-3257,-3500,0,0,0,200,310,5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,930,0,1,1,0,0,LegacyBarrier,930,-4257,-4450,0,0,0,5,100,50,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,931,0,1,1,0,0,LegacyBarrier,0,-3257,-3500,0,0,0,200,310,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,932,0,1,1,1,0,Racing Checkpoint Region Cuboid,1060,-4790.5,-4600,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,933,0,1,1,1,0,Supply1,1060,-4793.13,-4600,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,934,0,1,1,1,0,Cuboid,1060,-4797,-4600,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -980,11 +980,11 @@ Scene,Geometry/Prism,974,0,1,1,1,0,Prism,4100,-4294,-3350,90,0,0,15,3,15,Physica
 Scene,Geometry/Prism,975,0,1,1,1,0,Prism,4100,-4120,-2925,0.1145915,180,180,15,3,15,Physical,Entities,Default,Default|127/255/0/255,;
 Scene,Geometry/Prism,976,0,1,1,1,0,Prism,4100,-4000,-2450,90,0,0,15,3,15,Physical,Entities,Default,Default|127/255/0/255,;
 Scene,Geometry/Prism,977,0,1,1,1,0,Prism,4100,-3600,-2450,90,0,0,15,3,15,Physical,Entities,Default,Default|127/255/0/255,;
-Scene,Geometry/Cuboid,978,0,1,1,0,0,LegacyBarrier,4300,-4500,-2170,0,11.42119,0,302,100,10,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,979,0,1,1,0,0,LegacyBarrier,2370,-4500,-3230,0,43.60283,0,10,100,204,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,980,0,1,1,0,0,LegacyBarrier,3270,-4650,-2330,0,43.60283,0,150,50,100,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,978,0,1,1,0,0,LegacyBarrier,4300,-4500,-2170,0,11.42119,0,302,100,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,979,0,1,1,0,0,LegacyBarrier,2370,-4500,-3230,0,43.60283,0,10,100,204,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,980,0,1,1,0,0,LegacyBarrier,3270,-4650,-2330,0,43.60283,0,150,50,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,981,0,1,1,1,0,Cuboid,4000,-3600,-4200,0,0,0,290,0.01,290,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
-Scene,Geometry/Cuboid,982,0,1,1,0,0,LegacyBarrier,4000,-3630,-4200,0,0,0,290,2,290,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,982,0,1,1,0,0,LegacyBarrier,4000,-3630,-4200,0,0,0,290,2,290,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Tube,983,0,1,1,1,0,Tube,4000,500,-4200,0,0,0,5,1200,5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Tube,984,0,1,1,1,0,Tube,4000,-2300,-4250,0,0,0,60,256,60,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Tube,985,0,1,1,1,0,Tube,4000,-3025,-4250,0,0,0,100,178,100,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
@@ -1039,11 +1039,11 @@ Scene,Geometry/Cuboid,1033,0,1,1,1,0,Racing Checkpoint Region Cuboid,4000,26,-42
 Scene,Geometry/Cuboid,1034,0,1,1,1,0,Racing Checkpoint Region Cuboid,-74353.56,6,50.5,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,1035,0,1,1,1,0,Supply1,-74353.56,3.87,50,90,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,1036,0,1,1,1,0,Cuboid,-74353.56,0,50,0,0,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1037,0,1,1,0,0,LegacyBarrier,-74353.56,0,0,0,0,0,20,20,2,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1037,0,1,1,0,0,LegacyBarrier,-74353.56,0,0,0,0,0,20,20,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1038,0,1,1,1,0,Kill Region Cuboid,-74353.56,1080,8100,0,0,0,20,3,1620,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1039,0,1,1,1,0,Kill Region Cuboid,-74353.56,-80,8100,0,0,0,20,3,1620,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,1040,0,1,1,0,0,LegacyBarrier,-74453.56,500,8100,0,0,0,1.7,130,1620,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1041,0,1,1,0,0,LegacyBarrier,-74253.56,500,8100,0,0,0,1.7,130,1620,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1040,0,1,1,0,0,LegacyBarrier,-74453.56,500,8100,0,0,0,1.7,130,1620,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1041,0,1,1,0,0,LegacyBarrier,-74253.56,500,8100,0,0,0,1.7,130,1620,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1042,0,1,1,1,0,Cuboid,-74353.56,80,500,0,0,0,20,2,100,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark3|1/1|0/0,;
 Scene,Geometry/Cuboid,1043,0,1,1,1,0,Cuboid,-74353.56,-80,8100,0,0,0,20,2,1620,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark3|1/1|0/0,;
 Scene,Geometry/Cuboid,1044,0,1,1,1,0,Cuboid,-74353.56,215,1200,326.6015,0,0,20,2,50,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark3|1/1|0/0,;
@@ -1113,8 +1113,8 @@ Scene,Geometry/Tube,1107,0,1,1,1,0,Tube,-74353.56,0,15000,90,0,0,5.1,260,6.1,Phy
 Scene,Geometry/Tube,1108,0,1,1,1,0,Kill Region Tube,-74353.56,0,15000,90,0,0,5,260,6,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1109,0,1,1,1,0,Kill Region Cuboid,-74353.56,560,15000,0,0,0,20,109,200,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1110,0,1,1,1,0,Kill Region Cuboid,-74353.56,-35,15000,0,0,0,20,5,200,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,1111,0,1,1,0,0,LegacyBarrier,-74413.56,500,14080,0,0,0,8,110,8,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1112,0,1,1,0,0,LegacyBarrier,-74293.56,500,14080,0,0,0,8,110,8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1111,0,1,1,0,0,LegacyBarrier,-74413.56,500,14080,0,0,0,8,110,8,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1112,0,1,1,0,0,LegacyBarrier,-74293.56,500,14080,0,0,0,8,110,8,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Sphere,1113,0,1,1,1,0,Kill Region Sphere,-74388.56,0,14200,0,0,0,7,7,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Sphere,1114,0,1,1,1,0,Kill Region Sphere,-74318.56,0,14400,0,0,0,7,7,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Sphere,1115,0,1,1,1,0,Kill Region Sphere,-74388.56,0,14600,0,0,0,7,7,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -1192,9 +1192,9 @@ Scene,Geometry/Cuboid,1186,0,1,1,1,0,Cuboid,4000,5050,-1820,0,0,0,1,7,36,Physica
 Scene,Geometry/Cuboid,1187,0,1,1,1,0,Racing Checkpoint Region Cuboid,4000,5087.5,-1620,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,1188,0,1,1,1,0,Supply1,4000,5084.87,-1620,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,1189,0,1,1,1,0,Cuboid,4000,5081,-1620,0,0,0,3,1,4,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1190,0,1,1,0,0,LegacyBarrier,3983,5091,-1620,0,0,0,0.5,1,6,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1191,0,1,1,0,0,LegacyBarrier,4000,5091,-1590,0,0,0,3,1,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1192,0,1,1,0,0,LegacyBarrier,4017,5091,-1620,0,0,0,0.5,1,6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1190,0,1,1,0,0,LegacyBarrier,3983,5091,-1620,0,0,0,0.5,1,6,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1191,0,1,1,0,0,LegacyBarrier,4000,5091,-1590,0,0,0,3,1,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1192,0,1,1,0,0,LegacyBarrier,4017,5091,-1620,0,0,0,0.5,1,6,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1193,0,1,1,1,0,Cuboid,3988,5100,-1580,0,0,0,0.2,1,0.02,Physical,Entities,Default,Default|255/255/0/255,;
 Scene,Geometry/Cuboid,1194,0,1,1,1,0,Cuboid,3989.4,5096,-1580,0,0,0,0.5,0.2,0.02,Physical,Entities,Default,Default|255/255/0/255,;
 Scene,Geometry/Tube,1195,0,1,1,1,0,Tube,3999,5100,-1580,90,0,0,0.5,0.02,0.9,Physical,Entities,Default,Default|255/255/0/255,;
@@ -1204,21 +1204,21 @@ Scene,Geometry/Cuboid,1198,0,1,1,1,0,Racing Checkpoint Region Cuboid,4000,5100,-
 Scene,Geometry/Tube,1199,0,1,1,1,0,Tube,3990,4961.5,-1598,0,0,0,1,33,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Tube,1200,0,1,1,1,0,Tube,4000,4961.5,-1598,0,0,0,1,33,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Tube,1201,0,1,1,1,0,Tube,4010,4961.5,-1598,0,0,0,1,33,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1202,0,1,1,0,0,LegacyBarrier,3990,4850,-1598,0,0,0,1,1,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1203,0,1,1,0,0,LegacyBarrier,4010,4850,-1598,0,0,0,1,1,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1204,0,1,1,0,0,LegacyBarrier,4000,4838.5,-1610,0,0,0,1,1,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1205,0,1,1,0,0,LegacyBarrier,3900,4900,-1298,0,0,0,5,40,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1206,0,1,1,0,0,LegacyBarrier,4050,5030,-1193,0,0,0,30,15,80,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1207,0,1,1,0,0,LegacyBarrier,4440,4900,-1393,0,0,0,76,44,20,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1208,0,1,1,0,0,LegacyBarrier,3300,2900,-888,0,348.5788,0,160,600,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1209,0,1,1,0,0,LegacyBarrier,4700,4900,-935,0,11.42119,0,160,44,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1210,0,1,1,0,0,LegacyBarrier,1950,4900,-1470,0,325.5531,0,160,44,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1211,0,1,1,0,0,LegacyBarrier,3540,4900,-1600,0,0,0,72,44,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1212,0,1,1,0,0,LegacyBarrier,3600,4900,-1065,0,0,0,30,50,36,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1213,0,1,1,0,0,LegacyBarrier,3200,4900,-1245,0,0,0,36,50,28,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1214,0,1,1,0,0,LegacyBarrier,2600,4900,-3100,0,313.4646,0,390,44,2,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1215,0,1,1,0,0,LegacyBarrier,4000,4815,-1930,0,0,0,170,50,56,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1216,0,1,1,0,0,LegacyBarrier,4050,4980,-1080,0,0,0,160,25,65,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1202,0,1,1,0,0,LegacyBarrier,3990,4850,-1598,0,0,0,1,1,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1203,0,1,1,0,0,LegacyBarrier,4010,4850,-1598,0,0,0,1,1,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1204,0,1,1,0,0,LegacyBarrier,4000,4838.5,-1610,0,0,0,1,1,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1205,0,1,1,0,0,LegacyBarrier,3900,4900,-1298,0,0,0,5,40,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1206,0,1,1,0,0,LegacyBarrier,4050,5030,-1193,0,0,0,30,15,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1207,0,1,1,0,0,LegacyBarrier,4440,4900,-1393,0,0,0,76,44,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1208,0,1,1,0,0,LegacyBarrier,3300,2900,-888,0,348.5788,0,160,600,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1209,0,1,1,0,0,LegacyBarrier,4700,4900,-935,0,11.42119,0,160,44,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1210,0,1,1,0,0,LegacyBarrier,1950,4900,-1470,0,325.5531,0,160,44,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1211,0,1,1,0,0,LegacyBarrier,3540,4900,-1600,0,0,0,72,44,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1212,0,1,1,0,0,LegacyBarrier,3600,4900,-1065,0,0,0,30,50,36,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1213,0,1,1,0,0,LegacyBarrier,3200,4900,-1245,0,0,0,36,50,28,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1214,0,1,1,0,0,LegacyBarrier,2600,4900,-3100,0,313.4646,0,390,44,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1215,0,1,1,0,0,LegacyBarrier,4000,4815,-1930,0,0,0,170,50,56,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1216,0,1,1,0,0,LegacyBarrier,4050,4980,-1080,0,0,0,160,25,65,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1217,0,1,1,1,0,Cuboid,4000,4815,-1380,0,0,0,0.1,6,20,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1218,0,1,1,1,0,Cuboid,4100,4815,-1280,0,0,0,20,6,0.1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1219,0,1,1,1,0,Cuboid,4200,4815,-1180,0,0,0,0.1,6,20,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -1245,7 +1245,7 @@ Scene,Geometry/Cuboid,1239,0,1,1,1,0,Cuboid,2990,4836,-1025,0,348.5788,0,3,1,3,P
 Scene,Geometry/Cuboid,1240,0,1,1,1,0,Cuboid,2900,4836,-1035,0,348.5788,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1241,0,1,1,1,0,Cuboid,2800,4836,-1035,0,348.5788,0,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1242,0,1,1,1,0,Cuboid,2050,5120,-2350,0,34.44688,0,200,1,400,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1243,0,1,1,0,0,LegacyBarrier,2050,4806,-2350,0,34.44688,0,158,1,400,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1243,0,1,1,0,0,LegacyBarrier,2050,4806,-2350,0,34.44688,0,158,1,400,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1244,0,1,1,1,0,Cuboid,2450,4900,-1350,0,325.5531,0,70,44,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1245,0,1,1,1,0,Cuboid,2250,4900,-1650,0,325.5531,0,75,44,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1246,0,1,1,1,0,Cuboid,2570,4900,-1670,0,325.5531,0,90,44,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
@@ -1266,11 +1266,11 @@ Scene,Geometry/Cuboid,1260,0,1,1,1,0,Kill Region Cuboid,2160,4900,-1840,0,326.60
 Scene,Geometry/Cuboid,1261,0,1,1,1,0,Kill Region Cuboid,2980,5050,-1470,0,326.6015,0,1,13,18,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1262,0,1,1,1,0,Racing Checkpoint Region Cuboid,1050,4842.5,-2000,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,1263,0,1,1,1,0,Supply1,1050,4839.87,-2000,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
-Scene,Geometry/Cuboid,1264,0,1,1,0,0,LegacyBarrier,1053,5020,-4575,11.38536,353.5251,359.3539,22,2,100,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1265,0,1,1,0,0,LegacyBarrier,1115,4970,-2025,0,0,0,3,40,450,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1266,0,1,1,0,0,LegacyBarrier,1063,4931,-2885,0,0,0,8,1,250,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1264,0,1,1,0,0,LegacyBarrier,1053,5020,-4575,11.38536,353.5251,359.3539,22,2,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1265,0,1,1,0,0,LegacyBarrier,1115,4970,-2025,0,0,0,3,40,450,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1266,0,1,1,0,0,LegacyBarrier,1063,4931,-2885,0,0,0,8,1,250,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1267,0,1,1,1,0,Cuboid,1050,4831,-3000,0,0,0,5,2,400,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1268,0,1,1,0,0,LegacyBarrier,1050,4836.3,-2500,0,0,0,5,1,500,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1268,0,1,1,0,0,LegacyBarrier,1050,4836.3,-2500,0,0,0,5,1,500,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Prism,1269,0,1,1,1,0,Prism,1050,4835,-800,11.42119,180,180,3,0.1,3,Physical,Entities,Default,Default|127/255/0/255,;
 Scene,Geometry/Prism,1270,0,1,1,1,0,Prism,1050,4835,-600,11.42119,180,180,3,0.1,3,Physical,Entities,Default,Default|127/255/0/255,;
 Scene,Geometry/Prism,1271,0,1,1,1,0,Prism,1050,4835,-400,11.42119,180,180,3,0.1,3,Physical,Entities,Default,Default|127/255/0/255,;
@@ -1285,7 +1285,7 @@ Scene,Geometry/Tube,1279,0,1,1,1,0,Tube,2145,5085,4440,0,0,90,5,242,6,Physical,E
 Scene,Geometry/Cuboid,1280,0,1,1,1,0,Cuboid,1180,5085,4440,0,0,0,2,5,6,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1281,0,1,1,1,0,Cuboid,1210,5085,4406,0,0,0,5,5,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1282,0,1,1,1,0,Cuboid,1210,5085,4474,0,0,0,5,5,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1283,0,1,1,0,0,LegacyBarrier,3000,5050,4000,0,0,0,30,5,100,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1283,0,1,1,0,0,LegacyBarrier,3000,5050,4000,0,0,0,30,5,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1284,0,1,1,1,0,Cuboid,2920,5043.5,4440,0,0,11.42119,7,5,6,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1285,0,1,1,1,0,Cuboid,3890,5090,1940,0,0,0,150,8,506,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Cuboid,1286,0,1,1,1,0,Cuboid,2110,5090,1932.5,0,0,0,150,8,495.5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
@@ -1295,10 +1295,10 @@ Scene,Buildings/Wall1,1289,0,1,1,1,0,Wall1,3100,-1690,1940,0,0,0,8.7,64.5,14.4,P
 Scene,Geometry/Cuboid,1290,0,1,1,1,0,Cuboid,3000,-1700,1940,0,0,0,360,1,506,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1291,0,1,1,1,0,Cuboid,1386,1703,1940,0,0,0,3,672,506,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1292,0,1,1,1,0,Cuboid,1385,1750,1906,0,0,0,3,672,501.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1293,0,1,1,0,0,LegacyBarrier,3000,750,4255,0,0,0,210,572,10,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1294,0,1,1,0,0,LegacyBarrier,3000,750,4495,0,0,0,200,572,10,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1295,0,1,1,0,0,LegacyBarrier,1230,1750,1640,0,0,0,3,672,536,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1296,0,1,1,0,0,LegacyBarrier,3000,1750,-780,0,0,0,360,672,3,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1293,0,1,1,0,0,LegacyBarrier,3000,750,4255,0,0,0,210,572,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1294,0,1,1,0,0,LegacyBarrier,3000,750,4495,0,0,0,200,572,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1295,0,1,1,0,0,LegacyBarrier,1230,1750,1640,0,0,0,3,672,536,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1296,0,1,1,0,0,LegacyBarrier,3000,1750,-780,0,0,0,360,672,3,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1297,0,1,1,1,0,Cuboid,2250,1750,-590,0,0,0,176,672,3,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Cuboid,1298,0,1,1,1,0,Cuboid,4010,1700,-590,0,0,0,176,672,3,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Cuboid,1299,0,1,1,1,0,Cuboid,4800,1800,-590,0,0,0,40,672,3,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
@@ -1429,26 +1429,26 @@ Scene,Geometry/Cuboid,1423,0,1,1,1,0,Cuboid,1470,4925,-500,0,0,0,16,10,16,Physic
 Scene,Geometry/Cuboid,1424,0,1,1,1,0,Cuboid,3096,5034,-500,0,0,4.604102,312,10,16,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Interact/Supply1,1425,0,1,1,1,0,Supply1,1305,4808.87,-700,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,1426,0,1,1,1,0,Racing Checkpoint Region Cuboid,1305,4811.5,-700.5,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
-Scene,Geometry/Cuboid,1427,0,1,1,0,0,LegacyBarrier,1315,4900,4270,0,0,0,19,40,8,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1427,0,1,1,0,0,LegacyBarrier,1315,4900,4270,0,0,0,19,40,8,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1428,0,1,1,1,0,Racing Checkpoint Region Cuboid,1305,4811.5,4370,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Interact/Supply1,1429,0,1,1,1,0,Supply1,1305,4808.87,4370,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
-Scene,Geometry/Cuboid,1430,0,1,1,0,0,LegacyBarrier,640,4800,4365,0,0,0,120,1,8,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1431,0,1,1,0,0,LegacyBarrier,700,4950,4325,0,0,0,108,40,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1432,0,1,1,0,0,LegacyBarrier,720,4950,4405,0,0,0,135,40,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1430,0,1,1,0,0,LegacyBarrier,640,4800,4365,0,0,0,120,1,8,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1431,0,1,1,0,0,LegacyBarrier,700,4950,4325,0,0,0,108,40,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1432,0,1,1,0,0,LegacyBarrier,720,4950,4405,0,0,0,135,40,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Prism,1433,0,1,1,1,0,Prism,41,4799,4365,0,0,90,3,1,3,Physical,Entities,Default,Default|127/255/0/255,;
-Scene,Geometry/Cuboid,1434,0,1,1,0,0,LegacyBarrier,100,4800,3905,0,0,0,12,1,100,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1435,0,1,1,0,0,LegacyBarrier,100,4900,2905,11.42119,0,0,12,1,110,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1436,0,1,1,0,0,LegacyBarrier,100,5000,1905,0,0,0,12,1,100,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1437,0,1,1,0,0,LegacyBarrier,40,4950,2335,0,0,0,1,40,450,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1438,0,1,1,0,0,LegacyBarrier,160,4950,2325,0,0,0,1,40,400,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1434,0,1,1,0,0,LegacyBarrier,100,4800,3905,0,0,0,12,1,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1435,0,1,1,0,0,LegacyBarrier,100,4900,2905,11.42119,0,0,12,1,110,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1436,0,1,1,0,0,LegacyBarrier,100,5000,1905,0,0,0,12,1,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1437,0,1,1,0,0,LegacyBarrier,40,4950,2335,0,0,0,1,40,450,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1438,0,1,1,0,0,LegacyBarrier,160,4950,2325,0,0,0,1,40,400,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1439,0,1,1,1,0,Cuboid,40,5000,2335,0,0,0,0.01,0.01,450,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1440,0,1,1,1,0,Cuboid,40,4900,2335,0,0,0,0.01,0.01,450,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1441,0,1,1,1,0,Cuboid,40,4800,2335,0,0,0,0.01,0.01,450,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1442,0,1,1,1,0,Cuboid,160,5000,2325,0,0,0,0.01,0.01,400,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1443,0,1,1,1,0,Cuboid,160,4900,2325,0,0,0,0.01,0.01,400,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1444,0,1,1,1,0,Cuboid,160,4800,2325,0,0,0,0.01,0.01,400,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1445,0,1,1,0,0,LegacyBarrier,590,5070,1500,0,0,0,86,20,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1446,0,1,1,0,0,LegacyBarrier,-100,5070,1500,0,0,0,27,20,5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1445,0,1,1,0,0,LegacyBarrier,590,5070,1500,0,0,0,86,20,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1446,0,1,1,0,0,LegacyBarrier,-100,5070,1500,0,0,0,27,20,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1447,0,1,1,1,0,Kill Region Cuboid,-140,2500,3500,0,0,0,1,580,400,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1448,0,1,1,1,0,Cuboid,600,0,-500,0,0,0,1,1,10,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Tube,1449,0,1,1,1,0,Tube,500,0,-500,0,0,0,10,1,10,Physical,Entities,Default,Default|255/255/255/255,;
@@ -1515,14 +1515,14 @@ Scene,Geometry/Cuboid,1509,0,1,1,1,0,Cuboid,0,106000,99729.57,0,0,0,3,1,3,Physic
 Scene,Interact/Supply1,1510,0,1,1,1,0,Supply1,0,106003.9,99729.57,90,0,0,0.01,0.01,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|;
 Scene,Geometry/Cuboid,1511,0,1,1,1,0,Racing Checkpoint Region Cuboid,0,106006.5,99729.57,0,0,0,0.25,0.25,0.25,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,1512,0,1,1,1,0,Cuboid,0,106255,99759.57,0,0,0,2,50,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
-Scene,Geometry/Cuboid,1513,0,1,1,0,0,LegacyBarrier,0,106500,100269.6,0,0,0,3,1,100,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1513,0,1,1,0,0,LegacyBarrier,0,106500,100269.6,0,0,0,3,1,100,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Prism,1514,0,1,1,1,0,Prism,0,106500,99779.57,0.1145915,180,180,2,0.01,2,Physical,Entities,Default,Default|127/255/0/255,;
 Scene,Geometry/Cuboid,1515,0,1,1,1,0,Cuboid,0,106100,101029.6,0,0,0,60,1,60,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
-Scene,Geometry/Cuboid,1516,0,1,1,0,0,LegacyBarrier,0,106520,101029.6,0,0,0,60,1,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1517,0,1,1,0,0,LegacyBarrier,300,106300,101029.6,0,0,0,5,40,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1518,0,1,1,0,0,LegacyBarrier,-300,106300,101029.6,0,0,0,5,40,60,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1519,0,1,1,0,0,LegacyBarrier,0,106300,100729.6,0,0,0,60,40,5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1520,0,1,1,0,0,LegacyBarrier,0,106300,101329.6,0,0,0,60,40,5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1516,0,1,1,0,0,LegacyBarrier,0,106520,101029.6,0,0,0,60,1,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1517,0,1,1,0,0,LegacyBarrier,300,106300,101029.6,0,0,0,5,40,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1518,0,1,1,0,0,LegacyBarrier,-300,106300,101029.6,0,0,0,5,40,60,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1519,0,1,1,0,0,LegacyBarrier,0,106300,100729.6,0,0,0,60,40,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1520,0,1,1,0,0,LegacyBarrier,0,106300,101329.6,0,0,0,60,40,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cylinder,1521,0,1,1,1,0,Cylinder,150,106300,101179.6,0,0,0,2,20,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
 Scene,Geometry/Cylinder,1522,0,1,1,1,0,Cylinder,150,106300,100879.6,0,0,0,2,20,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
 Scene,Geometry/Cylinder,1523,0,1,1,1,0,Cylinder,-150,106300,101179.6,0,0,0,2,20,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
@@ -1579,7 +1579,7 @@ Scene,Geometry/Cuboid,1573,0,1,1,1,0,Cuboid,4724,3800,1940,356.9755,0,0,15,10,47
 Scene,Geometry/Cuboid,1574,0,1,1,1,0,Cuboid,4725,4155,4380,0,0,0,16,55,16,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1575,0,1,1,1,0,Cuboid,4725,4100,4080,0,0,0,16,45,16,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/1|0/0,;
 Scene,Geometry/Cuboid,1576,0,1,1,1,0,Racing Finish Region Cuboid,-4980,-4257.011,4000,0,0,0,1.5,1.5,1.5,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
-Scene,Geometry/Cuboid,1578,0,1,1,0,0,LegacyBarrier,-4565,5345.4,0,0,0,0,20,50,880,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,1578,0,1,1,0,0,LegacyBarrier,-4565,5345.4,0,0,0,0,20,50,880,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround,
 /// Logic
 
 /// Weather
@@ -1589,38 +1589,38 @@ Scene,Geometry/Cuboid,1578,0,1,1,0,0,LegacyBarrier,-4565,5345.4,0,0,0,0,20,50,88
         128,
         128,
         128,
-        255
+255
     ],
     "Daylight" : [
         255,
         255,
         255,
-        255
+255
     ],
     "DaylightIntensity" : 1,
     "DaylightDirection" : [
         45,
         45,
-        0
+0
     ],
     "AmbientLight" : [
         126,
         122,
         114,
-        255
+255
     ],
     "Flashlight" : [
         255,
         255,
         255,
-        0
+0
     ],
     "FogDensity" : 0,
     "FogColor" : [
         128,
         128,
         128,
-        255
+255
     ],
     "Rain" : 0,
     "Thunder" : 0,
@@ -1629,7 +1629,7 @@ Scene,Geometry/Cuboid,1578,0,1,1,0,0,LegacyBarrier,-4565,5345.4,0,0,0,0,20,50,88
     "WindDirection" : [
         1,
         0,
-        0
+0
     ],
     "RainForce" : 0,
     "SnowForce" : 0,
