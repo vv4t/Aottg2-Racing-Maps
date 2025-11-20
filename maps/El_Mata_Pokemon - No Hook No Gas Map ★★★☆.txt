@@ -28,7 +28,7 @@ Scene,Geometry/Cuboid,23,0,1,1,1,0,Cuboid,416.6417,20,-285.1959,0,181.9699,0,0.1
 Scene,Geometry/Cuboid,24,0,1,1,1,0,Cuboid,411.7295,20,-289.5524,0,272.2184,0,0.09,0.3,1,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|0.3/1|0/0,;
 Scene,Geometry/Cuboid,25,0,1,1,1,0,Cuboid,411.6148,20,-292.2282,0,121.4674,0,0.09,0.3,1,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|0.3/1|0/0,;
 Scene,Geometry/Cuboid,26,0,1,1,1,0,Racing Checkpoint Region Cuboid,412.3657,21.68566,-299.5409,0,94.46697,0,0.03,0.1,0.03,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:false|PlaySound:true|LapCheckpoint:false;
-Scene,Geometry/Cuboid,27,0,1,1,1,0,Racing Finish Region Cuboid,290.9093,21.71531,-235.9016,0,122.8069,0,0.03,0.2,0.03,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
+Scene,Geometry/Cuboid,27,0,1,1,1,0,Racing Finish Region Cuboid,290.9093,21.71531,-235.9016,0,122.8069,0,0.03,0.2,0.03,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,28,0,1,1,1,0,Cuboid,413.1172,20,-298.5409,0,215.7162,0,0.16,0.3,1,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|0.3/1|0/0,;
 Scene,Geometry/Cuboid,29,0,1,1,1,0,Cuboid,410.7802,20,-307.6552,0,179.966,0,0.09,0.3,1,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|0.3/1|0/0,;
 Scene,Geometry/Cuboid,30,0,1,1,1,0,Cuboid,405.217,20,-303.1976,0,257.0148,0,0.09,0.3,1,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|0.3/1|0/0,;
