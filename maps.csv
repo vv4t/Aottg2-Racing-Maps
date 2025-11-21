@@ -87,7 +87,7 @@ map_id|author|name|difficulty|tags|notes
 85|Guest Creator|Fall Race|4.0||
 86|oNoto|Racing 001 Hard (Full Lava)|3.0||
 87|Eliope|Makina Dro Special Training|5.0||
-88|Eliope|Port Racers III|1.0||
+88|Eliope|Port Racers III|0.5||
 89|Eliope & Riblei|Makina Royal + Fire + Ice + TWotR|4.0||
 90|cowcowtony|Racing Volcano (Lava)|3.5||
 91|cowcowtony|Bug on the Rose (HD)|5.0||
@@ -454,7 +454,7 @@ map_id|author|name|difficulty|tags|notes
 456|oNoto|100 Subs Map|3.5||
 457|Rin|Bus To Hell 2 (Fixed)|3.5||
 458|Kido|Cube Race|3.0||Fixed on 2025-11-19
-460|Eliope|Port Racers II|1.0||
+460|Eliope|Port Racers II|0.5||
 461|Riblei & Eliope|Longest Line|2.0||
 462|Sylcium|Long Racing Map (Lava, Texture Edit by Riblei)|3.5||
 463|Rayzu|Town Laps 2|0.5||
@@ -542,6 +542,7 @@ map_id|author|name|difficulty|tags|notes
 546|cowcowtony|Rainbow Road SNES (Horse Edit)|1.0|horse|
 547|cowcowtony|Fair Map|2.0||
 549|Guest Creator|Tubes & Horses (Horse Required)|3.5|horse|
+
 
 
 
