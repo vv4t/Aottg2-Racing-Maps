@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Cheating spots (rooftop & near the finish) fixed by Fruity on 2025-11-23|HasWeather:0
 /// CustomAssets
 
 /// Objects
