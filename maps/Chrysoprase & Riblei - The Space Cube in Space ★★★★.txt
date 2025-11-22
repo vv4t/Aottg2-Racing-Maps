@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Cheating spots (rooftop & near the finish) fixed by Fruity on 2025-11-23|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -2087,13 +2087,13 @@ Scene,Geometry/Cuboid,2081,0,1,1,1,0,Cuboid,32.5,3850,2900,0,0,0,0.5,7,7,Physica
 Scene,Geometry/Cuboid,2082,0,1,1,1,0,Cuboid,-32.5,3850,2900,0,0,0,0.5,7,7,Physical,Entities,Default,Basic|229/204/204/255|Metal/Metal3|0.7/0.7|0/0,;
 Scene,Geometry/Cuboid,2083,0,1,1,1,0,Cuboid,0,3850,2867.5,0,90,0,0.5,7,6,Physical,Entities,Default,Basic|229/204/204/255|Metal/Metal3|0.6/0.7|0/0,;
 Scene,Geometry/Cuboid,2084,0,1,1,1,0,Cuboid,0,3850,2932.5,0,90,0,0.5,7,6,Physical,Entities,Default,Basic|229/204/204/255|Metal/Metal3|0.6/0.7|0/0,;
-Scene,Geometry/Cuboid,2085,0,1,1,1,0,KillCuboid,-60,3948,2712.5,0,0,0,1,4,13.5,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,2086,0,1,1,1,0,KillCuboid,-180,3948,2640,0,270,0,1,4,25,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,2087,0,1,1,1,0,KillCuboid,75,3948,2785,0,270,0,1,4,28,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,2085,0,1,1,1,0,KillCuboid,-40,3948,2692.5,0,0,0,5,4,19.5,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,2086,0,1,1,1,0,KillCuboid,-180,3948,2620,0,270,0,5,4,25,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,2087,0,1,1,1,0,KillCuboid,75,3948,2765,0,270,0,5,4,28,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2088,0,1,1,1,0,KillCuboid,0,3948,2960,0,270,0,1,4,29,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,2089,0,1,1,1,0,KillCuboid,290,3948,3010,0,0,0,1,4,37,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,2090,0,1,1,1,0,KillCuboid,-310,3948,2915,0,0,0,1,4,56,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,2091,0,1,1,1,0,KillCuboid,-10,3948,3190,0,270,0,1,4,59,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,2089,0,1,1,1,0,KillCuboid,310,3948,3010,0,0,0,5,4,37,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,2090,0,1,1,1,0,KillCuboid,-330,3948,2915,0,0,0,5,4,64,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,2091,0,1,1,1,0,KillCuboid,-10,3948,3210,0,270,0,5,4,69,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2092,0,1,1,1,0,KillCuboid,232.5,3948,2857.5,0,270,0,13.5,4,10.5,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2093,0,1,1,1,0,KillCuboid,-215,3958.677,2830,0,0,0,5,1.9,10,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2094,0,1,1,1,0,KillCuboid,120,3948,3025,0,0,0,5,4,12,None,Characters,Default,Transparent|0/255/127/38|Misc/None|1/1|0/0,;
@@ -2109,13 +2109,13 @@ Scene,Geometry/Cuboid,2103,0,1,1,1,0,KillCuboid,180,3931.844,2810,0,0,0,3.9,2.1,
 Scene,Geometry/Cuboid,2104,0,1,1,1,0,KillCuboid,290,3931.844,3145,0,0,0,5.9,2.1,6.9,None,Characters,Default,CannonRegionMat|0/204/0/255|1/1,;
 Scene,Geometry/Cuboid,2105,0,1,1,1,0,KillCuboid,129.1358,3931.844,2995.556,0,0,0,7.9,2.1,8.899999,None,Characters,Default,CannonRegionMat|0/204/0/255|1/1,;
 Scene,Geometry/Cuboid,2106,0,1,1,1,0,KillCuboid,-115,3931.844,2705,0,0,0,8.899999,2.1,4.9,None,Characters,Default,CannonRegionMat|0/204/0/255|1/1,;
-Scene,Geometry/Cuboid,2107,0,1,1,0,0,LegacyBarrier,-40,3948,2712.5,0,0,0,5,4,13.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,2107,0,1,1,0,0,LegacyBarrier,-40,3948,2692.5,0,0,0,5,4,19.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2108,0,1,1,0,0,LegacyBarrier,-180,3948,2620,0,270,0,5,4,25,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2109,0,1,1,0,0,LegacyBarrier,75,3948,2765,0,270,0,5,4,28,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2110,0,1,1,0,0,LegacyBarrier,0,3948,2960,0,270,0,1,4,29,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2111,0,1,1,0,0,LegacyBarrier,310,3948,3010,0,0,0,5,4,37,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,2112,0,1,1,0,0,LegacyBarrier,-330,3948,2915,0,0,0,5,4,56,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,2113,0,1,1,0,0,LegacyBarrier,-10,3948,3210,0,270,0,5,4,59,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,2112,0,1,1,0,0,LegacyBarrier,-330,3948,2915,0,0,0,5,4,64,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,2113,0,1,1,0,0,LegacyBarrier,-10,3948,3210,0,270,0,5,4,69,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2114,0,1,1,0,0,LegacyBarrier,232.5,3948,2857.5,0,270,0,13.5,4,10.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2115,0,1,1,0,0,LegacyBarrier,-215,3958.677,2830,0,0,0,5,1.9,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,2116,0,1,1,0,0,LegacyBarrier,120,3948,3025,0,0,0,5,4,12,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
@@ -2779,7 +2779,7 @@ Scene,Geometry/Cuboid,2773,0,1,1,1,0,Cuboid,148.1813,3829.46,3046.562,36.02989,1
 Scene,Geometry/Cuboid,2774,0,1,1,1,0,Cuboid,172.08,3860.783,3050,340.3663,265.7481,132.9929,0.9000001,0.9,0.9,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Castle1Tex|0.5/-0.5|0/0,;
 Scene,Legacy/LevelBottom,2775,0,1,1,0,0,LevelBottom,-250,3400,4400,0,0,0,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Legacy/LevelBottom,2776,0,1,1,0,0,LevelBottom,-250,3400,1400,0,0,0,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,Legacy/LevelBottom,2777,0,1,1,0,0,LevelBottom,-250,4900,2900,270,0,0,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|;
+Scene,Legacy/LevelBottom,2777,0,1,1,0,0,LevelBottom,-250,4900,2900,270,0,0,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Legacy/LevelBottom,2778,0,1,1,0,0,LevelBottom,-250,1900,2900,270,0,0,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|;
 Scene,Legacy/LevelBottom,2779,0,1,1,0,0,LevelBottom,1250,3400,2900,0,90,270,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Legacy/LevelBottom,2780,0,1,1,0,0,LevelBottom,-1750,3400,2900,0,90,270,1,166.6667,0.001,Region,Characters,Default,Default|255/255/255/255,KillRegion|;
