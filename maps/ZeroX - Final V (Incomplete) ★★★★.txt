@@ -1,4 +1,7 @@
 map,disablebounds;
+
+// Ceiling Fixed by Fruity
+
 spawnpoint,playerC,-0.640758,21.16638,9.950245,0,0,0,1;
 custom,cuboid,default,1,7,10,1,0,0,0,1,1,45,35,15,0,0,0,1;
 custom,cuboid,default,1,7,10,1,0,0,0,1,1,-45,35,15,0,0,0,1;
@@ -547,3 +550,4 @@ racing,killCuboid,1,14,10,1860,70,1455,0,0,0,1;
 racing,endCuboid,5,5,5,1905,95,1455,0,0,0,1;
 misc,barrier,60,7,28,1895.95,105.7734,105,0,0,0,1;
 misc,barrier,60,7,28,1350,107.6056,723.9209,0,0,0,1;
+
