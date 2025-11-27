@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-27|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -7,7 +7,7 @@ Scene,Geometry/Cuboid,1,0,1,1,1,0,Unnamed,-7.76,-32.03,5.333,0,0,0,134.286,6.407
 Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
 Scene,Geometry/Cuboid,3,0,1,1,0,0,LegacyBarrier,0,132.3224,207.6776,0,180,0,6,8,0.1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,4,0,1,0,1,0,Racing Start Barrier Cuboid,0,132.3224,277.6776,0,180,0,6,8,0.1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cuboid,5,0,1,1,1,0,Racing Finish Region Cuboid,0,132.3224,177.6776,0,180,0,6,8,2,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cuboid,5,0,1,1,1,0,Racing Finish Region Cuboid,0,132.3224,177.6776,0,180,0,5,7.5,2,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,6,0,1,1,1,0,Cuboid,25,132.3224,177.6776,0,180,0,0.5,8,0.5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,7,0,1,1,1,0,Cuboid,-25,132.3224,177.6776,0,180,0,0.5,8,0.5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,8,0,1,1,1,0,Cuboid,0,162.3224,177.6776,0,180,0,5,1.5,0.3,Physical,Entities,Default,Default|255/0/0/255,;
@@ -1685,7 +1685,7 @@ Scene,Geometry/Cuboid,1679,0,1,1,0,0,LegacyBarrier,54.601,127.8677,456.7783,0,24
 Scene,Geometry/Cuboid,1680,0,1,1,0,0,LegacyBarrier,69.0983,127.8677,462.7833,0,251.9968,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1681,0,1,1,0,0,LegacyBarrier,84.3566,127.8677,466.4664,0,261.0013,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1682,0,1,1,0,0,LegacyBarrier,100,127.8677,467.6776,0,270,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,1683,0,1,1,0,0,LegacyBarrier,115.6434,97.8677,466.4664,0,98.99873,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,1683,0,1,1,0,0,LegacyBarrier,115.6434,107.9,466.4664,0,98.99873,0,5,3,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1684,0,1,1,0,0,LegacyBarrier,130.9017,97.8677,462.7833,0,108.0032,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1685,0,1,1,0,0,LegacyBarrier,145.3999,97.8677,456.7783,0,117.0001,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,1686,0,1,1,0,0,LegacyBarrier,158.7785,97.8677,448.5793,0,126.0023,0,5,1,1.9615,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
