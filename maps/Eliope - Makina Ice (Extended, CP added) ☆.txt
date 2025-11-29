@@ -1,5 +1,5 @@
-//Checkpoint added by riblei 
 map,disablebounds;
+//Checkpoint added by riblei 
 custom,boulder4,crystal2,2,6,2,0,1,1,1,1,1,-62.16,-11.14,352.11,0,0.99,0,0.16;
 custom,boulder4,crystal2,3,2,3,0,1,1,1,1,1,-43.38,-9.04,415.98,0,0.97,0,-0.23;
 custom,boulder4,crystal2,2,6,5,0,1,1,1,1,1,-472.58,-8.14,-20.86,0,0.47,0,-0.89;
