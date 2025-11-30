@@ -66,7 +66,7 @@ map_id|author|name|difficulty|tags|notes
 64|AbsoluteS|Pace|2.5||
 65|Antigasp|Velocity Zones Demo Map|2.0||
 66|Yuukihito|Unnamed (Speed)|1.0||
-67|Eliope|Rayt Racing|4.0||
+67|Eliope|Rayt Racing|3.5||
 68|cowcowtony|Future Trax 10|3.5||
 69|Eliope|Makina Honor (Grassy)|2.0||
 70|Naito|Double Hooks|4.5||
@@ -536,7 +536,7 @@ map_id|author|name|difficulty|tags|notes
 540|NexS7|The Box (Hard)|2.0||
 541|Riblei|40 Yards Downwards|3.0||
 542|cowcowtony|A Cow Is Too Slow For 'Horse Racing'|0.5|horse|
-543|Eliope|Horseside the walls|3.0|horse|
+543|Eliope|Horseside the walls|1.5|horse|
 544|Eliope|Horsescape the Walls|4.5|horse|
 545|PTHunter|Racing Map|1.0||
 546|cowcowtony|Rainbow Road SNES (Horse Edit)|1.0|horse|
@@ -544,5 +544,6 @@ map_id|author|name|difficulty|tags|notes
 549|Guest Creator|Tubes & Horses (Horse Required)|3.5|horse|
 550|Test|Test|0.5||
 551|Eliope|Makina Honor (Sylcium Ver.)|2.0||
+552|Madzik|Horse Racing (Horse Edit)|2.0|horse|
 
 
