@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-30|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -71,7 +71,7 @@ Scene,Geometry/Cuboid,65,0,1,1,0,0,LegacyBarrier,-59.95805,16.88154,81.65488,0,3
 Scene,Buildings/House1,66,0,1,1,1,0,House1,-272.3234,-20.13333,146.2433,0,87.33366,0,1.35,1.35,1.35,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/House5,67,0,1,1,1,0,House5,-16.14413,18.02329,295.5506,0,265.9726,0,1.35,1.35,1.35,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,68,0,1,1,0,0,LegacyBarrier,-156.5107,12.65443,-22.95441,0,290.3922,0,0.27,8.1,2.7,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,69,0,1,1,0,0,LegacyBarrier,-305.7438,23.77989,174.4531,0,268.6311,0,0.27,8.1,9.45,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,69,0,1,1,0,0,LegacyBarrier,-295.5,23.77989,174.4531,0,268.6311,0,0.27,8.1,15,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,70,0,1,1,0,0,LegacyBarrier,-265.6673,23.53805,-124.1501,0,353.6852,0,0.27,8.1,31.05,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Buildings/House7,71,0,1,1,1,0,House7,38.18724,-1.944605,-107.2168,0,87.41101,0,1.35,1.35,1.35,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Arch1,72,0,1,1,1,0,Arch1,65.80622,28.84836,-178.7857,0,357.5943,0,1.35,4.05,1.35,Physical,Entities,Default,Default|255/255/255/255,;
