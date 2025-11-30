@@ -42,7 +42,7 @@ Scene,Geometry/Torus,38,0,1,1,1,0,Torus,0.4207725,48.55824,355.5692,272.7999,183
 Scene,Geometry/Cuboid,39,0,1,1,1,0,Cuboid,-12.89243,-58.04884,333.1459,1.611048,1.834736,6.402062,1,15,15,Physical,Entities,Default,Basic|255/255/255/255|Misc/Gradient1|1/1|0/0,;
 Scene,Geometry/Cylinder,40,0,1,1,1,0,Cylinder,10.94621,-28.79687,504.279,0,199.9935,0,1,15,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,41,0,1,1,1,0,Cuboid,9.452982,-60.73198,346.3716,80.55585,186.2059,4.291168,1,15,15,Physical,Entities,Default,Basic|255/255/255/255|Misc/Gradient1|1/1|0/0,;
-Scene,Geometry/Plane,42,0,1,0,1,0,Racing Start Barrier Plane,-7.515909,22.99853,19.90796,270.3991,2.683643,180.0004,15,15,15,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Plane,42,0,1,0,1,0,Racing Start Barrier Plane,-10,22.99853,19.90796,270,1.001791E-05,0,2,1,15,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,43,0,1,1,1,0,Cuboid,34.25178,521.939,-206.3258,0,177.2326,0,100,100,100,Physical,Entities,Default,Basic|255/255/255/255|Misc/Gradient3|1/1|0/0,;
 Scene,Geometry/Cylinder,44,0,1,1,1,0,Kill Region Cylinder,-11.826,13.85729,207.2367,0,357.9477,0,1,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Capsule,45,0,1,1,1,0,Kill Region Capsule,-7.761092,1.320854,135.2922,0,357.1963,0,1,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
