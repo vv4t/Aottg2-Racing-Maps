@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-27|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-30|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -41,9 +41,9 @@ Scene,Nature/Boulder1,35,0,1,1,1,0,Boulder1,-230.7078,25.64653,-99.45043,3.72228
 Scene,Geometry/Plane,36,0,1,1,1,0,Kill Region Plane,-260.6863,19.65205,-101.9265,322.3597,313.2089,85.53271,1,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Nature/Boulder1,37,0,1,1,1,0,Boulder1,-266.9381,6.631207,-72.60188,0.3422304,241.5966,244.2014,2,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,38,0,1,1,1,0,Boulder1,-301.9683,-66.11634,-87.14966,23.4,247.4709,1.860571E-06,7,7,7,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Plane,39,0,1,1,1,0,Kill Region Plane,-100.172,38.97665,-20.28196,0,2.814792,358.56,7,7,7,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Plane,39,0,1,1,1,0,Kill Region Plane,-100.172,38.97665,-20.28196,0,2.814792,358.56,7,7,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,40,0,1,1,1,0,Kill Region Plane,-35.6404,37.97552,-0.5845007,0,176.3132,0,7,7,7,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,Geometry/Plane,41,0,1,1,1,0,Kill Region Plane,-163.9653,40.80675,-44.40485,357.4,247.9677,359.7998,7,7,7,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Plane,41,0,1,1,1,0,Kill Region Plane,-163.9653,40.80675,-44.40485,357.4,247.9677,359.7998,15,7,7,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,42,0,1,1,1,0,Kill Region Plane,-148.2259,41.6668,-98.79415,0,112.8022,0,7,7,7,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Plane,43,0,1,1,1,0,Kill Region Plane,-230.6185,46.16016,-83.92408,355,242.7977,0.04015145,15,10,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,44,0,1,1,1,0,Kill Region Plane,-392.9502,50.10102,-64.98796,1.86763E-07,335.537,359.4,20,20,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -184,7 +184,7 @@ Scene,Nature/Boulder1,178,0,1,1,1,0,Boulder1,166.3844,136.8674,-289.1968,0,143.4
 Scene,Nature/Boulder1,179,0,1,1,1,0,Boulder1,192.4008,107.4643,-280.6505,0,92.96933,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,180,0,1,1,1,0,Kill Region Cuboid,-193.3895,109.8618,-254.3972,0,280.7676,0,20,20,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Nature/Boulder1,181,0,1,1,1,0,Boulder1,-169.2179,24.5146,-170.3466,0,248.6009,0,3,3,3,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,182,0,1,1,1,0,Kill Region Cuboid,-77.6824,204.8515,-258.7799,0,258.5531,0,30,1,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,182,0,1,1,1,0,Kill Region Cuboid,-77.6824,204.8515,-258.7799,0,258.5531,0,30,5,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,183,0,1,1,1,0,Kill Region Cuboid,156.0842,161.0225,-214.4425,359.4935,167.397,26.55939,20,1,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Nature/Boulder1,184,0,1,1,1,0,Boulder1,-127.6182,92.65022,-149.9673,0,254.6231,0,1,10,10,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Bridge1,185,0,1,1,1,0,Bridge1,25.37309,92.84614,-92.77092,0,167.9105,0,1,2,1,Physical,Entities,Default,Default|255/255/255/255,;
