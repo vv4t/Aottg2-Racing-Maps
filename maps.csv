@@ -18,7 +18,7 @@ map_id|author|name|difficulty|tags|notes
 16|Mb12|Cave Race|1.0||
 17|Chrysoprase|Brutalism|0.5||
 18|Eliope|Volcano Race|3.5||
-19|Eliope|Makina Red|3.0||
+19|Eliope|Makina Red|3.0||Skating fixed on 2025-11-30
 20|Sebas Tian|SAC - Volcano Escape|3.0||Fixed by Fruity
 21|Eliope|Makina Team (Lava Edit by Riblei)|3.0||
 22|MASKSLAVE|MASKSLAVE 4|3.5||
@@ -100,7 +100,7 @@ map_id|author|name|difficulty|tags|notes
 99|MASKSLAVE|Twins Racing|3.0||
 100|Eliope & Riblei|The Troll of the Racers|4.5||
 101|Eliope|Nano Racing Vanish|1.0||
-102|Sebas Tian|SAC - City Run Lv2|4.0||
+102|Sebas Tian|SAC - City Run Lv2|4.0||Fixed on 2025-11-30
 103|Riblei|Deathdream|5.0||Updated on 2025-11-28
 104|PTHunter|Racing Map (Horse Edit)|1.0|horse|
 105|ZeroX|Code 30|3.5||
@@ -285,7 +285,7 @@ map_id|author|name|difficulty|tags|notes
 287|Appolina|Red Mirrored Akina (Beta Version)|4.0||
 288|Loki|Unknown (4)|4.0||
 289|Unknown|VN Map Maker's Untitled Lava Map Map)|5.0||
-290|Envy|Racing Forest|2.0||Fixed on 2025-11-27
+290|Envy|Racing Forest|2.0||Fixed on 2025-11-30
 291|Sylcium|Indigo Racing (Shadow Floor by Sub)|3.0||
 292|PR0XY|The Sandstone Temple (Normal)|3.0||
 293|SmoothCatRider|First Racing Map|2.0||
@@ -326,7 +326,7 @@ map_id|author|name|difficulty|tags|notes
 328|Sub|Unfinished Map|3.0||
 329|Naito|N3|3.5||
 330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2|
-331|Ace|Race 2|1.5||
+331|Ace|Race 2|1.5||Fixed on 2025-11-30
 332|Hong Yao|Hong Racing|1.0||
 333|Konor|Hot Lava (Easy)|2.5||
 334|cowcowtony|Future Trax 7|4.5||
@@ -368,7 +368,7 @@ map_id|author|name|difficulty|tags|notes
 371|Riblei|Falling Candies (Obstacle Edit by Eim)|3.5||
 372|MASKSLAVE|I7 Racing|3.5||
 373|Riblei|Ex'd IV|1.0||Updated on 2025-10-26
-374|Envy|Racing Forest (Short)|1.5||Fixed on 2025-11-27
+374|Envy|Racing Forest (Short)|1.5||Fixed on 2025-11-30
 375|oNoto|LaLy Red Lava|3.5||
 376|Eliope|Makina Honor (Transparent)|2.0||
 377|Eliope|Mayaka (Finish Added)|3.0||Finish Added
@@ -400,7 +400,7 @@ map_id|author|name|difficulty|tags|notes
 403|Chrysoprase & Riblei|The Space Cube in Space (Lite Edit)|4.0||
 404|cowcowtony|Future Trax 4|5.0||
 405|Eliope|Makina Source LV2 (Texture Edit)|3.0||
-406|Sylvia|Pinku|5.0||
+406|Sylvia|Pinku|5.0||Fixed on 2025-11-30
 407|Sebas Tian|SAC - Cargo Chase 2 (Eliope Edit)|2.0||
 408|Riblei|Machina Classic|3.5||
 409|oNoto|Obstacle Rooms|4.0||
@@ -484,7 +484,7 @@ map_id|author|name|difficulty|tags|notes
 489|Kari|Unnamed Map|3.0||
 490|ZeroX|Long Long Lava Turn Practice Racing Map|4.0||
 491|Esli|World of Lava|5.0||
-492|Sebas Tian|SAC - City Run Lv1|3.0||
+492|Sebas Tian|SAC - City Run Lv1|3.0||Fixed on 2025-11-30
 493|Incendium|Full Double Inferno Experience|5.0||
 494|Chrysoprase|Another Brick in the Wall (Lava)|3.5||
 495|Sebas Tian|SAC - Feng City Run (Lv5)|4.0||
@@ -511,7 +511,7 @@ map_id|author|name|difficulty|tags|notes
 516|cowcowtony|Tutorial Racing Map (CPs Added)|3.0||CPs Added by Fruity
 517|Eliope|Makina Honor (Wooden)|2.0||
 518|Eliope|The Way of the Racers|1.0|twotr twor|
-519|Sebas Tian|SAC - City Run|0.5||
+519|Sebas Tian|SAC - City Run|0.5||Fixed on 2025-11-30
 520|Fate & Riblei & Alex4win|Fuck It|3.5||
 521|Zechten|Velocity Midori|1.5||
 522|MASKSLAVE|MASKSLAVE 3|3.0||
@@ -544,6 +544,7 @@ map_id|author|name|difficulty|tags|notes
 550|Test|Test|0.5||
 551|Eliope|Makina Honor (Sylcium Ver.)|2.0||
 552|Madzik|Horse Racing (Horse Edit)|2.0|horse|
+
 
 
 
