@@ -1,7 +1,7 @@
 /// Options
 EditorVersion:1.0|Description:|HasWeather:0
 /// CustomAssets
-raceworm1,https://files.catbox.moe/39ght9
+raceworm1,https://github.com/eliope04/AOTTG2-Assets/releases/download/AOTTG2/Raceworm1
 /// Objects
 Scene,Geometry/Cuboid,4,0,1,1,1,0,Racing Finish Region Cuboid,1009.924,41.33472,383.9189,0,0,0,6,10,20,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
 Scene,Geometry/Cube1,5,0,1,1,1,0,Cube1,998.8249,46.43017,369.4424,0,0,0,10,60,90,Physical,Entities,Default,Basic|255/255/255/255|Misc/Rumbling1|0.1/0.1|0/0,;
