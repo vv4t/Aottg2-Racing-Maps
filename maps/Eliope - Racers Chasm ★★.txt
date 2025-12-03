@@ -7,7 +7,7 @@ A racing map in a mountainous area
 
 By Eliope|HasWeather:0
 /// CustomAssets
-racers chasm tr1,https://files.catbox.moe/ajm5dj
+racers chasm tr1,https://github.com/eliope04/AOTTG2-Assets/releases/download/AOTTG2/racers.chasm.tr1
 /// Objects
 Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,20,0,53.13011,126.8699,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
 Scene,FX/WaterCube1,3,0,1,0,1,0,WaterCube1,0,50,0,0,0,0,4000,14,4000,Region,Characters,Default,DefaultTiled|255/255/255/255|1/1,WaterPhysics|Enabled:true|MinSkipSpeed:100|SurfaceHeight:0.2|SurfaceVerticalDrag:0.7|SurfaceHorizontalDrag:0.85|SunkenDrag:0.5|DampingForce:0.3|SunkenGravity:18|DisableHooks:true|SupportDrowning:true|TimeToDrown:10|WaveDistance:20|WaveSpeed:500|NoiseStrength:5|NoiseWalk:1|Scale:2;
@@ -415,21 +415,21 @@ Scene,Nature/Tree12,587,0,1,1,1,0,Tree12,2870.138,72.33311,1461.226,0,0,0,1.5,1.
 Scene,Geometry/Cuboid,586,0,1,0,0,0,Racing Start Barrier Cuboid,3778.377,122.8234,283.2205,0,45,0,0.25,2.5,1.9,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Buildings/ShiganHouse1,589,0,1,1,1,0,ShiganHouse1,2984.656,122.0858,1578.806,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Tree19,590,0,1,1,1,0,Tree19,3320.765,160.363,2122.664,0,0,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Sphere1,592,0,1,1,1,0,egg1,3761.805,101.1187,308.5338,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,593,0,1,1,1,0,egg2,1697.771,121.3875,500.8338,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,594,0,1,1,1,0,egg3,1288.332,283.9774,1659.845,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,595,0,1,1,1,0,egg4,2444.933,159.1207,2027.59,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,596,0,1,1,1,0,egg5,2608.952,149.1347,2074.796,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,597,0,1,1,1,0,egg6,3882.803,121.1451,2277.7,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,598,0,1,1,1,0,egg7,3217.718,101.0769,3391.607,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,599,0,1,1,1,0,egg8,2224.524,161.7612,2945.717,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,600,0,1,1,1,0,egg9,3759.469,193.2953,2125.694,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,601,0,1,1,1,0,egg10,449.8841,254.0277,2757.716,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,602,0,1,1,1,0,egg11,63.84056,121.3251,2530.465,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1,603,0,1,1,1,0,egg12,2791.134,100.675,2449.233,0,0,0,1.25,-1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
-Scene,Geometry/Sphere1i,604,0,1,1,1,0,egg14,436.6982,100.7201,321.3744,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,592,0,1,1,1,0,egg1,3761.805,101.1187,308.5338,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,593,0,1,1,1,0,egg2,1697.771,121.3875,500.8338,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,594,0,1,1,1,0,egg3,1288.332,283.9774,1659.845,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,595,0,1,1,1,0,egg4,2444.933,159.1207,2027.59,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,596,0,1,1,1,0,egg5,2608.952,149.1347,2074.796,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,597,0,1,1,1,0,egg6,3882.803,121.1451,2277.7,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,598,0,1,1,1,0,egg7,3217.718,101.0769,3391.607,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,599,0,1,1,1,0,egg8,2224.524,161.7612,2945.717,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,600,0,1,1,1,0,egg9,3759.469,193.2953,2125.694,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,601,0,1,1,1,0,egg10,449.8841,254.0277,2757.716,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,602,0,1,1,1,0,egg11,63.84056,121.3251,2530.465,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,603,0,1,1,1,0,egg12,2791.134,100.675,2449.233,0,0,0,1.25,-1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1i,604,0,1,1,1,0,egg14,436.6982,100.7201,321.3744,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
 Scene,FX/WaterBox1,605,0,1,0,1,1,WaterBox1,436.5039,106.0227,318.0538,25,0,0,1,1,1,Physical,All,Default,Default|255/255/255/255,Rigidbody|Mass:1|Gravity:0/-20/0|FreezeRotation:false|Interpolate:false,Floater|Enabled:false|DepthBeforeFloating:3|DisplacementAmount:2|Drag:0.7|AngularDrag:1;
-Scene,Geometry/Sphere1,606,0,1,1,1,0,egg13,453.3526,196.66,453.0767,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere1,606,0,1,1,1,0,egg13,453.3526,196.66,453.0767,0,0,0,1.25,1.5,1.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.75/0.625|0/0,Egg|touched:false,EggHandler|labelPosition:TopLeft;
 Scene,FX/WaterBox1,607,0,1,0,1,1,WaterBox1,436.9878,114.2785,325.467,25,0,0,1,1,1,Physical,All,Default,Default|255/255/255/255,Rigidbody|Mass:1|Gravity:0/-20/0|FreezeRotation:false|Interpolate:false,Floater|Enabled:false|DepthBeforeFloating:3|DisplacementAmount:2|Drag:0.7|AngularDrag:1;
 Scene,Decor/Box2,608,0,1,1,1,0,Box2,453.2444,184.5834,375.2147,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,FX/WaterBarrel1,609,0,1,0,1,1,WaterBarrel1,432.7744,100.2805,312.5344,2,7,14,1,1,1,Physical,All,Default,Default|255/255/255/255,Rigidbody|Mass:1|Gravity:0/-20/0|FreezeRotation:false|Interpolate:false,Floater|Enabled:false|DepthBeforeFloating:3|DisplacementAmount:2|Drag:0.7|AngularDrag:1;
