@@ -3,7 +3,7 @@ EditorVersion:1.0|Description:|HasWeather:0
 /// CustomAssets
 
 /// Objects
-Scene,Geometry/Cuboid,0,0,1,1,1,0,Unnamed,3761.927,-25,0,0,0,0,1000,5,1000,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|25/25|0/0,;
+Scene,Geometry/Cuboid,0,0,1,1,1,0,Unnamed,3761.927,-25,0,0,0,0,1000,5,1000,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|25/25|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,20,0,53.13011,126.8699,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
 Scene,Geometry/Cube1,5,0,1,1,1,0,Cube1,4620,470,-30,0,0,0,400,60,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood1|4/1|0/0,;
 Scene,Geometry/Cube1,6,0,1,1,1,0,Cube1,4620,470,30,0,0,0,400,60,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood1|4/1|0/0,;
