@@ -622,8 +622,8 @@ Scene,Geometry/Cuboid,1173,0,1,1,1,0,Cuboid,-221.9377,-74.54343,-5425,0,90,0,1,1
 Scene,Geometry/Cuboid,1193,0,1,1,1,0,Cuboid,-114.2892,32.89257,-4619.375,0,180,0,0.3558879,0.8842025,0.125,Physical,Entities,Default,Reflective|255/5/255/255|Misc/Ice1|0.0001/0.0001|0/0|255/255/255/255,;
 Scene,Geometry/Cuboid,1192,0,1,1,1,0,Cuboid,-110.2149,32.89257,-4619.375,0,180,0,0.3558959,0.8842026,0.125,Physical,Entities,Default,Reflective|255/5/255/255|Misc/Ice1|0.0001/0.0001|0/0|255/255/255/255,;
 Scene,Geometry/Cuboid,1221,0,1,1,1,0,KillCuboid,-110,100,-4470,0,0,0,-10.9,6,-9.9,Physical,Characters,Default,BombTexMat|0/97/255/130|0.3/0.3,Tag|Name:RacingStartBarrier;
-Scene,General/EditorHumanSpawnPointBlue,741,0,1,1,0,0,Human SpawnPoint (blue),-90,70,-4025,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
-Scene,General/EditorHumanSpawnPointRed,742,0,1,1,0,0,Human SpawnPoint (red),-130,70,-4025,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointBlue,741,0,1,1,0,0,Human SpawnPoint (blue),-90,70,-4024,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,General/EditorHumanSpawnPointRed,742,0,1,1,0,0,Human SpawnPoint (red),-130,70,-4024,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
 Scene,Geometry/Cuboid,743,0,1,1,0,0,LegacyBarrier,-110,100,-4015,0,0,0,13,6,1,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,744,0,1,1,0,0,LegacyBarrier,-410,70,-3670,0,0,0,71,2,70,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,745,0,1,1,1,0,Cuboid,-110.5,100,-4170,0,90,0,10,6,-1,Physical,Entities,Default,Basic|255/255/223/255|Brick/Brick1|1/1|0/0,;
