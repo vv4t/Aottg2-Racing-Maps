@@ -10,8 +10,8 @@ Scene,Geometry/Cuboid,4,0,1,1,1,0,Cuboid,0,50,4460,0,90,0,1,10,1000,Physical,Ent
 Scene,Geometry/Cuboid,5,0,1,1,1,0,Cuboid,4900,50,-425,0,0,0,1,10,1000,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.01/0.01|0/0,;
 Scene,Geometry/Cuboid,6,0,1,1,1,0,Cuboid,-5000,50,-425,0,0,0,1,10,1000,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.01/0.01|0/0,;
 Scene,Geometry/Cuboid,7,0,1,1,1,0,Cuboid,0,-4.5,0,0,45,0,1500,1,1500,Physical,Entities,Default,Basic|223/255/223/255|Nature/Grass3|200/200|0/0,;
-Scene,General/EditorHumanSpawnPointBlue,8,0,1,1,0,0,Human SpawnPoint (blue),0,60.46874,90,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
-Scene,General/EditorHumanSpawnPointRed,9,0,1,1,0,0,Human SpawnPoint (red),0,60.46874,90,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointBlue,8,0,1,1,0,0,Human SpawnPoint (blue),0,60.46874,90,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,General/EditorHumanSpawnPointRed,9,0,1,1,0,0,Human SpawnPoint (red),0,60.46874,90,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
 Scene,Geometry/Cuboid,10,0,1,1,1,0,Cuboid,62.5,90,100,0,0,0,7.5,6,1,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Castle1Tex|0.5/-0.5|0/0,;
 Scene,Geometry/Cuboid,11,0,1,1,1,0,Cuboid,-62.5,90,100,0,0,0,7.5,6,1,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Castle1Tex|0.5/-0.5|0/0,;
 Scene,Geometry/Cuboid,12,0,1,1,1,0,Cuboid,0,90,100,0,0,0,5,6,1.25,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Castle1Tex|0.5/-0.5|0/0,;
@@ -1185,4 +1185,3 @@ Scene,Decor/Lamp2,1142,0,1,1,1,0,Lamp2,-26.86672,107.7507,-920,0,270,0,2.01,2.01
     "Name" : "Set 1",
     "Preset" : false
 }
-
