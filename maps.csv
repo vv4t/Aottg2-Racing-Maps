@@ -15,7 +15,7 @@ map_id|author|name|difficulty|tags|notes
 13|oNoto|Racing 001 Normal (Semi Lava)|2.0||
 14|Eliope|Blood of the Racers 1 (Hard Edition)|5.0|botr botr1|
 15|Eliope|The Way of the Racers (Winter)|1.0|twotr twor|
-16|Mb12|Cave Race|1.0||
+16|Mb12|Cave Race|1.0||Blocked 20+ holes on 2025-12-26
 17|Chrysoprase|Brutalism|0.5||
 18|Eliope|Volcano Race|3.5||
 19|Eliope|Makina Red|3.0||Skating fixed on 2025-11-30
@@ -44,7 +44,7 @@ map_id|author|name|difficulty|tags|notes
 43|Zil|puzzle|1.0||
 44|oNoto|The End Of Laly (Transparent Tube Edit)|4.5||
 45|Sylcium|Long Racing Map (Shadow Floor by Sub)|3.0||
-46|Mb12|Tomb Escape 2|3.5||
+46|Mb12|Tomb Escape 2|3.5||Fixed on 2025-12-26
 47|zender|Uncompleted Racing Map|4.0||
 48|LuigiKkjk|The Kong Map|3.0||
 49|MASKSLAVE|MASKSLAVE 1|4.0||
@@ -212,7 +212,7 @@ map_id|author|name|difficulty|tags|notes
 214|Eliope|Nano Racing Corridor Right|0.5||
 215|Mb12|New Galaxy Race|3.5||
 216|cowcowtony|Roller Coaster Type C (Easy)|0.5||
-217|Nexus|Racing map (Turns Colored)|0.5||Turns Colored by Fruity
+217|Nexus|Racing map (Turns Colored by Fruity)|0.5||Updated on 2025-12-26
 218|Eliope & Riblei|Race A|0.5||
 219|MASKSLAVE|H.O.T|3.5|HOT|
 220|Sebas Tian|SAC - Cargo Chase|2.0||
@@ -385,7 +385,7 @@ map_id|author|name|difficulty|tags|notes
 389|Appolina|Endless Lava Obstacles 3 'Tribute' (V1)|4.0||
 390|cowcowtony|Escaping Light|0.5||
 391|Guest Creator|Very Hard Racing|5.0||Fixed on 2025-11-27
-392|Fruity|Squid Game|3.0||
+392|Fruity|Squid Game|3.0||Updated on 2025-12-26
 393|Cherry|Despair|5.0||
 394|MASKSLAVE|MS Racing 2|2.0||
 395|Fex|IKEA Racing Map|2.0||
@@ -546,6 +546,7 @@ map_id|author|name|difficulty|tags|notes
 554|Naked Heart|Mash|1.5||Newly released on 2025-12-01
 555|Naked Heart|Maash|1.5||Newly released on 2025-12-03
 556|Naked Heart|Anökumene|5.0|ano|Newly released on 2025-12-06
+
 
 
 
