@@ -2481,7 +2481,7 @@ Scene,Geometry/Cylinder,2673,0,1,1,1,0,Cylinder,340.6995,1469.303,-317.12,0,270,
 Scene,Geometry/Cylinder,2674,0,1,1,1,0,Cylinder,385.7094,1469.303,-317.1,0,270,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
 Scene,Geometry/Cylinder,2675,0,1,1,1,0,Cylinder,97.80943,1421.803,-454.9849,0,270,0,3,0.25,3,Physical,Entities,Default,Default|255/178/0/255,;
 Scene,Geometry/Cylinder,2676,0,1,1,1,0,Cylinder,445.0026,1469.303,-287,0,0,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
-Scene,Geometry/Cylinder,2677,0,1,1,1,0,Cylinder,445.0026,1469.303,-627.88,0,0,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
+Scene,Geometry/Cylinder,2677,0,1,1,1,0,Cylinder,445.0026,1469.303,-623,0,0,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
 Scene,Geometry/Cylinder,2678,0,1,1,1,0,Cylinder,522.3412,1470.303,-235,0,0,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
 Scene,Geometry/Cylinder,2679,0,1,1,1,0,Cylinder,575.7094,1469.303,-592.88,0,270,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
 Scene,Geometry/Cylinder,2680,0,1,1,1,0,Cylinder,575.7094,1469.303,-437.1201,0,270,0,1,5,1,Physical,Entities,Default,Default|255/178/0/255,;
@@ -2536,7 +2536,7 @@ Scene,General/EditorTitanSpawnPoint,2732,0,1,1,0,0,Titan SpawnPoint,430.709,1419
 Scene,General/EditorTitanSpawnPoint,2733,0,1,1,0,0,Titan SpawnPoint,430.709,1419.803,-535.0001,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
 Scene,General/EditorTitanSpawnPoint,2734,0,1,1,0,0,Titan SpawnPoint,530.709,1419.803,-535.0001,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
 Scene,General/EditorTitanSpawnPoint,2735,0,1,1,0,0,Titan SpawnPoint,480.709,1419.803,-455.0001,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
-Scene,Geometry/Cylinder,2736,0,1,1,1,0,Kill Region Cylinder,445.0026,1469.303,-627.88,0,0,0,5,5,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cylinder,2736,0,1,1,1,0,Kill Region Cylinder,445.0026,1469.303,-623,0,0,0,5,5,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cylinder,2737,0,1,1,1,0,Kill Region Cylinder,388.2106,1470.288,-680,0,0,0,5,5,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cylinder,2738,0,1,1,1,0,Kill Region Cylinder,445.0026,1469.303,-287,0,0,0,5,5,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cylinder,2739,0,1,1,1,0,Kill Region Cylinder,388.2106,1470.288,-230,0,0,0,5,5,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
