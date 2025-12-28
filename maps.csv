@@ -29,7 +29,7 @@ map_id|author|name|difficulty|tags|notes
 28|Zil|Irì spid|3.0||
 29|MASKSLAVE|EZ Racing|3.5||
 30|Golden Lord|GHoR|5.0||
-31|Loki & Antigasp|Racing 123 (Sigh Edit)|4.5||
+31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.5||
 32|Saif|Custom Map Racing 1|1.5||
 33|cowcowtony|Hard Isolated City Racing (HD)|5.0||
 34|cowcowtony|Highway|0.5||Fixed on 2025-11-27
@@ -42,7 +42,7 @@ map_id|author|name|difficulty|tags|notes
 41|Eliope|The Way of the Racers (Luxueux)|1.0|twotr twor|
 42|Esli|Esli's Balltower|5.0||
 43|Zil|puzzle|1.0||
-44|oNoto|The End Of Laly (Transparent Tube Edit)|4.5||
+44|oNoto|The End of Laly (Transparent Tube Edit)|4.5||
 46|Mb12|Tomb Escape 2|3.5||Fixed on 2025-12-26
 47|zender|Uncompleted Racing Map|4.0||
 48|LuigiKkjk|The Kong Map|3.0||
@@ -152,7 +152,7 @@ map_id|author|name|difficulty|tags|notes
 152|Juju|SLR 1|2.0||
 153|Appolina|Endless Lava Obstacles 2 'Candy Land' (Early Version)|4.0||
 154|oNoto|Racing 001 Hard Reversed (Full Lava)|3.0||
-155|Riblei & Eliope|Machina 2 (No Trap)|4.5||
+155|Riblei|Machina 2 (ft. Eliope) (No Trap)|4.5||
 156|Riblei|Celestial Bullet|3.0||
 157|Sylcium|Long Racing Map|3.0||
 158|oNoto|Racing ZOT (Easy)|0.5||
@@ -175,7 +175,7 @@ map_id|author|name|difficulty|tags|notes
 176|Zechten|Velocity Buraun|1.5||
 177|cowcowtony|Simple Inclined Curve Path|4.0||
 178|AndyXest|Attack on the Village|4.5||
-179|Riblei & Eliope|Machina II (Training Elevator CP)|4.0||
+179|Riblei|Machina II (ft. Eliope) (Training Elevator CP)|4.0||
 180|Aila|Aila 1|3.5||Fixed on 2025-11-23
 181|Sebas Tian|SAC - Feng City Run (Lv3)|2.0||
 182|Incendium|Inferno 1 (Campfire Edition)|3.5||
@@ -231,7 +231,7 @@ map_id|author|name|difficulty|tags|notes
 235|Guest Creator|Saturn|4.5||
 236|MASKSLAVE|Sweet Wood Racing|2.0||
 237|Eliope|Makina ZYX_ZYX (Drunk Edit by Riblei)|4.0||
-238|Riblei & Eliope|Machina 2|4.5||
+238|Riblei|Machina 2 (ft. Eliope)|4.5||
 239|Eliope|Port Racers + TWotR (Fusion by Riblei)|2.5||
 240|cowcowtony|Escape from the Sun (Water Edit by Riblei)|0.5||
 241|Eliope|Makina Speed (ASO)|0.5||
@@ -374,7 +374,7 @@ map_id|author|name|difficulty|tags|notes
 381|Unknown|Wind Series 'Vata Racing'|3.0||
 382|Unknown|Wind Series 'Vata Racing' (Lv2)|4.0||
 383|oNoto|LaLy First|3.5||
-384|Riblei & Eliope|Machina 2 Black Edition (Later Half Cut, Trap)|4.0||
+384|Riblei|Machina 2 Black Edition (ft. Eliope) (Later Half Cut, Trap)|4.0||
 385|Eliope|222 'Towers map' (Retextured2)|3.0||
 386|Incendium|Inferno 2|5.0||
 387|Naito|NTK 3|4.5||
@@ -450,7 +450,7 @@ map_id|author|name|difficulty|tags|notes
 457|Rin|Bus To Hell 2 (Fixed)|3.5||
 458|Kido|Cube Race|3.0||Fixed on 2025-11-19
 460|Eliope|Port Racers II|0.5||
-461|Riblei & Eliope|Longest Line|2.0||
+461|Riblei|Longest Line (ft. Eliope)|2.0||
 462|Sylcium|Long Racing Map (Lava, Texture Edit by Riblei)|3.5||
 463|Rayzu|Town Laps 2|0.5||
 464|cowcowtony|Simple Marathon|0.5||CP fixed
@@ -486,7 +486,7 @@ map_id|author|name|difficulty|tags|notes
 495|Sebas Tian|SAC - Feng City Run (Lv5)|4.0||
 496|Eliope|Makina Source Lv3 (CPs Added by Riblei)|3.5||
 497|Eliope|Makina Dro (Full Lava Edit by Riblei)|4.0||
-498|Riblei & Eliope|Makina Royal + Machina II|3.5||
+498|Riblei|Makina Royal + Machina II (ft. Eliope)|3.5||
 499|Eliope|Makina Speed ASO (Lava Edit by NexS7)|2.0||
 500|Eliope|Makina Honor (Semi Lava Reskin)|2.0||
 501|Eliope|Makina Royal|2.0||
@@ -511,7 +511,7 @@ map_id|author|name|difficulty|tags|notes
 520|Fate & Riblei & Alex4win|Fuck It|3.5||
 521|Zechten|Velocity Midori|1.5||
 522|MASKSLAVE|MASKSLAVE 3|3.0||
-524|Riblei & Eliope|Machina 2 (Pyramid Skip Ver.)|3.5||
+524|Riblei|Machina 2 (ft. Eliope) (Pyramid Skip Ver.)|3.5||
 525|Guest Creator|Anthill Race|2.0||
 526|Eliope|Makina Honor (Desert, Low Res)|2.0||
 527|Eliope|Aila 3 Remake|3.0||
@@ -519,9 +519,9 @@ map_id|author|name|difficulty|tags|notes
 529|Ryu|Hell on Earth|5.0||
 530|oNoto|Racing BaBaBa|3.0||
 531|Eliope|Nano Maps Fused (Lava Edit by Riblei)|3.5||
-532|oNoto|The End Of LaLy|3.5||
+532|oNoto|The End of LaLy|3.5||
 533|Kyoi|Goober's Death Run|5.0||
-534|Riblei & Eliope|Machina 2 (Later Half Cut, No Trap)|4.5||
+534|Riblei|Machina 2 (ft. Eliope) (Later Half Cut, No Trap)|4.5||
 535|Riblei|Celestial Ellestra|4.0||
 536|Sub|Copied City|0.5||
 537|Yuukihito|Unnamed (Lava)|4.5||
@@ -545,6 +545,7 @@ map_id|author|name|difficulty|tags|notes
 557|Riblei|Volcano Horse Racing (ft. Eliope)|3.0|horse Event|CR 2025 Racing Event Map
 558|Alex4win|Akina Special Training (Edit by Fruity)|0.5||
 559|Naked Heart|Fusuma|0.5||Newly released on 2025-12-28
+
 
 
 
