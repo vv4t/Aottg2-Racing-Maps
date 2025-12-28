@@ -99,7 +99,7 @@ map_id|author|name|difficulty|tags|notes
 99|MASKSLAVE|Twins Racing|3.0||
 100|Eliope|The Troll of the Racers (Edit by Riblei)|4.5||
 101|Eliope|Nano Racing Vanish|1.0||
-102|Sebas Tian|SAC - City Run Lv2|4.0||Fixed on 2025-11-30
+102|Sebas Tian|SAC - City Run (Lv2)|4.0||Fixed on 2025-11-30
 103|Riblei|Deathdream|5.0||Updated on 2025-11-28
 104|PTHunter|Racing Map (Horse Edit)|1.0|horse|
 105|ZeroX|Code 30|3.5||
@@ -285,7 +285,7 @@ map_id|author|name|difficulty|tags|notes
 290|Envy|Racing Forest|2.0||Fixed on 2025-11-30
 292|PR0XY|The Sandstone Temple (Normal)|3.0||
 293|SmoothCatRider|First Racing Map|2.0||
-294|Sebas Tian|SAC - Feng City Run|1.0||
+294|Sebas Tian|SAC - Feng City Run (Lv1)|1.0||
 295|Zil|Irì ash (Lava Edit by Riblei)|4.5||
 296|Eliope|Blood of the Racers 4 Easy (Edit by zender)|4.5|botr botr4|
 297|Zil|Ori|3.5||
@@ -480,7 +480,7 @@ map_id|author|name|difficulty|tags|notes
 489|Kari|Unnamed Map|3.0||
 490|ZeroX|Long Long Lava Turn Practice Racing Map|4.0||
 491|Esli|World of Lava|5.0||
-492|Sebas Tian|SAC - City Run Lv1|3.0||Fixed on 2025-11-30
+492|Sebas Tian|SAC - City Run (Lv1)|3.0||Fixed on 2025-11-30
 493|Incendium|Full Double Inferno Experience|5.0||
 494|Chrysoprase|Another Brick in the Wall (Lava)|3.5||
 495|Sebas Tian|SAC - Feng City Run (Lv5)|4.0||
@@ -545,6 +545,7 @@ map_id|author|name|difficulty|tags|notes
 557|Riblei|Volcano Horse Racing (ft. Eliope)|3.0|horse Event|CR 2025 Racing Event Map
 558|Alex4win|Akina Special Training (Edit by Fruity)|0.5||
 559|Naked Heart|Fusuma|0.5||Newly released on 2025-12-28
+
 
 
 
