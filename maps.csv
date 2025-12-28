@@ -19,7 +19,7 @@ map_id|author|name|difficulty|tags|notes
 17|Chrysoprase|Brutalism|0.5||
 18|Eliope|Volcano Race|3.5||
 19|Eliope|Makina Red|3.0||Skating fixed on 2025-11-30
-20|Sebas Tian|SAC - Volcano Escape|3.0||Fixed by Fruity
+20|Sebas Tian|SAC - Volcano Escape|3.0||
 21|Eliope|Makina Team (Lava Edit by Riblei)|3.0||
 22|MASKSLAVE|MASKSLAVE 4|3.5||
 23|Hong Yao|Hong's Racing Akina (Lava Edit by Riblei)|3.0||
@@ -348,7 +348,7 @@ map_id|author|name|difficulty|tags|notes
 355|Rin|Bus to Hell 1|3.5||
 356|Riblei|Steps (Rotated)|3.0||
 357|AndyXest|Celestial Statue|3.0||
-358|Eliope|Makina Source Lv3 (Texture Edit by Riblei)|3.5||(Texture Edit, CPs added by Riblei)
+358|Eliope|Makina Source Lv3 (Texture Edit by Riblei)|3.5||
 359|oNoto|Racing 002 (Hard)|3.0||
 360|cowcowtony|Future Trax 5|5.0||
 361|Appolina|Red Mirrored Akina|4.5||
@@ -367,7 +367,7 @@ map_id|author|name|difficulty|tags|notes
 374|Envy|Racing Forest (Short)|1.5||Fixed on 2025-11-30
 375|oNoto|LaLy Red Lava|3.5||
 376|Eliope|Makina Honor (Transparent)|2.0||
-377|Eliope|Mayaka (Finish Added)|3.0||Finish Added
+377|Eliope|Mayaka (Finish Added)|3.0||
 378|Rayzu & Riblei|Ex'd|3.0||
 379|Riblei|Celestial Marine I|4.0||ft. Alex4win & Sylvia
 380|Eliope|Blood of the Racers I, II, IV (Fusion by Riblei)|4.5|botr botr1 botr2 botr4|
@@ -378,7 +378,7 @@ map_id|author|name|difficulty|tags|notes
 385|Eliope|222 'Towers map' (Retextured2)|3.0||
 386|Incendium|Inferno 2|5.0||
 387|Naito|NTK 3|4.5||
-388|cowcowtony|Future Trax 6 Bend|4.0||Fixed by Fruity
+388|cowcowtony|Future Trax 6 Bend|4.0||
 389|Appolina|Endless Lava Obstacles 3 'Tribute' (V1)|4.0||
 390|cowcowtony|Escaping Light|0.5||
 391|Guest Creator|Very Hard Racing|5.0||Fixed on 2025-11-27
@@ -468,9 +468,9 @@ map_id|author|name|difficulty|tags|notes
 476|cowcowtony|Watch Out Your Head|1.0||
 477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|
 478|Eliope|The Way of the Racers (Aride)|1.0|twotr twor|
-479|Sylcium|Racing Map|1.0||Fixed by Appolina
+479|Sylcium|Racing Map|1.0||
 480|Eliope|Makina Honor (Brick)|2.0||
-481|Eliope|Makina Ice (Fixed Holes)|0.5||
+481|Eliope|Makina Ice|0.5||Fixed holes
 482|Eliope|Makina Speed (Lava, Reverse Edit by Riblei)|3.5||
 483|Unknown|Unknown Lava Racing Map|3.5||
 484|Naito|NTK 6|5.0||
@@ -504,7 +504,7 @@ map_id|author|name|difficulty|tags|notes
 513|zender|Eternal Haste|4.0||
 514|Eliope|Nano Racing Zig-Zag H|0.5||
 515|Eliope|222 'Towers Map' (Retextured3)|3.0||
-516|cowcowtony|Tutorial Racing Map (CPs Added)|3.0||CPs Added by Fruity
+516|cowcowtony|Tutorial Racing Map (CPs Added by Fruity)|3.0||
 517|Eliope|Makina Honor (Wooden)|2.0||
 518|Eliope|The Way of the Racers|1.0|twotr twor|
 519|Sebas Tian|SAC - City Run|0.5||Fixed on 2025-11-30
@@ -545,6 +545,7 @@ map_id|author|name|difficulty|tags|notes
 557|Riblei|Volcano Horse Racing (ft. Eliope)|3.0|horse Event|CR 2025 Racing Event Map
 558|Alex4win|Akina Special Training (Edit by Fruity)|0.5||
 559|Naked Heart|Fusuma|0.5||Newly released on 2025-12-28
+
 
 
 
