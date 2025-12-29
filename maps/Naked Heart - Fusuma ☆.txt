@@ -1612,7 +1612,7 @@ Scene,Geometry/Cube1,12160,0,1,1,1,0,Cube1,696.5755,51.20908,3161.684,0,0,0,70,1
 Scene,Geometry/Cube1,12159,0,1,1,1,0,Cube1,695.9757,48.99849,3200.896,0,0,0,70,6,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,12157,0,1,1,1,0,Cube1,661.309,81.37433,2943.639,0,0,0,5,60,405,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone16|7/1|0/0,;
 Scene,Geometry/Cuboid,12156,0,1,1,1,0,Unnamed,659.1848,50.9547,2906.344,0,90,0,49.36777,0.1,14.2327,Physical,Entities,Default,Basic|172/174/166/255|Wood/Wood8|1/1|0/0,;
-Scene,Geometry/Cuboid,12155,0,1,1,1,0,Unnamed,152.2623,51.07436,2684.858,0,0,0,116.1643,0.1,7,Physical,Entities,Default,Basic|172/174/166/255|Wood/Wood8|1/1|0/0,;
+Scene,Geometry/Cuboid,12155,0,1,1,1,0,Unnamed,152.2623,50.93,2684.858,0,0,0,116.1643,0.1,7,Physical,Entities,Default,Basic|172/174/166/255|Wood/Wood8|1/1|0/0,;
 Scene,Geometry/Cube1,12153,0,1,1,1,0,Cube1,695.5381,38.17402,3249.438,0,165,0,70,6,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,12152,0,1,1,1,0,Cube1,691.7794,34.35498,3261.155,0,150,0,70,6,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,12151,0,1,1,1,0,Cube1,685.5397,30.9398,3270.174,0,135,0,70,6,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
@@ -2119,7 +2119,7 @@ Scene,Geometry/Cube1,17858,0,1,1,1,0,Cube1,500.7842,47.56396,2900.447,0,0,0,10,1
 Scene,Geometry/Cube1,17861,0,1,1,1,0,Cube1,224.5804,48.23709,2974.711,0,0,0,10,120,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,17857,0,1,1,1,0,Cube1,400.337,47.85907,2900.447,0,0,0,10,120,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,17856,0,1,1,1,0,Cube1,287.6591,48.22847,2900.447,0,0,0,10,120,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
-Scene,Geometry/Cuboid,17855,0,1,1,1,0,Unnamed,145.8613,50.9547,3184.321,0,90,0,56.16838,0.2,15,Physical,Entities,Default,Basic|172/174/166/255|Wood/Wood8|1/1|0/0,;
+Scene,Geometry/Cuboid,17855,0,1,1,1,0,Unnamed,145.8613,50.9547,3184.321,0,0,0,15,0.2,56.16838,Physical,Entities,Default,Basic|172/174/166/255|Wood/Wood8|0.5/1|0/0,;
 Scene,Geometry/Cube1,17859,0,1,1,1,0,Cube1,500.7842,48.351,2975.913,0,0,0,10,120,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,17863,0,1,1,1,0,Cube1,224.5804,49.09821,3290.953,0,0,0,10,120,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
 Scene,Geometry/Cube1,17862,0,1,1,1,0,Cube1,224.5804,47.99395,3119.617,0,0,0,10,120,10,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood11|1/7|0/0,;
