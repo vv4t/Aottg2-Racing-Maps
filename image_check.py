@@ -5,17 +5,23 @@ import re
 
 from difflib import SequenceMatcher
 
+SIMILARITY_SCORE = 0.6
+FIND_SIMILAR = False
+
 def find_similar(author, name, image_file):
   image_name = f"{author} - {name}".lower()  
   
   best_similarity = 0.0
   best_file = None
   
+  a = set([ x + y for x, y in zip(image_name, image_name[1:]) ])
+  
   for map_name, map_file in maps:
-    match = SequenceMatcher(None, map_name, image_name).find_longest_match()
-    similarity = match.size / max(len(map_name), len(image_name))
+    b = set([ x + y for x, y in zip(map_name, map_name[1:]) ])
+
+    similarity = len(a.intersection(b)) / len(a.union(b))
     
-    if similarity > 0.6 and similarity > best_similarity:
+    if similarity > SIMILARITY_SCORE and similarity > best_similarity:
       best_similarity = similarity
       best_file = map_file
   
@@ -52,7 +58,7 @@ for file in os.listdir("images"):
     author, name, difficulty = (match.group(1), match.group(2), match.group(3))
     map_file = f"maps/{author} - {name} {difficulty}.txt"
     if not os.path.isfile(map_file):
-      if not find_similar(author, name, file):
+      if not FIND_SIMILAR or not find_similar(author, name, file):
         no_matches.append(file)
   else:
     print(f"Incorrectly formated: {file}.")
