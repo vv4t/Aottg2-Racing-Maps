@@ -66,4 +66,4 @@ for file in os.listdir("images"):
 print("Unmatched images:")
 
 for file in no_matches:
-  print(file)
+  print(f"- {file}")
