@@ -3,8 +3,8 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
-- NEW | **2025-12-28** [Naked Heart - Fusuma](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Naked%20Heart%20-%20Fusuma%20%E2%98%86.txt)
-- NEW | **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope) ▶ CR 2025 Winter Racing Event Map](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt)
+- NEW | **2025-12-28** [Naked Heart - Fusuma](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Fusuma%20%E2%98%86.txt)
+- NEW | **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope) ▶ CR 2025 Winter Racing Event Map](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2025-12-06** [Naked Heart - Anökumene](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20An%C3%B6kumene%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2025-12-03** [Naked Heart - Maash](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Maash%20%E2%98%85%E2%98%86.txt)
 - **2025-12-02** [Naked Heart - Mash](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Mash%20%E2%98%85%E2%98%86.txt)
