@@ -4,7 +4,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 
 ## New Maps
 - NEW | **2025-12-28** [Naked Heart - Fusuma](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Fusuma%20%E2%98%86.txt)
-- NEW | **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope) ▶ CR 2025 Winter Racing Event Map](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt)
+- NEW | **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope)](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
 - **2025-12-06** [Naked Heart - Anökumene](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20An%C3%B6kumene%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2025-12-03** [Naked Heart - Maash](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Maash%20%E2%98%85%E2%98%86.txt)
 - **2025-12-02** [Naked Heart - Mash](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Mash%20%E2%98%85%E2%98%86.txt)
@@ -19,11 +19,11 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | 2025-12-26  Fruity - Squid Game ▶ Slightly reduced difficulty in the later section
-- NEW | 2025-12-26  Mb12 - Cave Race ▶ Blocked 20+ holes
-- NEW | 2025-12-26  Mb12 - Tomb Escape 2 ▶ Blocked three openings
-- NEW | 2025-12-26  Guest Anon - Long Racing #2 ▶ Fixed a hole
-- NEW | 2025-11-30  Madzik - Horse Racing ▶ Updated to the horse racing version
+- NEW | **2025-12-26** Fruity - Squid Game ▶ Slightly reduced difficulty in the later section
+- NEW | **2025-12-26** Mb12 - Cave Race ▶ Blocked 20+ holes
+- NEW | **2025-12-26** Mb12 - Tomb Escape 2 ▶ Blocked three openings
+- NEW | **2025-12-26** Guest Anon - Long Racing #2 ▶ Fixed a hole
+- NEW | **2025-11-30** Madzik - Horse Racing ▶ Updated to the horse racing version
 - Aether Ko - The Tower's Trail Route 5 ▶ Cheat spot fixed by Eliope
 - Aila - Aila 1 ▶ Fixed cheat spot
 - AndyXest - Collapse of the Arenas [Speed Ver.] & [Lava Ver.] ▶ Fixed skating
