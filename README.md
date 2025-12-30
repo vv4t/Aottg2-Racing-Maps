@@ -19,11 +19,12 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2025-12-26** Fruity - Squid Game ▶ Slightly reduced difficulty in the later section
-- NEW | **2025-12-26** Mb12 - Cave Race ▶ Blocked 20+ holes
-- NEW | **2025-12-26** Mb12 - Tomb Escape 2 ▶ Blocked three openings
-- NEW | **2025-12-26** Guest Anon - Long Racing #2 ▶ Fixed a hole
-- NEW | **2025-11-30** Madzik - Horse Racing ▶ Updated to the horse racing version
+- NEW | **2025-12-30** [oNoto - Laly Pink](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/oNoto%20-%20Laly%20Pink%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed the full version
+- **2025-12-26** [Fruity - Squid Game](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Fruity%20-%20Squid%20Game%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Slightly reduced difficulty in the later section
+- **2025-12-26** [Mb12 - Cave Race](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Cave%20Race%20%E2%98%85.txt) ▶ Blocked 20+ holes
+- **2025-12-26** [Mb12 - Tomb Escape 2](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Tomb%20Escape%202%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Blocked three openings
+- **2025-12-26** [Guest Anon - Long Racing #2](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Anon%20-%20Long%20Racing%20%232%20%E2%98%85.txt) ▶ Fixed a hole
+- **2025-11-30** [Madzik - Horse Racing](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Madzik%20-%20Horse%20Racing%20%E2%98%85%E2%98%86.txt) ▶ Updated to the horse racing version
 - Aether Ko - The Tower's Trail Route 5 ▶ Cheat spot fixed by Eliope
 - Aila - Aila 1 ▶ Fixed cheat spot
 - AndyXest - Collapse of the Arenas [Speed Ver.] & [Lava Ver.] ▶ Fixed skating
