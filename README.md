@@ -3,8 +3,12 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
-- NEW | **2025-12-28** [Naked Heart - Fusuma](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Fusuma%20%E2%98%86.txt)
-- NEW | **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope)](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
+- NEW | **2025-12-31** [Eliope - Maze of Stables](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Maze%20of%20Stables%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
+- NEW | **2025-12-31** [Eliope - Makina Modular](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Makina%20Modular%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
+- NEW | **2025-12-31** [Eliope - CR25 (ft. Riblei)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20CR25%20(ft.%20Riblei)%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
+- NEW | **2025-12-31** [Eliope - Climbing; The Tree of Discipline](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Eliope%20-%20Climbing%3B%20The%20Tree%20of%20Discipline%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
+- **2025-12-28** [Naked Heart - Fusuma](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Fusuma%20%E2%98%86.txt)
+- **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope)](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
 - **2025-12-06** [Naked Heart - Anökumene](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20An%C3%B6kumene%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2025-12-03** [Naked Heart - Maash](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Maash%20%E2%98%85%E2%98%86.txt)
 - **2025-12-02** [Naked Heart - Mash](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Mash%20%E2%98%85%E2%98%86.txt)
