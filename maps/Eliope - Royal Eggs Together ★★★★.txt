@@ -3408,11 +3408,7 @@ Scene,Decor/Gas1,3541,0,1,1,1,0,Gas1,2520,35.2,-30,90,315,0,0.4,0.4,0.4,Physical
 Scene,Decor/Gas1,3542,0,1,1,1,0,Gas1,3020,35.2,-30,90,315,0,0.4,0.4,0.4,Physical,Entities,Default,Default|200/200/200/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true;
 Scene,Decor/Gas1,3543,0,1,1,1,0,Gas1,3520,35.2,-30,90,315,0,0.4,0.4,0.4,Physical,Entities,Default,Default|200/200/200/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true;
 Scene,Decor/Gas1,3544,0,1,1,1,0,Gas1,4020,35.2,-30,90,315,0,0.4,0.4,0.4,Physical,Entities,Default,Default|200/200/200/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true;
-Scene,Geometry/Cube1,3545,0,1,1,0,0,Cube1,3455.5,5.25,-159.5,0,0,0,1,1,1,Region,Entities,Default,Transparent|0/255/0/100|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
-Scene,General/EditorHumanSpawnPoint,3546,0,1,1,0,0,Human SpawnPoint,3981.339,36.99033,-35.88957,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
-Scene,General/EditorHumanSpawnPoint,3547,0,1,1,0,0,Human SpawnPoint,3981.339,36.99033,-35.88957,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
-Scene,General/EditorHumanSpawnPoint,3548,0,1,1,0,0,Human SpawnPoint,3981.339,36.99033,-35.88957,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
-Scene,General/EditorHumanSpawnPoint,3549,0,1,1,0,0,Human SpawnPoint,3981.339,36.99033,-35.88957,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint
+Scene,Geometry/Cube1,3545,0,1,1,0,0,Cube1,3455.5,5.25,-159.5,0,0,0,1,1,1,Region,Entities,Default,Transparent|0/255/0/100|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false
 /// Logic
 component TextSign
 {
