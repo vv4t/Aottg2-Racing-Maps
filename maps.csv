@@ -65,7 +65,7 @@ map_id|author|name|difficulty|tags|notes
 65|Antigasp|Velocity Zones Demo Map|2.0||
 66|Yuukihito|Unnamed (Speed)|1.0||
 67|Eliope|Rayt Racing|3.5||
-68|cowcowtony|Future Trax 10|3.5||
+68|cowcowtony|Future Trax 10|3.5||Fixed on 2026-01-01
 69|Eliope|Makina Honor (Grassy)|2.0||
 70|Naito|Double Hooks|4.5||
 71|Eliope|Makina Royal (Lava)|3.0||
@@ -549,3 +549,4 @@ map_id|author|name|difficulty|tags|notes
 562|Eliope|CR25 (ft. Riblei)|3.0|event|CR 2025 Winter Racing Event Map
 563|Eliope|Makina Modular|2.5|event|CR 2025 Winter Racing Event Map
 564|Eliope|Maze of Stables|2.5|horse event|CR 2025 Winter Racing Event Map
+565|Eliope|Modern Hospital Racing (cowcowtony & Hong Yao Fusion)|0.5|event|CR 2025 Winter Racing Event Map
