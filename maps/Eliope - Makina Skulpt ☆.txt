@@ -2,12 +2,12 @@
 EditorVersion:1.0|Description:Makina Skulpt
 By Eliope|HasWeather:0
 /// CustomAssets
-makina skulpt,https://files.catbox.moe/zirqt7
+makina skulpt,https://github.com/eliope04/AOTTG2-Assets/releases/download/AOTTG2/makina.skulpt
 /// Objects
 Scene,Geometry/Cuboid,0,0,1,1,1,0,Unnamed,0,-500,0,0,0,0,1000,5,1000,Physical,Entities,Default,Basic|50/200/50/255|Nature/Grass1|256/256|0/0,;
 Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,2000,0,90,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
 Scene,Custom/makina skulpt/chemin,16,0,1,1,1,0,chemin,0,0,0,270,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
-Scene,General/EditorHumanSpawnPoint,3,0,1,1,0,0,Human SpawnPoint,249.2598,-8.71367,0.3190861,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,General/EditorHumanSpawnPoint,3,0,1,1,0,0,Human SpawnPoint,249.2598,-8.6,0.3190861,0,270,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
 Scene,Geometry/Cuboid,5,0,1,0,1,0,Racing Start Barrier Cuboid,154.5554,-0.1123786,0.07863323,0,0,0,0.9,4.25,4.2,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Nature/Tree12,7,0,1,1,1,0,Tree12,-1780.77,-473.4914,-1617.366,0,0,0,0.6,0.6,0.6,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Tree12,8,0,1,1,1,0,Tree12,-1780.77,-473.4914,-1427.366,0,0,0,-0.6,0.6,-0.6,Physical,Entities,Default,Default|255/255/255/255,;
