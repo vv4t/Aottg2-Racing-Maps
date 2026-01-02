@@ -25,7 +25,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-01-01** [cowcowtony - Future Trax 10](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Future%20Trax%2010%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed end-game teleport crash
+- NEW | **2026-01-03** [cowcowtony - A Cow Is Too Slow For 'Horse Racing'](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20A%20Cow%20Is%20Too%20Slow%20For%20'Horse%20Racing'%20%E2%98%86.txt) ▶ Made it easier to mount horses
+- NEW | **2026-01-03** [Hong Yao - Purple Highway](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Hong%20Yao%20-%20Purple%20Highway%20%E2%98%86.txt) ▶ Closed off cheat spot
+- NEW | **2026-01-01** [cowcowtony - Future Trax 10](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Future%20Trax%2010%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed end-map teleport sphere crashes
 - NEW | **2025-12-30** [oNoto - Laly Pink](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/oNoto%20-%20Laly%20Pink%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed the full version
 - **2025-12-26** [Fruity - Squid Game](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Fruity%20-%20Squid%20Game%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Slightly reduced difficulty in the later section
 - **2025-12-26** [Mb12 - Cave Race](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Cave%20Race%20%E2%98%85.txt) ▶ Blocked 20+ holes
