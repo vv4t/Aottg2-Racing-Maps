@@ -267,8 +267,8 @@ Scene,Nature/Boulder1,265,0,1,1,1,0,Boulder1,340,65,-433,0,52.10699,0,2,2,2,Phys
 Scene,Nature/Boulder5,266,0,1,1,1,0,Boulder5,66,-5,-366,0,272.4377,0,6,8,50,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|4/1|0/0,;
 Scene,Nature/Boulder5,267,0,1,1,1,0,Boulder5,158,-6,-217,0,288.7909,0,6,8,25,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|2/1|0/0,;
 Scene,Nature/Boulder5,268,0,1,1,1,0,Boulder5,-25,-5,-194,0,77.85509,0,6,8,25,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|4/1|0/0,;
-Scene,Nature/Boulder5,269,0,1,1,1,0,Boulder5,331,-9,-240,0,280.5354,0,6,8,50,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|4/2|0/0,;
-Scene,Nature/Boulder5,270,0,1,1,1,0,Boulder5,549,-3,-272,0,24.18951,0,25,8,6,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|2/1|0/0,;
+Scene,Nature/Boulder5,269,0,1,1,1,0,Boulder5,331,-9,-240,0,280.5354,0,6,8,50,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|8/2|0/0,;
+Scene,Nature/Boulder5,270,0,1,1,1,0,Boulder5,549,-3,-272,0,24.18951,0,25,8,6,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|8/2|0/0,;
 Scene,Nature/Boulder1,271,0,1,1,1,0,Boulder1,408,15,-401,0,142.7686,0,3,3,3,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|1/1|0/0,;
 Scene,Nature/Boulder1,272,0,1,1,1,0,Boulder1,458.6329,7,-390.4391,0,183.4367,0,3,3,3,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|1/1|0/0,;
 Scene,Nature/Boulder1,273,0,1,1,1,0,Boulder1,485,-4,-402,0,149.9902,0,3,3,3,Physical,Entities,Default,Basic|130/127/132/255|Stone/Rock3|1/1|0/0,;
@@ -745,9 +745,9 @@ Scene,Nature/Boulder3,743,0,1,1,1,0,Boulder3,504,174,498,0,123.7875,0,6,3,3,Phys
 Scene,Nature/Boulder3,744,0,1,1,1,0,Boulder3,483,169,436,0,122.7791,0,6,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|1/1|0/0,;
 Scene,Nature/Boulder3,745,0,1,1,1,0,Boulder3,289,99,-320,0,277.3044,0,6,3,20,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|2/2|0/0,;
 Scene,Nature/Boulder3,746,0,1,1,1,0,Boulder3,630,132,-371,0,96.44905,0,6,3,20,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|0.8/0.5|0/0,;
-Scene,Nature/Boulder3,747,0,1,1,1,0,Boulder3,635,147,-345,357.6086,95.70372,359.0682,6,3,60,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|4/4|0/0,;
+Scene,Nature/Boulder3,747,0,1,1,1,0,Boulder3,635,147,-345,357.6086,95.70372,359.0682,6,3,60,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|8/2|0/0,;
 Scene,Nature/Boulder3,748,0,1,1,1,0,Boulder3,384,138,-390,0,109.4552,0,3,10,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|2/2|0/0,;
-Scene,Nature/Boulder3,749,0,1,1,1,0,Boulder3,460,167,-389,354.6343,276.8245,353.955,5,2,20,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|0.8/0.5|0/0,;
+Scene,Nature/Boulder3,749,0,1,1,1,0,Boulder3,460,167,-389,354.6343,276.8245,353.955,5,2,20,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|2/2|0/0,;
 Scene,Nature/Boulder3,750,0,1,1,1,0,Boulder3,387,133,-348,0,121.222,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|0.8/0.5|0/0,;
 Scene,Nature/Boulder1,751,0,1,1,1,0,Boulder1,425,152,-346,0,176.5633,0,4,2,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|0.8/0.5|0/0,;
 Scene,Nature/Boulder1,752,0,1,1,1,0,Boulder1,-466,208,238,0,298.6621,0,5,3,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|1.5/1.5|0/0,;
@@ -785,7 +785,8 @@ Scene,Geometry/Cuboid,784,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,1
 Scene,Geometry/Cuboid,785,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,786,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,787,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,788,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,788,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Nature/Boulder3,789,0,1,1,1,0,Boulder3,370.1069,121.5611,-271.2065,0,277.3044,0,3,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|2/2|0/0,
 /// Logic
 
 /// Weather
