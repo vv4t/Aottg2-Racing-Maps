@@ -9630,7 +9630,7 @@ Scene,Geometry/Cuboid,14415,0,1,1,1,0,Cuboid,3008,43.69098,3649.998,0,180,0,0.41
 Scene,Nature/Boulder4,6023,0,1,1,1,0,Boulder4,580,31.33333,710,0,270,0,0.75,-0.4,0.75,Physical,Entities,Default,Transparent|255/255/255/255|Nature/Grass3|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Nature/Boulder4,6024,0,1,1,1,0,Boulder4,580,31.33333,710,0,270,0,0.75,0.75,0.75,Physical,Entities,Default,Transparent|255/255/255/255|Nature/Grass3|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/GeoPit1,6029,0,1,0,0,0,GeoPit1,555,50,730,270,0,0,120,1,120,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cube1,6030,0,0,0,0,0,cuboidend,554.9565,45,595,0,0,0,120,87.5,5,Region,Characters,Default,Transparent|255/255/0/150|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,6030,0,0,0,0,0,cuboidend,554.9565,45,595,0,0,0,120,87.5,5,Region,Characters,Default,Transparent|255/255/0/150|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1,SignalActive|Behaviour:Disappear|TargetObjectIDs:15442 15443 15444 15445 15446 6030|NetworkSync:false|TriggerLimit:0;
 Scene,Geometry/Cube1,6031,0,1,1,0,0,Cube1,2585,121.0675,3652,0,90,0,46,40,60,Region,Characters,Default,Transparent|0/255/0/150|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:true;
 Scene,Geometry/Sphere,14418,0,1,1,1,0,Sphere,3158,5.367475,3655.5,0,264.0167,0,0.3,0.3,0.3,Physical,Entities,Default,Basic|255/255/255/255|Brick/Brick3|0.1/0.05|0/0,;
 Scene,Geometry/Sphere,14419,0,1,1,1,0,Sphere,3158,5.367475,3655.5,0,264.0167,0,0.301,0.301,0.301,Physical,Entities,Default,Transparent|100/12/12/255|Misc/RopeLattice1|4/2|0/0,;
