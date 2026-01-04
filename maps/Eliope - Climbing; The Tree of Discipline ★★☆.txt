@@ -1,7 +1,7 @@
 /// Options
 EditorVersion:1.0|Description:The concept is inspired from the creator Katsumoto, Tree of Discipline.|HasWeather:0
 /// CustomAssets
-tree of discipline tr1,
+tree of discipline tr1,https://github.com/eliope04/AOTTG2-Assets/releases/download/AOTTG2/tree.of.discipline.tr1
 /// Objects
 Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,6000,0,90,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
 Scene,FX/WaterCube1,8,0,1,0,1,0,WaterCube1,0,80,0,0,0,0,5000,25,5000,None,Characters,Default,DefaultTiled|255/255/255/255|1/1,;
