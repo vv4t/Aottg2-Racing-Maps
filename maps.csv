@@ -2,7 +2,7 @@ map_id|author|name|difficulty|tags|notes
 0|Eliope|Nawak 5|3.5||
 1|Incendium|Inferno 2 (Campfire Edition, Hookable Walls)|3.0||
 2|Yourbro|Racing Map|0.5||
-3|Eliope|Makina Royal (Lv2)|3.5||
+3|Eliope|Makina Royal Lv1 (Edit by Riblei)|3.0||
 4|Eliope|Makina Slide|3.0||
 5|zender|Spear|4.5||
 6|Sylcium|Indigo Racing|3.0||
@@ -10,7 +10,7 @@ map_id|author|name|difficulty|tags|notes
 8|Rayzu & Riblei|Ex'd III (Red Lava)|3.0||
 9|Zil|Irì ash|3.5||
 10|Eliope|K-Rot|3.0||
-11|Eliope|Nano Maps Fused (by Riblei)|2.0||
+11|Eliope|Nano Maps Fused (Edit by Riblei)|2.0||
 12|Riblei|Celestial Dreams Jr.|1.0||Updated on 2025-10-26
 13|oNoto|Racing 001 Normal (Semi Lava)|2.0||
 14|Eliope|Blood of the Racers 1 (Hard Edition)|5.0|botr botr1|
@@ -68,7 +68,7 @@ map_id|author|name|difficulty|tags|notes
 68|cowcowtony|Future Trax 10|3.5||Fixed on 2026-01-01
 69|Eliope|Makina Honor (Grassy)|2.0||
 70|Naito|Double Hooks|4.5||
-71|Eliope|Makina Royal (Lava)|3.0||
+71|Eliope|Makina Royal Lv2 (Edit by Riblei)|3.5||
 72|Rayzu|RBLR 2|4.0||
 73|oNoto|LaLy Rainracer (Lava)|2.0||
 74|Sebas Tian|SAC - Feng City Run (Lv4)|3.5||
@@ -97,7 +97,7 @@ map_id|author|name|difficulty|tags|notes
 97|Eliope|Racing Guts|1.0||
 98|cowcowtony|Pyramid Trax|3.5||
 99|MASKSLAVE|Twins Racing|3.0||
-100|Eliope|The Troll of the Racers (Edit by Riblei)|4.5||
+100|Eliope|Troll of the Racers (Edit by Riblei)|4.5||
 101|Eliope|Nano Racing Vanish|1.0||
 102|Sebas Tian|SAC - City Run (Lv2)|4.0||Fixed on 2025-11-30
 103|Riblei|Deathdream|5.0||Updated on 2025-11-28
@@ -215,7 +215,7 @@ map_id|author|name|difficulty|tags|notes
 220|Sebas Tian|SAC - Cargo Chase|2.0||
 221|oNoto|Lava Blood Normal|3.5||
 222|Eliope|Makina Source Lv2|3.0||
-223|Eliope|Makina Royal (Lv3 Edit by Riblei)|4.0||
+223|Eliope|Makina Royal Lv3 (Edit by Riblei)|4.0||
 224|Eliope|Makina Speed ASO (Cyan Edit by NexS7)|0.5||
 225|Eliope|Makina IcecI|0.5||
 226|LuigiKkjk|Z Racing|2.0||
@@ -282,7 +282,7 @@ map_id|author|name|difficulty|tags|notes
 288|Loki|Unknown (4)|4.0||
 289|Unknown|VN Map Maker's Untitled Lava Map Map)|5.0||
 290|Envy|Racing Forest|2.0||Fixed on 2025-11-30
-292|PR0XY|The Sandstone Temple (Normal)|3.0||
+292|PR0XY|The Sandstone Temple|3.0||
 293|SmoothCatRider|First Racing Map|2.0||
 294|Sebas Tian|SAC - Feng City Run (Lv1)|1.0||
 295|Zil|Irì ash (Lava Edit by Riblei)|4.5||
@@ -431,7 +431,7 @@ map_id|author|name|difficulty|tags|notes
 439|Eliope|Nano Racing 40 Yards Quadrated|0.5||
 440|oNoto|LaLy Blocky Lava (Lava Recolored by Eliope)|4.0||
 441|Riblei|Ultra Steps|3.0||
-442|Eliope|The Flowers of the Racers 1|0.5||
+442|Eliope|Flowers of the Racers 1|0.5||
 443|Eliope|Makina Honor (MistyLava)|2.0||
 444|El_Mata_Pokemon|No Hook No Gas Map|2.0||Fixed by Eliope
 445|Pixell|Pixo Map|3.0||
@@ -551,4 +551,5 @@ map_id|author|name|difficulty|tags|notes
 564|Eliope|Maze of Stables|2.5|horse event|CR 2025 Winter Racing Event Map
 565|Eliope|Modern Hospital Racing (cowcowtony & Hong Yao Fusion)|0.5|event|CR 2025 Winter Racing Event Map
 566|Eliope & Riblei|Royal Eggs Together (Puzzle)|4.0||Released on 2026-01-02
+
 
