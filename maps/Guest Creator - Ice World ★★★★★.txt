@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -1664,3 +1664,4 @@ Scene,Geometry/Cuboid,1601,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,16
     "Name" : "Set 1",
     "Preset" : false
 }
+
