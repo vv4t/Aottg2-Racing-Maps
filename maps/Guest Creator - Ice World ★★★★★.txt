@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity for AoTTG2|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -589,7 +589,7 @@ Scene,Geometry/Cylinder,583,0,1,1,1,0,Cylinder,20,-2824.878,4020,0,0,0,1,0.1,1,P
 Scene,Geometry/Cylinder,584,0,1,1,1,0,Racing Checkpoint Region Cylinder,20,-2823.079,4020,0,0,0,0.1,0.1,0.1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cone,585,0,1,1,1,0,KillCone,20,-2819.878,4060,0,0,43.60283,0.5,0.5,0.0001,None,Characters,Default,OldBombExplodeMat|255/255/0/127|99999/99999,;
 Scene,Geometry/Cylinder,586,0,1,1,1,0,Cylinder,3,-2734.878,4020,90,0,0,1,5,1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.2/1|0/0,;
-Scene,Geometry/Sphere,587,0,1,1,1,0,Racing Checkpoint Region Sphere,10,-2777.878,4020,271.545,91.25005,91.25005,0.3,0.3,0.3,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
+Scene,Geometry/Sphere,587,0,1,1,1,0,TP 6.5,10,-2777.878,4020,271.545,91.25005,91.25005,0.3,0.3,0.3,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false,TeleportRegion|RelativePosition:false|Position:341.5/-2555/4006|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
 Scene,Geometry/Cone,588,0,1,1,1,0,KillCone,10,-2770.878,4020,0,0,179.9989,0.001,0.1,0.1,None,Characters,Default,OldBombExplodeMat|255/255/0/127|99999/99999,;
 Scene,Geometry/Cylinder,589,0,1,1,1,0,Cylinder,341.5,-2557.878,4006,0,0,0,1,0.1,1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.1/0.1|0/0,;
 Scene,Geometry/Cylinder,590,0,1,1,1,0,Cylinder,485,-2527.878,4020,0,0,0,1,0.1,1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.1/0.1|0/0,;
@@ -1460,7 +1460,7 @@ Scene,Geometry/Cuboid,1454,0,1,1,1,0,Kill Region Cuboid,166.2,-3587.878,9059.8,0
 Scene,Geometry/Cuboid,1455,0,1,1,1,0,Kill Region Cuboid,449,-3587.878,8896,0,281.2965,0,15.8,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1456,0,1,1,1,0,Kill Region Cuboid,339,-3587.878,8923,0,281.2965,0,11,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1457,0,1,1,1,0,Kill Region Cuboid,223.7,-3587.878,8950,0,281.2965,0,6.2,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,1458,0,1,1,1,0,Kill Region Cuboid,-407.6,-3587.878,8908.5,0,78.7035,0,13.4,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,1458,0,1,1,1,0,Kill Region Cuboid,-408.3,-3587.878,8908.4,0,78,0,13.4,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,1459,0,1,1,1,0,Kill Region Cuboid,-285.2,-3587.878,8935.7,0,78.7035,0,8.6,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1460,0,1,1,1,0,Kill Region Cuboid,-162.2,-3587.878,8963.2,0,78.7035,0,3.8,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1461,0,1,1,1,0,Kill Region Cuboid,-401.5,-3587.878,9265,0,303.7064,0,18.8,38,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -1664,4 +1664,3 @@ Scene,Geometry/Cuboid,1601,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,16
     "Name" : "Set 1",
     "Preset" : false
 }
-
