@@ -1,19 +1,19 @@
 map_id|author|name|difficulty|tags|notes
 0|Eliope|Nawak 5|3.5||
-1|Incendium|Inferno 2 (Campfire Edition, Hookable Walls)|3.0||
+1|Incendium|Inferno 2 Campfire Edition (Hookable Walls)|3.0||
 2|Yourbro|Racing Map|0.5||
 3|Eliope|Makina Royal Lv1 (Edit by Riblei)|3.0||
 4|Eliope|Makina Slide|3.0||
 5|zender|Spear|4.5||
 6|Sylcium|Indigo Racing|3.0||
-7|Eliope|Race King Rainbow (No Lava)|0.5||
+7|Eliope|Race King Rainbow (No Lava Edit by Unknown)|0.5||
 8|Rayzu & Riblei|Ex'd III (Red Lava)|3.0||
 9|Zil|Irì ash|3.5||
 10|Eliope|K-Rot|3.0||
 11|Eliope|Nano Maps Fused (Edit by Riblei)|2.0||
 12|Riblei|Celestial Dreams Jr.|1.0||Updated on 2025-10-26
 13|oNoto|Racing 001 Normal (Semi Lava)|2.0||
-14|Eliope|Blood of the Racers 1 (Black Edition)|5.0|botr botr1|
+14|Eliope|Blood of the Racers 1 Black Edition|5.0|botr botr1|
 15|Eliope|The Way of the Racers (Winter)|1.0|twotr twor|
 16|Mb12|Cave Race|1.0||Blocked 20+ holes on 2025-12-26
 17|Chrysoprase|Brutalism|0.5||
@@ -58,7 +58,7 @@ map_id|author|name|difficulty|tags|notes
 58|oNoto|LaLy Crystal the Blood|3.5||
 59|cowcowtony|Bug on the Rose (Basic)|5.0||
 60|oNoto|Happy Birthday XII|4.0||Fixed by Eliope
-61|Eliope|Makina Ice (Extended, CP Added)|0.5||
+61|Eliope|Makina Ice Extended (CP Added by Fruity)|0.5||
 62|cowcowtony|Speedy Long Jump|4.5||
 63|Xynz|Unknown|1.0||
 64|AbsoluteS|Pace|2.5||
@@ -93,7 +93,7 @@ map_id|author|name|difficulty|tags|notes
 93|Eliope|Makina Dro|3.5||
 94|DarkLight|Maze Map|3.0||
 95|Charlotte|Chess l “Pawn”|3.0||
-96|Eliope|Blood of the Racers 1 (Easy Edit by Loki)|3.0|botr botr1|
+96|Eliope|Blood of the Racers 1 Easy (Edit by Loki)|3.0|botr botr1|
 97|Eliope|Racing Guts|1.0||
 98|cowcowtony|Pyramid Trax|3.5||
 99|MASKSLAVE|Twins Racing|3.0||
@@ -106,7 +106,7 @@ map_id|author|name|difficulty|tags|notes
 106|Eliope|Nano Racing T|0.5||
 107|Eliope|Blood of the Racers 1 (Water Edit by Riblei)|0.5|botr botr1|
 108|AndyXest|Devil's Corridor|3.0||
-109|Eliope|Makina Honor + Source 3 (Fused by Riblei)|3.5||
+109|Eliope|Makina Honor + Source (Fused by Riblei)|3.5||
 110|Hong Yao|Hard Racing Akina (Grey Walls)|2.0||
 111|Eliope|Nano Racing 40 Yards|0.5||
 112|Eliope|222 'Towers Map'|3.0||
@@ -151,7 +151,7 @@ map_id|author|name|difficulty|tags|notes
 152|Juju|SLR 1|2.0||
 153|Appolina|Endless Lava Obstacles 2 'Candy Land' (Early Version)|4.0||
 154|oNoto|Racing 001 Hard Reversed (Full Lava)|3.0||
-155|Riblei & Eliope|Machina 2 (No Trap)|4.5||
+155|Riblei & Eliope|Machina 2 (No Trap Edit by Riblei)|4.5||
 156|Riblei|Celestial Bullet|3.0||
 157|Sylcium|Long Racing Map|2.0||
 158|oNoto|Racing ZOT (Easy)|0.5||
@@ -166,7 +166,7 @@ map_id|author|name|difficulty|tags|notes
 167|Hong Yao|Purple Highway|0.5||Fixed on 2026-01-03
 169|Riblei|Celestial Automatic|4.5||
 170|Naito|NTK 2 (Dark Floor)|4.5||
-171|Eliope|Makina Scratched (Completed by Riblei)|4.0||
+171|Eliope & Riblei|Makina Scratched|4.0||
 172|Eliope|Port Racers I|0.5||
 173|Crash Bandicoot|Feliz Cumpleaños|5.0||
 174|Eliope|Makina ABC (Texture Cool)|3.5||
@@ -174,10 +174,10 @@ map_id|author|name|difficulty|tags|notes
 176|Zechten|Velocity Buraun|1.5||
 177|cowcowtony|Simple Inclined Curve Path|4.0||
 178|AndyXest|Attack on the Village|4.5||
-179|Riblei & Eliope|Machina II (Training Elevator CP)|4.0||
+179|Riblei & Eliope|Machina 2 (Training Elevator CP Edit by Riblei)|4.0||
 180|Aila|Aila 1|3.5||Fixed on 2025-11-23
 181|Sebas Tian|SAC - Feng City Run (Lv3)|2.0||
-182|Incendium|Inferno 1 (Campfire Edition)|3.5||
+182|Incendium|Inferno 1 Campfire Edition|3.5||
 183|Riblei|Escape Rooms (Puzzle)|3.0||Find the small yellow cubes hidden in each of the seven level rooms!
 184|Mayoi|OSU Map|5.0||
 185|ZeroX|Final V (Completed)|4.0||
@@ -198,7 +198,7 @@ map_id|author|name|difficulty|tags|notes
 201|Sylcium|Long Racing Map (Lava Edit by Alex4win)|3.5||
 202|Incendium|Inferno 1|5.0||
 203|PR0XY|The Sandstone Temple (Lava)|3.5||
-204|Eliope|Blood of the Racers 1 (Spoopy Spedition)|4.5|botr botr1|
+204|Eliope|Blood of the Racers 1 Spoopy Spedition (Edit by Riblei, Alex4win)|4.5|botr botr1|
 205|Riblei|Celestial Automatic (Short)|4.5||
 207|Sebas Tian|SAC - Underground Hunt|3.0||
 209|Kari|The Lava Cave|4.0||
@@ -240,7 +240,7 @@ map_id|author|name|difficulty|tags|notes
 247|Mayoi|[DC] Speed Race|3.0||
 248|cowcowtony|Future Trax 8|5.0||
 249|Appolina|Endless Lava Obstacles 2 'Candy Land'|3.5||
-250|Eliope|Makina Royal (Upside Down)|2.0||
+250|Eliope|Makina Royal Upside-Down (Edit by Unknown)|2.0||
 251|Eliope|Nano Racing Curve Right|0.5||
 252|cowcowtony|Future Trax 1|3.5||
 253|Eliope|Makina Source LV1 (Snowing Edit by Riblei)|1.0||
@@ -293,7 +293,7 @@ map_id|author|name|difficulty|tags|notes
 301|Riblei|Island Racers|3.5||
 302|oNoto|Minirace|3.5||
 303|Puttepers|Putte's Map (Unfinished)|5.0||
-304|Eliope|Makina Royal (Ice Texture)|2.0||
+304|Eliope|Makina Royal (Ice Texture by Riblei)|2.0||
 305|ZeroX|Very Easy Short Speed Racing Map|1.0||
 306|DarkLight|Run 4 Ur Life|2.0||
 307|Riblei|Celestial Marine I Super Racers Waterworld (Hard)|5.0||
@@ -312,7 +312,7 @@ map_id|author|name|difficulty|tags|notes
 320|Sebas Tian|SAC - Feng City Run (Lv2)|0.5||
 321|cowcowtony|Escape from the Sun (HD)|3.5||
 322|Eliope|Makina Honor (Black Texture)|2.0||
-323|Eliope|Makina Honor (Misty)|2.0||
+323|Eliope|Makina Honor (Misty Edit by Riblei)|2.0||
 324|Leafy|OCD|4.0||
 325|Charlotte|Chess ll “Rook”|5.0||
 326|Eliope|Nawak 4|0.5||
@@ -346,7 +346,6 @@ map_id|author|name|difficulty|tags|notes
 355|Rin|Bus to Hell 1|3.5||
 356|Riblei|Steps (Tilted)|3.0||
 357|AndyXest|Celestial Statue|4.0||
-358|Eliope|Makina Source Lv3 (Texture Edit by Riblei)|3.5||
 359|oNoto|Racing 002 (Hard)|3.0||
 360|cowcowtony|Future Trax 5|5.0||
 361|Appolina|Red Mirrored Akina|4.5||
@@ -364,7 +363,7 @@ map_id|author|name|difficulty|tags|notes
 373|Riblei|Ex'd IV|1.0||Updated on 2025-10-26
 374|Envy|Racing Forest (Short)|1.5||Fixed on 2025-11-30
 375|oNoto|LaLy Red Lava|3.5||
-376|Eliope|Makina Honor (Transparent)|2.0||
+376|Eliope|Makina Honor (Transparent Texture by Unknown)|2.0||
 377|Eliope|Mayaka (Finish Added)|3.0||
 378|Rayzu & Riblei|Ex'd|3.0||
 379|Riblei|Celestial Marine I|4.0||ft. Alex4win & Sylvia
@@ -372,8 +371,8 @@ map_id|author|name|difficulty|tags|notes
 381|Unknown|Wind Series 'Vata Racing'|3.0||
 382|Unknown|Wind Series 'Vata Racing' (Lv2)|4.0||
 383|oNoto|LaLy First|3.5||
-384|Riblei & Eliope|Machina 2 Black Edition (Later Half Cut, Trap)|4.0||
-385|Eliope|222 'Towers map' (Retextured2)|3.0||
+384|Riblei & Eliope|Machina 2 Black Edition (Later Half Cut, Trap Edit by Riblei)|4.0||
+385|Eliope|222 'Towers map' (Mushroom Texture by Riblei)|3.0||
 386|Incendium|Inferno 2|5.0||
 387|Naito|NTK 3|4.5||
 388|cowcowtony|Future Trax 6 Bend|4.0||
@@ -411,7 +410,6 @@ map_id|author|name|difficulty|tags|notes
 420|Eliope|BotR Moving|5.0||
 421|Eliope|Blood of the Racers 2|5.0|botr botr2|
 422|Eliope|Makina Source Lv1|1.0||
-423|Eliope|Makina Source Lv3|3.5||
 424|Chrysoprase|Pistachio|3.5||
 425|COMPANY|PD Race (PUAE)|3.0||
 426|Rayzu & Riblei|Ex'd II (Red Lava)|2.0||
@@ -427,11 +425,11 @@ map_id|author|name|difficulty|tags|notes
 436|MASKSLAVE|MAS Racing|3.0||
 437|Riblei|Feng's Akina (Ellestra Edit)|3.5||
 438|Eliope|Makina ABC|3.5||
-439|Eliope|Nano Racing 40 Yards Quadrated|0.5||
+439|Eliope|Nano Racing 40 Yards Quadrated (Edit by Unknown)|0.5||
 440|oNoto|LaLy Blocky Lava (Lava Recolored by Eliope)|4.0||
 441|Riblei|Ultra Steps|3.0||
-442|Eliope|Flowers of the Racers|0.5||
-443|Eliope|Makina Honor (MistyLava)|2.0||
+442|Eliope|Flowers of the Racers (Edit by Unknown)|0.5||
+443|Eliope|Makina Honor (Misty Lava Edit by Riblei)|2.0||
 444|El_Mata_Pokemon|No Hook No Gas Map|2.0||Fixed by Eliope
 445|Pixell|Pixo Map|3.0||
 446|cowcowtony|No Room for Hesitation|3.5||
@@ -440,7 +438,7 @@ map_id|author|name|difficulty|tags|notes
 449|Riblei|Celestial Ellestra II|3.5||
 450|Riblei|Celestial Steel (Speed Edition)|2.5||
 451|cowcowtony|Experimental Map|0.5||
-452|Incendium|Inferno 1 (Imp Edition, Hookable Arrows)|4.5||
+452|Incendium|Inferno 1 Imp Edition (Hookable Arrows)|4.5||
 453|Eliope|District Racers (Extended by Riblei)|0.5||
 454|Sebas Tian|SAC - Ultimate|5.0||
 455|Riblei|Celestial Steel|3.0||Updated on 2025-10-26
@@ -482,11 +480,9 @@ map_id|author|name|difficulty|tags|notes
 493|Incendium|Full Double Inferno Experience|5.0||
 494|Chrysoprase|Another Brick in the Wall (Lava)|3.5||
 495|Sebas Tian|SAC - Feng City Run (Lv5)|4.0||
-496|Eliope|Makina Source Lv3 (CPs Added by Riblei)|3.5||
 497|Eliope|Makina Dro (Full Lava Edit by Riblei)|4.0||
-498|Riblei & Eliope|Makina Royal + Machina II|3.5||
+498|Riblei & Eliope|Makina Royal + Machina 2|3.5||
 499|Eliope|Makina Speed ASO (Lava Edit by NexS7)|2.0||
-500|Eliope|Makina Honor (Semi Lava Reskin)|2.0||
 501|Eliope|Makina Royal|2.0||
 502|oNoto|Laly Pink (Short Ver.)|3.5||
 503|LuigiKkjk|Dark Racing|1.5||
@@ -501,7 +497,7 @@ map_id|author|name|difficulty|tags|notes
 512|Eliope|The Way of the Racers (Lava)|3.5|twotr twor|
 513|zender|Eternal Haste|4.0||
 514|Eliope|Nano Racing Zig-Zag H|0.5||
-515|Eliope|222 'Towers Map' (Retextured3)|3.0||
+515|Eliope|222 'Towers Map' (Brick Texture by Riblei)|3.0||
 516|cowcowtony|Tutorial Racing Map (CPs Added by Fruity)|3.0||
 517|Eliope|Makina Honor (Wooden)|2.0||
 518|Eliope|The Way of the Racers|1.0|twotr twor|
@@ -509,7 +505,7 @@ map_id|author|name|difficulty|tags|notes
 520|Fate & Riblei & Alex4win|Fuck It|3.5||
 521|Zechten|Velocity Midori|1.5||
 522|MASKSLAVE|MASKSLAVE 3|3.0||
-524|Riblei & Eliope|Machina 2 (Pyramid Skip Ver.)|3.5||
+524|Riblei & Eliope|Machina 2 (Pyramid Skip Edit by Riblei)|3.5||
 525|Guest Creator|Anthill Race|2.0||
 526|Eliope|Makina Honor (Desert, Low Res)|2.0||
 527|Eliope|Aila 3 Remake|3.0||
@@ -519,7 +515,7 @@ map_id|author|name|difficulty|tags|notes
 531|Eliope|Nano Maps Fused (Lava Edit by Riblei)|3.5||
 532|oNoto|The End of LaLy|3.5||
 533|Kyoi|Goober's Death Run|5.0||
-534|Riblei & Eliope|Machina 2 (Later Half Cut, No Trap)|4.5||
+534|Riblei & Eliope|Machina 2 (Later Half Cut, No Trap Edit by Riblei)|4.5||
 535|Riblei|Celestial Ellestra|4.0||
 536|Sub|Copied City|0.5||
 537|Yuukihito|Unnamed (Lava)|4.5||
@@ -550,6 +546,4 @@ map_id|author|name|difficulty|tags|notes
 564|Eliope|Maze of Stables|2.5|horse event|CR 2025 Winter Racing Event Map
 565|Eliope|Modern Hospital Racing (cowcowtony & Hong Yao Fusion)|0.5|event|CR 2025 Winter Racing Event Map
 566|Eliope & Riblei|Royal Eggs Together (Puzzle)|4.0||Released on 2026-01-02
-
-
-
+567|Eliope|Makina Source LV2 Hard Edition|3.5||
