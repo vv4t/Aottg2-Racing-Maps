@@ -3,6 +3,7 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
+- NEW | **2026-01-06** [Eliope - Industry Racers 1](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Industry%20Racers%201%20%E2%98%86.txt)
 - NEW | **2026-01-02** [Eliope & Riblei - Royal Eggs Together (Puzzle)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20&%20Riblei%20-%20Royal%20Eggs%20Together%20(Puzzle)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - NEW | **2026-01-02** [Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Modern%20Hospital%20Racing%20(cowcowtony%20&%20Hong%20Yao%20Fusion)%20%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
 - **2025-12-31** [Eliope - Maze of Stables](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Maze%20of%20Stables%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
@@ -25,7 +26,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-01-05** [Guest Creator - Ice World](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Creator%20-%20Ice%20World%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Fixed teleport crash bug and Adjusted some objects
+- NEW | **2026-01-06** [Guest Creator - Ice World](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Creator%20-%20Ice%20World%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Fixed teleport crash bug and Adjusted some objects
 - NEW | **2026-01-03** [cowcowtony - A Cow Is Too Slow For 'Horse Racing'](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20A%20Cow%20Is%20Too%20Slow%20For%20'Horse%20Racing'%20%E2%98%86.txt) ▶ Made it easier to mount horses
 - NEW | **2026-01-03** [Hong Yao - Purple Highway](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Hong%20Yao%20-%20Purple%20Highway%20%E2%98%86.txt) ▶ Closed off cheat spot
 - **2026-01-01** [cowcowtony - Future Trax 10](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Future%20Trax%2010%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed end-map teleport sphere crashes
