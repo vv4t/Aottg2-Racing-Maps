@@ -5,10 +5,10 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 ## New Maps
 - NEW | **2026-01-02** [Eliope & Riblei - Royal Eggs Together (Puzzle)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20&%20Riblei%20-%20Royal%20Eggs%20Together%20(Puzzle)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - NEW | **2026-01-02** [Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Modern%20Hospital%20Racing%20(cowcowtony%20&%20Hong%20Yao%20Fusion)%20%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
-- NEW | **2025-12-31** [Eliope - Maze of Stables](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Maze%20of%20Stables%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
-- NEW | **2025-12-31** [Eliope - Makina Modular](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Makina%20Modular%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
-- NEW | **2025-12-31** [Eliope - CR25 (ft. Riblei)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20CR25%20(ft.%20Riblei)%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
-- NEW | **2025-12-31** [Eliope - Climbing; The Tree of Discipline](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Eliope%20-%20Climbing%3B%20The%20Tree%20of%20Discipline%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
+- **2025-12-31** [Eliope - Maze of Stables](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Maze%20of%20Stables%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
+- **2025-12-31** [Eliope - Makina Modular](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Makina%20Modular%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
+- **2025-12-31** [Eliope - CR25 (ft. Riblei)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20CR25%20(ft.%20Riblei)%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
+- **2025-12-31** [Eliope - Climbing; The Tree of Discipline](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Eliope%20-%20Climbing%3B%20The%20Tree%20of%20Discipline%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
 - **2025-12-28** [Naked Heart - Fusuma](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20Fusuma%20%E2%98%86.txt)
 - **2025-12-26** [Riblei - Volcano Horse Racing (ft. Eliope)](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Riblei%20-%20Volcano%20Horse%20Racing%20%28ft.%20Eliope%29%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
 - **2025-12-06** [Naked Heart - Anökumene](https://raw.githubusercontent.com/vv4t/Aottg2-Racing-Maps/refs/heads/master/maps/Naked%20Heart%20-%20An%C3%B6kumene%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
@@ -25,10 +25,11 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-01-05** [Guest Creator - Ice World](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Creator%20-%20Ice%20World%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Fixed teleport crash bug and Adjusted some objects
 - NEW | **2026-01-03** [cowcowtony - A Cow Is Too Slow For 'Horse Racing'](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20A%20Cow%20Is%20Too%20Slow%20For%20'Horse%20Racing'%20%E2%98%86.txt) ▶ Made it easier to mount horses
 - NEW | **2026-01-03** [Hong Yao - Purple Highway](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Hong%20Yao%20-%20Purple%20Highway%20%E2%98%86.txt) ▶ Closed off cheat spot
-- NEW | **2026-01-01** [cowcowtony - Future Trax 10](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Future%20Trax%2010%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed end-map teleport sphere crashes
-- NEW | **2025-12-30** [oNoto - Laly Pink](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/oNoto%20-%20Laly%20Pink%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed the full version
+- **2026-01-01** [cowcowtony - Future Trax 10](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Future%20Trax%2010%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed end-map teleport sphere crashes
+- **2025-12-30** [oNoto - Laly Pink](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/oNoto%20-%20Laly%20Pink%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed the full version
 - **2025-12-26** [Fruity - Squid Game](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Fruity%20-%20Squid%20Game%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Slightly reduced difficulty in the later section
 - **2025-12-26** [Mb12 - Cave Race](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Cave%20Race%20%E2%98%85.txt) ▶ Blocked 20+ holes
 - **2025-12-26** [Mb12 - Tomb Escape 2](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Tomb%20Escape%202%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Blocked three openings
