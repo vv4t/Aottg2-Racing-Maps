@@ -26,7 +26,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-01-08** cowcowtony - Roller Coaster Series ▶ Fixed open spot
+- NEW | **2026-01-08** cowcowtony - Roller Coaster series ▶ Fixed open spot
 - NEW | **2026-01-06** [Guest Creator - Ice World](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Creator%20-%20Ice%20World%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Fixed teleport crash bug and Adjusted some objects
 - **2026-01-03** [cowcowtony - A Cow Is Too Slow For 'Horse Racing'](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20A%20Cow%20Is%20Too%20Slow%20For%20'Horse%20Racing'%20%E2%98%86.txt) ▶ Made it easier to mount horses
 - **2026-01-03** [Hong Yao - Purple Highway](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Hong%20Yao%20-%20Purple%20Highway%20%E2%98%86.txt) ▶ Closed off cheat spot
