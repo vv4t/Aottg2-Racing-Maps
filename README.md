@@ -3,6 +3,7 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
+- NEW | **2026-01-11** [Riblei - Le Touch de Grass](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Le%20Touch%20de%20Grass%20%E2%98%85.txt)
 - NEW | **2026-01-06** [Eliope - Industry Racers 1](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Industry%20Racers%201%20%E2%98%86.txt)
 - **2026-01-02** [Eliope & Riblei - Royal Eggs Together (Puzzle)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20&%20Riblei%20-%20Royal%20Eggs%20Together%20(Puzzle)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2026-01-02** [Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Modern%20Hospital%20Racing%20(cowcowtony%20&%20Hong%20Yao%20Fusion)%20%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
@@ -26,18 +27,21 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-01-08** cowcowtony - Roller Coaster series ▶ Fixed open spot
-- NEW | **2026-01-06** [Guest Creator - Ice World](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Creator%20-%20Ice%20World%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Fixed teleport crash bug and Adjusted some objects
-- **2026-01-03** [cowcowtony - A Cow Is Too Slow For 'Horse Racing'](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20A%20Cow%20Is%20Too%20Slow%20For%20'Horse%20Racing'%20%E2%98%86.txt) ▶ Made it easier to mount horses
-- **2026-01-03** [Hong Yao - Purple Highway](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Hong%20Yao%20-%20Purple%20Highway%20%E2%98%86.txt) ▶ Closed off cheat spot
-- **2026-01-01** [cowcowtony - Future Trax 10](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Future%20Trax%2010%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed end-map teleport sphere crashes
-- **2025-12-30** [oNoto - Laly Pink](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/oNoto%20-%20Laly%20Pink%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Fixed the full version
-- **2025-12-26** [Fruity - Squid Game](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Fruity%20-%20Squid%20Game%20%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Slightly reduced difficulty in the later section
-- **2025-12-26** [Mb12 - Cave Race](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Cave%20Race%20%E2%98%85.txt) ▶ Blocked 20+ holes
-- **2025-12-26** [Mb12 - Tomb Escape 2](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Mb12%20-%20Tomb%20Escape%202%20%E2%98%85%E2%98%85%E2%98%85%E2%98%86.txt) ▶ Blocked three openings
-- **2025-12-26** [Guest Anon - Long Racing #2](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Guest%20Anon%20-%20Long%20Racing%20%232%20%E2%98%85.txt) ▶ Fixed a hole
-- **2025-11-30** [Madzik - Horse Racing](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Madzik%20-%20Horse%20Racing%20%E2%98%85%E2%98%86.txt) ▶ Updated to the horse racing version
-- Aether Ko - The Tower's Trail Route 5 ▶ Cheat spot fixed by Eliope
+- **2026-01-11** Eliope - Makina Fire + Ice (Fused by Riblei) ▶ Partially fixed exploits by Riblei
+- **2026-01-10** Eliope - Makina Modular ▶ Fixed holes by Eliope
+- **2026-01-09** Aether Ko - The Tower's Trail Route 5 ▶ Added start barrier/etc by Eliope
+- **2026-01-09** Eliope - Makina Fire ▶ Updated by Eliope
+- **2026-01-08** cowcowtony - Roller Coaster series ▶ Fixed open spot
+- **2026-01-06** Guest Creator - Ice World ▶ Fixed teleport crash bug and Adjusted some objects
+- **2026-01-03** cowcowtony - A Cow Is Too Slow For 'Horse Racing' ▶ Made it easier to mount horses
+- **2026-01-03** Hong Yao - Purple Highway ▶ Closed off cheat spot
+- **2026-01-01** cowcowtony - Future Trax 10 ▶ Fixed end-map teleport sphere crashes
+- **2025-12-30** oNoto - Laly Pink ▶ Fixed the full version
+- **2025-12-26** Fruity - Squid Game ▶ Slightly reduced difficulty in the later section
+- **2025-12-26** Mb12 - Cave Race ▶ Blocked 20+ holes
+- **2025-12-26** Mb12 - Tomb Escape 2 ▶ Blocked three openings
+- **2025-12-26** Guest Anon - Long Racing #2 ▶ Fixed a hole
+- **2025-11-30** Madzik - Horse Racing ▶ Updated to the horse racing version
 - Aila - Aila 1 ▶ Fixed cheat spot
 - AndyXest - Collapse of the Arenas [Speed Ver.] & [Lava Ver.] ▶ Fixed skating
 - Appolina - Red Mirrored Akina ▶ Fixed crash-causing checkpoint teleport
@@ -62,8 +66,6 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - Eliope & Riblei - Port Racers + TWOR ▶ Added barrier where it was open
 - Envy - Racing Forest [Original] & [Short Ver.] ▶ Fixed open spots
 - Gameboy8 - Nyan Racing map ▶ Fixed skating and objects
-- Guest Creator - Long Racing ▶ Fixed open spot
-- Guest Creator - Ice World ▶ Fixed skating
 - Guest Creator - Saturn ▶ Crash-causing spawner fixed by Riblei
 - Guest Creator - Short Fall ▶ Fixed cheat spot
 - Guest Creator - Tubes & Horses (Horse Required) ▶ Added skating & barriers
