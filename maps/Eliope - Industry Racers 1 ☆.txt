@@ -64,7 +64,7 @@ Scene,Geometry/Cylinder,58,0,1,1,1,0,Cylinder,427.5,65,817.5,0,0,0,7,4,7,Physica
 Scene,Geometry/Cylinder,59,0,1,1,1,0,Cylinder,427.5,105,817.5,0,0,0,7.25,0.125,7.25,Physical,Entities,Default,Basic|127/127/127/255|Metal/Metal3|2/1|0/0,;
 Scene,Geometry/Cylinder,60,0,1,1,1,0,Cylinder,427.5,0,817.5,0,0,0,8.5,0.5,8.5,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone4|16/1|0/0,;
 Scene,Geometry/Cylinder,61,0,1,1,1,0,Cylinder,427.5,15,817.5,0,180,90,1.25,3.6,1.25,Physical,Entities,Default,Basic|63/63/63/255|Metal/Metal1|0.25/0.25|0/0,;
-Scene,Geometry/Cone,62,0,1,1,1,0,Cone,686.875,25,961.25,0,0,0,1.875,2,1.875,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
+Scene,Geometry/Cone,62,0,1,1,1,0,Cone,686.875,25,961.25,0,0,0,1.875,2,1.875,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|2/1|0/0,;
 Scene,Geometry/Cylinder,63,0,1,1,1,0,Cylinder,682.5,60,962.5,0,0,0,4,6,4,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,64,0,1,1,1,0,Cylinder,682.5,140,962.5,0,0,0,4,2,4,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,65,0,1,1,1,0,Cylinder,682.5,180,962.5,0,0,0,4,2,4,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
@@ -76,7 +76,7 @@ Scene,Geometry/Cylinder,70,0,1,1,1,0,Cylinder,682.5,380,962.5,0,0,0,4,2,4,Physic
 Scene,Geometry/Cylinder,71,0,1,1,1,0,Cylinder,682.5,420,962.5,0,0,0,4,2,4,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,72,0,1,1,1,0,Cylinder,682.5,445,970,0,0,0,0.75,0.75,0.75,Physical,Entities,Default,Basic|0/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,73,0,1,1,1,0,Cylinder,682.5,445,955,0,0,0,0.75,0.75,0.75,Physical,Entities,Default,Basic|0/0/0/255|Metal/Metal3|1/1|0/0,;
-Scene,Geometry/Cone,74,0,1,1,1,0,Cone,754.375,25,1348.75,0,0,0,1.875,2,1.875,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
+Scene,Geometry/Cone,74,0,1,1,1,0,Cone,754.375,25,1348.75,0,0,0,1.875,2,1.875,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|2/1|0/0,;
 Scene,Geometry/Cylinder,75,0,1,1,1,0,Cylinder,750,60,1350,0,0,0,4,6,4,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,76,0,1,1,1,0,Cylinder,750,140,1350,0,0,0,4,2,4,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,77,0,1,1,1,0,Cylinder,750,180,1350,0,0,0,4,2,4,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
@@ -784,7 +784,7 @@ Scene,Geometry/Cylinder,779,0,1,1,1,0,Cylinder,327,90,732.5,270,90,0,1.25,1,1.25
 Scene,Geometry/Cylinder,780,0,1,1,1,0,Cylinder,337.5,100,732.5,0,270,0,1,1,1,Physical,Entities,Default,Basic|63/63/63/255|Metal/Metal1|0.25/0.25|0/0,;
 Scene,Geometry/Cylinder,781,0,1,1,1,0,Cylinder,325.5,100,744.5,0,270,0,0.5,1.25,0.5,Physical,Entities,Default,Basic|63/63/63/255|Metal/Metal1|0.25/0.25|0/0,;
 Scene,Geometry/Sphere,782,0,1,1,1,0,Sphere,341.75,60,730,0,180,270,7.61,4.61,4.61,Physical,Entities,Default,Basic|140/140/140/255|Metal/Metal3|2/1|0/0,;
-Scene,Geometry/Cone,783,0,1,1,1,0,Cone,752.4282,7.5,1228.752,0,11.25,0,1.125,0.75,1.125,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
+Scene,Geometry/Cone,783,0,1,1,1,0,Cone,752.4282,7.5,1228.752,0,11.25,0,1.125,0.75,1.125,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/0.5|0/0,;
 Scene,Geometry/Cylinder,784,0,1,1,1,0,Cylinder,750,60,1230,0,0,0,2.25,6,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,785,0,1,1,1,0,Cylinder,750,130,1230,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,786,0,1,1,1,0,Cylinder,750,150,1230,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
@@ -796,7 +796,7 @@ Scene,Geometry/Cylinder,791,0,1,1,1,0,Cylinder,750,250,1230,0,0,0,2.25,1,2.25,Ph
 Scene,Geometry/Cylinder,792,0,1,1,1,0,Cylinder,750,270,1230,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,793,0,1,1,1,0,Cylinder,750,290,1230,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,794,0,1,1,1,0,Cylinder,750,301,1230,0,0,0,2.25,0.1,2.25,Physical,Entities,Default,Basic|225/225/225/255|Metal/Metal3|0.2/0.2|0/0,;
-Scene,Geometry/Cone,795,0,1,1,1,0,Cone,752.4282,7.5,1153.752,0,11.25,0,1.125,0.75,1.125,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
+Scene,Geometry/Cone,795,0,1,1,1,0,Cone,752.4282,7.5,1153.752,0,11.25,0,1.125,0.75,1.125,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/0.5|0/0,;
 Scene,Geometry/Cylinder,796,0,1,1,1,0,Cylinder,750,60,1155,0,0,0,2.25,6,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,797,0,1,1,1,0,Cylinder,750,130,1155,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,798,0,1,1,1,0,Cylinder,750,150,1155,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
@@ -809,7 +809,7 @@ Scene,Geometry/Cylinder,804,0,1,1,1,0,Cylinder,750,270,1155,0,0,0,2.25,1,2.25,Ph
 Scene,Geometry/Cylinder,805,0,1,1,1,0,Cylinder,750,290,1155,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,806,0,1,1,1,0,Cylinder,750,310,1155,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,807,0,1,1,1,0,Cylinder,750,321,1155,0,0,0,2.25,0.1,2.25,Physical,Entities,Default,Basic|225/225/225/255|Metal/Metal1|0.5/0.5|0/0,;
-Scene,Geometry/Cone,808,0,1,1,1,0,Cone,752.4282,7.5,1078.752,0,11.25,0,1.125,0.75,1.125,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
+Scene,Geometry/Cone,808,0,1,1,1,0,Cone,752.4282,7.5,1078.752,0,11.25,0,1.125,0.75,1.125,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/0.5|0/0,;
 Scene,Geometry/Cylinder,809,0,1,1,1,0,Cylinder,750,60,1080,0,0,0,2.25,6,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,810,0,1,1,1,0,Cylinder,750,130,1080,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|191/0/0/255|Metal/Metal3|1/1|0/0,;
 Scene,Geometry/Cylinder,811,0,1,1,1,0,Cylinder,750,150,1080,0,0,0,2.25,1,2.25,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/1|0/0,;
@@ -5586,7 +5586,8 @@ Scene,Geometry/Cube1,7294,7160,1,0,1,0,Cube1,1008.948,40,1509,0,0,0,10,2,2,Regio
 Scene,Geometry/Cube1,7295,7160,1,0,1,0,Cube1,1010.948,35,1509,0,0,0,6,2,2,Region,Characters,Default,Reflective|255/255/0/200|Misc/None|1/1|0/0|255/255/255/255,;
 Scene,Geometry/Cube1,7296,7160,1,0,1,0,Cube1,1012.948,32.5,1509,0,0,90,3,2,2,Region,Characters,Default,Reflective|255/255/0/200|Misc/None|1/1|0/0|255/255/255/255,;
 Scene,Geometry/Cube1,7297,7160,1,0,1,0,Cube1,1008.948,30,1509,0,0,0,10,2,2,Region,Characters,Default,Reflective|255/255/0/200|Misc/None|1/1|0/0|255/255/255/255,;
-Scene,Geometry/GeoRamp1,7299,0,1,0,1,0,GeoRamp1,998.415,23.2529,1509,0,0,0,0.71,1.42,1,Physical,Entities,Default,Reflective|255/255/0/255|Misc/None|1/1|0/0|255/255/255/255,Tag|Name:RacingStartBarrier
+Scene,Geometry/GeoRamp1,7299,0,1,0,1,0,GeoRamp1,998.415,23.2529,1509,0,0,0,0.71,1.42,1,Physical,Entities,Default,Reflective|255/255/0/255|Misc/None|1/1|0/0|255/255/255/255,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cylinder1,7300,0,1,0,1,0,Cylinder1,1000.5,31.75,1508.5,0,0,0,10,17,1,Physical,Entities,Default,Transparent|0/100/255/200|Misc/Dev1|3.45/0|0/0,Tag|Name:RacingStartBarrier
 /// Logic
 component GasRemover
 {
