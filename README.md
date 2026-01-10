@@ -4,7 +4,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 
 ## New Maps
 - NEW | **2026-01-11** [Riblei - Le Touch de Grass](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Le%20Touch%20de%20Grass%20%E2%98%85.txt)
-- NEW | **2026-01-06** [Eliope - Industry Racers 1](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Industry%20Racers%201%20%E2%98%86.txt)
+- **2026-01-06** [Eliope - Industry Racers 1](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Industry%20Racers%201%20%E2%98%86.txt)
 - **2026-01-02** [Eliope & Riblei - Royal Eggs Together (Puzzle)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20&%20Riblei%20-%20Royal%20Eggs%20Together%20(Puzzle)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2026-01-02** [Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Modern%20Hospital%20Racing%20(cowcowtony%20&%20Hong%20Yao%20Fusion)%20%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
 - **2025-12-31** [Eliope - Maze of Stables](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Maze%20of%20Stables%20%E2%98%85%E2%98%85%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
