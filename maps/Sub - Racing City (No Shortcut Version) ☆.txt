@@ -2581,7 +2581,7 @@ Scene,Geometry/Cuboid,2575,0,1,1,0,0,LegacyBarrier,-252.75,269.95,1773.5,0,0,0,1
 Scene,Geometry/Cuboid,2576,0,1,1,0,0,LegacyBarrier,-261.75,269.95,1849.25,0,0,0,3,6,1.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,2577,0,1,1,0,0,LegacyBarrier,-107.25,277,-135.25,0,0,0,1.5,3,7.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,2578,0,1,1,0,0,LegacyBarrier,47.25,277,-142.75,0,0,0,1.5,3,9,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,2579,0,1,1,0,0,LegacyBarrier,-30,269.5,-94,0,0,0,16.5,4.5,6,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,2579,0,1,1,0,0,LegacyBarrier,-30,269.5,-94,0,0,0,16.5,4.5,7,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,2580,0,1,1,0,0,LegacyBarrier,795,374.5,843.5,0,0,0,420,7.5,420,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,2581,0,1,1,0,0,LegacyBarrier,1222.5,287.875,-304,0,0,0,15,3,1.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Buildings/House1,2582,0,1,1,1,0,House1,-30,278.5,-166.75,0,270,90,1.5,-1E-07,3,Physical,Entities,Default,BombTexMat|127/127/127/127|1E-06/1E-06,
