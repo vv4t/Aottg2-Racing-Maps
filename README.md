@@ -29,6 +29,8 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-11** MASKSLAVE - MS Racing 1 ▶ Fixed exploits
+- **2026-01-11** Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion) ▶ Updated by Eliope
 - **2026-01-11** Eliope - Makina Source Lv1 (Snowing Edit by Riblei) ▶ Restored snow effects by Fruity
 - **2026-01-11** Eliope - Makina Fire + Ice (Fused by Riblei) ▶ Partially fixed exploits by Riblei
 - **2026-01-10** Eliope - Makina Modular ▶ Fixed holes by Eliope
