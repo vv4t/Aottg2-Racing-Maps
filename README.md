@@ -3,6 +3,8 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
+- NEW | **2026-01-11** [Sub - Copied City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Copied%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt)
+- NEW | **2026-01-11** [Sub - Racing City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Racing%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt)
 - NEW | **2026-01-11** [Riblei - Le Touch de Grass](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Le%20Touch%20de%20Grass%20%E2%98%85.txt)
 - **2026-01-06** [Eliope - Industry Racers 1](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Industry%20Racers%201%20%E2%98%86.txt)
 - **2026-01-02** [Eliope & Riblei - Royal Eggs Together (Puzzle)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20&%20Riblei%20-%20Royal%20Eggs%20Together%20(Puzzle)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
@@ -27,6 +29,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-11** Eliope - Makina Source Lv1 (Snowing Edit by Riblei) ▶ Restored snow effects by Fruity
 - **2026-01-11** Eliope - Makina Fire + Ice (Fused by Riblei) ▶ Partially fixed exploits by Riblei
 - **2026-01-10** Eliope - Makina Modular ▶ Fixed holes by Eliope
 - **2026-01-09** Aether Ko - The Tower's Trail Route 5 ▶ Added start barrier/etc by Eliope
