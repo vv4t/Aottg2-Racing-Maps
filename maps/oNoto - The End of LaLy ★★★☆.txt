@@ -821,9 +821,9 @@ Scene,Geometry/Cuboid,815,0,1,1,1,0,Cuboid,875,41,727.5,0,270,0,0.1,0.1,0.1,Phys
 Scene,Geometry/Cuboid,816,0,1,1,1,0,Cuboid,875,40,727.5,0,270,0,0.1,0.1,0.1,Physical,Entities,Default,Default|76/255/255/255,;
 Scene,Geometry/Cuboid,817,0,1,1,1,0,Cuboid,875,39,727.5,0,270,0,0.1,0.1,0.1,Physical,Entities,Default,Default|0/255/255/255,;
 Scene,Geometry/Cuboid,818,0,1,1,1,0,Cuboid,875,38,727.5,0,270,0,0.1,0.1,0.1,Physical,Entities,Default,Default|-76/255/255/255,;
-Scene,Geometry/Cuboid,819,0,1,1,1,0,KillCuboid,900,45,745,0,180,0,5.05,10,20.05,None,Characters,Default,OldBombExplodeMat|255/255/255/127|10000/10000,;
+Scene,Geometry/Cuboid,819,0,1,1,1,0,KillCuboid,900,45,745,0,180,0,5.05,10,20.05,None,Characters,Default,OldBombExplodeMat|255/255/255/127|10000/10000,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,820,0,1,0,1,0,Racing Start Barrier Cuboid,0,45,-900,0,180,0,10,10,1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cuboid,821,0,1,1,1,0,Racing Finish Region Cuboid,900,45,745,0,180,0,4.99,9.98,19.98,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cuboid,821,0,0,1,1,0,Racing Finish Region Cuboid,900,45,745,0,180,0,4.98,9.98,19.98,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,822,0,1,1,1,0,Racing Checkpoint Region Cuboid,900,45,745,0,180,0,4.98,9.98,19.98,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,823,0,1,1,1,0,Cuboid,420,40,225,0,180,0,10,0.1,1.5,Physical,Entities,Default,OldBombExplodeMat|255/255/255/127|10000/10000,;
 Scene,Geometry/Cuboid,824,0,1,1,1,0,Cuboid,420,55,225,0,180,0,10,0.1,1.5,Physical,Entities,Default,OldBombExplodeMat|255/255/255/127|10000/10000,;
