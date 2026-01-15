@@ -1,8 +1,8 @@
 map_id|author|name|difficulty|tags|notes
 0|Eliope|Nawak 5|3.5||
 1|Incendium|Inferno 2 Campfire Edition (Hookable Walls)|3.0||
-2|Yourbro|Racing Map|0.5|inactive|
-3|Eliope|Makina Royal Lv1 (Edit by Riblei)|3.0||
+2|Yourbro|Racing Map|0.5||
+3|Eliope|Makina Royal Lv1 (Edit by Riblei)|3.0|inactive|
 4|Eliope|Makina Slide|3.0||
 5|zender|Spear|4.5||
 6|Sylcium|Indigo Racing|3.0||
@@ -29,7 +29,7 @@ map_id|author|name|difficulty|tags|notes
 28|Zil|Irì spid|3.0||
 29|MASKSLAVE|EZ Racing|3.5||
 30|Golden Lord|GHoR|5.0||
-31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.5|inactive|
+31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.5||
 32|Saif|Custom Map Racing 1|1.5||
 33|cowcowtony|Isolated City Racing (Hard)|5.0||
 34|cowcowtony|Highway|0.5||Fixed on 2025-11-27
@@ -49,9 +49,9 @@ map_id|author|name|difficulty|tags|notes
 49|MASKSLAVE|MASKSLAVE 1|4.0||
 50|Dany|The Nuke|2.0||
 51|oNoto|RX001 (V1)|2.5||
-52|Kari|PKR 1 (CP Added)|4.0|inactive|
+52|Kari|PKR 1 (CP Added)|4.0||
 53|Eliope|Nano + Makina Dro (Fused by Riblei)|4.0||
-54|Loki|Unknown (6)|4.0|inactive|
+54|Loki|Unknown (6)|4.0||
 55|Chrysoprase|Hall of Mirrors|2.5||
 56|oNoto|LaLy Rises|4.5||
 57|Gameboy8|Nyan Racing Map|4.0||
@@ -60,7 +60,7 @@ map_id|author|name|difficulty|tags|notes
 60|oNoto|Happy Birthday XII|4.0||Fixed by Eliope
 61|Eliope|Makina Ice Extended (CP Added by Fruity)|0.5||
 62|cowcowtony|Speedy Long Jump|4.5||
-63|Xynz|Unknown|1.0|inactive|
+63|Xynz|Unknown|1.0||
 64|AbsoluteS|Pace|2.5||
 65|Antigasp|Velocity Zones Demo Map|2.0||
 66|Yuukihito|Unnamed (Speed)|1.0||
@@ -117,7 +117,7 @@ map_id|author|name|difficulty|tags|notes
 117|cowcowtony|Ancient Trax|4.5||
 118|Chrysoprase|The Space Cube in Space (ft. Riblei) [Old Ver.]|4.0||
 119|Eliope|Makina Last|3.5||
-120|Loki|Unknown (5)|4.5|inactive|
+120|Loki|Unknown (5)|4.5||
 121|Eliope|Nano Racing Corridor Left|0.5||
 122|Eliope|Blood of the Racers 1 & 2 (Fused by oNoto)|5.0|botr botr1 botr2|
 123|cowcowtony|Three Lap Racing|0.5||
@@ -146,7 +146,7 @@ map_id|author|name|difficulty|tags|notes
 147|Esli|Tunnel Racing|3.0||
 148|cowcowtony|Interstellar Future Trax|0.5||
 149|Eliope|Makina Skulpt|0.5||Updated on 2026-01-14
-150|oNoto|Racing ZOT (Hard)|3.0|inactive|
+150|oNoto|Racing ZOT (Hard)|3.0||
 151|Naito|NTK 1|5.0||
 152|Juju|SLR 1|2.0||
 153|Appolina|Endless Lava Obstacles 2 'Candy Land' (Early Version)|4.0||
@@ -214,11 +214,11 @@ map_id|author|name|difficulty|tags|notes
 220|Sebas Tian|SAC - Cargo Chase|2.0||
 221|oNoto|Lava Blood Normal|3.5||
 222|Eliope|Makina Source Lv2|3.0||
-223|Eliope|Makina Royal Lv3 (Edit by Riblei)|4.0||
+223|Eliope|Makina Royal Lv3 (Edit by Riblei)|4.0|inactive|
 224|Eliope|Makina Speed ASO (Cyan Edit by NexS7)|0.5||
 225|Eliope|Makina IcecI|0.5||
 226|LuigiKkjk|Z Racing|2.0||
-227|Regen|Swing Swing|1.0|inactive|
+227|Regen|Swing Swing|1.0||
 228|Nabsin|Akina 2.0 |0.5||
 229|Eliope|Nawak 2|3.5||
 230|Kari|Racing 2 (Nightmare)|4.0||
@@ -262,7 +262,7 @@ map_id|author|name|difficulty|tags|notes
 269|Rayzu|RBLR|3.5||
 270|Eliope|Makina Speed (Lava Edit by Riblei)|3.5||
 271|Pixell|Winter Speed|2.0||
-272|Unknown|VN Map Maker's Tiny Untitled Lava Map|3.5|inactive|
+272|Unknown|VN Map Maker's Tiny Untitled Lava Map|3.5||
 273|Mb12|Galaxy Race|3.5||
 274|KaiPlus|Kai's Dungeon (Racing Edit by Fruity)|2.5||
 275|Riblei|Celestial Automatic (Short, Thicker Poles)|4.0||
@@ -278,8 +278,8 @@ map_id|author|name|difficulty|tags|notes
 285|Zil|irì city|2.0||
 286|oNoto|LaLy Short Lava|3.5||
 287|Appolina|Red Mirrored Akina (Beta Version)|4.0||
-288|Loki|Unknown (4)|4.0|inactive|
-289|Unknown|VN Map Maker's Untitled Lava Map|5.0|inactive|
+288|Loki|Unknown (4)|4.0||
+289|Unknown|VN Map Maker's Untitled Lava Map|5.0||
 290|Envy|Racing Forest|2.0||Fixed on 2025-11-30
 292|PR0XY|The Sandstone Temple|3.0||
 293|SmoothCatRider|First Racing Map|2.0||Fixed on 2026-01-15
@@ -316,7 +316,7 @@ map_id|author|name|difficulty|tags|notes
 324|Leafy|OCD|4.0||
 325|Charlotte|Chess ll “Rook”|5.0||
 326|Eliope|Nawak 4|0.5||
-327|Loki|Racing Hard 123|4.5|inactive|
+327|Loki|Racing Hard 123|4.5||
 328|Sub|Unfinished Map|3.0||
 329|Naito|N3|3.5||
 330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2|
@@ -356,7 +356,7 @@ map_id|author|name|difficulty|tags|notes
 366|oNoto|Circle Lava|4.0||
 367|Naito|NTK 5|5.0||
 368|Rayzu & Riblei|Ex'd III|3.0||
-369|Loki|Unknown (1)|4.5|inactive|
+369|Loki|Unknown (1)|4.5||
 370|Konor|Hot Lava (Hard)|3.0||
 371|Riblei|Falling Candies (Obstacle Edit by Eim)|3.5||
 372|MASKSLAVE|I7 Racing|3.5||
@@ -398,7 +398,7 @@ map_id|author|name|difficulty|tags|notes
 408|Riblei|Machina Classic|3.5||
 409|oNoto|Obstacle Rooms|4.0||
 410|Naito|NTK 4|5.0||
-411|Kari|Lucky Volcano (V6)|5.0|inactive|
+411|Kari|Lucky Volcano (V6)|5.0||
 412|Naito|NTK 8|5.0||
 413|cowcowtony|Escape from Punk|1.0||
 414|Eliope|Nawak 1|1.5||
@@ -413,7 +413,7 @@ map_id|author|name|difficulty|tags|notes
 424|Chrysoprase|Pistachio|3.5||
 425|COMPANY|PD Race (PUAE)|3.0||
 426|Rayzu & Riblei|Ex'd II (Red Lava)|2.0||
-427|Zek|First|5.0|inactive|
+427|Zek|First|5.0||
 428|Cherry|A Ride of Love (Lv2)|3.5||
 429|cowcowtony|Roller Coaster Type B (Hard)|5.0|inactive|
 430|Ben|Lobby|3.5||
@@ -444,7 +444,7 @@ map_id|author|name|difficulty|tags|notes
 455|Riblei|Celestial Steel|3.0||Updated on 2025-10-26
 456|oNoto|100 Subs Map|3.5||
 457|Rin|Bus To Hell 2|3.5||
-458|Kido|Cube Race|3.0|inactive|Fixed on 2025-11-19
+458|Kido|Cube Race|3.0||Fixed on 2025-11-19
 460|Eliope|Port Racers II|0.5||Updated on 2026-01-14
 461|Riblei|Longest Line (Original by Eliope)|2.0||
 462|Sylcium|Long Racing Map (Lava, Texture Edit by Riblei)|3.5||
@@ -552,4 +552,5 @@ map_id|author|name|difficulty|tags|notes
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
 572|Guest Creator|Balls|1.0|inactive|
+
 
