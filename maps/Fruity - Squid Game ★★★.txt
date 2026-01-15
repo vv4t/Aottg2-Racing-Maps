@@ -28,7 +28,7 @@ Scene,Buildings/Village1,21,0,1,1,1,0,Village1,82.92254,2065.282,668.7628,1.2992
 Scene,Geometry/Arc90,22,0,1,1,1,0,Arc90,-38.6185,1940.992,-256.8381,90,0,0,2.98,7,4.5,Physical,Entities,Default,Basic|255/255/255/255|Legacy/WallMat|1.75/3.5|0/0,;
 Scene,Geometry/Arc90,23,0,1,1,1,0,Arc90,-11.29247,1940.992,-248.4287,90,180,0,2.98,7,4.5,Physical,Entities,Default,Basic|255/255/255/255|Legacy/WallMat|1.75/3.5|0/0,;
 Scene,Buildings/House1,24,0,1,1,1,0,House1,-22.05,1933.612,-238.6,270,0,0,0.982,0.01,0.3,Physical,Entities,Default,Default|76/178/255/255,TeleportRegion|RelativePosition:false|Position:-25/1927/-245|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
-Scene,Geometry/Sphere,25,0,1,1,1,0,Sphere,-25,1989.612,-350,0,0,0,1.5,1.5,1.5,Physical,Entities,Default,Transparent|255/229/0/127|Misc/None|1/1|0/0,EggHandler|labelPosition:TopLeft;
+Scene,Geometry/Sphere,25,0,1,1,1,0,Sphere,-25,1989.612,-350,0,0,0,1.5,1.5,1.5,Physical,Entities,Default,Transparent|255/229/0/127|Misc/None|1/1|0/0,;
 Scene,Geometry/Cylinder,26,0,1,1,1,0,Cylinder,-25,1990.612,-342.5,270,180,0,0.45,0.05,0.45,Physical,Entities,Default,Transparent|255/229/0/127|Misc/None|1/1|0/0,;
 Scene,Geometry/Cylinder,27,0,1,1,1,0,Cylinder,-24.2,1990.612,-342.4,270,180,0,0.1,0.05,0.15,Physical,Entities,Default,Transparent|255/229/0/127|Misc/None|1/1|0/0,;
 Scene,Geometry/Cylinder,28,0,1,1,1,0,Cylinder,-25.8,1990.612,-342.4,270,180,0,0.1,0.05,0.15,Physical,Entities,Default,Transparent|255/229/0/127|Misc/None|1/1|0/0,;
@@ -144,7 +144,7 @@ Scene,Geometry/Arc180,137,0,1,1,1,0,Arc180,-321.3,1968.612,582.19,0,270,90,3,20,
 Scene,Geometry/Prism,138,0,1,1,1,0,Prism,-335,1961.612,577.98,329.4897,270,90,1,10,1,Physical,Entities,Default,Default|204/102/25/255,;
 Scene,Geometry/Arc180,139,0,1,1,1,0,Kill Region Arc180,-321.3,1968.592,582.19,0,270,90,3.01,19.98,1.81,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Buildings/Village2,140,0,1,1,1,0,Village2,-784,2094.612,-10,0,180,0,0.01,1,1,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Sphere,141,0,1,1,1,0,Egg 4,-717.9813,2088.912,-65.00718,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
+Scene,Geometry/Sphere,141,0,1,1,1,0,Egg 4,-717.9813,2088.912,-65.00718,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:|touched:false;
 Scene,Geometry/Sphere,142,0,1,1,1,0,Egg 7,-124.6671,2050.512,381.1934,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
 Scene,Geometry/Sphere,143,0,1,1,1,0,Egg 8,-193.4068,1993.112,342.1363,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
 Scene,General/EditorHumanSpawnPointBlue,144,0,1,1,0,0,Human SpawnPoint (blue),-70,1926.5,-313.5,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
@@ -1403,9 +1403,9 @@ Scene,Geometry/Cuboid,1396,0,1,1,1,0,Cuboid,-28.25965,1943.837,-228.3925,300.121
 Scene,Geometry/Cuboid,1397,0,1,1,1,0,Cuboid,-23.63424,1946.835,-216.023,302.8409,223.0954,180,0.05,0.01,0.1,Physical,Entities,Default,Transparent|255/255/0/153|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,1398,0,1,1,1,0,Cuboid,-17.50517,1942.043,-220.471,293.5277,88.9947,260.3857,0.05,0.01,0.1,Physical,Entities,Default,Transparent|0/0/255/153|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,1399,0,1,1,1,0,Cuboid,-21.136,1951.035,-222.3576,322.8089,196.5614,180,0.05,0.01,0.1,Physical,Entities,Default,Transparent|255/0/0/153|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,1400,0,1,1,1,0,Egg 1,55.282,2008.162,-288.9419,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
+Scene,Geometry/Sphere,1400,0,1,1,1,0,Egg 1 & Handler,55.282,2008.162,-288.9419,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:|touched:false,EggHandler|EggText:O|UseSpace:false|EggFontSize:25|EggFontColor:#FFCC00|ExtraText:Eggs to Find∶|ExtraFontSize:20|ExtraFontColor:White|ExtraTextPosition:Above|HideExtraTextOnFinish:Yes|FinalMessage:|FinalFontSize:20|FinalFontColor:Red|ObjectsToShow:|ObjectsToHide:|LabelPosition:MiddleRight|PaddingTop:0|PaddingBottom:0|PaddingLeft:0|PaddingRight:0|ShowServerMessage:true|ServerMessage:has found all the eggs!;
 Scene,Geometry/Sphere,1401,0,1,1,1,0,Egg 9,509.7241,1964.263,17.99997,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
-Scene,Geometry/Sphere,1402,0,1,1,1,0,Egg 11,-42.73087,1928.703,-217.9159,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
+Scene,Geometry/Sphere,1402,0,1,1,1,0,Egg 11,-42.73087,1928.703,-217.9159,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:|touched:false;
 Scene,Geometry/Sphere,1403,0,1,1,1,0,Egg 3,130.9223,2068.264,16.75798,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
 Scene,Geometry/Sphere,1404,0,1,1,1,0,Egg 5,-594.1777,1961.162,359.9997,0,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
 Scene,Geometry/Sphere,1405,0,1,1,1,0,Egg 6,-661.0294,2061.081,1280.969,50.00001,0,0,0.3,0.35,0.3,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|1/1|0/0,Egg|touched:false;
@@ -2407,7 +2407,7 @@ Scene,Geometry/Cuboid,2595,0,1,1,1,0,Cuboid,440.5001,2031.212,0,0,0,0,0.3000001,
 Scene,Geometry/Cuboid,2596,0,1,1,1,0,Cuboid,374.5001,2031.212,-7.993607E-15,0,0,0,0.3000001,0.3,3.295653,Physical,Entities,Default,Default|204/76/140/255,;
 Scene,Geometry/Cylinder,2597,0,0,1,1,0,KillCylinder,363.2094,1469.303,-317.12,0,270,0,3.5,5.5,3.5,None,Characters,Default,Transparent|51/51/204/153|Misc/None|1/1|0/0,;
 Scene,Geometry/Cylinder,2598,0,0,1,1,0,KillCylinder,575.7094,1469.303,-455.0001,0,270,0,7,5.5,7,None,Characters,Default,Transparent|51/51/204/153|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,2599,0,1,1,1,0,Cuboid,382.8094,1418.803,-455.0001,0,270,0,50,0.1,60,Physical,Entities,Default,Basic|255/255/255/255|Stone/Earth2|12.5/15|0/0,;
+Scene,Geometry/Cuboid,2599,0,1,1,1,0,Cuboid,382.8094,1418.803,-455.0001,0,270,0,50,0.1,60,Physical,Entities,Default,Basic|255/255/255/255|Stone/Earth2|12.5/15|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cylinder,2600,0,0,1,1,0,KillCylinder,363.2094,1469.303,-592.88,0,270,0,3.5,5.5,3.5,None,Characters,Default,Transparent|51/51/204/153|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2601,0,1,1,1,0,Cuboid,222.6837,1469.303,-446.1613,0,315,0,3,10,0.5,Physical,Entities,Default,Transparent|255/255/255/81|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2602,0,1,1,1,0,Cuboid,222.6837,1469.303,-463.8389,0,225,0,3,10,0.5,Physical,Entities,Default,Transparent|255/255/255/81|Misc/None|1/1|0/0,;
@@ -2435,7 +2435,7 @@ Scene,Geometry/Cuboid,2623,0,1,1,1,0,Cuboid,363.214,1446.8,-475.5,0,270,0,0.5,6.
 Scene,General/EditorHumanSpawnPointBlue,2756,0,1,1,0,0,Human SpawnPoint (blue),20,1926.5,-313.5,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
 Scene,Geometry/Cuboid,2626,0,1,1,1,0,Cuboid,687.8093,2214.303,-455.0001,0,270,0,50.00001,30.8,1.000001,Physical,Entities,Default,Default|0/7/76/255,;
 Scene,Geometry/Cuboid,2627,0,1,1,1,0,Cuboid,687.8094,2045.303,-587.5002,0,270,0,23.5,3,1,Physical,Entities,Default,Default|0/7/76/255,;
-Scene,Geometry/Cuboid,2628,0,1,1,1,0,Racing Finish Region Cuboid,231.5226,1449.303,-455.0001,270,315,0,1.999996,1.999995,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cuboid,2628,0,1,1,1,0,Racing Finish Region Cuboid,231.5226,1449.303,-455.0001,270,315,0,1.999996,1.999995,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,2629,0,1,1,1,0,Cuboid,240.3615,1439.303,-446.1613,0,225,0,3,3,0.5,Physical,Entities,Default,Transparent|255/255/255/81|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,2630,0,1,1,1,0,Cuboid,240.3615,1439.303,-463.8389,0,315,0,3,3,0.5,Physical,Entities,Default,Transparent|255/255/255/81|Misc/None|1/1|0/0,;
 Scene,Geometry/Cylinder,2631,0,1,1,1,0,Kill Region Cylinder,231.523,1424.303,-455.0001,0,270,0,0.4,0.5,0.4,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:-25/1943.862/-222.8|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
@@ -2515,7 +2515,7 @@ Scene,Geometry/Cuboid,2710,0,1,1,1,0,Kill Region Cuboid,363.2139,1484.303,-455.0
 Scene,Geometry/Cuboid,2711,0,1,1,1,0,Kill Region Cuboid,363.214,1499.303,-527.89,270,269.9996,0,11.99801,5.499094,2.000001,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,2712,0,1,1,1,0,Kill Region Cuboid,363.2139,1499.303,-382.1101,270,269.9996,0,11.99798,5.499106,2.000001,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,2713,0,1,1,1,0,Kill Region Cuboid,363.2138,1514.303,-455.0002,270,269.9996,0,26.576,5.499108,1.000001,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,2714,0,1,1,1,0,Kill Region Cuboid,382.8094,1418.803,-455.0001,0,270,0,50,0.097,60,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,2714,0,0,1,1,0,Kill Region Cuboid,382.8094,1418.803,-455.0001,0,270,0,50,0.097,60,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,2715,0,1,1,1,0,Kill Region Cuboid,363.214,1469.303,-646.4402,0,270,0,11.712,10,0.1000001,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,2716,0,1,1,1,0,Kill Region Cuboid,363.214,1446.8,-530.38,0,270,0,11.5,6.5,0.1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,2717,0,1,1,1,0,Kill Region Cuboid,340.7186,1449.303,-455.0002,0,270,0,26.57598,6,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -2557,37 +2557,206 @@ Scene,Geometry/Cuboid,2754,0,1,1,0,0,Cuboid,-25,1936.5,-239,0,0,0,2.5,1.9,0.01,P
 /// Logic
 component Egg
 {
-    touched = false;
+    _Touched = false;
+    
+    CustomEggText = "";
+    CustomFontColor = "";
+    CustomFontSize = 0;
 
-    function OnCollisionEnter(other) 
-    {
-        if (other.Type == "Human" && other.IsMine && !self.touched)
-        {
-            self.touched = true;
-        }
-    }
-}
-component EggHandler
-{
-    _eggList = List();
+    ObjectsToShow = "";
+    ObjectsToHide = "";
 
-    labelPosition = "TopLeft";
+    CustomEggTextTooltip = "Overrides the default EggText of the EggHandler for this specific egg.";
+    CustomFontColorTooltip = "Overrides the default EggFontColor for this specific egg.";
+    CustomFontSizeTooltip = "Overrides the default EggFontSize for this specific egg.";
+    
+    ObjectsToShowTooltip = "Enter multiple MapObject IDs separated by space (e.g., 10 11 12) to SHOW when touched. These are hidden on start.";
+    ObjectsToHideTooltip = "Enter multiple MapObject IDs separated by space (e.g., 13 14 15) to HIDE when touched.";
 
     function Init()
     {
-        self._eggList = Map.FindMapObjectsByComponent("Egg");
-    }
-    function OnTick()
-    {
-        str = "";
-        for(egg in self._eggList)
-        {
-            if(egg.GetComponent("Egg").touched)
-            {
-                str = str + "0";
+        for (id in String.Split(self.ObjectsToShow, " ")) {
+            if (id != "") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
             }
         }
-        UI.SetLabel(self.labelPosition, str);
+    }
+
+    function OnCollisionEnter(other) 
+    {
+        if (other.Type == "Human" && other.IsMine && !self._Touched)
+        {
+            self._Touched = true;
+
+            for (id in String.Split(self.ObjectsToShow, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = true; }
+                }
+            }
+            for (id in String.Split(self.ObjectsToHide, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = false; }
+                }
+            }
+
+            self.Destroy();
+        }
+    }
+}
+
+component EggHandler
+{
+    Description = "Do not use semicolons (;) to avoid system errors.";
+
+    EggText = "O";
+    UseSpace = false;
+    EggFontSize = "25";
+    EggFontColor = "#FFCC00";
+    
+    ExtraText = "Eggs to Find∶";
+    ExtraFontSize = "20";
+    ExtraFontColor = "White";
+    ExtraTextPosition = "Above";
+    HideExtraTextOnFinish = "Yes";
+    
+    FinalMessage = "";
+    FinalFontSize = "20";
+    FinalFontColor = "Red";
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+    LabelPosition = "MiddleRight";
+    PaddingTop = 0;
+    PaddingBottom = 0;
+    PaddingLeft = 0;    
+    PaddingRight = 0;
+
+    ShowServerMessage = true;
+    ServerMessage = "has found all the eggs!";
+
+    UseSpaceTooltip = "Add a space between each egg text icon.";
+    EggFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextTooltip = "This text will be displayed near the egg count.";
+    ExtraFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextPositionTooltip = "Choose whether ExtraText appears Above or Below the egg icons.";
+    HideExtraTextOnFinishTooltip = "Hide the ExtraText after all eggs are collected.";
+    
+    FinalMessageTooltip = "This message appears only after all eggs are found.";
+    FinalFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    
+    ObjectsToShowTooltip = "Enter Object IDs to SHOW after finding all eggs (e.g. 4 5 6). These will be HIDDEN on game start.";
+    ObjectsToHideTooltip = "Enter Object IDs to HIDE after finding all eggs (e.g. 7 8 9).";
+
+    LabelPositionTooltip = "Select the UI position on the screen.";
+    PaddingTopTooltip = "Push the entire UI down.";
+    PaddingBottomTooltip = "Push the entire UI up.";
+    PaddingLeftTooltip = "Push the entire UI to the right.";
+    PaddingRightTooltip = "Push the entire UI to the left.";
+
+    ExtraTextPositionDropbox = "Above, Below";
+    HideExtraTextOnFinishDropbox = "Yes, No";
+    LabelPositionDropbox = "TopLeft, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomRight";
+
+    _EggList = List();
+    _TotalEggs = 0;
+    _Finished = false;
+
+    function Init()
+    {
+        self._EggList = Map.FindMapObjectsByComponent("Egg");
+        self._TotalEggs = self._EggList.Count;
+
+        for (id in String.Split(self.ObjectsToShow, " ")) {
+            if (id != "") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+    }
+
+    function OnTick()
+    {
+        currentCount = 0;
+        eggIcons = "";
+        
+        for (i in Range(0, self._EggList.Count, 1))
+        {
+            eggObj = self._EggList.Get(i);
+            if (eggObj != null)
+            {
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null && !eggComp._Touched)
+                {
+                    currentCount = currentCount + 1;
+                    
+                    if (eggComp.CustomEggText != "") { tText = eggComp.CustomEggText; } else { tText = self.EggText; }
+                    if (eggComp.CustomFontColor != "") { tColor = eggComp.CustomFontColor; } else { tColor = self.EggFontColor; }
+                    if (eggComp.CustomFontSize > 0) { tSize = Convert.ToString(eggComp.CustomFontSize); } else { tSize = self.EggFontSize; }
+
+                    styled = "<size=" + tSize + "><color=" + tColor + ">" + tText + "</color></size>";
+                    if (self.UseSpace) { eggIcons = eggIcons + styled + " "; } else { eggIcons = eggIcons + styled; }
+                }
+            }
+        }
+
+        if (self._TotalEggs > 0 && currentCount == 0 && !self._Finished)
+        {
+            self._Finished = true;
+
+            for (id in String.Split(self.ObjectsToShow, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = true; }
+                }
+            }
+            for (id in String.Split(self.ObjectsToHide, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = false; }
+                }
+            }
+
+            if (self.ShowServerMessage)
+            {
+                playerName = Network.MyPlayer.Name;
+                Game.PrintAll(playerName + " " + self.ServerMessage);
+            }
+        }
+
+        lSpace = ""; for (i in Range(0, self.PaddingLeft, 1)) { lSpace = lSpace + "  "; }
+        rSpace = ""; for (i in Range(0, self.PaddingRight, 1)) { rSpace = rSpace + "  "; }
+        tSpace = ""; for (i in Range(0, self.PaddingTop, 1)) { tSpace = tSpace + String.Newline; }
+        bSpace = ""; for (i in Range(0, self.PaddingBottom, 1)) { bSpace = bSpace + String.Newline; }
+
+        extraStyled = "";
+        shouldShowExtra = true;
+        if (self._Finished && self.HideExtraTextOnFinish == "Yes") { shouldShowExtra = false; }
+
+        if (self.ExtraText != "" && shouldShowExtra) {
+            extraStyled = "<size=" + self.ExtraFontSize + "><color=" + self.ExtraFontColor + ">" + self.ExtraText + "</color></size>";
+        }
+
+        displayContent = "";
+        if (self.ExtraTextPosition == "Above") {
+            if (extraStyled != "") { displayContent = extraStyled + String.Newline; }
+            displayContent = displayContent + eggIcons;
+        } else {
+            displayContent = eggIcons;
+            if (extraStyled != "") { displayContent = displayContent + String.Newline + extraStyled; }
+        }
+
+        if (self._Finished && self.FinalMessage != "") {
+            displayContent = displayContent + String.Newline + "<size=" + self.FinalFontSize + "><color=" + self.FinalFontColor + ">" + self.FinalMessage + "</color></size>";
+        }
+
+        dot = "<color=#00000000>.</color>";
+        finalStr = tSpace + dot + String.Newline + lSpace + displayContent + rSpace + String.Newline + dot + bSpace;
+
+        UI.SetLabel(self.LabelPosition, finalStr);
     }
 }
 /// Weather
