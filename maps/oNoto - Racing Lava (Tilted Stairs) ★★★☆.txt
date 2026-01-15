@@ -157,3 +157,4 @@ racing,checkpointcuboid,4,4,4,100,425,-360,0,1,0.2,0;
 racing,checkpointcuboid,4,4,4,300,425,-360,0,1,0.2,0;
 
 racing,killcuboid,100,1,100,0,315,50,0,1,0.2,0;
+
