@@ -29,7 +29,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 
 ## Updated Maps
 - **2026-01-15** Eliope - Warped Fusion ▶ Renamed "Makina Fusion" to "Warped Fusion" by Eliope
-- **2026-01-15** SmoothCatRider - First Racing Map ▶ Fixed exploits
+- **2026-01-15** SmoothCatRider - First Racing Map ▶ Blocked open spot
 - **2026-01-15** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Made the finish easier to register
 - **2026-01-15** Konor - Fire Tail; Fire Snake (V1) ▶ Fixed exploits
 - **2026-01-15** Fruity - Squid Game ▶ Updated egg UI and lava floor
