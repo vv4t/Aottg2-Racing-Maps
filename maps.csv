@@ -2,7 +2,6 @@ map_id|author|name|difficulty|tags|notes
 0|Eliope|Nawak 5|3.5||
 1|Incendium|Inferno 2 Campfire Edition (Hookable Walls)|3.0||
 2|Yourbro|Racing Map|0.5||
-3|Eliope|Makina Royal Lv1 (Edit by Riblei)|3.0|inactive|
 4|Eliope|Makina Slide|3.0||
 5|zender|Spear|4.5||
 6|Sylcium|Indigo Racing|3.0||
@@ -68,7 +67,7 @@ map_id|author|name|difficulty|tags|notes
 68|cowcowtony|Future Trax 10|3.5||Fixed on 2026-01-01
 69|Eliope|Makina Honor (Grassy)|2.0||
 70|Naito|Double Hooks|4.5||
-71|Eliope|Makina Royal Lv2 (Edit by Riblei)|3.5||
+71|Eliope & Riblei|Makina Royal (Lava)|3.5||
 72|Rayzu|RBLR 2|4.0||
 73|oNoto|LaLy Rainracer (Lava)|2.0||
 74|Sebas Tian|SAC - Feng City Run (Lv4)|3.5||
@@ -214,7 +213,6 @@ map_id|author|name|difficulty|tags|notes
 220|Sebas Tian|SAC - Cargo Chase|2.0||
 221|oNoto|Lava Blood Normal|3.5||
 222|Eliope|Makina Source Lv2|3.0||
-223|Eliope|Makina Royal Lv3 (Edit by Riblei)|4.0|inactive|
 224|Eliope|Makina Speed ASO (Cyan Edit by NexS7)|0.5||
 225|Eliope|Makina IcecI|0.5||
 226|LuigiKkjk|Z Racing|2.0||
@@ -552,5 +550,3 @@ map_id|author|name|difficulty|tags|notes
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
 572|Guest Creator|Balls|1.0|inactive|
-
-
