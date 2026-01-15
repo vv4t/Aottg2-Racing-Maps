@@ -33,7 +33,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2026-01-15** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Made the finish easier to register
 - **2026-01-15** Konor - Fire Tail; Fire Snake (V1) ▶ Fixed exploits
 - **2026-01-15** Fruity - Squid Game ▶ Updated egg UI and lava floor
-- **2026-01-14** Eliope - The Tree of Discipline / Industry Racers 1 / K-Rot / Modular / Skulpt / Port Racers 2 / Racers Chasm ▶ Updated egg UI and misc by Eliope
+- **2026-01-14** The Tree of Discipline / Industry Racers 1 / K-Rot / Modular / Skulpt / Port Racers 2 / Racers Chasm ▶ Updated egg UI and misc by Eliope
 - **2026-01-11** MASKSLAVE - MS Racing 1 ▶ Fixed exploits
 - **2026-01-11** Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion) ▶ Updated by Eliope
 - **2026-01-11** Eliope - Makina Source Lv1 (Snowing Edit by Riblei) ▶ Restored snow effects by Fruity
