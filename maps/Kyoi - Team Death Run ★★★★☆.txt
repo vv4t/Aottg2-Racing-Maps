@@ -360,7 +360,7 @@ Scene,Geometry/Cube1,608,0,1,1,1,0,Cube1,60,0,220,0,0,0,15,500,550,Physical,Char
 Scene,Geometry/Cube1,609,0,1,1,1,0,Cube1,-60,0,220,0,0,0,15,500,550,Physical,Characters,Default,Basic|55/55/55/255|Misc/Gradient1|1/1|0/0,;
 Scene,Geometry/Cube1,610,0,1,1,1,0,Cube1,0,0,490,0,0,0,155,500,15,Physical,Characters,Default,Basic|55/55/55/255|Misc/Gradient1|1/1|0/0,;
 Scene,Geometry/Cube1,611,0,1,1,1,0,Cube1,0,0,-40,0,0,0,155,500,15,Physical,Characters,Default,Basic|55/55/55/255|Misc/Gradient1|1/1|0/0,;
-Scene,Geometry/Cube1,612,0,1,1,0,0,Cube1,0,0,220,0,0,0,0.001,250,550,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,612,0,1,1,0,0,Cube1,0,0,220,0,0,0,16,250,550,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cube1,615,0,1,1,1,0,Cube1,0,0,220,0,0,0,16,5,550,Physical,Characters,Default,Basic|55/55/55/155|Misc/Gradient1|1/1|0/0,;
 Scene,Geometry/Cube1,616,0,1,1,1,0,Cube1,0,125.5061,220,0,0,0,30,1,30,Physical,Entities,Default,Basic|55/55/55/155|Misc/Gradient1|1/1|0/0,;
 Scene,Geometry/Cube1,617,0,1,1,1,0,Cube1,0,140.6351,220,0,0,0,30,1,30,Physical,Characters,Default,Basic|55/55/55/155|Misc/Gradient1|1/1|0/0,;
