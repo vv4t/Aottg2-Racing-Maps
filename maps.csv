@@ -234,7 +234,7 @@ map_id|author|name|difficulty|tags|notes
 242|ZeroX|Yato|1.5||
 244|Pixell|Winter Speed (Monochrome)|2.0||ft. Eliope, zender, Sylcium, Zechten
 245|MASKSLAVE|MASKSLAVE 6|3.5||
-246|Kyoi|Team Death Run|4.5||
+246|Kyoi|Team Death Run|4.5||Fixed on 2026-01-18
 247|Mayoi|[DC] Speed Race|3.0||
 248|cowcowtony|Future Trax 8|5.0||
 249|Appolina|Endless Lava Obstacles 2 'Candy Land'|3.5||
@@ -435,7 +435,7 @@ map_id|author|name|difficulty|tags|notes
 448|Hong Yao|Hong's Laboratory (Lava)|1.0||
 449|Riblei|Celestial Ellestra II|3.5||
 450|Riblei|Celestial Steel (Speed Edition)|2.5||
-451|cowcowtony|Experimental Map|0.5|inactive|
+451|cowcowtony|Experimental Map|0.5||Fixed on 2026-01-18
 452|Incendium|Inferno 1 Imp Edition (Hookable Arrows)|4.5||
 453|Eliope|District Racers (Extended by Riblei)|0.5||
 454|Sebas Tian|SAC - Ultimate|5.0||
@@ -549,4 +549,3 @@ map_id|author|name|difficulty|tags|notes
 569|Riblei|Le Touch de Grass|1.0||Added on 2026-01-11
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
-
