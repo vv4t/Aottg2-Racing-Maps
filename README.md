@@ -28,6 +28,8 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-18** cowcowtony - Experimental Map ▶ Blocked open spot
+- **2026-01-18** Kyoi - Team Death Run ▶ Fixed exploits
 - **2026-01-17** Envy - Racing Forest (Original) & (Short Ver.) ▶ Fixed a hole
 - **2026-01-17** Rin - Bus To Hell 1 & 2 ▶ Fixed a hole
 - **2026-01-17** ZeroX - Final V (Completed) & (Incomplete) ▶ Fixed a hole & spawn bug
