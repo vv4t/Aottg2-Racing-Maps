@@ -179,7 +179,7 @@ map_id|author|name|difficulty|tags|notes
 182|Incendium|Inferno 1 Campfire Edition|3.5||
 183|Riblei|Escape Rooms (Puzzle)|3.0||Find the small yellow cubes hidden in each of the seven level rooms!
 184|Mayoi|OSU Map|5.0||
-185|ZeroX|Final V (Completed)|4.0||
+185|ZeroX|Final V (Completed)|4.0||Fixed on 2026-01-17
 186|Sylcium|Hard Racing Map|3.0||
 187|Eliope|Cycled Source 1 (Edit by cowcowtony)|0.5||
 188|zender|Snail (Hard)|4.5||
@@ -278,7 +278,7 @@ map_id|author|name|difficulty|tags|notes
 287|Appolina|Red Mirrored Akina (Beta Version)|4.0||
 288|Loki|Unknown (4)|4.0||
 289|Unknown|VN Map Maker's Untitled Lava Map|5.0||
-290|Envy|Racing Forest|2.0||Fixed on 2025-11-30
+290|Envy|Racing Forest|2.0||Fixed on 2026-01-17
 292|PR0XY|The Sandstone Temple|3.0||
 293|SmoothCatRider|First Racing Map|2.0||Fixed on 2026-01-15
 294|Sebas Tian|SAC - Feng City Run (Lv1)|1.0||
@@ -341,7 +341,7 @@ map_id|author|name|difficulty|tags|notes
 352|oNoto|LaLy Blet|3.5||
 353|Eliope|Race King Volcano Special Training|5.0||
 354|Riblei|Celestial Dreams|1.0||Updated on 2025-10-26
-355|Rin|Bus to Hell 1|3.5||
+355|Rin|Bus to Hell 1|3.0||Fixed on 2026-01-17
 356|Riblei|Steps (Tilted)|3.0||
 357|AndyXest|Celestial Statue|4.0||
 359|oNoto|Racing 002 (Hard)|3.0||
@@ -359,7 +359,7 @@ map_id|author|name|difficulty|tags|notes
 371|Riblei|Falling Candies (Obstacle Edit by Eim)|3.5||
 372|MASKSLAVE|I7 Racing|3.5||
 373|Riblei|Ex'd IV|1.0||Updated on 2025-10-26
-374|Envy|Racing Forest (Short)|1.5||Fixed on 2025-11-30
+374|Envy|Racing Forest (Short)|1.5||Fixed on 2026-01-17
 375|oNoto|LaLy Red Lava|3.5||
 376|Eliope|Makina Honor (Transparent Texture by Unknown)|2.0||
 377|Eliope|Mayaka (Finish Added)|3.0||
@@ -441,7 +441,7 @@ map_id|author|name|difficulty|tags|notes
 454|Sebas Tian|SAC - Ultimate|5.0||
 455|Riblei|Celestial Steel|3.0||Updated on 2025-10-26
 456|oNoto|100 Subs Map|3.5||
-457|Rin|Bus To Hell 2|3.5||
+457|Rin|Bus To Hell 2|3.0||Fixed on 2026-01-17
 458|Kido|Cube Race|3.0||Fixed on 2025-11-19
 460|Eliope|Port Racers II|0.5||Updated on 2026-01-14
 461|Riblei|Longest Line (Original by Eliope)|2.0||
@@ -453,7 +453,7 @@ map_id|author|name|difficulty|tags|notes
 467|zender|EWeek Map|0.5||
 468|Eliope|The Way of the Racers (Bois)|1.0|twotr twor|
 469|MASKSLAVE|Letters Map|3.5||
-470|ZeroX|Final V (Incomplete)|4.0||
+470|ZeroX|Final V (Incomplete)|4.0||Fixed on 2026-01-17
 471|Hixan|The Large Maze V3|3.5||
 472|Ben|Smiley Face Map|1.0||
 473|MASKSLAVE|MS Racing 3|3.5||
@@ -549,3 +549,4 @@ map_id|author|name|difficulty|tags|notes
 569|Riblei|Le Touch de Grass|1.0||Added on 2026-01-11
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
+
