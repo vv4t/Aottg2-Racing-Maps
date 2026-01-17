@@ -28,6 +28,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-17** Envy - Racing Forest (Original) & (Short Ver.) ▶ Fixed a hole
+- **2026-01-17** Rin - Bus To Hell 1 & 2 ▶ Fixed a hole
+- **2026-01-17** ZeroX - Final V (Completed) & (Incomplete) ▶ Fixed a hole & spawn bug
 - **2026-01-15** Eliope - Warped Fusion ▶ Renamed "Makina Fusion" to "Warped Fusion" by Eliope
 - **2026-01-15** SmoothCatRider - First Racing Map ▶ Blocked open spot
 - **2026-01-15** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Made the finish easier to register
@@ -47,7 +50,6 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2026-01-03** Hong Yao - Purple Highway ▶ Closed off cheat spot
 - **2026-01-01** cowcowtony - Future Trax 10 ▶ Fixed end-map teleport sphere crashes
 - **2025-12-30** oNoto - Laly Pink ▶ Fixed the full version
-- **2025-12-26** Fruity - Squid Game ▶ Slightly reduced difficulty in the later section
 - **2025-12-26** Mb12 - Cave Race ▶ Blocked 20+ holes
 - **2025-12-26** Mb12 - Tomb Escape 2 ▶ Blocked three openings
 - **2025-12-26** Guest Anon - Long Racing #2 ▶ Fixed a hole
@@ -74,7 +76,6 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - Eliope & Riblei - Makina Scratch ▶ Final Ver. of Makina Construct Unfinished
 - Eliope & Riblei - Port Racers + Makina Red ▶ Slightly increased the size of the lava ground
 - Eliope & Riblei - Port Racers + TWOR ▶ Added barrier where it was open
-- Envy - Racing Forest [Original] & [Short Ver.] ▶ Fixed open spots
 - Gameboy8 - Nyan Racing map ▶ Fixed skating and objects
 - Guest Creator - Saturn ▶ Crash-causing spawner fixed by Riblei
 - Guest Creator - Short Fall ▶ Fixed cheat spot
@@ -104,7 +105,6 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - Riblei - Ex'd IV ▶ Updated by Riblei
 - Riblei - Island Racers ▶ Added an egg count feature and updated the map description
 - Riblei - Loope le Loope ▶ Updated by Riblei
-- Rin - Bus To Hell 2 ▶ Fixed unstable CP traps
 - Sebas Tian - SAC - Cargo Chase ▶ Fixed cheat spot
 - Sebas Tian - SAC - Cargo Chase 2 ▶ Cheating spots blocked, CPs added by Eliope
 - Sebas Tian - SAC - City Run [Original] & [Lv.1] & [Lv.2] ▶ Fixed cheat spot
