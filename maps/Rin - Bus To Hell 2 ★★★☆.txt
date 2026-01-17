@@ -278,7 +278,7 @@ Scene,Geometry/Sphere,273,0,1,1,1,0,Kill Region Sphere,-78.12903,317.1652,-552.0
 Scene,Geometry/Sphere,274,0,1,1,1,0,Kill Region Sphere,-111.1072,352.4256,-519.6004,0,81.4101,0,1,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cylinder,331,0,1,1,1,0,Kill Region Cylinder,294.1993,304.9197,-645.2545,0,256.9052,0,2,7,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,276,0,1,1,1,0,Kill Region Cuboid,2992.163,282.4887,1928.065,0,50.64807,0,1000,4,1000,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,277,0,1,1,1,0,Kill Region Cuboid,0.03516671,340.2926,-41.45774,0,90.58037,0,2,6,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,277,0,1,1,1,0,Kill Region Cuboid,0.03516671,335.3469,-41.45774,0,90.58037,0,2,7,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Torus,278,0,1,1,1,0,Torus,-477.0964,343.3574,-909.762,275.3401,1.057196,90.46284,3,1,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone4|1/1|0/0,;
 Scene,Geometry/Cylinder,279,0,1,1,1,0,Kill Region Cylinder,-412.0679,306.207,-670.1811,0,180.9304,0,2,7,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cylinder,280,0,1,1,1,0,Kill Region Cylinder,-411.388,304.5717,-838.7212,0,3.17286,0,2,7,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -287,7 +287,7 @@ Scene,Geometry/Cuboid,282,0,1,1,1,0,Kill Region Cuboid,418.2496,335.1003,-662.40
 Scene,Geometry/Cuboid,283,0,1,1,1,0,Kill Region Cuboid,56.26637,335.2036,-704.3758,0,359.9665,0,2,7,25,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,284,0,1,1,1,0,Kill Region Cuboid,153.9369,336.8257,-748.226,0,179.7642,0,2,7,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,285,0,1,1,1,0,Kill Region Cuboid,49.99281,335.9512,68.91567,0,180.0512,0,2,7,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,286,0,1,1,1,0,Kill Region Cuboid,-46.91179,335.3469,-25.39597,0,357.5477,0,2,7,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,286,0,1,1,1,0,Kill Region Cuboid,-46.91179,335.3469,-25.39597,0,357.5477,0,2,7,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,287,0,1,1,1,0,Kill Region Cuboid,48.92648,341.4913,-14.92253,0,183.6733,0,2,6,4,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Decor/Statue1,288,0,1,1,1,0,Statue1,1670.398,302.4319,-2064.116,0,271.913,0,3,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone4|1/1|0/0,;
 Scene,Decor/Statue1,289,0,1,1,1,0,Statue1,1612.97,307.7371,-1669.175,0,276.4102,0,3,3,3,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone4|1/1|0/0,;
