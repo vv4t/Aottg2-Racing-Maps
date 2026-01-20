@@ -103,7 +103,7 @@ map_id|author|name|difficulty|tags|notes
 104|PTHunter|Racing Map (Horse Edit)|1.0|horse|
 105|ZeroX|Code 30|3.5||
 106|Eliope|Nano Racing T|0.5||
-107|Eliope|Blood of the Racers 1 (Water Edit by Riblei)|0.5|botr botr1|
+107|Eliope|Blood of the Racers 1 (Water Edit by Riblei)|0.5|botr botr1 inactive|
 108|AndyXest|Devil's Corridor|3.0||
 109|Eliope|Makina Honor + Source (Fused by Riblei)|3.5||
 110|Hong Yao|Hard Racing Akina (Grey Walls)|2.0||
@@ -132,14 +132,14 @@ map_id|author|name|difficulty|tags|notes
 134|Eliope|Nano Racing Zig-Zag V|0.5||
 135|Alex4win|Akina (Lava, Upside-Down)|3.5||
 136|oNoto|LaLy RaceZy|3.0||
-137|Riblei|Celestial Marine (Water Edit)|0.5||ft. Alex4win & Sylvia
+137|Riblei|Celestial Marine (Water Edit)|0.5|inactive|ft. Alex4win & Sylvia
 138|Parls|PNC|3.5||
 139|Dany|The Nuke (Hard)|5.0||
 140|Eliope|Blood of the Racers 4 (Edit by zender)|4.5|botr botr4|
 141|oNoto|Racing Lava (Tilted Stairs)|3.5||
 142|Eliope|Makina Volcano|4.5||
 143|Eliope|Nano Racing Curve Left|0.5||
-144|Eliope|Makina ABC (Water Edit by Riblei)|0.5||
+144|Eliope|Makina ABC (Water Edit by Riblei)|0.5|inactive|
 145|Aether Ko|The Tower's Trail Route 5|4.0||Fixed by Eliope on 2026-01-09
 146|cowcowtony|Lost In Wormhole|0.5|inactive|
 147|Esli|Tunnel Racing|3.0||
@@ -229,7 +229,7 @@ map_id|author|name|difficulty|tags|notes
 237|Eliope|Avenue + ZYX_ZYX (Fused by Riblei)|4.0||
 238|Riblei & Eliope|Machina 2|4.5||Updated by Eliope & Riblei on 2026-01-20
 239|Eliope|Port Racers + TWotR (Fused by Riblei)|2.5||
-240|cowcowtony|Escape from the Sun (Water Edit by Riblei)|0.5||
+240|cowcowtony|Escape from the Sun (Water Edit by Riblei)|0.5|inactive|
 241|Eliope|Makina Speed (ASO)|0.5||
 242|ZeroX|Yato|1.5||
 244|Pixell|Winter Speed (Monochrome)|2.0||ft. Eliope, zender, Sylcium, Zechten
@@ -260,7 +260,7 @@ map_id|author|name|difficulty|tags|notes
 269|Rayzu|RBLR|3.5||
 270|Eliope|Makina Speed (Lava Edit by Riblei)|3.5||
 271|Pixell|Winter Speed|2.0||
-272|Unknown|VN Map Maker's Tiny Untitled Lava Map|3.5||
+272|Unknown|VN Map Maker's Tiny Untitled Lava Map|3.5|inactive|
 273|Mb12|Galaxy Race|3.5||
 274|KaiPlus|Kai's Dungeon (Racing Edit by Fruity)|2.5|inactive|
 275|Riblei|Celestial Automatic (Short, Thicker Poles)|4.0||
@@ -277,7 +277,7 @@ map_id|author|name|difficulty|tags|notes
 286|oNoto|LaLy Short Lava|3.5||
 287|Appolina|Red Mirrored Akina (Beta Version)|4.0||
 288|Loki|Unknown (4)|4.0|inactive|
-289|Unknown|VN Map Maker's Untitled Lava Map|5.0||
+289|Unknown|VN Map Maker's Untitled Lava Map|5.0|inactive|
 290|Envy|Racing Forest|2.0||Fixed on 2026-01-17
 292|PR0XY|The Sandstone Temple|3.0||
 293|SmoothCatRider|First Racing Map|2.0||Fixed on 2026-01-15
@@ -317,7 +317,7 @@ map_id|author|name|difficulty|tags|notes
 327|Loki|Racing Hard 123|4.5|inactive|
 328|Sub|Unfinished Map|3.0||
 329|Naito|N3|3.5||
-330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2|
+330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2 inactive|
 331|Ace|Race 2|1.5|inactive|Fixed on 2025-11-30
 332|Hong Yao|Hong Racing|1.0||
 333|Konor|Hot Lava (Easy)|2.5||
@@ -426,7 +426,7 @@ map_id|author|name|difficulty|tags|notes
 439|Eliope|Nano Racing 40 Yards Quadrated (Edit by Unknown)|0.5||
 440|oNoto|LaLy Blocky Lava (Recolored by Eliope)|4.0||
 441|Riblei|Ultra Steps|3.0||
-442|Eliope|Flowers of the Racers (Edit by Unknown)|0.5||
+442|Eliope|Flowers of the Racers (Edit by Unknown)|0.5|inactive|
 443|Eliope|Makina Honor (Misty Lava Edit by Riblei)|2.0|inactive|
 444|El_Mata_Pokemon|No Hook No Gas Map|2.0||Fixed by Eliope
 445|Pixell|Pixo Map|3.0||
@@ -549,5 +549,6 @@ map_id|author|name|difficulty|tags|notes
 569|Riblei|Le Touch de Grass|1.0||Added on 2026-01-11
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
+
 
 
