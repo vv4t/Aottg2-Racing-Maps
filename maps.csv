@@ -28,7 +28,7 @@ map_id|author|name|difficulty|tags|notes
 28|Zil|Irì spid|3.0||
 29|MASKSLAVE|EZ Racing|3.5||
 30|Golden Lord|GHoR|5.0||
-31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.5||
+31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.5||Fixed skating on 2026-01-20
 32|Saif|Custom Map Racing 1|1.5||
 33|cowcowtony|Isolated City Racing (Hard)|5.0||
 34|cowcowtony|Highway|0.5||Fixed on 2025-11-27
@@ -227,7 +227,7 @@ map_id|author|name|difficulty|tags|notes
 235|Guest Creator|Saturn|4.5||Fixed by Riblei on 2025-11-01
 236|MASKSLAVE|Sweet Wood Racing|2.0||
 237|Eliope|Avenue + ZYX_ZYX (Fused by Riblei)|4.0||
-238|Riblei & Eliope|Machina 2|4.5||Updated by Eliope on 2026-01-19
+238|Riblei & Eliope|Machina 2|4.5||Updated by Eliope & Riblei on 2026-01-20
 239|Eliope|Port Racers + TWotR (Fused by Riblei)|2.5||
 240|cowcowtony|Escape from the Sun (Water Edit by Riblei)|0.5||
 241|Eliope|Makina Speed (ASO)|0.5||
@@ -549,3 +549,4 @@ map_id|author|name|difficulty|tags|notes
 569|Riblei|Le Touch de Grass|1.0||Added on 2026-01-11
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
+
