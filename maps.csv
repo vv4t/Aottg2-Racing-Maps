@@ -55,7 +55,7 @@ map_id|author|name|difficulty|tags|notes
 56|oNoto|LaLy Rises|4.5||
 57|Gameboy8|Nyan Racing Map|4.0||
 58|oNoto|LaLy Crystal the Blood|3.5||
-59|cowcowtony|Bug on the Rose (Basic)|5.0||
+59|cowcowtony|Bug on the Rose (Basic)|5.0|Fixed a hole on 2026-01-22|
 60|oNoto|Happy Birthday XII|4.0||Fixed by Eliope
 61|Eliope|Makina Ice Extended (CP Added by Fruity)|0.5||
 62|cowcowtony|Speedy Long Jump|4.5||
@@ -87,7 +87,7 @@ map_id|author|name|difficulty|tags|notes
 88|Eliope|Port Racers III|0.5||
 89|Eliope|Makina Royal + Fire + Ice + TWotR (Fused by Riblei)|4.0||
 90|cowcowtony|Racing Volcano (Lava)|3.5||
-91|cowcowtony|Bug on the Rose (HD)|5.0||
+91|cowcowtony|Bug on the Rose (HD)|5.0|Fixed a hole on 2026-01-22|
 92|Rayzu & Riblei|Ex'd II|2.0||
 93|Eliope|Makina Dro|3.5||
 94|DarkLight|Maze Map|3.0|inactive|
@@ -297,7 +297,7 @@ map_id|author|name|difficulty|tags|notes
 307|Riblei|Celestial Marine I Super Racers Waterworld (Hard)|5.0||
 308|Cyan|Cyan's Map|3.0||
 309|Cherry|A Ride of Love (Lv1)|3.0||
-310|Hong Yao|Hong Racing (Lava)|2.0||
+310|Hong Yao|Hong Racing (Lava)|2.0|inactive|
 311|cowcowtony|Circular Race (Lava)|3.0||
 312|cowcowtony|Rainbow Road SNES (Hookable)|1.0||
 313|Hong Yao|Hong’s Racing Akina (Brown Walls)|2.0||
@@ -318,8 +318,8 @@ map_id|author|name|difficulty|tags|notes
 328|Sub|Unfinished Map|3.0||
 329|Naito|N3|3.5||
 330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2 inactive|
-331|Ace|Race 2|1.5||Fixed on 2025-11-30
-332|Hong Yao|Hong Racing|1.0||
+331|Ace|Race 2|1.5|inactive|Fixed on 2025-11-30
+332|Hong Yao|Hong Racing|1.0|inactive|
 333|Konor|Hot Lava (Easy)|2.5||
 334|cowcowtony|Future Trax 7|4.5||
 335|Kari|Skate|1.0||
@@ -549,3 +549,4 @@ map_id|author|name|difficulty|tags|notes
 569|Riblei|Le Touch de Grass|1.0||Added on 2026-01-11
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
+
