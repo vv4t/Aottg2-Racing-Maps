@@ -28,6 +28,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-22** cowcowtony - Bug on the Rose [Basic] & [HD] ▶ Fixed a hole
 - **2026-01-20** Loki - Racing 123 (Sigh Edit by Antigasp) ▶ Fixed skating
 - **2026-01-20** Riblei & Eliope - Machina 2 ▶ Fixed CPs, skates, lava by Eliope & Riblei
 - **2026-01-18** cowcowtony - Future Trax 6 Bend ▶ Patched remaining gaps
