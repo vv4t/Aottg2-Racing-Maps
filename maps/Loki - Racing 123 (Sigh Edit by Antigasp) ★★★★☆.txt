@@ -203,10 +203,10 @@ Scene,Geometry/Cuboid,197,0,1,1,1,0,Kill Region Cuboid,-450.6481,15.37631,477.51
 Scene,Geometry/Cuboid,198,0,1,1,1,0,Kill Region Cuboid,-107.9927,18.95073,-425.1642,0,266.8513,0,1,6,100,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,199,0,1,1,1,0,Kill Region Cuboid,-10.73869,19.195,-494.4803,0,266.7074,0,1,6,130,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,200,0,1,1,1,0,Kill Region Cuboid,-658.7121,19.9507,-386.1022,0,358.4506,0,1,6,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,201,0,1,1,1,0,Kill Region Cuboid,-409.0832,17.72564,-241.4687,0,87.87973,0,1,6,50,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,201,0,1,1,1,0,Kill Region Cuboid,-409.0832,17.72564,-241.4687,0,87.87973,0,1,6,50,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,202,0,1,1,1,0,Kill Region Cuboid,-603.1248,18.49383,-407.2291,0,358.6769,0,1,6,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,203,0,1,1,1,0,Kill Region Cuboid,-356.6679,16.37907,-314.9489,0,80.63663,0,1,6,50,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,204,0,1,1,1,0,Kill Region Cuboid,-103.0683,16.08306,-254.6837,0,7.157337,0,1,6,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,204,0,1,1,1,0,Kill Region Cuboid,-103.0683,16.08306,-254.6837,0,7.157337,0,1,6,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,205,0,1,1,1,0,Cuboid,-131.7464,34.7341,-251.9588,0,93.2504,0,5,2,5,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,206,0,1,1,1,0,Kill Region Cuboid,-126.5966,8.087039,-204.6988,0,84.89132,0,0.03,0.03,9,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,207,0,1,1,1,0,Kill Region Cuboid,-128.9408,16.68699,-205.3191,0,84.89132,0,0.03,0.03,9,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -313,7 +313,10 @@ Scene,Geometry/Cuboid,307,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,1
 Scene,Geometry/Cuboid,308,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,309,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,310,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,311,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
+Scene,Geometry/Cuboid,311,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,312,0,1,1,1,0,Kill Region Cuboid,-162.9403,38.02166,-232.2156,0,0,0,1.5,2,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,313,0,1,1,1,0,Kill Region Cuboid,-47.38303,19.26797,-190.6443,0,0,0,1,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,314,0,1,1,1,0,Kill Region Cuboid,70.51414,16.87947,-190.6443,0,0,0,1,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server
 /// Logic
 
 /// Weather
