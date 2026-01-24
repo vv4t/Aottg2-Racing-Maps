@@ -3,8 +3,9 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
-- NEW | **2026-01-11** [Sub - Racing City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Racing%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt) / [Copied City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Copied%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt)
-- NEW | **2026-01-11** [Riblei - Le Touch de Grass](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Le%20Touch%20de%20Grass%20%E2%98%85.txt)
+- NEW | **2026-01-24** [Antigasp - SignalMover Demo Map (Edit by Fruity)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Antigasp%20-%20SignalMover%20Demo%20Map%20(Edit%20by%20Fruity)%20%E2%98%86.txt)
+**2026-01-11** [Sub - Racing City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Racing%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt) / [Copied City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Copied%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt)
+**2026-01-11** [Riblei - Le Touch de Grass](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Le%20Touch%20de%20Grass%20%E2%98%85.txt)
 - **2026-01-06** [Eliope - Industry Racers 1](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Industry%20Racers%201%20%E2%98%86.txt)
 - **2026-01-02** [Eliope & Riblei - Royal Eggs Together (Puzzle)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20&%20Riblei%20-%20Royal%20Eggs%20Together%20(Puzzle)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2026-01-02** [Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Eliope%20-%20Modern%20Hospital%20Racing%20(cowcowtony%20&%20Hong%20Yao%20Fusion)%20%E2%98%86.txt) ▶ CR 2025 Winter Racing Event Map
@@ -28,7 +29,13 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- **2026-01-22** cowcowtony - Bug on the Rose [Basic] & [HD] ▶ Fixed a hole
+- **2026-01-24** Sebas Tian - SAC - Ultimate ▶ Fixed 30+ exploits
+- **2026-01-24** Pixell - Antartica / Pixo Map ▶ Fixed exploits
+- **2026-01-24** NexS7 - The Box [Original] & [Hard] ▶ Added colored pillars at turns
+- **2026-01-24** Loki - Racing 123 [Original] & [Sigh Edit by Antigasp] ▶ Fixed exploits
+- **2026-01-24** Gameboy8 - Nyan Racing Map ▶ Roughtly fixed full version
+- **2026-01-24** Eliope - Modern Hospital Racing (cowcowtony & Hong Yao Fusion) ▶ Fixed skating area by Eliope
+- **2026-01-22** Dany - The Nuke (Hard) ▶ Fixed exploits
 - **2026-01-20** Loki - Racing 123 (Sigh Edit by Antigasp) ▶ Fixed skating
 - **2026-01-20** Riblei & Eliope - Machina 2 ▶ Fixed CPs, skates, lava by Eliope & Riblei
 - **2026-01-18** cowcowtony - Future Trax 6 Bend ▶ Patched remaining gaps
