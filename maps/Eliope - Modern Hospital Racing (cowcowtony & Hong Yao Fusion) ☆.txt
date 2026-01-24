@@ -3527,7 +3527,7 @@ Scene,Geometry/Cuboid,3581,0,1,1,1,0,Cuboid,485.9017,-0.75,865.1057,0,198,0,5,1,
 Scene,Geometry/Cuboid,3582,0,1,1,1,0,Cuboid,513.7785,-0.75,850.9017,0,216,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,3583,0,1,1,1,0,Cuboid,535.9017,-0.75,828.7785,0,234,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,3584,0,1,1,1,0,Cuboid,550.1057,-0.75,800.9017,0,252,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,3585,0,1,1,1,0,Cuboid,555,-0.75,770,0,270,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,;
+Scene,Geometry/Cuboid,3585,0,1,1,1,0,Cuboid,555,-0.75,770,0,270,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,3586,0,1,1,1,0,Cuboid,574.0983,-0.75,191.2215,0,54,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,3587,0,1,1,1,0,Cuboid,559.8943,-0.75,219.0983,0,71.99999,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,3588,0,1,1,1,0,Cuboid,555,-0.75,250,0,90,0,5,1,10,Physical,Entities,Default,Basic|204/204/204/255|Stone/Stone9|0/0|0/0,Tag|Name:HumanIgnoreGround;
