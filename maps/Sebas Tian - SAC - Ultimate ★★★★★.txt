@@ -4,7 +4,7 @@ EditorVersion:1.0|Description:Fixed by Fruity on 2026-01-23|HasWeather:0
 
 /// Objects
 Scene,Geometry/Cuboid,1,0,1,1,1,0,Unnamed,-7.76,-32.03,5.333,0,0,0,134.286,6.407,134.286,Physical,Entities,Default,Basic|172/174/166/255|Nature/Grass1|50/50|0/0,;
-Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
+Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
 Scene,Geometry/Cuboid,3,0,1,0,1,0,Racing Start Barrier Cuboid,-6,15,6,0,180,0,3,3,0.1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,4,0,1,1,1,0,Cuboid,-21,15,-12,0,180,0,0.1,3,3,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|5/5|0/0,;
 Scene,Geometry/Cuboid,5,0,1,1,1,0,Cuboid,-6,15,-27,0,0,0,3,3,0.1,Physical,Entities,Default,Basic|255/255/255/255|Nature/Bark1|5/5|0/0,;
@@ -1413,7 +1413,6 @@ Scene,Geometry/Plane,1411,0,1,1,1,0,Kill Region Plane,-624.2794,549.7495,-599.84
 Scene,Geometry/Plane,1413,0,1,1,1,0,Kill Region Plane,-624.2794,560.7143,-550.9435,90,0,0,10,3,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Nature/Boulder3,1414,0,1,1,1,0,Boulder3,-526.455,2.557531,-516.4581,270,99.05259,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Plane,1415,0,1,1,1,0,Kill Region Plane,58.35892,100,-603.3063,0,0,0,18,10,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,General/EditorHumanSpawnPoint,1419,0,1,1,0,0,Human SpawnPoint,194.6817,29.64687,-243.8574,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
 Scene,Geometry/Plane,1417,0,1,1,1,0,Kill Region Plane,-128.9359,90.41891,-396.809,0,0,0,10,3,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,1418,0,1,1,1,0,Kill Region Plane,-13.62449,100,-448.528,0,310,0,10,3,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,1421,0,1,1,1,0,Kill Region Cuboid,440.3815,125,-500,0,0,90,25,0.1,30,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
