@@ -24,7 +24,7 @@ Scene,Geometry/Cuboid,18,0,1,1,1,0,Cuboid,76.62934,62.36919,-144.9937,0,356.701,
 Scene,Geometry/Cuboid,19,0,1,1,0,0,LegacyBarrier,-1.064582,62.63425,-174.6285,0,356.8623,0,1,5,88,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,20,0,1,1,0,0,LegacyBarrier,47.89899,62.55422,-144.0411,0,356.8623,0,1,5,88,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Arc180,21,0,1,1,1,0,Arc180,10.36122,61.56081,-640.0317,0,265.2003,0,10,10,2,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|9/9|0/0,;
-Scene,General/EditorHumanSpawnPointBlue,22,0,1,1,0,0,Human SpawnPoint (blue),19.73124,53.49645,-115.1615,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,General/EditorHumanSpawnPointBlue,22,0,1,1,0,0,Human SpawnPoint (blue),19.73124,53.49645,-115.1615,0,180,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
 Scene,Geometry/Cuboid,23,0,1,0,1,0,Racing Start Barrier Cuboid,24.29534,62.05772,-156.8474,0,355.7483,0,5,10,1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,24,0,1,1,1,0,Cuboid,-31.14272,37.6292,-152.2199,0,357.0419,0,1,10,88,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|9/9|0/0,;
 Scene,Geometry/Cuboid,25,0,1,1,1,0,Cuboid,109.9422,38.1093,-143.4697,0,356.8419,0,1,10,88,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|9/9|0/0,;
