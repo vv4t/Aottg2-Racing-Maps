@@ -29,6 +29,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-25** Mb12 - Galaxy Race / New Galaxy Race ▶ Fixed 20+ exploits
 - **2026-01-24** Sebas Tian - SAC - Ultimate ▶ Fixed 30+ exploits
 - **2026-01-24** Pixell - Antartica / Pixo Map ▶ Fixed exploits
 - **2026-01-24** NexS7 - The Box [Original] & [Hard] ▶ Added colored pillars at turns
