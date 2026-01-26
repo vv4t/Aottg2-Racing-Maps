@@ -261,7 +261,7 @@ map_id|author|name|difficulty|tags|notes
 271|Pixell|Winter Speed|2.0||
 272|Unknown|VN Map Maker's Tiny Untitled Lava Map|3.5||
 273|Mb12|Galaxy Race|3.5||Fixed on 2026-01-25
-274|KaiPlus|Kai's Dungeon (Racing Edit by Fruity)|2.5||
+274|KaiPlus|Kai's Dungeon (Racing Edit by Fruity)|2.5|inactive|
 275|Riblei|Celestial Automatic (Short, Thicker Poles)|4.0||
 276|cowcowtony|Circular Race (Sub-Lava)|2.0||
 277|Esli|Tube Map|4.5||
@@ -549,3 +549,4 @@ map_id|author|name|difficulty|tags|notes
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
 572|Antigasp|SignalMover Demo Map (Edit by Fruity)|0.5||Added on 2026-01-24
+
