@@ -29,6 +29,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-01-28** cowcowtony - Future Trax 1 ▶ Fixed skating
 - **2026-01-25** Naked Heart - Mash 2 ▶ Renamed Maash to Mash 2
 - **2026-01-25** Sebas Tian - Yegrocia Region (ft. Riblei) ▶ Fixed exploits
 - **2026-01-25** Mb12 - Galaxy Race / New Galaxy Race ▶ Fixed 20+ exploits
