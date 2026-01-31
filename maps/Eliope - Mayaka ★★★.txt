@@ -307,7 +307,7 @@ Scene,Decor/Pillar2,299,0,1,1,1,0,Pillar2,-1190.814,16.63262,-155.7174,0,85.3137
 Scene,Decor/Pillar2,300,0,1,1,1,0,Pillar2,-1043.698,12.63793,-511.43,0,66.56213,0,1,1,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
 Scene,Decor/Pillar2,301,0,1,1,1,0,Pillar2,-834.8425,16.93114,-811.7785,0,45.81078,0,1,1,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
 Scene,Decor/Pillar2,302,0,1,1,1,0,Pillar2,-552.6548,16.96114,-1043.732,0,29.31023,0,1,1,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|1/1|0/0,;
-Scene,Geometry/Cuboid,303,0,1,1,1,0,Cuboid,-10,-3,0,0,0,0,6,1,410,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/32|0/0,;
+Scene,Geometry/Cuboid,303,0,1,1,1,0,Cuboid,-10,-3,0,0,0,0,6,1,410,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone3|1/64|0/0,;
 Scene,Geometry/Cuboid,304,0,1,1,0,0,LegacyBarrier,-10,0,0,0,0,0,6,0.5,420,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Buildings/Tower1,305,0,1,1,1,0,Tower1,1457.524,125.0246,-21.37528,0,89.21876,0,14,2.5,14,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|16/4|0/0,;
 Scene,Buildings/Tower1,306,0,1,1,1,0,Tower1,1476.234,42.58022,-95.88721,354.3063,95.47264,35.46094,6,1.5,6,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone5|16/4|0/0,;
