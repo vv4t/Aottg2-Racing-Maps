@@ -336,7 +336,7 @@ map_id|author|name|difficulty|tags|notes
 348|oNoto|Racing LavaEZ|3.5||
 349|Zil|Easy af 2.0|5.0||
 350|YukiharaSaiki|Metal Racing|1.5||
-351|Sub|Racing City (with CP)|0.5||
+351|Sub|Racing City (with CP)|0.5|inactive|
 352|oNoto|LaLy Blet|3.5||
 353|Eliope|Race King Volcano Special Training|5.0||
 354|Riblei|Celestial Dreams|1.0||Updated on 2025-10-26
@@ -514,7 +514,7 @@ map_id|author|name|difficulty|tags|notes
 533|Kyoi|Goober's Death Run|5.0||
 534|Riblei & Eliope|Machina 2 (Later Half Cut, No Trap Edit by Riblei)|4.0||
 535|Riblei|Celestial Ellestra|4.0||
-536|Sub|Copied City|0.5||
+536|Sub|Copied City|0.5|inactive|
 537|Yuukihito|Unnamed (Lava)|4.5||
 538|Eliope|Avenue + ZYX_ZYX (Tourney Version by Riblei)|4.0||
 539|cowcowtony|Random Turns|3.5||
@@ -549,3 +549,4 @@ map_id|author|name|difficulty|tags|notes
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
 572|Antigasp|SignalMover Demo Map (Edit by Fruity)|0.5||Added on 2026-01-24
+
