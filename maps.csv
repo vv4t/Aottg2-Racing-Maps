@@ -42,7 +42,7 @@ map_id|author|name|difficulty|tags|notes
 42|Esli|Esli's Balltower|5.0||
 43|Zil|puzzle|1.0||
 44|oNoto|The End of Laly (Transparent Tube)|4.5||Fixed on 2026-01-15
-46|Mb12|Tomb Escape 2|3.5||Fixed on 2025-12-26
+46|Mb12|Tomb Escape 2|3.5||Fixed holes on 2026-02-01
 47|zender|Uncompleted Racing Map|4.0||
 48|LuigiKkjk|The Kong Map|3.0||
 49|MASKSLAVE|MASKSLAVE 1|4.0||
@@ -192,7 +192,7 @@ map_id|author|name|difficulty|tags|notes
 197|Eliope|Makina ABC (Drunk Edit by Alex4win)|4.0||
 198|oNoto|LaLy LoZy Lava|3.5||
 199|oNoto|Racing 001 Normal Reversed (Semi Lava)|1.0|inactive|
-200|Mb12|Tomb Escape 1|3.0||
+200|Mb12|Tomb Escape 1|3.0||Fixed holes on 2026-02-01
 201|Sylcium|Long Racing Map (Lava Edit by Alex4win)|3.5||
 202|Incendium|Inferno 1|5.0||
 203|PR0XY|The Sandstone Temple (Lava)|3.5||
@@ -549,6 +549,7 @@ map_id|author|name|difficulty|tags|notes
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
 572|Antigasp|SignalMover Demo Map (Edit by Fruity)|0.5||Added on 2026-01-24
+
 
 
 
