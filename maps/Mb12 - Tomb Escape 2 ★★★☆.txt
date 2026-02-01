@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed holes by Fruity on 2026-02-01|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -1071,7 +1071,15 @@ Scene,Geometry/Cuboid,1065,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,
 Scene,Geometry/Cuboid,1066,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,1067,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,1068,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1069,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,1069,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1070,0,1,1,0,0,Barrier,155,6738,-51.35964,0,0,0,30,5,30,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1073,0,1,1,0,0,Barrier,1175.235,6825.458,-526.3674,0,0,0,50,1,50,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1074,0,1,1,0,0,Barrier,2466.804,6741.571,116.386,0,0,0,50,1,50,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1075,0,1,1,0,0,Barrier,2504.898,6720.854,370.0883,0,0,0,50,5,50,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1076,0,1,1,0,0,Barrier,2415.155,6720.854,371.4355,0,0,0,10,5,10,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1077,0,1,1,0,0,Barrier,2661.008,7288.725,381.9611,0,0,0,20,2,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1078,0,1,1,0,0,Barrier,4038.878,7250.466,598.5763,0,0,0,50,1,50,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cube1,1079,0,1,1,0,0,Barrier,3508.908,7315.889,1204.766,0,0,0,50,20,50,Physical,Characters,Default,Default|255/255/255/255,
 /// Logic
 
 /// Weather
