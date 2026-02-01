@@ -1,1 +1,597 @@
+/// Options
+EditorVersion:1.0|Description:An imagining of a Forest of Giant Trees taking place between Seasons 3 and 4, having been restored to a tourist spot.|HasWeather:0
+/// CustomAssets
+cruisetg,https://www.dropbox.com/scl/fi/tzsjbgom71y1fwhvqgnuq/cruisetg?rlkey=xvrohznk64zmegz938cx7s527&st=4yi1dn6t&dl=1
+/// Objects
+Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
+Scene,General/EditorHumanSpawnPoint,2324,0,1,1,0,0,Human SpawnPoint,252.3226,191.7568,-2781.374,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Custom/cruisetg/ae86,121985,0,1,0,1,1,ae86,257.1042,190.1534,-2774.815,0,135,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/downhill,121938,0,1,1,1,0,downhill,154.263,221.5712,-2955.693,0,0,0,1,1,1,Physical,All,Default,DefaultNoTint|255/255/255/255,;
+Scene,Custom/cruisetg/ae86,121989,0,1,0,1,1,ae86,286.2599,190.1534,-2762.09,0,224.8521,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/ae86,121991,0,1,0,1,1,ae86,283.2944,190.1534,-2774.945,0,224.8521,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/ae86,121990,0,1,0,1,1,ae86,291.3657,190.1534,-2766.173,0,224.8521,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/ae86,121988,0,1,0,1,1,ae86,278.3084,190.1534,-2770.039,0,224.8521,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/ae86,121982,0,1,0,1,1,ae86,262.0228,190.1534,-2769.841,0,135,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/ae86,121987,0,1,0,1,1,ae86,253.2716,190.1534,-2761.749,0,135,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03;
+Scene,Custom/cruisetg/ae86,121986,0,1,0,1,1,ae86,249.1746,190.1534,-2766.843,0,135,0,2,2,2,Physical,All,Default,DefaultNoTint|255/255/255/255,Rigidbody|Mass:40|Gravity:0/-800/0|FreezeRotation:false|Interpolate:false,Car|MoveForce:45|MaxMoveSpeed:60|MaxSteeringAngle:90|VelocityFacing:0.7|MinVelocityFacing:0.04|TorqueForce:200|BrakingScale:0.02|EngineSpeed:0.05|MaxEngineSpeed:100|SteeringSpeed:0.03
+/// Logic
+class Main
+{
+    function OnPlayerSpawn(player, character)
+    {
+        if (character.IsMainCharacter)
+        {
+            Game.Print("Press C for camera change" + String.Newline + "Press R to turn car upright");
+        }
+    }
+}
 
+component Car
+{
+    MoveForce = 45.0;
+    MaxMoveSpeed = 60.0;
+    MaxSteeringAngle = 90.0;
+    VelocityFacing = 0.07;
+    MinVelocityFacing = 0.04;
+    TorqueForce = 300.0;
+    BrakingScale = 0.02;
+
+    _EngineSpeed = 0.02;
+    _SteeringSpeed = 0.03;
+    _MaxEngineSpeed = 100.0;
+    _BrakingVelocityFacingScale = 0.05;
+    _BrakingSteeringScale = 2;
+    _BrakingMultiplierLerpScale = 0.005;
+    _SlowDownScale = 0.005;
+
+    _inUse = false;
+    _hasPassenger = false;
+    _isPassenger = false;
+    _human = null;
+    _collidingHuman = null;
+    _collidingDrive = false;
+    _collidingPassenger = false;
+    _rigidbody = null;
+    
+    _leftFrontWheel = null;
+    _rightFrontWheel = null;
+    _leftBackWheel = null;
+    _rightBackWheel = null;
+    _wheels = List();
+
+    _ignition = null;
+    _exhaust = null;
+    _lowRumble = null;
+    _highRumble = null;
+
+    _transform = null;
+
+    _enginePower = 0.0;
+    _drivingAngle = 0.0;
+    _isGrounded = false;
+    _isBraking = false;
+    _currentCamera = 2;
+    _currentBrakingMultiplier = 1.0;
+
+    #Sounds
+    _engineOn = false;
+    _canExhaust = false;
+    _soundEngine = 0;
+    _soundVelocity = 0;
+
+    _velocityFacingDiff = 0;
+    _lowVelocityThreshold = self.MaxMoveSpeed / 4;
+
+    _canMove = false;
+
+    function Init()
+    {
+        self._rigidbody = self.MapObject.GetComponent("Rigidbody");
+        self.MapObject.AddSphereCollider("Region", "Characters", Vector3.Zero, 1 * self.MapObject.Scale.X);
+
+        self._leftFrontWheel = self.MapObject.GetTransform("ae86/AE86-wheel-1");
+        self._rightFrontWheel = self.MapObject.GetTransform("ae86/AE86-wheel-2");
+        self._leftBackWheel = self.MapObject.GetTransform("ae86/AE86-wheel-3");
+        self._rightBackWheel = self.MapObject.GetTransform("ae86/AE86-wheel-4");
+
+        self._wheels.Add(self._leftFrontWheel);
+        self._wheels.Add(self._rightFrontWheel);
+        self._wheels.Add(self._leftBackWheel);
+        self._wheels.Add(self._rightBackWheel);
+
+        self._ignition = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86-ignition,121971,0,1,0,0,0,ae86-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._exhaust = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86-exhaust,121971,0,1,0,0,0,ae86-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._lowRumble = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86-slow-rumble,121971,0,1,0,0,0,ae86-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._highRumble = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86-fast-rumble,121971,0,1,0,0,0,ae86-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        
+        self.StopSounds();
+
+        self._transform = self.MapObject.Transform;
+
+        self._velocityFacingDiff = self.VelocityFacing - self.MinVelocityFacing;
+    }
+
+    function OnPlayerSpawn(player, character)
+    {
+        if (Network.IsMasterClient) 
+        { 
+            self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
+        }
+
+        character.SetWeapon("Blade");
+        character.CurrentBladeDurability = 0;
+        character.CurrentBlade = 0;
+        character.MaxBlade = 0;
+    }
+
+	function OnPlayerLeave(player)
+	{
+        if (player.ID == Network.MyPlayer.ID)
+        {
+            if (self._isPassenger)
+            {
+                self._isPassenger = false;
+                self._hasPassenger = false;
+                self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
+            }
+            elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
+            {
+                self._inUse = false;
+			    self.NetworkView.Transfer(Network.MasterClient);
+            }
+        }
+	}
+
+	function OnCharacterDie(victim, killer, killerName)
+	{
+        if (victim.Type != "Human") { return; }
+
+        if (victim.Player.ID == Network.MyPlayer.ID)
+        {
+            if (self._isPassenger)
+            {
+                self._isPassenger = false;
+                self._hasPassenger = false;
+                self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
+            }
+            elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
+            {
+                self._inUse = false;
+			    self.NetworkView.Transfer(Network.MasterClient);
+            }
+        }
+	}
+
+    function OnNetworkStream()
+    {
+        self._inUse = self.NetworkView.ReceiveStream();
+        self._soundEngine = self.NetworkView.ReceiveStream();
+        self._soundVelocity = self.NetworkView.ReceiveStream();
+    }
+
+    function SendNetworkStream()
+    {
+        self.NetworkView.SendStream(self._inUse);
+        self.NetworkView.SendStream(self._soundEngine);
+        self.NetworkView.SendStream(self._soundVelocity);
+    }
+
+    function OnNetworkMessage(sender, message)
+    {
+        if (Network.IsMasterClient && self.NetworkView.Owner == Network.MyPlayer && !self._inUse && message == "request")
+        {
+            self.NetworkView.Transfer(sender);
+        }
+        elif (String.StartsWith(message, "p"))
+        {
+            self._hasPassenger = Convert.ToBool(String.Substring(message, 1));
+        }
+    }
+
+    function OnNetworkTransfer(oldOwner, newOwner)
+    {
+        if (newOwner == Network.MasterClient && Network.IsMasterClient)
+        {
+            self._inUse = false;
+        }
+        elif (newOwner == Network.MyPlayer)
+        {
+            human = self._collidingHuman;
+            if (human != null && human.Type == "Human")
+            {
+                human.MountTransform(self._transform, Vector3(0.3, 0.6, -0.1), Vector3.Zero);
+                human.ClearHooks();
+                Camera.SetManual(true);
+                self._human = human;
+                self._inUse = true;
+            }
+            else
+            {
+                self.NetworkView.Transfer(Network.MasterClient);
+            }
+        }
+    }
+
+    function OnCollisionStay(other)
+    {
+        if (other.Type != "Human" || !other.IsMine) { return; }
+        
+        vector = other.Position - self.MapObject.Position;
+        project = Vector3.Project(vector, self.MapObject.Right);
+        if (project.Normalized == self.MapObject.Right && !self._inUse && !other.IsMounted)
+        {
+            UI.SetLabelForTime("MiddleCenter", "Press " + Input.GetKeyName("Interaction/Interact") + " to drive", 0.1);
+            self._collidingHuman = other;
+            self._collidingDrive = true;
+        }
+        elif (project.Normalized != self.MapObject.Right && !self._hasPassenger && !other.IsMounted)
+        {
+            UI.SetLabelForTime("MiddleCenter", "Press " + Input.GetKeyName("Interaction/Interact") + " to get in", 0.1);
+            self._collidingHuman = other;
+            self._collidingPassenger = true;
+        }
+    }
+
+    function OnTick()
+    {
+        self._collidingHuman = null;
+        self._collidingDrive = false;
+        self._collidingPassenger = false;
+
+
+        vector = self._rigidbody.GetVelocity();
+        y = vector.Y;
+        vector.Y = 0;
+        velocity = vector.Magnitude;
+
+        self.PlaySounds(self._soundEngine, self._soundVelocity);
+        
+        if (self._leftBackWheel != null)
+        {
+            rotationSpeed = Math.Clamp(velocity, 0, 10);
+
+            yRotation = Math.Clamp(self._drivingAngle / (self.MaxSteeringAngle / 45), -45, 45);
+            xRotation = Math.Sign(self._enginePower) * rotationSpeed;
+            self._leftFrontWheel.LocalRotation = Vector3(self._leftFrontWheel.LocalRotation.X + xRotation, yRotation, self._leftFrontWheel.LocalRotation.Z);
+            self._rightFrontWheel.LocalRotation = Vector3(self._rightFrontWheel.LocalRotation.X + xRotation, yRotation, self._rightFrontWheel.LocalRotation.Z);
+
+            self._leftBackWheel.Rotate(Vector3(xRotation, 0, 0));
+            self._rightBackWheel.Rotate(Vector3(xRotation, 0, 0));
+        }
+
+        if (self.NetworkView.Owner != Network.MyPlayer) { return; }
+
+        if (self._inUse && self._human != null)
+        {
+            self._soundEngine = self._enginePower;
+            self._soundVelocity = velocity;
+            self.CheckIsGrounded();
+            project = Vector3.Project(vector, self.MapObject.Forward);
+
+            if (self._isBraking) { self._currentBrakingMultiplier = Math.Lerp(self._currentBrakingMultiplier, self._BrakingSteeringScale, self._BrakingMultiplierLerpScale); }
+            else { self._currentBrakingMultiplier = Math.Lerp(self._currentBrakingMultiplier, 1.0, self._BrakingMultiplierLerpScale); }
+
+            forwardMultiplier = 1.0;
+            if (project.Normalized != self.MapObject.Forward) { forwardMultiplier = -1.0; }
+            rotatePower = 1;
+            if (velocity < 0.001) { rotatePower = 0; }
+            elif (velocity < self._lowVelocityThreshold) { rotatePower = Math.Tan(Math.Rad2DegConstant * Math.PI / 4 * velocity / self._lowVelocityThreshold); }
+            else { rotatePower = 1; }
+            rotatePower *= forwardMultiplier;
+            if (self._isBraking) { rotatePower *= self._currentBrakingMultiplier; }
+
+            if (Input.GetKeyHold("General/Back")) { self._enginePower = Math.Lerp(self._enginePower, self._MaxEngineSpeed * -1, self._EngineSpeed); }
+            elif (Input.GetKeyHold("General/Forward")) { self._enginePower = Math.Lerp(self._enginePower, self._MaxEngineSpeed, self._EngineSpeed); }
+            else { self._enginePower = Math.Lerp(self._enginePower, 0, 0.05); }
+            
+            if (Input.GetKeyHold("General/Left")) { self._drivingAngle = Math.Lerp(self._drivingAngle, (-1.0 * self.MaxSteeringAngle), self._SteeringSpeed); }
+            elif (Input.GetKeyHold("General/Right")) { self._drivingAngle = Math.Lerp(self._drivingAngle, self.MaxSteeringAngle, self._SteeringSpeed); }
+            else { self._drivingAngle = Math.Lerp(self._drivingAngle, 0, 0.1); }
+
+            if (self._isGrounded)
+            {
+                self.MapObject.Transform.Rotate(Vector3(0, self._drivingAngle * Time.TickTime * rotatePower, 0));
+                self._rigidbody.AddForce(self.MapObject.Forward * self.MoveForce * (self._enginePower / self._MaxEngineSpeed));
+                if (Math.Abs(self._enginePower) < 1) { self.SlowToStop(); }
+
+                multiplier = 1.0;
+                if (self._isBraking) { multiplier = self._BrakingVelocityFacingScale * (self._currentBrakingMultiplier / 1.0); }
+                newVector = Vector3.Lerp(vector.Normalized, self.MapObject.Transform.Forward * forwardMultiplier, (self.VelocityFacing - (self._velocityFacingDiff * velocity / self.MaxMoveSpeed)) * multiplier) * velocity;
+                
+                if (self._isBraking) { newVector = newVector.Magnitude * (1.0 - (self.BrakingScale * self._currentBrakingMultiplier / 1.0)) * newVector.Normalized; }
+
+                newVector.Y = y;
+                self._rigidbody.SetVelocity(newVector);
+
+                self.LimitSpeed();
+                self.FaceSurface();
+            }
+            #Game.Print("Ground: " + self._isGrounded + "Engine: " + String.FormatFloat(self._enginePower, 1) + " Angle: " + String.FormatFloat(self._drivingAngle, 1) + " RotPow: " + String.FormatFloat(rotatePower, 1));
+        }
+    }
+
+    function OnFrame()
+    {
+        if (self._human != null) 
+        { 
+            self._human.PlayAnimation("Armature|horse_idle"); 
+
+            if (Input.GetKeyDown("General/ChangeCamera")) { self._currentCamera = Math.Mod(self._currentCamera + 1, 4); }
+        }
+        
+        if (self.NetworkView.Owner == Network.MyPlayer && self._inUse)
+        {
+            if (Input.GetKeyDown("Interaction/Interact"))
+            {
+                self._human.Unmount();
+                self._human = null;
+                self.MapObject.Position += self.MapObject.Right * -1.0;
+                Camera.SetManual(false);
+                self.NetworkView.Transfer(Network.MasterClient);
+                self._inUse = false;
+                return;
+            }
+            
+            if (Input.GetKeyDown("Human/Reload"))
+            {
+                self.MapObject.Transform.Position = self.MapObject.Transform.Position + Vector3.Up * 3.0;
+                self.MapObject.Rotation = Vector3.Up * self.MapObject.Rotation.Y;
+                self._rigidbody.SetVelocity(Vector3.Zero);
+            }
+
+            self._isBraking = Input.GetKeyHold("Human/HorseJump");
+            
+            if (self.NetworkView.Owner.Character == null || self.NetworkView.Owner.Character.Type != "Human" || self.NetworkView.Owner.Character.MountedTransform != self._transform)
+            {
+                self.NetworkView.Transfer(Network.MasterClient);
+                self._inUse = false;
+                return;
+            }
+        }
+        elif (self._hasPassenger && self._human != null)
+        {
+            if (self._human == null || self._human.MountedMapObject != self.MapObject)
+            {
+                self._hasPassenger = false;
+                return;
+            }
+            if (Input.GetKeyDown("Interaction/Interact"))
+            {
+                self._human.Unmount();
+                self._human = null;
+                self.MapObject.Position += self.MapObject.Right * 1.0;
+                Camera.SetManual(false);
+                self._hasPassenger = false;
+                self._isPassenger = false;
+                self.NetworkView.SendMessageOthers("p" + Convert.ToString(self._hasPassenger));
+            }
+        }
+        if (self._collidingHuman != null && !self._collidingHuman.IsMounted && Input.GetKeyDown("Interaction/Interact"))
+        {
+            if (self._collidingDrive && !self._inUse)
+            {
+                if (self.NetworkView.Owner == Network.MyPlayer) 
+                {
+                    self._human = self._collidingHuman;
+                    self._human.MountTransform(self._transform, Vector3(0.3, 0.6, -0.1), Vector3.Zero);
+                    self._human.ClearHooks();
+                    Camera.SetManual(true);
+                    self._inUse = true;
+                }
+                else
+                {
+                    self.NetworkView.SendMessage(self.NetworkView.Owner, "request");
+                }
+            }
+            elif (self._collidingPassenger && !self._hasPassenger)
+            {
+                self._human = self._collidingHuman;
+                self._human.MountTransform(self._transform, Vector3(-0.3, 0.6, -0.1), Vector3.Zero);
+                self._human.ClearHooks();
+                Camera.SetManual(true);
+                self._hasPassenger = true;
+                self._isPassenger = true;
+                self.NetworkView.SendMessageOthers("p" + Convert.ToString(self._hasPassenger));
+            }
+        }
+    }
+
+    function OnLateFrame()
+    {
+        if (self._human != null) 
+        {
+            if (self._currentCamera == 0)
+            {
+                Camera.SetPosition(self._human.Position + self.MapObject.Up * 1.0 + self.MapObject.Forward * 0.15);
+                Camera.LookAt(self.MapObject.Position + self.MapObject.Forward * 10.0 + self.MapObject.Up * 1);
+            }
+            elif (self._currentCamera == 1)
+            {
+                Camera.SetPosition(self.MapObject.Position + self.MapObject.Up * 2.5 + self.MapObject.Forward * 1);
+                Camera.LookAt(self.MapObject.Position + self.MapObject.Forward * 10.0 + self.MapObject.Up * 1);
+            }
+            elif (self._currentCamera == 2)
+            {
+                Camera.SetPosition(self.MapObject.Position + self.MapObject.Up * 5.0 + self.MapObject.Forward * -12.0);
+                Camera.LookAt(self.MapObject.Position + self.MapObject.Forward * 10.0 + self.MapObject.Up * 1);
+            }
+            elif (self._currentCamera == 3)
+            {
+                Camera.SetPosition(self.MapObject.Position + self.MapObject.Up * 6.0 + self.MapObject.Forward * -14.0);
+                Camera.LookAt(self.MapObject.Position + self.MapObject.Forward * 10.0 + self.MapObject.Up * 1);
+            }
+        }
+    }
+
+    function SlowToStop()
+    {
+        velocity = self._rigidbody.GetVelocity();
+        velocityY = velocity.Y;
+        velocity.Y = 0;
+
+        if (velocity.Magnitude < 1) { self._rigidbody.SetVelocity(Vector3.Up * velocityY); }
+        else { self._rigidbody.AddForce(self._SlowDownScale * -1.0 * velocity + velocityY * Vector3.Up); }
+    }
+
+    function LimitSpeed()
+    {
+        velocity = self._rigidbody.GetVelocity();
+        velocityY = velocity.Y;
+        velocity.Y = 0;
+        velocity = velocity.Normalized * Math.Min(velocity.Magnitude, self.MaxMoveSpeed);
+        velocity.Y = velocityY;
+        self._rigidbody.SetVelocity(velocity);
+    }
+
+    function CheckIsGrounded()
+    {
+        offset = self.MapObject.Up * self.MapObject.Scale.X * -0.5;
+        for (wheel in self._wheels)
+        {
+            hit = Physics.LineCast(wheel.Position, wheel.Position + offset, "MapObjects");
+            if (hit != null)
+            {
+                self._isGrounded = true;
+                return;
+            }
+        }
+        self._isGrounded = false;
+    }
+
+    function FaceSurface()
+    {
+        hit = Physics.LineCast(self.MapObject.Transform.Position, self.MapObject.Transform.Position + self.MapObject.Transform.Up * -2.0, "MapObjects");
+        if (hit == null) { return; }
+        difference = hit.Normal - self.MapObject.Transform.Up;
+        difference.Y = 0;
+        self._rigidbody.AddTorque(difference * self.TorqueForce, "Force");
+    }
+
+    function PlaySounds(engine, velocity)
+    {
+        self._ignition.Position = self.MapObject.Position;
+        self._exhaust.Position = self.MapObject.Position;
+        self._lowRumble.Position = self.MapObject.Position;
+        self._highRumble.Position = self.MapObject.Position;
+
+        if (!self._inUse && self._engineOn)
+        {
+            self._engineOn = false;
+            self.StopSounds();
+        }
+        elif (self._inUse && !self._engineOn)
+        {
+            self._engineOn = true;
+            self.Ignition();
+        }
+
+        if (self._engineOn && Math.Abs(engine) < 5) { self._canExhaust = true; }
+        elif (self._engineOn && engine > 5 && self._canExhaust) 
+        { 
+            self._canExhaust = false; 
+            self.Exhaust();
+        }
+
+        if(velocity > 1 && self._engineOn) { self.HighRumble(); }
+        if (Math.Abs(engine) < self._MaxEngineSpeed / 5) { self._highRumble.Active = false; }
+    }
+
+    function StopSounds()
+    {
+        self._ignition.Active = false;
+        self._exhaust.Active = false;
+        self._lowRumble.Active = false;
+        self._highRumble.Active = false;
+    }
+
+    coroutine LowRumble()
+    {
+        if (self._lowRumble.Active) { return; }
+        self._lowRumble.Active = true;
+        wait 3.0;
+        self._lowRumble.Active = false;
+    }
+
+    coroutine HighRumble()
+    {
+        if (self._highRumble.Active) { return; }
+        self._highRumble.Active = true;
+        wait 12.0;
+        self._highRumble.Active = false;
+    }
+
+    coroutine Ignition()
+    {
+        self._ignition.Active = false;
+        wait 0.1;
+        self._ignition.Active = true;
+    }
+
+    coroutine Exhaust()
+    {
+        if (self._exhaust.Active) { return; }
+        self._exhaust.Active = false;
+        wait 0.1;
+        self._exhaust.Active = true;
+        wait 1.7;
+        self._exhaust.Active = false;
+    }
+}
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false
+}
