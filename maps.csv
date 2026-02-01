@@ -437,7 +437,7 @@ map_id|author|name|difficulty|tags|notes
 451|cowcowtony|Experimental Map|0.5||Fixed on 2026-01-18
 452|Incendium|Inferno 1 Imp Edition (Hookable Arrows)|4.5||
 453|Eliope|District Racers (Extended by Riblei)|0.5||
-454|Sebas Tian|SAC - Ultimate|5.0||Fixed on 2026-01-24
+454|Sebas Tian|SAC - Ultimate|5.0|unranked|Fixed on 2026-01-24
 455|Riblei|Celestial Steel|3.0||Updated on 2025-10-26
 456|oNoto|100 Subs Map|3.5||
 457|Rin|Bus To Hell 2|3.0||Fixed on 2026-01-17
@@ -549,5 +549,6 @@ map_id|author|name|difficulty|tags|notes
 570|Sub|Racing City (No Shortcut Version)|0.5||
 571|Sub|Copied City (No Shortcut Version)|0.5||
 572|Antigasp|SignalMover Demo Map (Edit by Fruity)|0.5||Added on 2026-01-24
+
 
 
