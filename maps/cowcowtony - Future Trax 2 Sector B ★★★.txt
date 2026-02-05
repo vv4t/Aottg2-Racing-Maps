@@ -1,0 +1,127 @@
+/// Options
+EditorVersion:1.0|Description:|HasWeather:0
+/// CustomAssets
+
+/// Objects
+Scene,Geometry/Cuboid,60,0,1,1,1,0,Cuboid,0,820,-320,0,0,0,3,1,3,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
+Scene,General/EditorHumanSpawnPointBlue,3,0,1,1,0,0,Human SpawnPoint (blue),5,830,-320,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,Geometry/Prism,4,0,1,1,1,0,Kill Region Prism,-3.827747,793.6958,175.4002,0,180,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Prism,5,0,1,1,1,0,Kill Region Prism,-3.827747,793.6958,-164.5998,0,0.001145927,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Prism,6,0,1,1,1,0,Kill Region Prism,166.1723,793.6958,5.40022,0,270,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Prism,7,0,1,1,1,0,Kill Region Prism,-173.8277,793.6958,5.40022,0,90,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,8,0,1,1,1,0,Kill Region Cuboid,220,800,75,0,190.8877,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,9,0,1,1,1,0,Kill Region Cuboid,220,800,-75,0,169.1123,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,10,0,1,1,1,0,Kill Region Cuboid,-220,800,75,0,169.1123,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,11,0,1,1,1,0,Kill Region Cuboid,-220,800,-75,0,190.8877,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,12,0,1,1,1,0,Kill Region Cuboid,75,800,220,0,169.1123,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,13,0,1,1,1,0,Kill Region Cuboid,-75,800,220,0,190.8877,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,14,0,1,1,1,0,Kill Region Cuboid,75,800,-220,0,190.8877,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,15,0,1,1,1,0,Kill Region Cuboid,-75,800,-220,0,169.1123,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Arc180,16,0,1,1,1,0,Kill Region Arc180,396.733,798.2092,-0.198479,0,180,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Arc180,17,0,1,1,1,0,Kill Region Arc180,-393.561,798.2092,-0.198479,0,0.001145927,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Arc180,18,0,1,1,1,0,Kill Region Arc180,1.586032,798.2092,394.9485,0,90,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Arc180,19,0,1,1,1,0,Kill Region Arc180,1.586032,798.2092,-395.3455,0,270,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,20,0,1,1,1,0,Kill Region Cuboid,0,855,240,0,180,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,21,0,1,1,1,0,Kill Region Cuboid,0,855,-240,0,0.001145927,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,22,0,1,1,1,0,Kill Region Cuboid,240,855,0,0,270,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,23,0,1,1,1,0,Kill Region Cuboid,-240,855,0,0,90,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,24,0,1,1,1,0,Kill Region Cuboid,0,745,240,0,180,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,25,0,1,1,1,0,Kill Region Cuboid,0,745,-240,0,0.001145927,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,26,0,1,1,1,0,Kill Region Cuboid,240,745,0,0,270,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,27,0,1,1,1,0,Kill Region Cuboid,-240,745,0,0,90,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Arc180,28,0,1,1,1,0,KillArc180,396.733,798.2092,-0.198479,0,180,0,9.6,20,5.1,None,Characters,Default,OldBombExplodeMat|178/178/255/127|20/0.04,;
+Scene,Geometry/Arc180,29,0,1,1,1,0,KillArc180,-393.561,798.2092,-0.198479,0,0.001145927,0,9.6,20,5.1,None,Characters,Default,OldBombExplodeMat|178/178/255/127|20/0.04,;
+Scene,Geometry/Arc180,30,0,1,1,1,0,KillArc180,1.586032,798.2092,394.9485,0,90,0,9.6,20,5.1,None,Characters,Default,OldBombExplodeMat|178/178/255/127|20/0.04,;
+Scene,Geometry/Arc180,31,0,1,1,1,0,KillArc180,1.586032,798.2092,-395.3455,0,270,0,9.6,20,5.1,None,Characters,Default,OldBombExplodeMat|178/178/255/127|20/0.04,;
+Scene,Geometry/Arc180,32,0,1,1,1,0,KillArc180,396.733,798.2092,-0.198479,0,180,0,9.8,20,5.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc180,33,0,1,1,1,0,KillArc180,-393.561,798.2092,-0.198479,0,0.001145927,0,9.8,20,5.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc180,34,0,1,1,1,0,KillArc180,1.586032,798.2092,394.9485,0,90,0,9.8,20,5.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc180,35,0,1,1,1,0,KillArc180,1.586032,798.2092,-395.3455,0,270,0,9.8,20,5.2,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cylinder,36,0,1,1,1,0,Cylinder,160,800,0,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,37,0,1,1,1,0,Cylinder,-160,800,0,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,38,0,1,1,1,0,Cylinder,0,800,160,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,39,0,1,1,1,0,Cylinder,0,800,-160,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,40,0,1,1,1,0,KillCylinder,160,855,0,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,41,0,1,1,1,0,KillCylinder,-160,855,0,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,42,0,1,1,1,0,KillCylinder,0,855,160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,43,0,1,1,1,0,KillCylinder,0,855,-160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,44,0,1,1,1,0,KillCylinder,160,745,0,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,45,0,1,1,1,0,KillCylinder,-160,745,0,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,46,0,1,1,1,0,KillCylinder,0,745,160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,47,0,1,1,1,0,KillCylinder,0,745,-160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,48,0,1,1,1,0,Cylinder,160,800,160,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,49,0,1,1,1,0,Cylinder,-160,800,160,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,50,0,1,1,1,0,Cylinder,160,800,-160,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,51,0,1,1,1,0,Cylinder,-160,800,-160,0,180,0,3,5,3,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
+Scene,Geometry/Cylinder,52,0,1,1,1,0,KillCylinder,160,855,160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,53,0,1,1,1,0,KillCylinder,-160,855,160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,54,0,1,1,1,0,KillCylinder,160,855,-160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,55,0,1,1,1,0,KillCylinder,-160,855,-160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,56,0,1,1,1,0,KillCylinder,160,745,160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,57,0,1,1,1,0,KillCylinder,-160,745,160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,58,0,1,1,1,0,KillCylinder,160,745,-160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cylinder,59,0,1,1,1,0,KillCylinder,-160,745,-160,0,180,0,3,0.6,3,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
+Scene,Geometry/Cuboid,65,0,1,0,1,0,Racing Start Barrier Cuboid,32.5,800,-280,0,0,0,5.5,10,1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,62,0,1,1,1,0,Cuboid,0,800,-360,0,0,0,0.25,10,13,Physical,Characters,Default,Transparent|45/255/255/130|Misc/None|1/1|0/0,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,64,0,1,1,1,0,EndCuboid,-32.5,800,-280,0,0,0,5.5,10,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1
+/// Logic
+
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false
+}
