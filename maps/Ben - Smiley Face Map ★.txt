@@ -38,9 +38,9 @@ Scene,Geometry/Cuboid,32,0,1,1,1,0,Cuboid,-64.15147,204.002,215.2827,0,1.912496,
 Scene,Geometry/Cuboid,33,0,1,1,1,0,Cuboid,-67.3615,113.206,209.5349,0,1.912496,0,1,1,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|1/1|0/0,;
 Scene,Geometry/Cuboid,34,0,1,1,1,0,Cuboid,-5.845834,160.9441,474.3673,2.839872,357.7738,90.52013,8,0.5,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|1/1|0/0,;
 Scene,Geometry/Cuboid,35,0,1,1,1,0,Cuboid,-7.692164,160.0665,474.5854,0,359.8939,0,8,0.5,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|1/1|0/0,;
-Scene,Geometry/Cuboid,36,0,1,1,1,0,Cuboid,-24.60174,139.2454,473.1258,0,359.9839,0,4,4,0.01,Physical,Entities,Default,Default|255/0/0/255,;
-Scene,Geometry/Cuboid,37,0,1,1,1,0,Cuboid,-27.92502,179.5807,474.7925,0,359.5042,0,4,4,0.01,Physical,Entities,Default,Default|255/255/0/255,;
-Scene,Geometry/Cuboid,38,0,1,1,1,0,Cuboid,15.60098,140.1805,473.2806,0,359.5042,0,4,4,0.01,Physical,Entities,Default,Default|255/255/0/255,;
+Scene,Geometry/Cuboid,36,0,1,1,1,0,Cuboid,-24.60174,139.2454,473.1258,0,359.9839,0,4,4,0.01,None,Entities,Default,Default|255/0/0/255,;
+Scene,Geometry/Cuboid,37,0,1,1,1,0,Cuboid,-27.92502,179.5807,474.7925,0,359.5042,0,4,4,0.01,None,Entities,Default,Default|255/255/0/255,;
+Scene,Geometry/Cuboid,38,0,1,1,1,0,Cuboid,15.60098,140.1805,473.2806,0,359.5042,0,4,4,0.01,None,Entities,Default,Default|255/255/0/255,;
 Scene,Geometry/Cuboid,39,0,1,1,1,0,Cuboid,16.33266,181.8851,474.0237,0,359.9839,0,4,4,0.01,None,Entities,Default,Default|255/0/0/255,;
 Scene,Geometry/Cuboid,40,0,1,1,1,0,Kill Region Cuboid,-28.47149,165.6051,480.9601,0,180.6647,0,4,8,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,41,0,1,1,1,0,Kill Region Cuboid,16.42221,137.9418,480.2121,0,174.6071,0,4,4,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
@@ -143,5 +143,6 @@ Scene,Geometry/Arc180,82,0,1,1,1,0,Kill Region Arc180,355.7252,116.4017,2995.34,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "bf4a181a-0358-42c5-b4e1-3ab23f18f3fe"
 }
