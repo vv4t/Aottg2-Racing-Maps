@@ -30,6 +30,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-02-09** Ben - Smiley Face Map ▶ Modified collision properties for some objects
 - **2026-02-02** Antigasp - SignalMover Demo Map (Edit by Fruity) ▶ Modified collision properties for some objects
 - **2026-02-01** Mb12 - Tomb Escape 1 & 2 ▶ Fixed holes
 - **2026-01-31** Eliope - Mayaka ▶ Updated objects & custom logic by Eliope
