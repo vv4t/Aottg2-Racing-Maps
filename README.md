@@ -30,6 +30,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-02-10** Fex - IKEA Racing Map ▶ Fixed holes
+- **2026-02-10** Konor - Hot Lava (Easy) & (Hard) ▶ Fixed a hole
+- **2026-02-10** Zil - Irì crystal ▶ Fixed holes
 - **2026-02-09** Ben - Smiley Face Map ▶ Modified collision properties for some objects
 - **2026-02-02** Antigasp - SignalMover Demo Map (Edit by Fruity) ▶ Modified collision properties for some objects
 - **2026-02-01** Mb12 - Tomb Escape 1 & 2 ▶ Fixed holes
