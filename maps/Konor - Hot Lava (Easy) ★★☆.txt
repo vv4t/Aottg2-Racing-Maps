@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed hole by Fruity on 2026-02-10|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -71,7 +71,7 @@ Scene,Geometry/Cuboid,65,0,1,1,1,0,Cuboid,-587.4427,134.3481,144.1306,0,177.4057
 Scene,Geometry/Cuboid,66,0,1,1,1,0,Cuboid,-508.4139,133.9787,400.7259,0,176.9411,0,1,10,30,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,67,0,1,1,1,0,Cuboid,-597.089,134.9399,443.5432,0,178.766,0,1,10,30,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,68,0,1,1,1,0,Cuboid,-536.32,79.84644,143.9053,0,176.5363,0,10,1,90,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
-Scene,Geometry/Cuboid,69,0,1,1,1,0,Cuboid,-539.4685,179.6801,147.2852,0,175.2556,0,10,1,90,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
+Scene,Geometry/Cuboid,69,0,1,1,1,0,Cuboid,-539.4685,179.6801,147.2852,0,176.5,0,10,1,90,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|1/1|0/0,;
 Scene,Geometry/Cuboid,70,0,1,1,1,0,Kill Region Cuboid,-80.8447,134.8592,545.5835,0,89.44295,0,1,10,90,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,71,0,1,1,1,0,Kill Region Cuboid,-148.3283,134.7451,603.1751,0,88.77951,0,1,10,90,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,72,0,1,1,1,0,Kill Region Cuboid,49.62072,135.1788,607.6962,0,268.7708,0,1,10,90,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -165,5 +165,6 @@ Scene,Geometry/Cuboid,104,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "ac3d9b2a-a1c1-4eca-9047-301c6c038901"
 }
