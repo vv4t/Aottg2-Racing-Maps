@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Barriers added by Fruity on 2026-02-12|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2026-02-12|HasWeather:0
 /// CustomAssets
 example,https://drive.usercontent.google.com/u/0/uc?id=1K0OGgHe1imQuNqCCLN44cqrLUg9_5xGn&export=download
 /// Objects
@@ -140,3 +140,4 @@ finish_.Active = true;
     "Preset" : false,
     "UniqueId" : "ec906bb3-e269-4d9d-b7ea-c84d54106dee"
 }
+
