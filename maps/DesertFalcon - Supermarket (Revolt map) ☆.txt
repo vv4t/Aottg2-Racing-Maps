@@ -21,10 +21,10 @@ Scene,Geometry/Cuboid,60,0,1,1,0,0,Cuboid,-1003,55.27,850,0,0,0,250,4,200,Physic
 Scene,Geometry/Cuboid,30,0,0,0,1,0,Finish,240.9467,144.3038,356.6063,0,0,0,0.3,20,20,Region,Entities,Default,Transparent|166/177/66/122|Misc/None|1/1|0/0,RacingFinishRegion|;
 Scene,Geometry/Cuboid,62,0,1,1,1,0,Cuboid,-12.8,120,464,0,0,0,1,1.5,5.5,Physical,Entities,Default,Basic|170/160/135/255|Misc/Gradient2|1/1|0/0,;
 Scene,Geometry/Cuboid,61,0,1,1,0,0,Cuboid,352.2,25.6,788.9,0,0,0,2,1,10,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,34,0,1,1,0,0,Barrier,303,130,1344,0,0,0,12,10,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,34,0,1,1,0,0,Barrier,303,130,1344,0,0,0,12,12,1,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,35,0,1,1,0,0,Barrier,365,90,800,0,90,0,150,20,1,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,36,0,1,1,0,0,Barrier,-700,180,900,90,0,0,300,300,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,37,0,1,1,0,0,Barrier,303,130,233.8,0,0,0,12,10,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,37,0,1,1,0,0,Barrier,303,130,233.8,0,0,0,12,12,1,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,42,0,1,1,0,0,Cuboid,-1307.7,78,738.8,0,0,0,10,1,20,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,43,0,1,1,0,0,Cuboid,-1307.7,85.8,738.8,0,0,0,10,1,15,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,44,0,1,1,0,0,Cuboid,-1307.7,93.3,738.8,0,0,0,10,1,10,Physical,Entities,Default,Default|255/255/255/255,;
