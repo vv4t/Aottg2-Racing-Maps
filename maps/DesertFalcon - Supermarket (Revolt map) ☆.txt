@@ -1,11 +1,11 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Barriers added by Fruity on 2026-02-12|HasWeather:0
 /// CustomAssets
 example,https://drive.usercontent.google.com/u/0/uc?id=1K0OGgHe1imQuNqCCLN44cqrLUg9_5xGn&export=download
 /// Objects
 Scene,General/EditorHumanSpawnPoint,6,0,1,1,0,0,Human SpawnPoint,2.548224,74.99084,66.2292,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
 Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,20,0,53.13011,126.8699,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
-Scene,Geometry/Cuboid,17,0,1,1,1,0,Checkpoint,-1483.043,113.3776,447.7348,0,0,0,0.1,12,15,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:true;
+Scene,Geometry/Cuboid,17,0,1,1,1,0,Checkpoint,-1483.043,113.3776,447.7348,0,0,0,0.1,12,15,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,MultiLap|lapCount:3|Refill:true|PlaySound:true;
 Scene,Geometry/Cuboid,8,0,1,0,1,0,Racing Start Barrier,244.6761,62.83512,346.753,0,0,0,0.3,20,20,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,9,0,1,0,1,0,Racing Start Barrier,-9.039986,81.80787,58.57284,0,0,0,0.1,20,100,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Custom/example/mapprefab,15,0,1,1,1,0,mapprefab,-7.769864,75.27287,38.85499,0,0,0,10,10,10,Physical,Entities,Default,DefaultNoTint|255/255/255/255,;
@@ -16,21 +16,72 @@ Scene,Geometry/Plane1,21,0,1,1,1,0,Plane1,-1884.576,75.45514,962.4193,0,0,0,300,
 Scene,Geometry/Plane1,22,0,1,1,1,0,Plane1,-1884.576,75.45514,1048.495,0,0,0,300,300,300,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,CustomPhysicsMaterial|IncludeChildren:false|StaticFriction:20|DynamicFriction:20|Bounciness:80|FrictionCombine:Maximum|BounceCombine:Maximum;
 Scene,Geometry/Plane1,23,0,1,1,1,0,Plane1,-1619.73,75.45514,1048.495,0,0,0,300,300,300,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,CustomPhysicsMaterial|IncludeChildren:false|StaticFriction:20|DynamicFriction:20|Bounciness:80|FrictionCombine:Maximum|BounceCombine:Maximum;
 Scene,Geometry/Plane1,24,0,1,1,1,0,Plane1,-1619.73,75.45514,1001.223,0,0,0,300,300,300,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,CustomPhysicsMaterial|IncludeChildren:false|StaticFriction:20|DynamicFriction:20|Bounciness:90|FrictionCombine:Maximum|BounceCombine:Maximum;
-Scene,Geometry/Cube1,25,0,1,1,1,0,Collider,-1311.443,133.6147,735.1855,0,0,0,100,100,20,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cube1,26,0,1,1,1,0,Collider,-1311.443,133.6147,750.9485,0,0,0,100,100,20,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cube1,27,0,1,1,1,0,Collider,-1311.443,133.6147,729.5605,0,0,0,100,100,20,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cube1,28,0,1,1,1,0,Collider,-1461.36,26.6481,1035.377,0,90,0,100,100,90,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cube1,29,0,1,1,1,0,Collider,-1461.36,26.6481,429.9474,0,90,0,100,100,90,Physical,Entities,Default,Transparent|255/255/255/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,30,0,1,0,0,0,Finish,240.9467,144.3038,356.6063,0,0,0,0.3,20,20,Region,Entities,Default,Transparent|166/177/66/122|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:3;
+Scene,Geometry/Cuboid,59,0,1,1,0,0,Cuboid,-1307.7,140,738.8,0,0,0,10,10,1.3,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,60,0,1,1,0,0,Cuboid,-1003,55.27,850,0,0,0,250,4,200,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,30,0,0,0,1,0,Finish,240.9467,144.3038,356.6063,0,0,0,0.3,20,20,Region,Entities,Default,Transparent|166/177/66/122|Misc/None|1/1|0/0,RacingFinishRegion|;
 Scene,Geometry/Cube1,31,0,1,1,1,0,Cube1,-17.95895,117.1387,467.9846,0,0,0,20,20,60,Physical,Entities,Default,Transparent|136/152/153/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Cube1,32,0,1,1,1,0,Cube1,208.1939,66.03534,370.8901,0,0,0,80,20,140,Physical,Entities,Default,Transparent|136/152/153/0|Misc/None|1/1|0/0,;
 Scene,Geometry/Cube1,33,0,1,1,1,0,Cube1,208.1939,66.03534,358.9962,0,0,0,80,20,140,Physical,Entities,Default,Transparent|136/152/153/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,34,0,1,1,0,0,Barrier,298.7468,122.8611,1345.908,0,0,0,12.51472,10.44648,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,35,0,1,1,0,0,Barrier,347.7241,83.98233,253.8186,0,90,0,220.9905,18.68045,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,36,0,1,1,0,0,Barrier,354.1741,173.3437,253.8186,90,0,0,600,600,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,37,0,1,1,0,0,Barrier,298.7468,122.8611,238.0185,0,0,0,12.51472,10.44648,1,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,34,0,1,1,0,0,Barrier,307,130,1344,0,0,0,12,10,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,35,0,1,1,0,0,Barrier,347.3,90,800,0,90,0,150,20,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,36,0,1,1,0,0,Barrier,-700,180,900,90,0,0,300,300,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,37,0,1,1,0,0,Barrier,307,130,233.8,0,0,0,12,10,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,42,0,1,1,0,0,Cuboid,-1307.7,78,738.8,0,0,0,10,1,20,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,43,0,1,1,0,0,Cuboid,-1307.7,85.8,738.8,0,0,0,10,1,15,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,44,0,1,1,0,0,Cuboid,-1307.7,93.3,738.8,0,0,0,10,1,10,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,45,0,1,1,0,0,Cuboid,-257.7,85.3,1351.3,0,0,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,46,0,1,1,0,0,Cuboid,-220.2,85.3,1363.9,0,0,0,2.5,3,5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,47,0,1,1,0,0,Cuboid,-270.2,85.3,1363.9,0,0,0,2.5,3,5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,48,0,1,1,0,0,Cuboid,-320.4,74,1351.3,0,0,33.5,5,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,49,0,1,1,0,0,Cuboid,-257.7,85.3,1451.35,0,0,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,50,0,1,1,0,0,Cuboid,-320.4,74,1451.35,0,0,33.5,5,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,51,0,1,1,0,0,Cuboid,-270.2,85.3,1463.95,0,0,0,2.5,3,5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,52,0,1,1,0,0,Cuboid,-220.2,85.3,1463.95,0,0,0,2.5,3,5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,53,0,1,1,0,0,Cuboid,-320.4,74,1551.35,0,0,33.5,5,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,54,0,1,1,0,0,Cuboid,-257.7,85.3,1551.35,0,0,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,55,0,1,1,0,0,Cuboid,-270.2,85.3,1563.95,0,0,0,2.5,3,5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,57,0,1,1,0,0,Cuboid,-657.8,84.7,1588.8,0,45,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,58,0,1,1,0,0,Cuboid,-857.8,84.7,1488.8,0,45,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,
 /// Logic
+component MultiLap
+{
+_currentLap = 0;
+lapCount = 3;
+Refill = true;
+PlaySound = true;
 
+function OnCollisionEnter(other)
+{
+if (other.Type == "Human" && other.IsMine)
+{
+if (self.Refill)
+{
+other.RefillImmediate();
+}
+if (self.PlaySound)
+{
+other.PlaySound("Checkpoint");
+if (self._currentLap < self.lapCount)
+{
+self._currentLap = self._currentLap + 1;
+Game.Print(other.Player.Name +" " +"Lap: " + self._currentLap + "/" + self.lapCount);
+}
+}
+other.Player.SpawnPoint = self.MapObject.Position;
+}
+}
+function OnSecond()
+{
+if (self._currentLap >= self.lapCount)
+{
+finish = Map.FindMapObjectsByName("Finish");
+for (finish_ in finish)
+{
+finish_.Active = true;
+}
+}
+}
+}
 /// Weather
 {
     "Skybox" : "Day1",
@@ -88,5 +139,5 @@ Scene,Geometry/Cuboid,37,0,1,1,0,0,Barrier,298.7468,122.8611,238.0185,0,0,0,12.5
     "Schedule" : "",
     "Name" : "Set 1",
     "Preset" : false,
-    "UniqueId" : "7408a6ba-584f-4da2-b306-cd8ea10c66bb"
+    "UniqueId" : "ec906bb3-e269-4d9d-b7ea-c84d54106dee"
 }
