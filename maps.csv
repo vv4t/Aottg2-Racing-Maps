@@ -145,7 +145,7 @@ map_id|author|name|difficulty|tags|notes
 148|cowcowtony|Interstellar Future Trax|0.5|inactive|
 149|Eliope|Makina Skulpt|0.5||Updated on 2026-01-14
 150|oNoto|Racing ZOT (Hard)|3.0||
-151|Naito|NTK 1|5.0||
+151|Naito|NTK 1|4.5||
 152|Juju|SLR 1|2.0||
 153|Appolina|Endless Lava Obstacles 2 'Candy Land' (Early Version)|4.0||
 154|oNoto|Racing 001 Hard Reversed (Full Lava)|3.0|inactive|
@@ -156,7 +156,7 @@ map_id|author|name|difficulty|tags|notes
 159|Riblei|Track 3|1.0||
 160|cowcowtony|Racing Volcano (Normal)|0.5||
 161|Eliope|Makina Joconde|0.5||
-162|AndyXest|Collapse of the Arenas|0.5||
+162|AndyXest|Collapse of the Arenas|1.0||
 163|Eliope|Racers Chasm|2.0||Updated on 2026-01-14
 164|Eliope|Blood of the Racers 1|4.5|botr botr1|
 165|Eliope|Makina Team|0.5||
@@ -271,7 +271,7 @@ map_id|author|name|difficulty|tags|notes
 281|Riblei|Falling Candies (Obstacle Edit)|4.0||
 282|Aila|Aila 2|3.5||
 283|Keno|Purp|0.5||
-284|DesertFalcon|Supermarket (Revolt map)|0.5||
+284|DesertFalcon|Supermarket (Revolt map)|0.5||2026
 285|Zil|irì city|2.0||
 286|oNoto|LaLy Short Lava|3.5||
 287|Appolina|Red Mirrored Akina (Beta Version)|4.0||
@@ -371,7 +371,7 @@ map_id|author|name|difficulty|tags|notes
 384|Riblei & Eliope|Machina 2 Black Edition (Later Half Cut, Trap Edit by Riblei)|4.0||
 385|Eliope|222 'Towers map' (Mushroom Texture by Riblei)|3.0||
 386|Incendium|Inferno 2|5.0||
-387|Naito|NTK 3|4.5||
+387|Naito|NTK 3|4.0||
 388|cowcowtony|Future Trax 6 Bend|4.0||Fixed on 2026-01-18
 389|Appolina|Endless Lava Obstacles 3 'Tribute' (V1)|4.0||
 390|cowcowtony|Escaping Light|0.5|inactive|
@@ -394,7 +394,7 @@ map_id|author|name|difficulty|tags|notes
 407|Sebas Tian|SAC - Cargo Chase 2 (Edit by Eliope)|2.0||
 408|Riblei|Machina Classic|3.5||
 409|oNoto|Obstacle Rooms|4.0||
-410|Naito|NTK 4|5.0||
+410|Naito|NTK 4|4.5||
 411|Kari|Lucky Volcano (V6)|5.0||
 412|Naito|NTK 8|5.0||
 413|cowcowtony|Escape from Punk|1.0||
@@ -559,4 +559,5 @@ map_id|author|name|difficulty|tags|notes
 580|cowcowtony|Future Trax 2 Sector G (Cyan)|3.5||Restored by Riblei on 2026-02-06
 581|cowcowtony|Future Trax 2 Sector H|4.0||Restored by Riblei on 2026-02-06
 582|cowcowtony|Future Trax 2 Sector I|3.5||Restored by Riblei on 2026-02-06
+
 
