@@ -30,6 +30,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-02-14** Eliope - The Way of the Racers [+7 texture variations] ▶ Fixed exploits
 - **2026-02-12** DesertFalcon - Supermarket (Revolt map) ▶ Fixed more clipping issues
 - **2026-02-10** Fex - IKEA Racing Map ▶ Fixed holes
 - **2026-02-10** Konor - Hot Lava (Easy) & (Hard) ▶ Fixed a hole
