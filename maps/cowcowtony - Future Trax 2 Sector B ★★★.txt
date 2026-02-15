@@ -6,23 +6,23 @@ EditorVersion:1.0|Description:|HasWeather:0
 Scene,Geometry/Cuboid,60,0,1,1,1,0,Cuboid,0,820,-320,0,0,0,3,1,3,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
 Scene,General/EditorHumanSpawnPointBlue,3,0,1,1,0,0,Human SpawnPoint (blue),5,830,-320,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
-Scene,Geometry/Prism,4,0,1,1,1,0,Kill Region Prism,-3.827747,793.6958,175.4002,0,180,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Prism,5,0,1,1,1,0,Kill Region Prism,-3.827747,793.6958,-164.5998,0,0.001145927,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Prism,6,0,1,1,1,0,Kill Region Prism,166.1723,793.6958,5.40022,0,270,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Prism,7,0,1,1,1,0,Kill Region Prism,-173.8277,793.6958,5.40022,0,90,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Prism,4,0,1,1,1,0,Kill Region Prism,-3.827747,800,175.4002,0,180,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Prism,5,0,1,1,1,0,Kill Region Prism,-3.827747,800,-164.5998,0,0.001145927,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Prism,6,0,1,1,1,0,Kill Region Prism,166.1723,800,5.40022,0,270,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Prism,7,0,1,1,1,0,Kill Region Prism,-173.8277,800,5.40022,0,90,0,10,10,30.02236,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,8,0,1,1,1,0,Kill Region Cuboid,220,800,75,0,190.8877,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,9,0,1,1,1,0,Kill Region Cuboid,220,800,-75,0,169.1123,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,9,0,1,1,1,0,Kill Region Cuboid,220,800,-75,0,169.1123,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,10,0,1,1,1,0,Kill Region Cuboid,-220,800,75,0,169.1123,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,11,0,1,1,1,0,Kill Region Cuboid,-220,800,-75,0,190.8877,0,26,10,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,12,0,1,1,1,0,Kill Region Cuboid,75,800,220,0,169.1123,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,13,0,1,1,1,0,Kill Region Cuboid,-75,800,220,0,190.8877,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,12,0,1,1,1,0,Kill Region Cuboid,75,800,220,0,169.1123,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,13,0,1,1,1,0,Kill Region Cuboid,-75,800,220,0,190.8877,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,14,0,1,1,1,0,Kill Region Cuboid,75,800,-220,0,190.8877,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,15,0,1,1,1,0,Kill Region Cuboid,-75,800,-220,0,169.1123,0,1,10,26,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Arc180,16,0,1,1,1,0,Kill Region Arc180,396.733,798.2092,-0.198479,0,180,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Arc180,17,0,1,1,1,0,Kill Region Arc180,-393.561,798.2092,-0.198479,0,0.001145927,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Arc180,18,0,1,1,1,0,Kill Region Arc180,1.586032,798.2092,394.9485,0,90,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Arc180,19,0,1,1,1,0,Kill Region Arc180,1.586032,798.2092,-395.3455,0,270,0,10,20,5.65,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,20,0,1,1,1,0,Kill Region Cuboid,0,855,240,0,180,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,20,0,1,1,1,0,Kill Region Cuboid,0,855,240,0,180,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,21,0,1,1,1,0,Kill Region Cuboid,0,855,-240,0,0.001145927,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,22,0,1,1,1,0,Kill Region Cuboid,240,855,0,0,270,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,23,0,1,1,1,0,Kill Region Cuboid,-240,855,0,0,90,0,20,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -123,5 +123,6 @@ Scene,Geometry/Cuboid,64,0,1,1,1,0,EndCuboid,-32.5,800,-280,0,0,0,5.5,10,1,Regio
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "b27622a3-f1a0-451a-be4c-7bb397f0a225"
 }
