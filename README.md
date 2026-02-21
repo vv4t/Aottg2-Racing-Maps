@@ -30,6 +30,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-02-21** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Fixed the finish not working properly
 - **2026-02-16** cowcowtony - Future Trax 2 Sector B ▶ Fixed an exploit
 - **2026-02-14** Eliope - The Way of the Racers [+7 texture variations] ▶ Fixed exploits
 - **2026-02-12** DesertFalcon - Supermarket (Revolt map) ▶ Fixed more clipping issues
