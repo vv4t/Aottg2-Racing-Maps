@@ -3,7 +3,7 @@ EditorVersion:1.0|Description:|HasWeather:0
 /// CustomAssets
 
 /// Objects
-Scene,Geometry/Cuboid,630,0,1,1,1,0,KillCuboid,0,400,-2020,0,0,60.00424,5.161917,22.01,5.01,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,630,0,1,1,1,0,KillCuboid,0,400,-2020,0,0,60.00424,5.161917,22.01,5.01,Physical,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
 Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
 Scene,General/EditorHumanSpawnPointBlue,3,0,1,1,0,0,Human SpawnPoint (blue),0,430,-1978.893,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
 Scene,Geometry/Cylinder,4,0,1,1,1,0,KillCylinder,-100,400,0,270,0,0,0.04,200,0.04,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
@@ -632,8 +632,8 @@ Scene,Geometry/Cylinder,626,0,1,1,1,0,Cylinder,60,400,1800,270,0,0,1,0.525,1,Phy
 Scene,Geometry/Cylinder,627,0,1,1,1,0,Cylinder,-30,348.0385,1800,270,0,0,1,0.525,1,Physical,Entities,Default,Reflective|255/255/255/255|Misc/Ice1|1/1|0/0|255/255/255/255,;
 Scene,Geometry/Cuboid,628,0,1,1,1,0,Racing Finish Region Cuboid,1.158368,400.008,1989.962,0,90,0,2,24,24,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,629,0,1,1,1,0,Cuboid,2.097979,378.2438,-1981.108,0,2.968515,0,4,1,4,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,631,0,1,1,1,0,KillCuboid,0,400,-2020,0,0,0,5.161917,22.01,5.01,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
-Scene,Geometry/Cuboid,632,0,1,1,1,0,KillCuboid,0,400,-2020,0,0,299.9958,5.161917,22.01,5.01,None,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,631,0,1,1,1,0,KillCuboid,0,400,-2020,0,0,0,5.161917,22.01,5.01,Physical,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
+Scene,Geometry/Cuboid,632,0,1,1,1,0,KillCuboid,0,400,-2020,0,0,299.9958,5.161917,22.01,5.01,Physical,Characters,Default,Basic|0/0/0/130|Misc/None|1/1|0/0,;
 Scene,Geometry/Cuboid,633,0,1,1,1,0,Racing Finish Region Cuboid,1.158368,400.008,2010.25,0,90,0,2,24,24,Physical,Characters,Default,Basic|0/0/0/128|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,634,0,1,0,1,0,Racing Start Barrier Cuboid,0,400,-1895,0,0,0,15,15,1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier
 /// Logic
@@ -694,5 +694,6 @@ Scene,Geometry/Cuboid,634,0,1,0,1,0,Racing Start Barrier Cuboid,0,400,-1895,0,0,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "d8cdbfd2-d175-4459-800f-2bbf90bc7546"
 }
