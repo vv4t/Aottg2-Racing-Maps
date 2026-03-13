@@ -3,6 +3,7 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
+- NEW | **2026-03-13** [Riblei - HDR Ascension](https://github.com/vv4t/Aottg2-Racing-Maps/edit/master/maps/Riblei%20-%20HDR%20Ascension%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2026-02-06** cowcowtony - Future Trax 2 Sector A ~ I ▶ Sectors of Future Trax 2 Restored by Riblei
 - **2026-01-24** [Antigasp - SignalMover Demo Map (Edit by Fruity)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Antigasp%20-%20SignalMover%20Demo%20Map%20(Edit%20by%20Fruity)%20%E2%98%86.txt)
 - **2026-01-11** [Sub - Racing City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Racing%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt) / [Copied City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Copied%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt)
@@ -30,7 +31,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-03-08** cowcowtony - Future Trax 2 Sector D ▶ Fixed an exploit
+- **2026-03-08** cowcowtony - Future Trax 2 Sector D ▶ Fixed an exploit
 - **2026-02-21** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Fixed the finish not working properly
 - **2026-02-16** cowcowtony - Future Trax 2 Sector B ▶ Fixed an exploit
 - **2026-02-14** Eliope - The Way of the Racers [+7 texture variations] ▶ Fixed exploits
