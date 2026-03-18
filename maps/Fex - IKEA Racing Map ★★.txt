@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed holes by Fruity on 2026-02-10|HasWeather:0
+EditorVersion:1.0|Description:Fixed holes by Fruity on 2026-03-19|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -315,7 +315,7 @@ Scene,Geometry/Cuboid,310,0,1,1,1,0,Cuboid,-701.4029,-631.368,216.382,0,358.8202
 Scene,Geometry/Cuboid,311,0,1,1,1,0,Cuboid,-719.216,-631.5156,999.5407,0,179.0617,0,100,6,1,Physical,Entities,Default,Basic|2/14/20/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,312,0,1,1,1,0,Cuboid,-214.8587,-810.3519,983.5015,0,273.3299,0,6,60,1,Physical,Entities,Default,Basic|2/14/20/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,313,0,1,1,1,0,Racing Checkpoint Region Cuboid,-1393.277,-631.6263,630.7691,0,268.6952,0,10,6,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
-Scene,Geometry/Cuboid,314,0,1,1,1,0,Cuboid,-216.6155,-1204.383,979.4116,0,268.8437,0,5,10,1,Physical,Entities,Default,Basic|2/14/20/255|Wood/Wood2|1/1|0/0,;
+Scene,Geometry/Cuboid,314,0,1,1,1,0,Cuboid,-216.6155,-1204.064,983.7178,0,268.8437,0,5,11,1,Physical,Entities,Default,Basic|2/14/20/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,315,0,1,1,1,0,Cuboid,-1106.687,-666.4575,638.703,0,269.2388,0,10,1,20,Physical,Entities,Default,Basic|14/20/23/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,316,0,1,1,1,0,Cuboid,-1054.605,-666.3924,466.649,0,359.2566,0,10,1,25,Physical,Entities,Default,Basic|14/20/23/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,317,0,1,1,1,0,Cuboid,-1102.086,-616.4913,692.7814,0,268.2125,0,1,10,20,Physical,Entities,Default,Basic|14/20/23/255|Wood/Wood2|1/1|0/0,;
@@ -372,7 +372,7 @@ Scene,Geometry/Cuboid,367,0,1,1,1,0,Cuboid,-161.5958,-1130.066,1000.62,0,270.744
 Scene,Geometry/Cuboid,368,0,1,1,1,0,Cuboid,-4.782529,-1152.677,973.8006,0,273.0303,0,1,1,40,Physical,Entities,Default,Basic|14/14/14/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,369,0,1,1,1,0,Cuboid,-160.8396,-1129.87,964.1207,0,274.6644,0,1,5,7,Physical,Entities,Default,Basic|14/14/14/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,370,0,1,1,1,0,Racing Checkpoint Region Cuboid,-163.5568,-1129.002,980.3999,0,91.83466,0,3,4,0.2,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
-Scene,Geometry/Torus,371,0,1,1,1,0,Kill Region Torus,-210.7634,-1136.452,983.4078,89.76261,90.67445,0.005705168,5,4,5,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Torus,371,0,1,1,1,0,Kill Region Torus,-205.3436,-1134.328,984.6718,89.76261,90.67445,0.005705168,5,8,5,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,372,0,1,1,1,0,Cuboid,-172.1442,-1104.407,983.3538,0.3928538,0.6277831,264.1702,1,5,7,Physical,Entities,Default,Basic|14/14/14/255|Wood/Wood2|1/1|0/0,;
 Scene,Geometry/Cuboid,373,0,1,1,1,0,Kill Region Cuboid,346.3767,-1151.49,931.9741,0,272.0944,0,70,0.5,100,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,374,0,1,1,0,0,LegacyBarrier,341.5592,-904.1044,583.7079,0,272.4878,0,1,50,100,Physical,Characters,Default,Default|255/255/255/255,;
