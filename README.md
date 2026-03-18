@@ -32,6 +32,10 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- **2026-03-19** Fex - IKEA Racing Map ▶ Fixed 2 holes
+- **2026-03-19** Eliope - 222 + 2 (Edit by Riblei) ▶ Fixed ceiling barrier
+- **2026-03-19** Golden Lord - GHoR ▶ Fixed skating
+- **2026-03-19** cowcowtony - Future Trax 2 Sector B ▶ Fixed start barrier
 - **2026-03-08** cowcowtony - Future Trax 2 Sector D ▶ Fixed an exploit
 - **2026-02-21** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Fixed the finish not working properly
 - **2026-02-16** cowcowtony - Future Trax 2 Sector B ▶ Fixed an exploit
