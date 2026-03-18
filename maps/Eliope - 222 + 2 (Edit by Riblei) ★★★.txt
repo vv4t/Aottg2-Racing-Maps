@@ -10,7 +10,7 @@ Scene,Geometry/Cuboid,5,0,1,0,1,0,Racing Start Barrier Cuboid,-240,40,-1580.714,
 Scene,Geometry/Cuboid,6,0,1,1,1,0,Racing Finish Region Cuboid,-650,40,-955,0,0,0,1.5,6,2,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
 Scene,Geometry/Cuboid,7,0,1,1,1,0,Cuboid,0,-4.5,0,0,0,0,400,1,400,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood2|32/32|0/0,;
 Scene,Geometry/Cuboid,8,0,1,1,1,0,Kill Region Cuboid,0,-4.5,0,0,0,0,401,1.0975,401,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,Geometry/Cuboid,9,0,1,1,0,0,LegacyBarrier,0,80,0,0,0,0,202,1,202,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,9,0,1,1,0,0,LegacyBarrier,0,80,-500,0,0,0,300,1,300,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,10,0,1,1,1,0,Cuboid,-240,20,-1645.714,44.9791,180,0,1.5,4,1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.5/0.01|0/0,;
 Scene,Geometry/Cuboid,11,0,1,1,1,0,Racing Checkpoint Region Cuboid,952.5,12.5,-100,0,0,0,0.5,0.5,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Buildings/Tower3,12,0,1,1,1,0,Tower3,-140,-470,-1630.714,0,0,0,7,6,7,Physical,Entities,Default,Default|255/255/255/255,;
@@ -297,5 +297,6 @@ Scene,Buildings/Tower3,283,0,1,1,1,0,Tower3,158.6555,-470,-1349.76,0,255.0001,0,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "2ec3a35d-9ed9-4e41-a20d-de7cd890ca7c"
 }
