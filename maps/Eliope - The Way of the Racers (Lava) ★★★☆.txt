@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed barriers by Fruity on 2026-02-14|HasWeather:0
+EditorVersion:1.0|Description:Fixed barriers by Fruity on 2026-03-20|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -1124,9 +1124,9 @@ Scene,Geometry/Cuboid,1118,0,1,1,0,0,LegacyBarrier,0,145,-3610,0,0,0,32,1,70,Phy
 Scene,Geometry/Cuboid,1119,0,1,1,0,0,LegacyBarrier,402.815,36.033,497.247,0,94.13421,0,2,2,2,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,1120,0,1,1,0,0,LegacyBarrier,346.439,37.37,495.234,0,260.6679,0,2,2,2,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,1121,0,1,1,0,0,LegacyBarrier,360,110,-1060,0,0,0,20,6,1,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1124,0,1,1,0,0,LegacyBarrier,370,85,-810,0,0,0,30,1,50,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1125,0,1,1,0,0,LegacyBarrier,570,85,1385,0,0,0,200,1,400,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1126,0,1,1,0,0,LegacyBarrier,2580,85,-1610,0,90,0,200,1,400,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1124,0,1,1,0,0,LegacyBarrier,370,90,-810,0,0,0,30,1,50,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1125,0,1,1,0,0,LegacyBarrier,570,90,1385,0,0,0,200,1,400,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1126,0,1,1,0,0,LegacyBarrier,2580,90,-1610,0,90,0,200,1,400,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cylinder,1127,0,1,1,1,0,Racing Checkpoint Region Cylinder,754.7565,2.198162,499.8434,0,0,0,3,1.5,3,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cylinder,1128,0,1,1,1,0,Racing Checkpoint Region Cylinder,18.75086,10.2799,1817.69,0,0,0,3,1.5,3,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,General/EditorHumanSpawnPointBlue,1129,0,1,1,0,0,Human SpawnPoint (blue),9,23,-536.5,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
@@ -1213,7 +1213,9 @@ Scene,Geometry/Cuboid,1209,0,1,1,1,0,Kill Region Cuboid,0,185,-2260,0,0,0,4,1,4,
 Scene,Geometry/Cuboid,1210,0,1,1,1,0,Kill Region Cuboid,0,160,-1235,0,0,0,40,16,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1211,0,1,1,1,0,Kill Region Cuboid,0,35,-1235,0,0,0,40,1,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1212,0,1,1,1,0,Kill Region Cuboid,-120,60,-1235,0,0,0,16,4,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,1213,0,1,1,1,0,Kill Region Cuboid,120,60,-1235,0,0,0,16,4,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|
+Scene,Geometry/Cuboid,1213,0,1,1,1,0,Kill Region Cuboid,120,60,-1235,0,0,0,16,4,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,1214,0,1,1,0,0,LegacyBarrier,-156,50,800,0,0,0,1,10,80,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1215,0,1,1,0,0,LegacyBarrier,156,50,800,0,0,0,1,10,80,Physical,Characters,Default,Default|255/255/255/255,
 /// Logic
 
 /// Weather
