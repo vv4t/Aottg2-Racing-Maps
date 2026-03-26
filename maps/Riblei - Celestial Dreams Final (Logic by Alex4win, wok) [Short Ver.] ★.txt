@@ -1946,8 +1946,8 @@ Scene,Nature/Boulder12,1567880,0,1,1,1,0,Boulder12,-8317.5,1120,7680,0,0,0,15,15
 Scene,Nature/Boulder13,1567881,0,1,1,1,0,Boulder13,-8240,1070,7500,0,90,0,12,-25,12,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|6/6|0/0,;
 Scene,Nature/Boulder13,1567882,0,1,1,1,0,Boulder13,-8540,1030,7570,0,0,345,5,-25,15,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|5/5|0/0,;
 Scene,Nature/Boulder13,1567883,0,1,1,1,0,Boulder13,-8540,1030,7440,0,0,345,5,-25,-15,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|5/5|0/0,;
-Scene,Nature/Boulder13,1567884,0,1,1,1,0,Boulder13,-8490,1080,7570,0,0,30,-15,-25,10,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|5/5|0/0,;
-Scene,Nature/Boulder13,1567885,0,1,1,1,0,Boulder13,-8490,1080,7440,0,0,30,-15,-25,-10,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|5/5|0/0,;
+Scene,Nature/Boulder13,1567884,0,1,1,1,0,Boulder13,-8490,1080,7570,0,0,30,-16,-25,10,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|5/5|0/0,;
+Scene,Nature/Boulder13,1567885,0,1,1,1,0,Boulder13,-8490,1080,7440,0,0,30,-16,-25,-10,Physical,Entities,Default,Basic|255/225/225/255|Stone/Rock3|5/5|0/0,;
 Scene,Nature/Boulder13,1567886,0,1,1,1,0,Boulder13,-8490,1110,7580,0,0,15,15,-25,10,Physical,Entities,Default,Basic|255/225/225/255|Nature/Grass6|5/5|0/0,;
 Scene,Nature/Boulder13,1567887,0,1,1,1,0,Boulder13,-8490,1110,7430,0,0,15,15,-25,-10,Physical,Entities,Default,Basic|255/225/225/255|Nature/Grass6|5/5|0/0,;
 Scene,Nature/Tree17,1567888,0,1,1,1,0,Tree17,-8510,1130,7590,7.435506,330.8524,13.06429,1,1,1,None,Entities,Default,Default|255/255/255/255,;
@@ -2074,7 +2074,12 @@ Scene,Decor/Lamp2,510568579,0,1,1,1,0,Lamp2,-1895,100,10307.5,0,89.99971,0,1,1,1
 Scene,Decor/Lamp2,510568580,0,1,1,1,0,Lamp2,-1895,100,10557.5,0,89.99971,0,1,1,1,Physical,Entities,Default,Default|255/255/125/255,PointLight|Color:255/255/125/255|Intensity:2|Range:100;
 Scene,Decor/Lamp2,510568581,0,1,1,1,0,Lamp2,-1895,100,10807.5,0,89.99971,0,1,1,1,Physical,Entities,Default,Default|255/255/125/255,PointLight|Color:255/255/125/255|Intensity:2|Range:100;
 Scene,Decor/Lamp2,510568582,0,1,1,1,0,Lamp2,-1895,100,11057.5,0,89.99971,0,1,1,1,Physical,Entities,Default,Default|255/255/125/255,PointLight|Color:255/255/125/255|Intensity:2|Range:100;
-Scene,None,510568586,0,1,1,1,0,Empty Object,-1.266705E-06,100,44.29876,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,FengGameManagerMKII|
+Scene,None,510568586,0,1,1,1,0,Empty Object,-1.266705E-06,100,44.29876,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,FengGameManagerMKII|;
+Scene,Geometry/Cuboid,510568587,0,1,1,0,0,Cuboid,-6130,635,7505,0,0,0,10,500,500,Physical,All,Default,Basic|255/225/225/255|Stone/Rock3|3/10|0/0,TeleportRegion|RelativePosition:false|Position:999999/999999/999999|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cuboid,510568588,0,1,1,0,0,Cuboid,-9310,635,7505,0,0,0,10,500,500,Physical,All,Default,Basic|255/225/225/255|Stone/Rock3|3/10|0/0,TeleportRegion|RelativePosition:false|Position:999999/999999/999999|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cuboid,510568589,0,1,1,0,0,Cuboid,-7720,635,9095,0,89.99996,0,10,500,500,Physical,All,Default,Basic|255/225/225/255|Stone/Rock3|3/10|0/0,TeleportRegion|RelativePosition:false|Position:999999/999999/999999|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cuboid,510568590,0,1,1,0,0,Cuboid,-7720,635,5915,0,89.99996,0,10,500,500,Physical,All,Default,Basic|255/225/225/255|Stone/Rock3|3/10|0/0,TeleportRegion|RelativePosition:false|Position:999999/999999/999999|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cuboid,510568592,0,1,1,0,0,Cuboid,-7720,3185,7505,4.098114E-05,90,89.99997,10,500,500,Physical,All,Default,Basic|255/225/225/255|Stone/Rock3|3/10|0/0,TeleportRegion|RelativePosition:false|Position:999999/999999/999999|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true
 /// Logic
 component FengGameManagerMKII
 {
