@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2026-03-26|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -542,21 +542,21 @@ Scene,Nature/Field2,536,0,1,1,1,0,Field2,-220,2,50,0,180,0,0.5,0.5,0.5,Physical,
 Scene,Nature/Field2,537,0,1,1,1,0,Field2,-220,2,-10,0,180,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Field2,538,0,1,1,1,0,Field2,-220,2,-30,0,180,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Field2,539,0,1,1,1,0,Field2,-220,2,-50,0,180,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,540,0,1,1,1,0,Cuboid,409.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,541,0,1,1,1,0,Cuboid,411.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,542,0,1,1,1,0,Cuboid,413.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,543,0,1,1,1,0,Cuboid,415.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,544,0,1,1,1,0,Cuboid,417.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,545,0,1,1,1,0,Cuboid,419.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,546,0,1,1,1,0,Cuboid,421.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,547,0,1,1,1,0,Cuboid,423.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,548,0,1,1,1,0,Cuboid,407.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,549,0,1,1,1,0,Cuboid,405.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,550,0,1,1,1,0,Cuboid,403.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,551,0,1,1,1,0,Cuboid,401.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,552,0,1,1,1,0,Cuboid,399.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,553,0,1,1,1,0,Cuboid,397.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
-Scene,Geometry/Cuboid,554,0,1,1,1,0,Cuboid,395.155,5.5,0,0,180,0,0.02,0.3,0.5,Region,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,540,0,1,1,1,0,Stall,409.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,541,0,1,1,1,0,Stall,411.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,542,0,1,1,1,0,Stall,413.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,543,0,1,1,1,0,Stall,415.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,544,0,1,1,1,0,Stall,417.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,545,0,1,1,1,0,Stall,419.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,546,0,1,1,1,0,Stall,421.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,547,0,1,1,1,0,Stall,423.155,5.5,0,0,180,0,0.02,0.3,0.5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,548,0,1,1,1,0,Stall,407.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,549,0,1,1,1,0,Stall,405.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,550,0,1,1,1,0,Stall,403.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,551,0,1,1,1,0,Stall,401.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,552,0,1,1,1,0,Stall,399.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,553,0,1,1,1,0,Stall,397.155,5.5,0,0,180,0,0.02,0.3,0.5,None,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
+Scene,Geometry/Cuboid,554,0,1,1,1,0,Stall,395.155,5.5,0,0,180,0,0.02,0.3,0.5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal4|1/0.6|0/0,;
 Scene,Nature/Leaf0,555,0,1,1,1,0,Leaf0,409.155,7,0,0,180,0,0.564,1,0.1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal4|2.82/0.5|0/0,;
 Scene,Nature/Leaf0,556,0,1,1,1,0,Leaf0,409.155,7,0,359.9885,0,180,0.564,1,0.1,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal4|2.82/0.5|0/0,;
 Scene,Geometry/Cylinder,557,0,1,1,1,0,Cylinder,409.155,3,1.5,0,180,0,0.01,0.1,0.01,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal3|1/0.5|0/0,;
@@ -620,10 +620,10 @@ Scene,Geometry/Cuboid,614,0,1,1,1,0,Cuboid,399.155,5.5,-2.5,0,180,0,0.01,0.18,0.
 Scene,Geometry/Cuboid,615,0,1,1,1,0,Cuboid,397.155,5.5,-2.5,0,180,0,0.01,0.18,0.015,Physical,Entities,Default,Basic|0/0/0/255|Metal/Metal1|0.15/0.2|0/0,;
 Scene,Geometry/Cuboid,616,0,1,1,1,0,Cuboid,395.155,5.5,-2.5,0,180,0,0.01,0.18,0.015,Physical,Entities,Default,Basic|0/0/0/255|Metal/Metal1|0.15/0.2|0/0,;
 Scene,Geometry/Cuboid,617,0,1,0,1,0,Racing Start Barrier Cuboid,409.155,5.5,7.5,0,180,0,5,4,1,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cuboid,618,0,1,1,0,0,LegacyBarrier,409.155,5.5,-7.5,0,180,0,5,4,1,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,618,0,1,1,0,0,LegacyBarrier,409.155,5.5,-7.5,0,180,0,5,4,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Plane,619,0,1,1,1,0,Kill Region Plane,0,3,102.5,-0.001145927,0,180,100,1,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,620,0,1,1,1,0,Kill Region Plane,0,3,-102.5,-0.001145927,0,180,100,1,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,621,0,1,1,0,0,LegacyBarrier,0,27,102.5,0,180,0,100,4,20,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,621,0,1,1,0,0,LegacyBarrier,0,27,102.5,0,180,0,100,4,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,622,0,1,1,0,0,LegacyBarrier,0,27,-102.5,0,180,0,100,4,20,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,General/EditorHumanSpawnPointBlue,623,0,1,1,0,0,Human SpawnPoint (blue),396.155,5,0,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
 Scene,General/EditorHumanSpawnPointBlue,624,0,1,1,0,0,Human SpawnPoint (blue),398.155,5,0,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
@@ -648,7 +648,7 @@ Scene,Geometry/Cuboid,642,0,1,1,0,0,LegacyBarrier,391.0733,2,118.3746,0,229.9993
 Scene,Geometry/Cuboid,643,0,1,1,0,0,LegacyBarrier,409.4857,2,92.07912,0,240.0043,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,644,0,1,1,0,0,LegacyBarrier,423.0521,2,62.98581,0,249.9994,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,645,0,1,1,0,0,LegacyBarrier,431.3604,2,31.97871,0,260,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,646,0,1,1,0,0,LegacyBarrier,434.1582,2,0,0,270,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,646,0,1,1,0,0,LegacyBarrier,434.1582,2,0,0,270,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,647,0,1,1,0,0,LegacyBarrier,250,2,-184.1582,0,180,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,648,0,1,1,0,0,LegacyBarrier,281.9787,2,-181.3604,0,169.9987,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,649,0,1,1,0,0,LegacyBarrier,312.9858,2,-173.0521,0,160.003,0,3.2577,4,0.5,Physical,Characters,Default,Default|255/255/255/255,;
@@ -1956,7 +1956,8 @@ Scene,Geometry/Cuboid,1950,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,
 Scene,Geometry/Cuboid,1951,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,1952,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,1953,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,1954,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,1954,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,1957,0,1,1,0,0,LegacyBarrier,390.5,2,0,0,90,0,2.3851,4,0.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
 /// Logic
 
 /// Weather
@@ -2015,5 +2016,6 @@ Scene,Geometry/Cuboid,1954,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,16
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "d27dc45f-0fd0-48c1-a7e2-e613d957a5dd"
 }
