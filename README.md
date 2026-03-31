@@ -3,9 +3,9 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
-- NEW | **2026-03-19** [cowcowtony - Galatic Spherical Solar Panel](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Galatic%20Spherical%20Solar%20Panel%20%E2%98%85%E2%98%85.txt) ▶ Forgot about this map :/
-- NEW | **2026-03-19** [Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.]](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Celestial%20Dreams%20Final%20(Logic%20by%20Alex4win,%20wok)%20%5BShort%20Ver.%5D%20%E2%98%85.txt)
-- NEW | **2026-03-13** [Riblei - HDR Ascension](https://github.com/vv4t/Aottg2-Racing-Maps/edit/master/maps/Riblei%20-%20HDR%20Ascension%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
+- **2026-03-19** [cowcowtony - Galatic Spherical Solar Panel](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Galatic%20Spherical%20Solar%20Panel%20%E2%98%85%E2%98%85.txt) ▶ Forgot about this map :/
+- **2026-03-19** [Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.]](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Celestial%20Dreams%20Final%20(Logic%20by%20Alex4win,%20wok)%20%5BShort%20Ver.%5D%20%E2%98%85.txt)
+- **2026-03-13** [Riblei - HDR Ascension](https://github.com/vv4t/Aottg2-Racing-Maps/edit/master/maps/Riblei%20-%20HDR%20Ascension%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2026-02-06** cowcowtony - Future Trax 2 Sector A ~ I ▶ Sectors of Future Trax 2 Restored by Riblei
 - **2026-01-24** [Antigasp - SignalMover Demo Map (Edit by Fruity)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Antigasp%20-%20SignalMover%20Demo%20Map%20(Edit%20by%20Fruity)%20%E2%98%86.txt)
 - **2026-01-11** [Sub - Racing City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Racing%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt) / [Copied City (No Shortcut Version)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sub%20-%20Copied%20City%20(No%20Shortcut%20Version)%20%E2%98%86.txt)
@@ -33,8 +33,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-03-26** Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.] ▶ Added barriers
-- NEW | **2026-03-26** cowcowtony - A Cow Is Too Slow for 'Horse Racing' ▶ Fixed barriers
+- NEW | **2026-04-01** MASKSLAVE - Sweet Wood Racing ▶ Fixed skating
+- **2026-03-26** Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.] ▶ Added barriers
+- **2026-03-26** cowcowtony - A Cow Is Too Slow for 'Horse Racing' ▶ Fixed barriers
 - **2026-03-20** Eliope - The Way of the Racers [+7 texture variations] ▶ Fixed barriers
 - **2026-03-19** Fex - IKEA Racing Map ▶ Fixed 2 holes
 - **2026-03-19** Eliope - 222 + 2 (Edit by Riblei) ▶ Fixed ceiling barrier
