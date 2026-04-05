@@ -5,7 +5,7 @@ EditorVersion:1.0|Description:Fixed skating by Fruity on 2026-04-05|HasWeather:0
 /// Objects
 Scene,Geometry/Cuboid,1,0,1,1,1,0,Unnamed,-7.76,-32.03,5.333,0,0,0,134.286,6.407,134.286,Physical,Entities,Default,Basic|172/174/166/255|Nature/Grass1|50/50|0/0,;
 Scene,General/EditorDaylight,2,0,1,1,0,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
-Scene,Geometry/Cuboid,3,0,1,0,1,0,Racing Start Barrier Cuboid,-1650.277,853.186,-391.7004,0,0,0,7,7,0.875,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,3,0,1,0,1,0,Racing Start Barrier Cuboid,-1650.277,853.186,-391.7004,0,0,0,7,7,0.875,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cuboid,4,0,1,1,1,0,Racing Checkpoint Region Cuboid,-1389.158,929.9464,-304.2003,0,0,0,10.5,7.564638,1.75,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,5,0,1,1,1,0,Racing Checkpoint Region Cuboid,893.329,1053.829,660.8015,0,0,0,5.25,5.25,1.75,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,6,0,1,1,1,0,Racing Checkpoint Region Cuboid,599.7084,1203.186,-674.2763,0,44.99961,0,5.25,5.25,1.75,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
@@ -10064,5 +10064,6 @@ Scene,Geometry/Cuboid,10003,0,1,1,0,0,LegacyBarrier,2048.987,2568.186,-1707.852,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "0bf2e2fd-13f1-44ec-b2c0-e684a5edfa46"
 }
