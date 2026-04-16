@@ -33,7 +33,8 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-04-05** cowcowtony - Future Trax 10 ▶ Fixed skating
+- NEW | **2026-04-16** cowcowtony - Future Trax 3 ▶ Blocked holes
+- **2026-04-05** cowcowtony - Future Trax 10 ▶ Fixed skating
 - **2026-04-01** MASKSLAVE - Sweet Wood Racing ▶ Fixed skating
 - **2026-03-26** Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.] ▶ Added barriers
 - **2026-03-26** cowcowtony - A Cow Is Too Slow for 'Horse Racing' ▶ Fixed barriers
