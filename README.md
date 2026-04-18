@@ -40,7 +40,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2026-04-01** MASKSLAVE - Sweet Wood Racing ▶ Fixed skating
 - **2026-03-26** Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.] ▶ Added barriers
 - **2026-03-26** cowcowtony - A Cow Is Too Slow for 'Horse Racing' ▶ Fixed barriers
-- **2026-03-20** Eliope - The Way of the Racers [Original + 7 Texture variations] ▶ Fixed barriers
+- **2026-03-20** Eliope - The Way of the Racers [Original + 7 Texture Variations] ▶ Fixed barriers
 - **2026-03-19** Fex - IKEA Racing Map ▶ Fixed 2 holes
 - **2026-03-19** Eliope - 222 + 2 (Edit by Riblei) ▶ Fixed ceiling barrier
 - **2026-03-19** Golden Lord - GHoR ▶ Fixed skating
@@ -48,7 +48,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2026-03-08** cowcowtony - Future Trax 2 Sector D ▶ Fixed an exploit
 - **2026-02-21** oNoto - The End of Laly [Original] & [Transparent Tube] ▶ Fixed the finish not working properly
 - **2026-02-16** cowcowtony - Future Trax 2 Sector B ▶ Fixed an exploit
-- **2026-02-14** Eliope - The Way of the Racers [Original + 7 Texture variations] ▶ Fixed exploits
+- **2026-02-14** Eliope - The Way of the Racers [Original + 7 Texture Variations] ▶ Fixed exploits
 - **2026-02-12** DesertFalcon - Supermarket (Revolt map) ▶ Fixed more clipping issues
 - **2026-02-10** Fex - IKEA Racing Map ▶ Fixed holes
 - **2026-02-10** Konor - Hot Lava (Easy) & (Hard) ▶ Fixed a hole
