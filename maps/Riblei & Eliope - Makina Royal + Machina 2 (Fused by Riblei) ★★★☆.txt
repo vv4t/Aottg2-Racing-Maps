@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed CPs by Fruity on 2026-04-18|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -290,7 +290,7 @@ Scene,Geometry/Capsule,284,0,1,1,1,0,Capsule,-4110.05,-79.5,-3389.95,0,315.0209,
 Scene,Geometry/Cylinder,285,0,1,1,1,0,Cylinder,-4110,-60,-3390,0,0,0,0.02,1,0.02,Physical,Entities,Default,Default|63/38/0/255,;
 Scene,Geometry/Pyramid,286,0,1,1,1,0,Pyramid,-4050,-124.5,-3575,0,0,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/medievalartilleryassets_texture-psd|8/8|0/0,;
 Scene,Geometry/Pyramid,287,0,1,1,1,0,Pyramid,-4050,-124.51,-3575,0,44.97911,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/medievalartilleryassets_texture-psd|8/8|0/0,;
-Scene,Geometry/Cylinder,288,0,1,1,1,0,Cylinder,-4050,-119.25,-3575,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|25/178/178/255|Legacy/Arena2Tex|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true;
+Scene,Geometry/Cylinder,288,0,1,1,1,0,CP,-4050,-119.25,-3575,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|25/178/178/255|Legacy/Arena2Tex|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true;
 Scene,Geometry/Cylinder,289,0,1,1,1,0,Racing Checkpoint Region Cylinder,-4050,-119.25,-3575,0,0,0,0.5,-0.025,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,290,0,1,1,1,0,Kill Region Cuboid,-4000,-135,-3640,0,0,0,47.5,0.975,19.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,291,0,1,1,1,0,Kill Region Cuboid,-4000,-135,-3360,0,0,0,47.5,0.975,19.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -2100,7 +2100,7 @@ Scene,Nature/Field2,2094,0,1,1,1,0,Field2,-3680,-310,-3530,0,90,0,0.5,2.5,0.5,Ph
 Scene,Nature/Boulder1,2095,0,1,1,1,0,Boulder1,-3778,-299,-3394,0,225.0378,0,3,1,4,Physical,Entities,Default,Default|127/0/0/255,;
 Scene,Geometry/Pyramid,2096,0,1,1,1,0,Pyramid,-4237.5,-283.5,-3177.5,0,0,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Arena2Tex|16/16|0/0,;
 Scene,Geometry/Pyramid,2097,0,1,1,1,0,Pyramid,-4237.5,-283.51,-3177.5,0,44.97911,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Arena2Tex|16/16|0/0,;
-Scene,Geometry/Cylinder,2098,0,1,1,1,0,Cylinder,-4237.5,-278.25,-3177.5,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Arena2Tex|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true;
+Scene,Geometry/Cylinder,2098,0,1,1,1,0,CP,-4237.5,-278.25,-3177.5,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|255/255/255/255|Legacy/Arena2Tex|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true;
 Scene,Geometry/Cylinder,2099,0,1,1,1,0,Racing Checkpoint Region Cylinder,-4237.5,-278.25,-3177.5,0,0,0,0.5,-0.025,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,2100,0,1,1,1,0,Kill Region Cuboid,-4000,-450,-1990,0,0,0,399.5,9.4,199.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,2101,0,1,1,1,0,Kill Region Cuboid,-4000,-450,-1990,0,0,0,399.4,8.4,199.4,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -3600,5 +3600,6 @@ Scene,Geometry/Cuboid,3539,0,1,1,1,0,Cuboid,3961.82,110,222.25,0,224.9791,0,1,6,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "e0301cb7-01b0-46fb-a7be-d9cdbb4806c4"
 }
