@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed CPs by Fruity on 2026-04-18|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -1244,11 +1244,11 @@ Scene,Geometry/Cuboid,1238,0,1,1,1,0,Kill Region Cuboid,90,505,0,0,90,0,7.5,0.97
 Scene,Geometry/Cuboid,1239,0,1,1,1,0,Kill Region Cuboid,-90,505,0,0,90,0,7.5,0.975,9.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Pyramid,1240,0,1,1,1,0,Pyramid,-220,375,20,0,0,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/medievalartilleryassets_texture-psd|8/8|0/0,;
 Scene,Geometry/Pyramid,1241,0,1,1,1,0,Pyramid,-220,374.99,20,0,44.97911,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/medievalartilleryassets_texture-psd|8/8|0/0,;
-Scene,Geometry/Cylinder,1242,0,1,1,1,0,Cylinder,-220,380.25,20,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|25/178/178/255|Legacy/Arena2Tex|1/1|0/0,;
+Scene,Geometry/Cylinder,1242,0,1,1,1,0,CP,-220,380.25,20,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|25/178/178/255|Legacy/Arena2Tex|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,General/EditorHumanSpawnPointBlue,1243,0,1,1,0,0,Human SpawnPoint (blue),-220,380.25,20,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
 Scene,Geometry/Pyramid,1244,0,1,1,1,0,Pyramid,-220,375,-20,0,0,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/medievalartilleryassets_texture-psd|8/8|0/0,;
 Scene,Geometry/Pyramid,1245,0,1,1,1,0,Pyramid,-220,374.99,-20,0,44.97911,0,0.3,-0.6,0.3,Physical,Entities,Default,Basic|255/255/255/255|Legacy/medievalartilleryassets_texture-psd|8/8|0/0,;
-Scene,Geometry/Cylinder,1246,0,1,1,1,0,Cylinder,-220,380.25,-20,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|25/178/178/255|Legacy/Arena2Tex|1/1|0/0,;
+Scene,Geometry/Cylinder,1246,0,1,1,1,0,CP,-220,380.25,-20,0,0,0,0.55,-0.03,0.55,Physical,Entities,Default,Basic|25/178/178/255|Legacy/Arena2Tex|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,General/EditorHumanSpawnPointRed,1247,0,1,1,0,0,Human SpawnPoint (red),-220,380.25,-20,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
 Scene,Geometry/Cylinder,1248,0,1,1,1,0,Racing Checkpoint Region Cylinder,-220,380.25,-20,0,0,0,0.5,-0.025,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cylinder,1249,0,1,1,1,0,Racing Checkpoint Region Cylinder,-220,380.25,20,0,0,0,0.5,-0.025,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
@@ -1336,5 +1336,6 @@ Scene,Geometry/Cuboid,1275,0,1,1,0,0,LegacyBarrier,887.5,245,2400,0,0,0,9.5,1,7,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "9ee204b2-a509-4cdf-9df0-47c9fffb8bd7"
 }
