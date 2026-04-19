@@ -33,6 +33,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-04-19** Appolina - Endless Lava Obstacles 3 'Tribute' (Final) ▶ Fixed skating
 - NEW | **2026-04-18** Pixell - Antartica ▶ Blocked a hole
 - NEW | **2026-04-18** Riblei & Eliope - Machina 2 [Original + 6 Variations] ▶ Fixed checkpoints
 - NEW | **2026-04-18** cowcowtony - Racing Volcano [Normal] & [Lava] ▶ Blocked holes
