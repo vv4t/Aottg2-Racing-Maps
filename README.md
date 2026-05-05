@@ -33,6 +33,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-05-05** Azis Ackerman - Puzzle Map ▶ Fixed unpassable wall
 - NEW | **2026-05-05** Esli - Esli's Balltower ▶ Fixed a hole
 - NEW | **2026-05-05** Golden Lord - GHoR ▶ Fixed holes
 - NEW | **2026-05-05** ZeroX - Yato ▶ Fixed the start barrier
