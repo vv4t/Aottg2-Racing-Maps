@@ -33,11 +33,14 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-04-20** Naked Heart - Mash 2 ▶ Updated by Naked Heart
-- NEW | **2026-04-19** Appolina - Endless Lava Obstacles 3 'Tribute' (Final) ▶ Fixed skating
-- NEW | **2026-04-18** Pixell - Antartica ▶ Blocked a hole
-- NEW | **2026-04-18** Riblei & Eliope - Machina 2 [Original + 6 Variations] ▶ Fixed checkpoints
-- NEW | **2026-04-18** cowcowtony - Racing Volcano [Normal] & [Lava] ▶ Blocked holes
+- NEW | **2026-05-05** Esli - Esli's Balltower ▶ Fixed a hole
+- NEW | **2026-05-05** Golden Lord - GHoR ▶ Fixed holes
+- NEW | **2026-05-05** ZeroX - Yato ▶ Fixed the start barrier
+- **2026-04-20** Naked Heart - Mash 2 ▶ Updated by Naked Heart
+- **2026-04-19** Appolina - Endless Lava Obstacles 3 'Tribute' (Final) ▶ Fixed skating
+- **2026-04-18** Pixell - Antartica ▶ Blocked a hole
+- **2026-04-18** Riblei & Eliope - Machina 2 [Original + 6 Variations] ▶ Fixed checkpoints
+- **2026-04-18** cowcowtony - Racing Volcano [Normal] & [Lava] ▶ Blocked holes
 - **2026-04-16** cowcowtony - Future Trax 3 ▶ Blocked holes
 - **2026-04-05** cowcowtony - Future Trax 10 ▶ Fixed skating
 - **2026-04-01** MASKSLAVE - Sweet Wood Racing ▶ Fixed skating
