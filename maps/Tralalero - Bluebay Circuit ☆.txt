@@ -3036,7 +3036,7 @@ Scene,Geometry/Cube1,3231,0,1,1,1,0,Cube1,-436.9485,137.4416,-317.0836,0,-5.8056
 Scene,Geometry/Cube1,3232,0,1,1,1,0,Cube1,-436.9485,154.8063,-338.0829,90,-5.31264E-05,0,3.5,105,1.4,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone1|0/0|0/0,;
 Scene,Geometry/GeoRamp1,3233,0,1,1,1,0,GeoRamp1,-1141.66,91.7,47.37489,90,0,0,5.95,11.9,8.4,Physical,Entities,Default,Default|255/203/0/255,;
 Scene,Geometry/Cube1,3234,0,1,1,1,0,Unnamed,696.6694,168,-215.8501,0,0,0,140,7,280,Physical,Characters,Default,Transparent|0/0/0/0|Misc/None|1/1|0/0,;
-Scene,Geometry/Cube1,3235,0,1,1,1,0,Unnamed,639.6038,80.5,-943.6196,0,0,0,280,7,350,Physical,Characters,Default,Transparent|0/0/0/0|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,3235,0,1,1,1,0,Unnamed,553.611,80.5,-943.6196,0,0,0,350,7,350,Physical,Characters,Default,Transparent|0/0/0/0|Misc/None|1/1|0/0,;
 Scene,Geometry/Cube1,3236,0,1,1,1,0,Unnamed,658.4004,86.231,-754.4544,355.247,0,0,70,7,35,Physical,Characters,Default,Transparent|0/0/0/0|Misc/None|1/1|0/0,;
 Scene,Geometry/Cube1,3237,0,1,1,1,0,Unnamed,692.5716,94.7646,-754.4544,0,0,270,35,7,35,Physical,Characters,Default,Transparent|0/0/0/0|Misc/None|1/1|0/0,;
 Scene,Geometry/Cube1,3238,0,1,1,1,0,Unnamed,637.7928,95.7138,-754.4544,0,0,270,35,7,35,Physical,Characters,Default,Transparent|0/0/0/0|Misc/None|1/1|0/0,;
@@ -4375,7 +4375,7 @@ Scene,Terrain/Mountain2b,4585,0,1,1,1,0,Mountain2b,-80.00767,104.2684,864.9885,0
 Scene,Terrain/Mountain2b,4586,0,1,1,1,0,Mountain2b,-13.76282,-225.8158,768.5559,0,0,0,0.2,1,0.3,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cube1,4587,0,1,1,1,0,Cube1,-2960.633,174.2232,-743.2264,0,0,0,4925,7,35,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal2|6/0|0/0,;
 Scene,Geometry/Cube1,4590,0,1,1,1,0,startbarrier,32.51739,38.00293,-839.5,0,0,0,5,80,85,Physical,Entities,Default,Transparent|0/97/255/122|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cube1,4591,0,1,1,0,0,Unnamed,44.32833,0.4915067,-838.5352,0,0,0,2,2,2,Region,Characters,Default,Transparent|195/156/213/130|Misc/None|1/1|0/0,SignalActive|IDs_Appear:4592 4596|HideAppearOnStart:false|IDs_Disappear:4593 4594 4595 4597|IDs_Toggle:|NetworkSync:false|TriggerLimit:0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cube1,4591,0,1,1,0,0,Unnamed,44.32833,3.16455,-838.9047,0,0,0,12,12,12,Region,Characters,Default,Transparent|195/156/213/130|Misc/None|1/1|0/0,SignalActive|IDs_Appear:4592 4596|HideAppearOnStart:false|IDs_Disappear:4593 4594 4595 4597|IDs_Toggle:|NetworkSync:false|TriggerLimit:0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cube1,4592,0,1,1,0,0,4592,-325.4061,38.44587,-566.5423,0,0,0,5,80,85,Region,Characters,Default,Transparent|127/234/218/72|Misc/None|1/1|0/0,SignalActive|IDs_Appear:4593|HideAppearOnStart:false|IDs_Disappear:4592 4596|IDs_Toggle:|NetworkSync:false|TriggerLimit:0;
 Scene,Geometry/Cube1,4593,0,0,1,0,0,4593,-825.1965,167.4642,561.8436,0,0,0,5,100,150,Region,Characters,Default,Transparent|127/234/218/72|Misc/None|1/1|0/0,SignalActive|IDs_Appear:4594|HideAppearOnStart:false|IDs_Disappear:4593|IDs_Toggle:|NetworkSync:false|TriggerLimit:0;
 Scene,Geometry/Cube1,4594,0,0,1,0,0,4594,853.5253,132.3389,335.0608,0,89.99997,0,5,100,150,Region,Characters,Default,Transparent|127/234/218/72|Misc/None|1/1|0/0,SignalActive|IDs_Appear:4595|HideAppearOnStart:false|IDs_Disappear:4594|IDs_Toggle:|NetworkSync:false|TriggerLimit:0;
