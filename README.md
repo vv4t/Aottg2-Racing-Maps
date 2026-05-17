@@ -3,6 +3,7 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
+- NEW | **2026-05-17** [Tralalero - Bluebay Circuit](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Tralalero%20-%20Bluebay%20Circuit%20%E2%98%86.txt)
 - **2026-03-19** [cowcowtony - Galatic Spherical Solar Panel](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/cowcowtony%20-%20Galatic%20Spherical%20Solar%20Panel%20%E2%98%85%E2%98%85.txt) ▶ Forgot about this map :/
 - **2026-03-19** [Riblei - Celestial Dreams Final (Logic by Alex4win, wok) [Short Ver.]](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Riblei%20-%20Celestial%20Dreams%20Final%20(Logic%20by%20Alex4win,%20wok)%20%5BShort%20Ver.%5D%20%E2%98%85.txt) ▶ CR 2025 Winter Racing Event Map
 - **2026-03-13** [Riblei - HDR Ascension](https://github.com/vv4t/Aottg2-Racing-Maps/edit/master/maps/Riblei%20-%20HDR%20Ascension%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt) ▶ Enable HDR for a unique visual experience
@@ -33,10 +34,14 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-05-05** Azis Ackerman - Puzzle Map ▶ Fixed unpassable wall
-- NEW | **2026-05-05** Esli - Esli's Balltower ▶ Fixed a hole
-- NEW | **2026-05-05** Golden Lord - GHoR ▶ Fixed holes
-- NEW | **2026-05-05** ZeroX - Yato ▶ Fixed the start barrier
+- NEW | **2026-05-18** cowcowtony - Three Lap Racing ▶ Fixed skating
+- NEW | **2026-05-18** Guest Anon - Long Racing #2 ▶ Fixed a hole & skating
+- NEW | **2026-05-18** Riblei & Eliope - Machina 2 [Pyramid Skip Edit] & [No Trap Edit] ▶ Fixed the mid checkpoint
+- NEW | **2026-05-18** Bug on the Rose [Basic] & [HD] / Final V [Incomplete] & [Completed] / RX001 (V2) / Short Fall / Zek - First / Z Racing / Ngayn  ▶ Fixed exploits
+- **2026-05-05** Azis Ackerman - Puzzle Map ▶ Fixed unpassable wall
+- **2026-05-05** Esli - Esli's Balltower ▶ Fixed a hole
+- **2026-05-05** Golden Lord - GHoR ▶ Fixed holes
+- **2026-05-05** ZeroX - Yato ▶ Fixed the start barrier
 - **2026-04-20** Naked Heart - Mash 2 ▶ Updated by Naked Heart
 - **2026-04-19** Appolina - Endless Lava Obstacles 3 'Tribute' (Final) ▶ Fixed skating
 - **2026-04-18** Pixell - Antartica ▶ Blocked a hole
