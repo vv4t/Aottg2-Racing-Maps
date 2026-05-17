@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed on 2026-01-22|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2026-05-16|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -1707,7 +1707,7 @@ Scene,Geometry/Pyramid,1701,0,1,1,1,0,KillPyramid,570,-1490,-750,46.00099,164.06
 Scene,Geometry/Pyramid,1702,0,1,1,1,0,KillPyramid,600,-1425,-800,0,180,0,1,1,0,None,Characters,Default,OldBombExplodeMat|255/255/0/127|9999/9999,;
 Scene,Geometry/Pyramid,1703,0,1,1,1,0,KillPyramid,600,-1400,-800,312.1196,158.7578,0.6744699,1,1,0,None,Characters,Default,OldBombExplodeMat|255/255/0/127|9999/9999,;
 Scene,Geometry/Pyramid,1704,0,1,1,1,0,KillPyramid,450,-225,-800,0,180,0,1,1,0,None,Characters,Default,OldBombExplodeMat|255/255/0/127|9999/9999,;
-Scene,Geometry/Cuboid,1705,0,1,1,1,0,Racing Checkpoint Region Cuboid,570,-1740,-850,0,180,0,22,20,30,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
+Scene,Geometry/Cuboid,1705,0,1,1,1,0,Racing Checkpoint Region Cuboid,570,-1740,-850,0,180,0,22,20,30,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,Geometry/Cuboid,1706,0,1,1,1,0,KillCuboid,360,-1510,-750,0,180,0,24,2,10,None,Characters,Default,Basic|255/255/255/130|Misc/Crystal2|0.6/0.3|0/0,;
 Scene,Geometry/Cuboid,1707,0,1,1,1,0,KillCuboid,450,-1510,-900,0,90,0,20,2,42,None,Characters,Default,Basic|255/255/255/130|Misc/Crystal2|0.6/1.2|0/0,;
 Scene,Geometry/Cuboid,1708,0,1,1,1,0,KillCuboid,450,-1510,-650,0,90,0,10,2,42,None,Characters,Default,Basic|255/255/255/130|Misc/Crystal2|0.3/1.2|0/0,;
@@ -3272,7 +3272,8 @@ Scene,Geometry/Cuboid,3266,0,1,1,1,0,KillCuboid,450,1100,-2720,0,180,320,47.9,3.
 Scene,Geometry/Cuboid,3267,0,1,1,1,0,KillCuboid,450,1100,-2760,0,180,330,47.9,3.9,3.9,None,Characters,Default,Basic|255/255/255/255|Nature/Grass3|1/1|0/0,;
 Scene,Geometry/Cuboid,3268,0,1,1,1,0,KillCuboid,450,1100,-2800,0,180,340,47.9,3.9,3.9,None,Characters,Default,Basic|255/255/255/255|Nature/Grass3|1/1|0/0,;
 Scene,Geometry/Cuboid,3269,0,1,1,1,0,KillCuboid,450,1100,-2840,0,180,350,47.9,3.9,3.9,None,Characters,Default,Basic|255/255/255/255|Nature/Grass3|1/1|0/0,;
-Scene,Geometry/Cuboid,3270,0,1,1,1,0,KillCuboid,450,1100,-2880,0,180,0,47.9,3.9,3.9,None,Characters,Default,Basic|255/255/255/255|Nature/Grass3|1/1|0/0,
+Scene,Geometry/Cuboid,3270,0,1,1,1,0,KillCuboid,450,1100,-2880,0,180,0,47.9,3.9,3.9,None,Characters,Default,Basic|255/255/255/255|Nature/Grass3|1/1|0/0,;
+Scene,Geometry/Cuboid,3272,0,1,1,0,0,Cuboid,461.9519,-1730,-948.9413,0,180,0,4,5,1,Physical,Entities,Default,Basic|255/255/255/255|Brick/Brick4|0.07/0.06|0/0,
 /// Logic
 
 /// Weather
@@ -3331,5 +3332,6 @@ Scene,Geometry/Cuboid,3270,0,1,1,1,0,KillCuboid,450,1100,-2880,0,180,0,47.9,3.9,
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "1b581a85-8a22-4be8-b2d6-5cb4495b85b3"
 }
