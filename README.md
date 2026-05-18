@@ -34,7 +34,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-05-19** Crash Bandicoot - Feliz Cumpleaños ▶ Fixed skating
+- NEW | **2026-05-19** Crash Bandicoot - Feliz Cumpleaños ▶ Fixed a hole & skating
 - NEW | **2026-05-18** cowcowtony - Three Lap Racing ▶ Fixed skating
 - NEW | **2026-05-18** Guest Anon - Long Racing #2 ▶ Fixed a hole & skating
 - NEW | **2026-05-18** Riblei & Eliope - Machina 2 [Pyramid Skip Edit] & [No Trap Edit] ▶ Fixed the mid checkpoint
