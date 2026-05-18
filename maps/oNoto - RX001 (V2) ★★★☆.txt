@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Map Fixed by Fruity on 2026-05-16|HasWeather:0
+EditorVersion:1.0|Description:Map Fixed by Fruity on 2026-05-18|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -486,7 +486,7 @@ Scene,Geometry/Cuboid,481,0,1,1,1,0,Cuboid,1370.32,40.58877,7802.284,0,259.2264,
 Scene,Geometry/Cuboid,482,0,1,1,1,0,Cuboid,1412.539,42.6359,7596.589,0,79.28593,0,1,20,38,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Cuboid,483,0,1,1,1,0,Racing Checkpoint Region Cuboid,1406.113,21.24679,7613.236,0,349.3586,0,5,5,5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
 Scene,Geometry/Cuboid,484,0,1,1,1,0,Kill Region Cuboid,1410.43,21.21924,7590.244,0,349.3179,0,5,5,0.2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Sphere,485,0,1,1,1,0,Racing Finish Region Sphere,1368.674,-56.20739,7777.124,0,348.54,0,3,3,3,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Sphere,485,0,1,1,1,0,Racing Finish Region Sphere,1368.674,-56.20739,7777.124,0,348.54,0,3,3,3,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,486,0,1,1,1,0,Kill Region Cuboid,1647.046,62.51991,7626.237,0,349.0508,0,2,35,95,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,487,0,1,1,1,0,Kill Region Cuboid,1800.987,66.56023,7702.234,0,168.8551,0,2,35,125,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,488,0,1,1,1,0,Kill Region Cuboid,1172.395,65.68613,8174.375,0,78.73528,0,2,35,103,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -499,7 +499,7 @@ Scene,Geometry/Cuboid,494,0,1,1,0,0,LegacyBarrier,1180.852,138.5746,6012.783,0,3
 Scene,Geometry/Cuboid,495,0,1,1,0,0,LegacyBarrier,1510.12,138.0391,6643.843,0,257.4336,0,34,1,130,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,496,0,1,1,0,0,LegacyBarrier,2458.896,138.0069,6570.561,0,169.3308,0,55,1,55,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,497,0,1,1,1,0,Racing Checkpoint Region Cuboid,1138.557,-39.44788,7248.326,0,169.7131,0,2,2,2,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
-Scene,Geometry/Cuboid,498,0,1,1,0,0,LegacyBarrier,1309.408,136.3005,7168.808,0,78.29027,0,77,1,85,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,498,0,1,1,0,0,LegacyBarrier,1309.408,136.3005,7163.212,0,78.29027,0,77,1,85,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,499,0,1,1,1,0,Kill Region Cuboid,1743.282,136.7292,7681.503,0,168.8017,0,20,1.3,121,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,500,0,1,1,1,0,Kill Region Cuboid,1130.553,136.3374,8083.585,0,258.7187,0,18,1.3,85,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,501,0,1,1,1,0,Kill Region Cuboid,833.4265,136.3732,7794.528,0,168.6654,0,18,1.3,27,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -602,7 +602,7 @@ Scene,Geometry/Cuboid,599,0,1,1,0,0,LegacyBarrier,1464.176,141.3659,4507.296,0,3
 Scene,Geometry/Cylinder,602,0,1,1,1,0,Cylinder,1545.562,-50.79287,4964.053,0,215.239,0,1,0.1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,605,0,1,1,1,0,Cuboid,2353.724,39.32062,6279.457,0,257.5685,0,1,20,5,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|1/1|0/0,;
 Scene,Geometry/Cuboid,606,0,1,1,1,0,Racing Checkpoint Region Cuboid,2298.521,-38.988,6454.428,0,349.0905,0,1,1,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
-Scene,Geometry/Cuboid,607,0,1,1,1,0,Racing Finish Region Cuboid,547.0681,16.92914,610.0233,0,3.243134,0,0.1,0.1,0.1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cuboid,609,0,1,1,0,0,LegacyBarrier,1260,136.3005,7750,0,78.29027,0,40,1,65,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Pyramid,608,0,1,1,1,0,Pyramid,937.4598,-36.32545,3777.026,270,77.22675,0,1,1,0,Physical,Entities,Default,Default|255/255/255/255,
 /// Logic
 
