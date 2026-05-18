@@ -867,7 +867,7 @@ Scene,Geometry/Cuboid,861,0,1,1,0,0,LegacyBarrier,-18.40475,1720.282,-107.7897,0
 Scene,Geometry/Cuboid,862,0,1,1,0,0,LegacyBarrier,206.054,108.9635,-204.8617,0,59.09167,0,40,1,40,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,863,0,1,1,0,0,LegacyBarrier,-151.034,106.993,243.9436,87.00011,238.6384,179.9999,40,20,1,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,864,0,1,1,0,0,LegacyBarrier,-210.9886,113.1648,-143.587,0.1953795,148.9611,0.08293047,33,1,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,865,0,1,1,0,0,LegacyBarrier,232.3469,113.2135,141.0865,0,239.6149,0,33,1,33,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,865,0,1,1,0,0,LegacyBarrier,225.7521,113.2135,137.2197,0,239.6149,0,33,1,33,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,866,0,1,1,1,0,Kill Region Cuboid,932.073,0.341979,-219.5619,0,181.5961,0,10,7,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,867,0,1,1,1,0,Kill Region Cuboid,-932.073,0.341979,219.5619,0,181.5961,0,10,7,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,868,0,1,1,1,0,Cuboid,0.4052916,1719.347,7.465555,0,190.5092,0,1,18,28,Physical,Entities,Default,OldBombExplodeMat|255/255/255/127|1/1,;
