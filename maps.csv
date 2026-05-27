@@ -25,9 +25,9 @@ map_id|author|name|difficulty|tags|notes
 24|Eliope|Port Racers + Makina Red + Speed (Fused by Riblei)|4.0||
 25|Chrysoprase|Brutalism (Lava)|4.0||
 27|Unknown|Stage 1|4.0||
-28|Zil|Irì spid|3.0||
+28|Zil|Irì spid|3.0||Fixed on 2026-05-28
 29|MASKSLAVE|EZ Racing|3.5||
-30|Golden Lord|GHoR|5.5||Fixed on 2026-05-05
+30|Golden Lord|GHoR|5.5||Fixed on 2026-05-28
 31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.0||Fixed on 2026-01-24
 32|Saif|Custom Map Racing 1|1.5||
 33|cowcowtony|Isolated City Racing (Hard)|5.0||
@@ -77,7 +77,7 @@ map_id|author|name|difficulty|tags|notes
 79|Riblei|House Surfing|3.0||
 80|MASKSLAVE|MS Racing 1|4.0||Fixed on 2026-01-12
 81|ZeroX|FALR (Mini Version)|3.5||
-82|Fate|Fuck It|3.0||
+82|Fate|Fuck It|3.0||Fixed on 2026-05-28
 83|Eliope|The Way of the Racers (Ancient)|1.0|twotr twor|Fixed on 2026-03-20
 84|cowcowtony|Future Trax 2 Fused (Edit by Riblei & Appo)|4.5||
 85|Guest Creator|Fall Race|3.5||
@@ -195,7 +195,7 @@ map_id|author|name|difficulty|tags|notes
 201|Sylcium|Long Racing Map (Lava Edit by Alex4win)|3.5||
 202|Incendium|Inferno 1|6.0||
 203|PR0XY|The Sandstone Temple (Lava)|3.5||
-204|Eliope|Blood of the Racers 1 Spoopy Spedition (Edit by Riblei, Alex4win)|4.5|botr botr1|
+204|Eliope|Blood of the Racers 1 Spoopy Spedition (Edit by Riblei, Alex4win)|4.5|botr botr1|Fixed on 2026-05-28
 205|Riblei|Celestial Automatic (Short)|4.5||
 207|Sebas Tian|SAC - Underground Hunt|3.0||
 209|Kari|The Lava Cave|4.0||
@@ -218,7 +218,7 @@ map_id|author|name|difficulty|tags|notes
 228|Nabsin|Akina 2.0 |0.5||
 229|Eliope|Nawak 2|3.5||
 230|Kari|Racing 2 (Nightmare)|4.0||
-231|Alpi|Galactic Hell|4.0||
+231|Alpi|Galactic Hell|4.0||Fixed on 2026-05-28
 232|Eliope|Makina Fire|1.0||
 233|Puttepers & Sylvy|PS2|5.0||Fixed on 2025-11-18
 234|Zil|UwU|3.0||
@@ -276,7 +276,7 @@ map_id|author|name|difficulty|tags|notes
 287|Appolina|Red Mirrored Akina (Beta Version)|4.0||
 288|Loki|Unknown (4)|4.0||
 289|Unknown|VN Map Maker's Untitled Lava Map|4.5||
-290|Envy|Racing Forest|2.0||Fixed on 2026-01-17
+290|Envy|Racing Forest|2.0||Fixed on 2026-05-28
 292|PR0XY|The Sandstone Temple|3.0||
 293|SmoothCatRider|First Racing Map|2.0||Fixed on 2026-01-15
 294|Sebas Tian|SAC - Feng City Run (Lv1)|1.0||
@@ -288,7 +288,7 @@ map_id|author|name|difficulty|tags|notes
 300|Zil|Irì shuriken|2.0||
 301|Riblei|Island Racers|3.5||
 302|oNoto|Minirace|3.5||
-303|Puttepers|Putte's Map (Unfinished)|7.0||
+303|Puttepers|Putte's Map (Unfinished)|7.0||Fixed on 2026-05-28
 304|Eliope|Makina Royal (Ice Texture by Riblei)|2.0||
 305|ZeroX|Very Easy Short Speed Racing Map|1.0||
 306|DarkLight|Run 4 Ur Life|2.0||
@@ -346,7 +346,7 @@ map_id|author|name|difficulty|tags|notes
 360|cowcowtony|Future Trax 5|5.0||
 361|Appolina|Red Mirrored Akina|4.5||
 362|Eliope|Warped Fusion|3.5||Updated on 2026-01-15
-363|Zil|Irì spid √3|2.5||
+363|Zil|Irì spid √3|2.5||Fixed on 2026-05-28
 364|MASKSLAVE|MASKSLAVE 2|3.5||
 365|Zil|Easy af|4.0||
 366|oNoto|Circle Lava|4.0||
@@ -357,7 +357,7 @@ map_id|author|name|difficulty|tags|notes
 371|Riblei|Falling Candies (Obstacle Edit by Eim)|3.5||
 372|MASKSLAVE|I7 Racing|3.5||
 373|Riblei|Ex'd IV|1.0||Updated on 2025-10-26
-374|Envy|Racing Forest (Short)|1.5||Fixed on 2026-01-17
+374|Envy|Racing Forest (Short)|1.5||Fixed on 2026-05-28
 375|oNoto|LaLy Red Lava|3.5||
 376|Eliope|Makina Honor (Transparent Texture by Unknown)|2.0|inactive|
 377|Eliope|Mayaka|4.0||Updated on 2026-01-31
@@ -487,7 +487,7 @@ map_id|author|name|difficulty|tags|notes
 506|Appolina|Endless Lava Obstacles 1 'Play'|4.0||
 507|Sylcium|Feng's Akina|0.5|inactive|
 508|zender|Snail|3.0||
-509|Eliope|Makina Dro + Port Racers 1 (Fused by Zil)|3.5||
+509|Eliope|Makina Dro + Port Racers 1 (Fused by Zil)|3.5||Fixed on 2026-05-28
 510|Guest Creator|Lava Maze Map|5.0||
 511|oNoto|Racing 001 Easy (No Lava)|0.5||
 512|Eliope|The Way of the Racers (Lava)|3.5|twotr twor|Fixed on 2026-03-20
