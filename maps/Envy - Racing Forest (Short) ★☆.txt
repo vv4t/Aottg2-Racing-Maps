@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-30|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2026-05-27|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -103,7 +103,7 @@ Scene,Nature/Boulder1,97,0,1,1,1,0,Boulder1,32.01991,79.34196,50.78939,0,328.820
 Scene,Nature/Boulder1,98,0,1,1,1,0,Boulder1,14.54683,25.04375,11.5432,0,253.8165,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,99,0,1,1,1,0,Boulder1,13.79756,43.64373,-8.666445,0,219.0165,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,100,0,1,1,1,0,Boulder1,60.93858,46.76892,-52.5666,0,209.8163,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Nature/Boulder1,101,0,1,1,1,0,Boulder1,21.80388,58.58897,-30.38021,0,220.7058,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Boulder1,101,0,1,1,1,0,Boulder1,12.12679,58.58897,-30.38021,0,220.7058,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,102,0,1,1,1,0,Boulder1,-4.69896,53.69306,29.23694,0,286.5648,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Decor/Pillar2,103,0,1,1,1,0,Pillar2,36.08144,-35.10886,-115.1965,0,62.22147,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Decor/Pillar2,104,0,1,1,1,0,Pillar2,-6.498671,30.17302,-190.8198,-1.280661E-06,15.77146,27.00001,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
@@ -121,7 +121,7 @@ Scene,Nature/Boulder1,115,0,1,1,1,0,Boulder1,174.3748,85.43,-410.7306,0,261.5952
 Scene,Nature/Boulder1,116,0,1,1,1,0,Boulder1,140.5446,91.09251,-432.8994,0,214.7436,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,117,0,1,1,1,0,Boulder1,267.489,40.29403,-452.1513,0,67.44134,0,7,7,7,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,118,0,1,1,1,0,Boulder1,176.9671,43.95334,-567.4573,0,18.44109,0,7,7,7,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Nature/Boulder1,119,0,1,1,1,0,Boulder1,194.5448,163.347,-480.1588,0,101.1878,0,7,7,7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Boulder1,119,0,1,1,1,0,Boulder1,194.5448,157.1101,-480.1588,0,101.1878,0,7,7,7,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,120,0,1,1,1,0,Boulder1,67.11037,151.9829,-484.5515,328.8,273.1865,180,7,7,7,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,121,0,1,1,1,0,Boulder1,202.1108,89.63759,-430.2779,0,58.43562,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Cave1,122,0,1,1,1,0,Cave1,26.44028,-10.70251,-486.0929,0,136.1828,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
@@ -253,7 +253,8 @@ Scene,Geometry/Cuboid,247,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,1
 Scene,Geometry/Cuboid,248,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,249,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,250,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,251,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,251,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Nature/Boulder1,252,0,1,1,1,0,Boulder1,168.4353,98.02175,-383.2517,0,261.5952,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,
 /// Logic
 
 /// Weather
@@ -312,5 +313,6 @@ Scene,Geometry/Cuboid,251,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "61b0d225-cf88-427d-b4e6-bb83a9eb7f56"
 }
