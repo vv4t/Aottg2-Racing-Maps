@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-27|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2026-05-27|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -73,9 +73,9 @@ Scene,Geometry/Cuboid,67,0,1,1,1,0,Cuboid,-178.888,496.6509,291.6458,47.237,124.
 Scene,Geometry/Cuboid,68,0,1,1,1,0,Kill Region Cuboid,-327.1251,408.4089,237.4155,28.1836,358.7439,33.14803,0.3,2.1,2.1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,69,0,1,1,1,0,Cuboid,-96.19209,527.9858,312.9344,0,185.9058,0,1,0.2,1,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,70,0,1,1,1,0,Racing Checkpoint Region Cuboid,-95.93333,531.6896,313.0475,0,8.922284,0,0.5,0.5,0.5,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
-Scene,Geometry/Cuboid,71,0,1,1,1,0,Kill Region Cuboid,48.07728,667.5369,282.8435,46.53677,74.12942,333.1006,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,71,0,1,1,1,0,Kill Region Cuboid,48.07728,667.5369,282.8435,46.53677,74.12942,333.1006,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,72,0,1,1,1,0,Cuboid,56.37666,644.2714,262.247,1.195283E-05,19.10762,307.8,0.2,40,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
-Scene,Geometry/Cuboid,73,0,1,1,1,0,Kill Region Cuboid,35.80764,666.9431,250.1045,313.6196,325.5266,332.058,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,73,0,1,1,1,0,Kill Region Cuboid,35.80764,666.9431,250.1045,313.6196,325.5266,332.058,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,74,0,1,1,1,0,Kill Region Cuboid,56.63462,644.4875,261.5888,52.23993,108.3772,359.4283,6.1,40.1,0.3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,75,0,1,1,1,0,Kill Region Cuboid,-98.30682,520.4282,316.5751,356.7987,196.6352,347.6205,2,0.2,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,76,0,1,1,1,0,Kill Region Cuboid,-97.81226,530.4375,334.4082,301.8,259.1451,90.59985,2,1,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -96,7 +96,7 @@ Scene,Geometry/Cuboid,90,0,1,1,1,0,Kill Region Cuboid,56.12041,663.5941,280.7958
 Scene,Geometry/Cuboid,91,0,1,1,1,0,Kill Region Cuboid,71.25105,682.1724,248.0474,359.4269,18.61521,125.9962,6,0.5,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,92,0,1,1,1,0,Kill Region Cuboid,28.96087,685.6321,272.3604,37.5039,289.6575,2.171539,2,1,40,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,93,0,1,1,1,0,Kill Region Cuboid,110.3248,709.5518,241.788,38.42841,287.8698,359.1685,6,3,4,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,94,0,1,1,1,0,Kill Region Cuboid,131.4584,735.9409,235.7085,39.25554,289.588,359.8675,6,2.5,4,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,94,0,1,1,1,0,Kill Region Cuboid,131.4584,735.9409,235.7085,39.25554,289.588,359.8675,6,2.5,4,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,95,0,1,1,1,0,Cuboid,227.6843,768.5857,204.3815,0,108.7908,0,2,0.5,2,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,96,0,1,1,1,0,Cuboid,362.3618,792.9868,186.431,0,288.4333,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,97,0,1,1,1,0,Cuboid,344.6516,793.0676,134.2456,0,288.4333,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
@@ -117,7 +117,7 @@ Scene,Geometry/Cuboid,111,0,1,1,1,0,Cuboid,200.886,765.4438,-37.12695,0,108.2408
 Scene,Geometry/Cuboid,112,0,1,1,1,0,Cuboid,288.372,793.1319,-36.71099,0,108.2408,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,113,0,1,1,1,0,Cuboid,271.1802,793.0508,-89.38032,0,108.2408,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,114,0,1,1,1,0,Cuboid,279.7805,820.4747,-63.2355,0,108.2228,0,6,0.5,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
-Scene,Geometry/Cuboid,115,0,1,1,1,0,Kill Region Cuboid,-29.40553,664.9371,60.44938,46.53677,74.12942,333.1006,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
+Scene,Geometry/Cuboid,115,0,1,1,1,0,Kill Region Cuboid,-29.40553,664.9371,60.44938,46.53677,74.12942,333.1006,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,116,0,1,1,1,0,Cuboid,-19.00153,644.7105,37.81277,1.195283E-05,19.10762,307.8,0.2,40,6,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
 Scene,Geometry/Cuboid,117,0,1,1,1,0,Kill Region Cuboid,-41.10768,666.0646,27.41727,313.6196,325.5266,332.058,0.2,40,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,118,0,1,1,1,0,Kill Region Cuboid,-19.12209,644.6868,37.12113,52.23993,108.3772,359.4283,6.1,40.1,0.3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -208,7 +208,17 @@ Scene,Geometry/Cuboid,202,0,1,1,1,0,Racing Finish Region Cuboid,-524.4207,-63.70
 Scene,Geometry/Cuboid,203,0,1,1,0,0,Cuboid,36.69526,234.1955,89.47154,0,306.0842,0,1,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,205,0,1,1,0,0,Cuboid,59.7547,234.1955,121.895,0,306.0842,0,1,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,207,0,1,1,0,0,Cuboid,60.28024,234.1955,96.83315,0,306.0842,0,5,2,1,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,208,0,1,1,0,0,Cuboid,51.66335,248.0237,103.1326,0,306.0842,0,5,1,3,Physical,Entities,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,208,0,1,1,0,0,Cuboid,51.66335,248.0237,103.1326,0,306.0842,0,5,1,3,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,209,0,1,1,0,0,Cuboid,251.4222,792.9868,223.4073,0,288.4333,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
+Scene,Geometry/Cuboid,211,0,1,1,0,0,Cuboid,235.9252,793.0676,170.4843,0,288.4333,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
+Scene,Geometry/Cuboid,212,0,1,1,0,0,Cuboid,234.1116,820.7318,199.4662,5,288.4333,-2.785363E-06,6,1,12,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
+Scene,Geometry/Cuboid,213,0,1,1,0,0,Cuboid,176.4992,793.1319,0.1592647,0,108.2408,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
+Scene,Geometry/Cuboid,214,0,1,1,0,0,Cuboid,151.2214,793.0508,-49.84518,0,108.2408,0,0.5,6,15,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
+Scene,Geometry/Cuboid,221,0,1,1,0,0,Cuboid,155.7588,820.2115,-21.59081,5,288.4333,-2.785363E-06,6,1,12,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass2|1/1|0/0,;
+Scene,Geometry/Cuboid,219,0,1,1,0,0,Kill Region Cuboid,178.6619,800.0531,242.7287,46.53677,74.12942,333.1006,2,2,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,220,0,1,1,0,0,Kill Region Cuboid,166.6545,795.7258,197.7594,313.6196,325.5266,332.058,2,2,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,222,0,1,1,0,0,Kill Region Cuboid,97.73888,801.7782,19.91341,46.53677,74.12942,333.1006,2,2,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,223,0,1,1,0,0,Kill Region Cuboid,87.27235,797.9351,-23.40929,313.6196,325.5266,332.058,2,2,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server
 /// Logic
 
 /// Weather
@@ -267,5 +277,6 @@ Scene,Geometry/Cuboid,208,0,1,1,0,0,Cuboid,51.66335,248.0237,103.1326,0,306.0842
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "c8a672ba-bf07-4748-b506-7c94c5487861"
 }
