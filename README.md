@@ -34,6 +34,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-06-03** Envy - Racing Forest (Short) ▶ Blocked a hole
 - NEW | **2026-05-29** Eliope - Troll of the Racers (Edit by Riblei) ▶ Fixed skating
 - NEW | **2026-05-28** Fuck It / Galactic Hell / Putte's Map / Racing Forest / GHoR /  Makina Dro + Port Racers 1 / Irì spid / Irì spid √3 ▶ Fixed exploits
 - NEW | **2026-05-28** Blood of the Racers 1 Spoopy Spedition ▶ Fixed skating
