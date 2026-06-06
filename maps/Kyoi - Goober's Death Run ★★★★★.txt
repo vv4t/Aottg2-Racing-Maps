@@ -1,7 +1,9 @@
 /// Options
 EditorVersion:1.0|Description:Deathrun full of traps to avoid you from speedrunning this map with 0 deaths, good luck.
 
-Map made by Kyoi.|HasWeather:0
+Map made by Kyoi.
+
+Fixed by Fruity on 2026-06-06|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -417,7 +419,8 @@ Scene,Interact/CaptureZone2,542,0,1,0,1,1,CaptureZone2,-5.476255,-70.68491,7.521
 Scene,Geometry/Cube1,543,0,1,1,1,0,Cube1,0,-58.6196,0,0,0,0,15,1,15,Physical,Entities,Default,Basic|55/55/55/255|Misc/Gradient1|1/1|0/0,;
 Scene,Geometry/Cube1,544,0,1,1,1,0,Wall,0,-63.70516,217.8061,0,90,0,5,50,10,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock5|1/3|0/0,;
 Scene,Geometry/Cube1,545,0,1,1,1,0,Ground,0,-50.3012,679.7289,0,0,0,15,1.5,10,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone16|1/3|0/0,;
-Scene,Geometry/Cube1,546,0,1,1,1,0,Ground,0,-50.3012,619.7159,0,0,0,15,1.5,10,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone16|1/3|0/0,
+Scene,Geometry/Cube1,546,0,1,1,1,0,Ground,0,-50.3012,619.7159,0,0,0,15,1.5,10,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone16|1/3|0/0,;
+Scene,Geometry/Cube1,549,0,1,1,0,0,Roof,0,26,3.5,0,0,0,100,1.5,50,Physical,Entities,Default,Basic|200/200/200/255|Stone/Rock5|1/3|0/0,
 /// Logic
 component GasRemover
 {
@@ -500,5 +503,6 @@ character.SetSpecial("Switchback");
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "44a4bf27-f151-45ed-8b51-46e03297d620"
 }
