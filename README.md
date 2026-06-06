@@ -34,6 +34,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-06-06** Kyoi - Goober's Death Run ▶ Fixed an exploit
 - NEW | **2026-06-06** Charlotte - Chess ll “Rook” ▶ Blocked a hole
 - NEW | **2026-06-05** Mayoi - [DC] Speed Race ▶ Fixed skating
 - NEW | **2026-06-03** Envy - Racing Forest (Short) ▶ Blocked a hole
