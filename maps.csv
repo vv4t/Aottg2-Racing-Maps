@@ -12,7 +12,7 @@ map_id|author|name|difficulty|tags|notes
 11|Eliope|Nano Maps Fused (Edit by Riblei)|2.0||
 12|Riblei|Celestial Dreams Jr.|1.0||Updated on 2025-10-26
 13|oNoto|Racing 001 Normal (Semi Lava)|2.0||
-14|Eliope|Blood of the Racers 1 Black Edition|5.0|botr botr1|
+14|Eliope|Blood of the Racers 1 Black Edition|5.0|botr botr1|Fixed on 2026-06-13
 15|Eliope|The Way of the Racers (Winter)|1.0|twotr twor|Fixed on 2026-03-20
 16|Mb12|Cave Race|1.0||Blocked 20+ holes on 2025-12-26
 17|Chrysoprase|Brutalism|0.5||
@@ -91,7 +91,7 @@ map_id|author|name|difficulty|tags|notes
 93|Eliope|Makina Dro|3.5||
 94|DarkLight|Maze Map|3.0|inactive|
 95|Charlotte|Chess l “Pawn”|3.0||
-96|Eliope|Blood of the Racers 1 Easy (Edit by Loki)|3.0|botr botr1 inactive|
+96|Eliope|Blood of the Racers 1 Easy (Edit by Loki)|3.0|botr botr1 inactive|Fixed on 2026-06-13
 97|Eliope|Racing Guts|1.0||
 98|cowcowtony|Pyramid Trax|3.5||
 99|MASKSLAVE|Twins Racing|3.0||
@@ -102,7 +102,7 @@ map_id|author|name|difficulty|tags|notes
 104|PTHunter|Racing Map (Horse Edit)|1.0|horse|
 105|ZeroX|Code 30|3.5||
 106|Eliope|Nano Racing T|0.5||
-107|Eliope|Blood of the Racers 1 (Water Edit by Riblei)|0.5|botr botr1 inactive|
+107|Eliope|Blood of the Racers 1 (Water Edit by Riblei)|0.5|botr botr1 inactive|Fixed on 2026-06-13
 108|AndyXest|Devil's Corridor|3.0||
 109|Eliope|Makina Honor + Source (Fused by Riblei)|3.5||
 110|Hong Yao|Hard Racing Akina (Grey Walls)|2.0||
@@ -116,7 +116,7 @@ map_id|author|name|difficulty|tags|notes
 119|Eliope|Makina Last|3.5||
 120|Loki|Unknown (5)|4.5||
 121|Eliope|Nano Racing Corridor Left|0.5||
-122|Eliope|Blood of the Racers 1 & 2 (Fused by oNoto)|5.0|botr botr1 botr2|
+122|Eliope|Blood of the Racers 1 & 2 (Fused by oNoto)|5.0|botr botr1 botr2|Fixed on 2026-06-13
 123|cowcowtony|Three Lap Racing|0.5||Fixed on 2026-05-18
 124|Riblei|Island Racers 2nd Part Only|3.0||
 125|Zil|Irì crystal|3.0||Fixed holes on 2026-02-10
@@ -133,7 +133,7 @@ map_id|author|name|difficulty|tags|notes
 137|Riblei|Celestial Marine (Water Edit)|0.5|inactive|ft. Alex4win & Sylvia
 138|Parls|PNC|3.5||
 139|Dany|The Nuke (Hard)|5.0||Fixed on 2026-01-24
-140|Eliope|Blood of the Racers 4 (Edit by zender)|4.5|botr botr4|
+140|Eliope|Blood of the Racers 4 (Edit by zender)|4.5|botr botr4|Fixed on 2026-06-13
 141|oNoto|Racing Lava (Tilted Stairs)|3.5||
 142|Eliope|Makina Volcano|4.5||
 143|Eliope|Nano Racing Curve Left|0.5||
@@ -181,7 +181,7 @@ map_id|author|name|difficulty|tags|notes
 186|Sylcium|Hard Racing Map|3.0||
 187|Eliope|Cycled Source 1 (Edit by cowcowtony)|0.5||
 188|zender|Snail (Hard)|4.5||
-189|Eliope|BotR I, II, IV (Tourney Version by Riblei)|4.5|botr botr1 botr2 botr3|
+189|Eliope|BotR I, II, IV (Tourney Version by Riblei)|4.5|botr botr1 botr2 botr3|Fixed on 2026-06-13
 190|Eliope|Port Racers 2 (Lava Edit by Riblei)|3.5||
 191|Guest Anon|Long Racing #2|1.0||Fixed on 2026-05-18
 192|Riblei|Celestial Ellestra (Visible Lava)|3.5||
@@ -281,7 +281,7 @@ map_id|author|name|difficulty|tags|notes
 293|SmoothCatRider|First Racing Map|2.0||Fixed on 2026-01-15
 294|Sebas Tian|SAC - Feng City Run (Lv1)|1.0||
 295|Zil|Irì ash (Lava Edit by Riblei)|4.0||
-296|Eliope|Blood of the Racers 4 Eased (Edit by zender)|4.5|botr botr4|
+296|Eliope|Blood of the Racers 4 Eased (Edit by zender)|4.5|botr botr4|Fixed on 2026-06-13
 297|Zil|Ori|3.5||
 298|Eliope|Race King Volcano|4.5||
 299|AndyXest|Devil's Corridor (Lava)|3.5||
@@ -315,7 +315,7 @@ map_id|author|name|difficulty|tags|notes
 327|Loki|Racing Hard 123|4.0||Fixed on 2026-01-24
 328|Sub|Unfinished Map|3.0||
 329|Naito|N3|3.5||
-330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2 inactive|
+330|Eliope|Blood of the Racers 2 (Water Edit by Riblei)|0.5|botr botr2 inactive|Fixed on 2026-06-13
 331|Ace|Race 2|1.5|inactive|Fixed on 2025-11-30
 332|Hong Yao|Hong Racing|1.0|inactive|
 333|Konor|Hot Lava (Easy)|2.5||Fixed on 2026-02-10
@@ -363,7 +363,7 @@ map_id|author|name|difficulty|tags|notes
 377|Eliope|Mayaka|4.0||Updated on 2026-01-31
 378|Rayzu & Riblei|Ex'd|3.0||
 379|Riblei|Celestial Marine I|4.0||ft. Alex4win & Sylvia
-380|Eliope|Blood of the Racers I, II, IV (Fused by Riblei)|4.5|botr botr1 botr2 botr4|
+380|Eliope|Blood of the Racers I, II, IV (Fused by Riblei)|4.5|botr botr1 botr2 botr4|Fixed on 2026-06-13
 381|Unknown|Wind Series 'Vata Racing'|3.0||
 382|Unknown|Wind Series 'Vata Racing' (Lv2)|4.0||
 383|oNoto|LaLy First|3.5||
@@ -382,7 +382,7 @@ map_id|author|name|difficulty|tags|notes
 396|cowcowtony|Future Trax 6|4.0||
 397|cowcowtony|Falling Fred|2.0||
 398|John|Indoor Racing|1.0||
-399|Eliope|BotR 1 & 2 (Fused by Joshy)|4.5||
+399|Eliope|BotR 1 & 2 (Fused by Joshy)|4.5||Fixed on 2026-06-13
 400|oNoto|Racing Lava Hard|3.5||
 401|AndyXest|HareTroop|4.0||
 402|Riblei|Loope le Loope|4.0||Updated on 2025-10-26
@@ -458,7 +458,7 @@ map_id|author|name|difficulty|tags|notes
 474|Zil|reeeeeeeeeeeeee2|1.5||
 475|Riblei|Chimera|4.5||
 476|cowcowtony|Watch Out Your Head|1.0||
-477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|
+477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|Fixed on 2026-06-13
 478|Eliope|The Way of the Racers (Aride)|1.0|twotr twor|Fixed on 2026-03-20
 479|Sylcium|Racing Map|1.0||
 480|Eliope|Makina Honor (Brick)|2.0|inactive|
