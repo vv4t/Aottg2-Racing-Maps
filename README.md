@@ -34,7 +34,12 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-06-09** Tralalero - Bluebay Circuit ▶ Updated by Tralalero
+- NEW | **2026-06-13** Eliope - Blood of the Racers 4 (Edit by zender), Eased (Edit by zender) ▶ Fixed skating
+- NEW | **2026-06-13** Eliope - Blood of the Racers I, II, IV (Fused by Riblei) (Tourney Version by Riblei) ▶ Fixed skating
+- NEW | **2026-06-13** Eliope - Blood of the Racers 1 & 2 (Fused by oNoto), (Fused by Joshy) ▶ Fixed skating
+- NEW | **2026-06-13** Eliope - Blood of the Racers 2 (Water Edit by Riblei) ▶ Fixed skating
+- NEW | **2026-06-13** Eliope - Blood of the Racers 1 (Tilted Edit by oNoto), (Water Edit by Riblei), Black Edition, Easy (Edit by Loki) ▶ Fixed skating
+- **2026-06-09** Tralalero - Bluebay Circuit ▶ Updated by Tralalero
 - **2026-06-06** Kyoi - Goober's Death Run ▶ Fixed an exploit
 - **2026-06-06** Charlotte - Chess ll “Rook” ▶ Blocked a hole
 - **2026-06-05** Mayoi - [DC] Speed Race ▶ Fixed skating
