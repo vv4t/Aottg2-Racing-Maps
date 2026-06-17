@@ -38,7 +38,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - NEW | **2026-06-17** Machina 2 (Later Half Cut, No Trap Edit), (No Trap Edit), (Pyramid Skip Edit), Black Edition (Later Half Cut, Trap Edit) ▶ Fixed skating
 - NEW | **2026-06-17** PR0XY - The Sandstone Temple (Lava) ▶ Blocekd a gap
 - **2026-06-13** Eliope - Blood of the Racers 4 (Edit by zender), Eased (Edit by zender) ▶ Fixed skating
-- *2026-06-13** Eliope - Blood of the Racers I, II, IV (Fused by Riblei) (Tourney Version by Riblei) ▶ Fixed skating
+- *2026-06-13** Eliope - Blood of the Racers I, II, IV (Fused by Riblei), (Tourney Version by Riblei) ▶ Fixed skating
 - **2026-06-13** Eliope - Blood of the Racers 1 & 2 (Fused by oNoto), (Fused by Joshy) ▶ Fixed skating
 - **2026-06-13** Eliope - Blood of the Racers 2 (Water Edit by Riblei) ▶ Fixed skating
 - **2026-06-13** Eliope - Blood of the Racers 1 (Tilted Edit by oNoto), (Water Edit by Riblei), Black Edition, Easy (Edit by Loki) ▶ Fixed skating
