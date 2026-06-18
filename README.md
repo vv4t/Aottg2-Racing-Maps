@@ -35,6 +35,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-06-18** Azis Ackerman - Puzzle Map ▶ Fixed skating
 - NEW | **2026-06-17** Machina 2 (Later Half Cut, No Trap Edit), (No Trap Edit), (Pyramid Skip Edit), Black Edition ▶ Fixed skating
 - NEW | **2026-06-17** PR0XY - The Sandstone Temple (Lava) ▶ Blocekd a gap
 - **2026-06-13** Eliope - Blood of the Racers 4 (Edit by zender), Eased (Edit by zender) ▶ Fixed skating
