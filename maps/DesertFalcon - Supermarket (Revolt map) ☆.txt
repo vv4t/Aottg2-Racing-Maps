@@ -41,7 +41,27 @@ Scene,Geometry/Cuboid,54,0,1,1,0,0,Cuboid,-257.7,85.3,1551.35,0,0,0,10,3,2.5,Phy
 Scene,Geometry/Cuboid,55,0,1,1,0,0,Cuboid,-270.2,85.3,1563.95,0,0,0,2.5,3,5,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,57,0,1,1,0,0,Cuboid,-657.8,84.7,1588.8,0,45,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,58,0,1,1,0,0,Cuboid,-857.8,84.7,1488.8,0,45,0,10,3,2.5,Physical,Entities,Default,Default|255/255/255/255,
+Scene,None,59,0,1,1,1,0,Empty Object,-1.266705E-06,100,44.29876,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,FengGameManagerMKII|;
 /// Logic
+component FengGameManagerMKII
+{
+    function OnGameStart()
+    {
+    }
+
+    function OnResetRace()
+    {
+        finish = Map.FindMapObjectsByName("Finish");
+        for (finish_ in finish)
+        {
+            finish_.Active = false;
+        }
+        checkpoint = Map.FindMapObjectByName("Checkpoint");
+        multiLap = checkpoint.GetComponent("MultiLap");
+        multiLap._currentLap = 0;
+    }
+}
+
 component MultiLap
 {
 _currentLap = 0;
