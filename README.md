@@ -35,9 +35,11 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-06-21** YukiharaSaiki - Metal Racing ▶ Fixed skating
-- NEW | **2026-06-21** Eliope - Blood of the Racers 1 & 2 (Fused by oNoto) ▶ Removed barriers blocking the path
-- NEW | **2026-06-21** Naito - NTK 5 ▶ Blocked holes
+- NEW | **2026-06-24** Guest Creator - Very Hard Racing ▶ Fixed exploits
+- NEW | **2026-06-24** Naito - NTK 3 ▶ Fixed an exploit
+- **2026-06-21** YukiharaSaiki - Metal Racing ▶ Fixed skating
+- **2026-06-21** Eliope - Blood of the Racers 1 & 2 (Fused by oNoto) ▶ Removed barriers blocking the path
+- **2026-06-21** Naito - NTK 5 ▶ Blocked holes
 - **2026-06-19** Riblei - Celestial Ellestra II ▶ Fixed exploits
 - **2026-06-18** Azis Ackerman - Puzzle Map ▶ Fixed skating
 - **2026-06-17** Machina 2 (Later Half Cut, No Trap Edit), (No Trap Edit), (Pyramid Skip Edit), Black Edition ▶ Fixed skating
