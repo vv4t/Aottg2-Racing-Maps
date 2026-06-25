@@ -1,7 +1,7 @@
 map_id|author|name|difficulty|tags|notes
 0|Eliope|Nawak 5|3.5||
 1|Incendium|Inferno 2 Campfire Edition (Hookable Walls)|3.0||
-2|Yourbro|Racing Map|0.5||
+2|Yourbro|Racing Map|0.5|inactive|
 4|Eliope|Makina Slide|3.0||
 5|zender|Spear|4.5||
 6|Sylcium|Indigo Racing|3.0||
@@ -13,7 +13,7 @@ map_id|author|name|difficulty|tags|notes
 12|Riblei|Celestial Dreams Jr.|1.0||Updated on 2025-10-26
 13|oNoto|Racing 001 Normal (Semi Lava)|2.0||
 14|Eliope|Blood of the Racers 1 Black Edition|5.0|botr botr1|Fixed on 2026-06-13
-15|Eliope|The Way of the Racers (Winter)|1.0|twotr twor|Fixed on 2026-03-20
+15|Eliope|The Way of the Racers (Winter)|1.0|twotr twor inactive|Fixed on 2026-03-20
 16|Mb12|Cave Race|1.0||Blocked 20+ holes on 2025-12-26
 17|Chrysoprase|Brutalism|0.5||
 18|Eliope|Volcano Race|3.5||
@@ -38,7 +38,7 @@ map_id|author|name|difficulty|tags|notes
 38|zender|Spear (No Lava)|0.5||
 39|cowcowtony|Future Trax 9|3.5||
 40|Chrysoprase|Another Brick in the Wall|0.5||
-41|Eliope|The Way of the Racers (Luxueux)|1.0|twotr twor|Fixed on 2026-03-20
+41|Eliope|The Way of the Racers (Luxueux)|1.0|twotr twor inactive|Fixed on 2026-03-20
 42|Esli|Esli's Balltower|6.0||Fixed on 2026-05-05
 43|Zil|puzzle|1.0||
 44|oNoto|The End of Laly (Transparent Tube)|4.5||Fixed on 2026-02-21
@@ -58,7 +58,7 @@ map_id|author|name|difficulty|tags|notes
 60|oNoto|Happy Birthday XII|4.0||Fixed by Eliope
 61|Eliope|Makina Ice Extended (CP Added by Fruity)|0.5||
 62|cowcowtony|Speedy Long Jump|4.5||
-63|Xynz|Unknown|1.0||
+63|Xynz|Unknown|1.0|inactive|
 64|AbsoluteS|Pace|2.5||
 65|Antigasp|Velocity Zones Demo Map|2.0||
 66|Yuukihito|Unnamed (Speed)|1.0||
@@ -78,7 +78,7 @@ map_id|author|name|difficulty|tags|notes
 80|MASKSLAVE|MS Racing 1|4.0||Fixed on 2026-01-12
 81|ZeroX|FALR (Mini Version)|3.5||
 82|Fate|Fuck It|3.0||Fixed on 2026-05-28
-83|Eliope|The Way of the Racers (Ancient)|1.0|twotr twor|Fixed on 2026-03-20
+83|Eliope|The Way of the Racers (Ancient)|1.0|twotr twor inactive|Fixed on 2026-03-20
 84|cowcowtony|Future Trax 2 Fused (Edit by Riblei & Appo)|4.5||
 85|Guest Creator|Fall Race|3.5||
 86|oNoto|Racing 001 Hard (Full Lava)|3.0||
@@ -122,7 +122,7 @@ map_id|author|name|difficulty|tags|notes
 125|Zil|Irì crystal|3.0||Fixed holes on 2026-02-10
 126|Eliope|Race B 1v1|0.5||
 128|Eliope|Makina Source LV1 (Texture Edit by Riblei)|1.0||
-129|Jaydensofye|Boo Hoo Race Map|1.0||
+129|Jaydensofye|Boo Hoo Race Map|1.0|inactive|
 130|Eliope|ZYX_ZYX (Drunk Edit by Riblei)|4.0||
 131|Kari|Racing 2|3.5||
 132|Zil|Irì last|1.0||
@@ -300,7 +300,7 @@ map_id|author|name|difficulty|tags|notes
 312|cowcowtony|Rainbow Road SNES (Hookable)|1.0||
 313|Hong Yao|Hong’s Racing Akina (Brown Walls)|2.0||
 314|Appolina|Endless Lava Obstacles 3 'Tribute' (Final)|3.5||Fixed skating on 2026-04-19
-315|Eliope|The Way of the Racers (Dark)|1.0|twotr twor|Fixed on 2026-03-20
+315|Eliope|The Way of the Racers (Dark)|1.0|twotr twor inactive|Fixed on 2026-03-20
 316|Eliope|Makina Fire + Ice (Fused by Riblei)|1.0||
 317|Hong Yao|Going Around|1.0||
 318|cowcowtony|Future Trax 3|3.5||Fixed on 2026-04-16
@@ -449,7 +449,7 @@ map_id|author|name|difficulty|tags|notes
 465|Eliope|222 + 2 (Edit by Riblei)|3.0||Fixed on 2026-03-19
 466|Naito|NTK 7|6.5||
 467|zender|EWeek Map|0.5||
-468|Eliope|The Way of the Racers (Bois)|1.0|twotr twor|Fixed on 2026-03-20
+468|Eliope|The Way of the Racers (Bois)|1.0|twotr twor inactive|Fixed on 2026-03-20
 469|MASKSLAVE|Letters Map|3.5||
 470|ZeroX|Final V (Incomplete)|4.0||Fixed on 2026-05-18
 471|Hixan|The Large Maze V3|3.5||
@@ -459,7 +459,7 @@ map_id|author|name|difficulty|tags|notes
 475|Riblei|Chimera|4.5||
 476|cowcowtony|Watch Out Your Head|1.0||
 477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|Fixed on 2026-06-13
-478|Eliope|The Way of the Racers (Aride)|1.0|twotr twor|Fixed on 2026-03-20
+478|Eliope|The Way of the Racers (Aride)|1.0|twotr twor inactive|Fixed on 2026-03-20
 479|Sylcium|Racing Map|1.0||
 480|Eliope|Makina Honor (Brick)|2.0|inactive|
 481|Eliope|Makina Ice|0.5||Fixed holes
