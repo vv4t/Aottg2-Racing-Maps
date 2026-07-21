@@ -36,7 +36,12 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-07-04** Eliope - Blood of the Racers 1 Spoopy Edition (Edit by Riblei, Alex4win) ▶ Updated textures by Riblei
+- NEW | **2026-07-21** Eliope - Flowers of the Racers (Edit by Unknown) ▶ Fixed skating
+- NEW | **2026-07-21** Kari - Racing 2 / Kari - Racing 2 (Nightmare) ▶ Improved finish trigger
+- NEW | **2026-07-21** Kari - The Lava Cave / Pixell - Pixo Map / cowcowtony - Highway / Naito - NTK 5 ▶ Blocked holes
+- NEW | **2026-07-21** Appolina - Endless Lava Obstacles 3 'Tribute' (Final) ▶ Added egg logic
+- NEW | **2026-07-21** AndyXest - Hare Troop / cowcowtony - Racing Volcano (Lava) ▶ Removed double walls
+- **2026-07-04** Eliope - Blood of the Racers 1 Spoopy Edition (Edit by Riblei, Alex4win) ▶ Updated textures by Riblei
 - **2026-06-24** Guest Creator - Very Hard Racing ▶ Fixed exploits
 - **2026-06-24** Naito - NTK 3 ▶ Fixed an exploit
 - **2026-06-21** YukiharaSaiki - Metal Racing ▶ Fixed skating
