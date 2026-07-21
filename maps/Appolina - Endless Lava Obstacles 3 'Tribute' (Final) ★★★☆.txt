@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Added egg logic by Fruity on 2026-07-21|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -103,7 +103,7 @@ Scene,Geometry/Cuboid,97,0,1,1,1,0,Cuboid,-3.13,1207.5,-2649.675,0,0,0,0.04375,0
 Scene,Geometry/Cylinder,98,0,1,1,1,0,Cylinder,-12.38,1210,-2649.675,0,0,90,0.2,0.025,0.2,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.2/0.05|0/0,;
 Scene,Geometry/Cuboid,99,0,1,1,1,0,Cuboid,-12.38,1207.5,-2649.675,0,0,0,0.04375,0.5,0.175,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.04375/0.5|0/0,;
 Scene,Geometry/Prism,100,0,1,1,1,0,Prism,-8.47092,1262.454,-2648.075,90,0,0,8,8,1.84753,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|4/1.333333|0/0,;
-Scene,Geometry/Sphere,101,0,1,1,1,0,Sphere,11.66573,1209.161,-2649.277,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,101,0,1,1,1,0,Egg+handler,11.66573,1209.161,-2649.277,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:,EggHandler|EggText:O|UseSpace:false|EggFontColor:#FFCC00|EggFontSize:25|ExtraText:Eggs to Find∶|ExtraFontColor:White|ExtraFontSize:20|ExtraTextPosition:Above|HideExtraTextOnFinish:Yes|FinishText:|FinishFontColor:Red|FinishFontSize:20|ObjectsToShow:|ObjectsToHide:|LabelPosition:MiddleRight|PaddingTop:0|PaddingBottom:0|PaddingLeft:0|PaddingRight:0|ShowServerMessage:true|ServerMessage:has found all the eggs!;
 Scene,Geometry/Arc180,102,0,1,1,1,0,Arc180,-4.266,1206.876,-2687.122,0,0,270,0.275,0.1,0.275,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.1375/0.55|0/0,;
 Scene,Geometry/Cuboid,103,0,1,1,1,0,Cuboid,-4.255,1105.25,-2689.65,0,0,0,0.05,20.051,0.055,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.025/20.051|0/0,;
 Scene,Geometry/Arc180,104,0,1,1,1,0,Arc180,-11.266,1206.876,-2687.122,0,0,270,0.275,0.1,0.275,Physical,Entities,Default,Basic|255/255/255/255|Metal/Metal1|0.1375/0.55|0/0,;
@@ -718,7 +718,7 @@ Scene,Geometry/Cuboid,712,0,1,1,1,0,Cuboid,-7.755,826.2576,571.0656,0,0,0,47.5,0
 Scene,Geometry/Cuboid,713,0,1,1,1,0,Kill Region Cuboid,-7.755,821.0243,558.553,0,0,0,48.5,0.05,109.9987,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,714,0,1,1,1,0,Cuboid,-257.755,688.7681,558.5593,0,90,0,108,26.50125,1.5,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone2|21.6/5.30025|0/0,;
 Scene,Geometry/Cuboid,715,0,1,1,1,0,Cuboid,242.245,688.7681,558.5593,0,90,0,108,26.50125,1.5,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone2|21.6/5.30025|0/0,;
-Scene,Geometry/Sphere,716,0,1,1,1,0,Sphere,258.5407,560.4225,217.4572,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,716,0,1,1,1,0,Egg,258.5407,560.4225,217.4572,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Nature/Field2,717,0,1,1,1,0,Field2,293.745,556.2618,182.0593,0,1,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Field2,718,0,1,1,1,0,Field2,-309.255,556.2618,182.0593,0,2,0,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,719,0,1,1,1,0,Cuboid,-157.755,688.7681,8.559271,0,0,0,18,26.50125,1.5,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone2|3.6/5.30025|0/0,;
@@ -1254,7 +1254,7 @@ Scene,Geometry/Cuboid,1248,0,1,1,1,0,Kill Region Cuboid,42.245,617.5134,658.5593
 Scene,Geometry/Prism,1249,0,1,1,1,0,Kill Region Prism,50.01347,575.7612,639.3527,0,180,0,3,3.749896,5.77353,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1250,0,1,1,1,0,Kill Region Cuboid,92.245,575.0113,641.0593,0,0,0,8.5,3.749896,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1251,0,1,1,1,0,Cuboid,58.245,595.0107,621.0593,0,0,0,1.7,0.25,1,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone2|0.34/0.2|0/0,;
-Scene,Geometry/Sphere,1252,0,1,1,1,0,Sphere,53.54073,600.4214,621.4572,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1252,0,1,1,1,0,Egg,53.54073,600.4214,621.4572,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Cuboid,1253,0,1,1,1,0,Cuboid,84.745,641.266,751.0593,0,0,0,10,1,30,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|2/6|0/0,;
 Scene,Geometry/Cuboid,1254,0,1,1,1,0,Kill Region Cuboid,84.745,641.266,751.0593,0,0,0,10.1,1.1,30.1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1255,0,1,1,1,0,Cuboid,42.245,596.2639,758.5593,0,90,0,8,8.000417,1.5,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone2|1.6/1.600083|0/0,;
@@ -1329,7 +1329,7 @@ Scene,Geometry/Plane,1323,0,1,1,1,0,Kill Region Plane,-165.755,713.7675,58.55927
 Scene,Geometry/Cuboid,1324,0,1,1,1,0,Cuboid,42.245,688.7649,58.55927,0,90,0,8,8.501041,1.5,Physical,Entities,Default,Basic|191/191/191/255|Stone/Stone2|1.6/1.700208|0/0,;
 Scene,Geometry/Cuboid,1325,0,1,1,1,0,Kill Region Cuboid,42.245,688.7649,58.55927,0,90,0,8.1,8.601042,1.6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1326,0,1,1,1,0,Cuboid,-57.78,648.7597,58.55927,0,0,0,18.5,0.5,8.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|3.7/1.7|0/0,;
-Scene,Geometry/Sphere,1327,0,1,1,1,0,Sphere,-57.98427,655.4204,58.95719,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1327,0,1,1,1,0,Egg,-57.98427,655.4204,58.95719,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Cuboid,1328,0,1,1,1,0,Cuboid,-57.78,736.2701,66.05927,0,0,0,21.5,1,10,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|4.3/2|0/0,;
 Scene,Geometry/Cuboid,1329,0,1,1,1,0,Kill Region Cuboid,-57.78,736.2701,66.05927,0,0,0,21.6,1.1,10.05,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1330,0,1,1,1,0,Cuboid,34.245,678.1386,58.55927,0,90,0,3.75,2.5,0.1,Physical,Entities,Default,Basic|135/178/107/255|Metal/Metal3|0.01/0.01|0/0,;
@@ -1349,7 +1349,7 @@ Scene,Geometry/Cuboid,1343,0,1,1,1,0,Kill Region Cuboid,-207.755,781.2722,408.55
 Scene,Geometry/Cuboid,1344,0,1,1,1,0,Cuboid,-200.255,736.2701,751.0593,0,0,0,10,1,70,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|2/14|0/0,;
 Scene,Geometry/Cuboid,1345,0,1,1,1,0,Kill Region Cuboid,-200.255,736.2701,751.0593,0,0,0,10.1,1.1,70.1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1346,0,1,1,1,0,Cuboid,-207.755,743.7701,458.5593,0,0,0,8.5,0.5,8.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|1.7/1.7|0/0,;
-Scene,Geometry/Sphere,1347,0,1,1,1,0,Sphere,-207.9593,750.4308,458.9572,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1347,0,1,1,1,0,Egg,-207.9593,750.4308,458.9572,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Nature/Leaf0,1348,0,1,1,1,0,Leaf0,-207.755,746.5201,458.5593,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/0/255,;
 Scene,Geometry/Cuboid,1349,0,1,1,1,0,Kill Region Cuboid,-7.755,736.2701,250.8093,0,0,0,48.5,1.1,30.05,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1350,0,1,1,1,0,Cuboid,-7.755,736.2701,258.5593,0,0,0,11.49,1,28.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|2.298/5.7|0/0,;
@@ -1371,7 +1371,7 @@ Scene,Geometry/Cuboid,1365,0,1,1,1,0,Cuboid,92.245,781.2722,108.5593,0,0,0,8,8.0
 Scene,Geometry/Cuboid,1366,0,1,1,1,0,Kill Region Cuboid,92.245,781.2722,108.5593,0,0,0,8.1,8.100417,1.6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1367,0,1,1,1,0,Kill Region Cuboid,192.245,688.7649,108.5593,0,0,0,8.1,8.501041,1.6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1368,0,1,1,1,0,Cuboid,192.245,648.7597,121.5593,0,1,0,2,0.5,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|0.4/0.2|0/0,;
-Scene,Geometry/Sphere,1369,0,1,1,1,0,Sphere,192.0547,655.4204,121.9641,0,2,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1369,0,1,1,1,0,Egg,192.0547,655.4204,121.9641,0,2,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Cuboid,1370,0,1,1,1,0,Kill Region Cuboid,142.245,688.7649,208.5593,0,90,0,18.1,8.501041,1.6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1371,0,1,1,1,0,Kill Region Cuboid,142.245,641.266,158.5593,0,0,0,18.5,1.1,28.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1372,0,1,1,1,0,Kill Region Cuboid,74.995,641.266,358.5593,0,0,0,5.05,1.1,11.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -1444,7 +1444,7 @@ Scene,Geometry/Cuboid,1438,0,1,1,1,0,Cuboid,58.495,25.6309,1004.19,0,0,0,0.25,4.
 Scene,Geometry/Cuboid,1439,0,1,1,1,0,Cuboid,77.8759,45.0118,1006.769,0,0,0,4.12618,0.25,3.610407,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
 Scene,Geometry/Cuboid,1440,0,1,1,1,0,Cuboid,75.29704,45.0118,1004.19,0,0,0,3.610407,0.25,4.12618,Physical,Entities,Default,CannonRegionMat|0/0/0/255|1/1,;
 Scene,Geometry/Cuboid,1441,0,1,1,1,0,Cuboid,79.1259,6.25,1002.94,0,0,0,3.87618,0.25,3.87618,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone2|0.775236/0.775236|0/0,;
-Scene,Geometry/Sphere,1442,0,1,1,1,0,Sphere,65.14292,11.66071,1017.525,0,90,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1442,0,1,1,1,0,Egg,65.14292,11.66071,1017.525,0,90,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Nature/Field2,1443,0,1,1,1,0,Field2,71.6741,7.7,1014.451,0,0,0,0.035,0.035,0.035,Physical,Entities,Default,Basic|255/127/127/255|Misc/None|1/1|0/0,;
 Scene,Nature/Field2,1444,0,1,1,1,0,Field2,71.6741,7.7875,1014.451,7.019584E-15,180,180,0.0525,0.035,0.0525,Physical,Entities,Default,Basic|127/255/127/255|Misc/None|1/1|0/0,;
 Scene,Nature/Field2,1445,0,1,1,1,0,Field2,70.0483,7.7,1012.018,0,0,0,0.035,0.035,0.035,Physical,Entities,Default,Basic|255/127/127/255|Misc/None|1/1|0/0,;
@@ -1674,7 +1674,7 @@ Scene,Geometry/Cuboid,1668,0,1,1,1,0,Kill Region Cuboid,1152.318,296.1645,3214.6
 Scene,Geometry/Cuboid,1669,0,1,1,1,0,Kill Region Cuboid,1062.318,345.852,3321.695,0,0,0,5,0.5,0.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1670,0,1,1,1,0,Kill Region Cuboid,1084.818,364.852,3321.695,0,0,0,0.5,4.3,0.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1671,0,1,1,1,0,Cuboid,1152.318,327.227,3284.695,0,0,0,4.5,0.25,4.5,Physical,Entities,Default,Basic|255/255/255/255|Misc/Lava1|0.9/0.9|0/0,;
-Scene,Geometry/Sphere,1672,0,1,1,1,0,Sphere,1152.114,342.6377,3285.093,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1672,0,1,1,1,0,Egg,1152.114,342.6377,3285.093,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Cuboid,1673,0,1,1,1,0,Cuboid,1014.818,325.852,3547.195,0,90,0,45,12,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|9/2.4|0/0,;
 Scene,Geometry/Cuboid,1674,0,1,1,1,0,Kill Region Cuboid,1014.818,325.852,3547.195,0,90,0,45.1,12.1,5.1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1675,0,1,1,1,0,Cuboid,1294.818,325.852,3447.195,0,90,0,65,12,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|13/2.4|0/0,;
@@ -1710,7 +1710,7 @@ Scene,Geometry/Cuboid,1704,0,1,1,1,0,Kill Region Cuboid,1154.818,220.852,3614.69
 Scene,Geometry/Cuboid,1705,0,1,1,1,0,Kill Region Cuboid,1154.818,153.352,3499.695,0,0,0,11,7.5,11.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1706,0,1,1,1,0,Cuboid,1154.818,153.352,3499.695,0,0,0,10.9,7.4,11.4,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|2.18/1.48|0/0,;
 Scene,Geometry/Cuboid,1707,0,1,1,1,0,Cuboid,1154.818,191.602,3528.195,0,0,0,1.5,0.25,1.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Rock3|0.3/0.3|0/0,;
-Scene,Geometry/Sphere,1708,0,1,1,1,0,Sphere,1154.614,197.0127,3528.593,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1708,0,1,1,1,0,Egg,1154.614,197.0127,3528.593,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Cuboid,1709,0,1,1,1,0,Kill Region Cuboid,1154.818,213.352,3499.695,0,0,0,11,4.5,0.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1710,0,1,1,1,0,Kill Region Cuboid,1107.318,127.926,3614.695,0,0,0,1.5,24.5852,34.5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,1711,0,1,1,1,0,Kill Region Cuboid,1107.318,127.926,3432.195,0,0,0,1.5,24.5852,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -1835,7 +1835,7 @@ Scene,Geometry/Cylinder,1829,0,1,1,1,0,Cylinder,947.3179,86.82876,2627.195,0,200
 Scene,Geometry/Cylinder,1830,0,1,1,1,0,Cylinder,899.8179,44.6875,2822.195,0,0,0,3,1.96875,3,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood4|0.6/0.7875|0/0,;
 Scene,Geometry/Tube,1831,0,1,1,1,0,Tube,900.032,64.49375,2822.633,0,0,0,2,0.03472222,2,Physical,Entities,Default,Basic|255/255/255/255|Wood/Wood4|0.48/0.005|0/0,;
 Scene,Geometry/Cylinder,1832,0,1,1,1,0,Cylinder,899.8179,64.4375,2822.195,0,0,0,1.92,0.00625,1.92,Physical,Entities,Default,Basic|125/0/0/255|Nature/Grass1|0.768/0.768|0/0,;
-Scene,Geometry/Sphere,1833,0,1,1,1,0,Sphere,899.6136,68.53571,2822.593,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1833,0,1,1,1,0,Egg,899.6136,68.53571,2822.593,0,0,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Cylinder,1834,0,1,1,1,0,Cylinder,899.8179,64.39063,2835.695,0,45,0,0.1,0.0015625,0.1,Physical,Entities,Default,Default|127/191/255/255,;
 Scene,Geometry/Cylinder,1835,0,1,1,1,0,Cylinder,903.9897,64.39063,2835.034,0,63,0,0.1,0.0015625,0.1,Physical,Entities,Default,Default|127/191/255/255,;
 Scene,Geometry/Cylinder,1836,0,1,1,1,0,Cylinder,907.7531,64.39063,2833.117,0,81,0,0.1,0.0015625,0.1,Physical,Entities,Default,Default|127/191/255/255,;
@@ -1926,11 +1926,311 @@ Scene,Geometry/Cylinder,1920,0,1,1,1,0,Cylinder,4824.657,41.5,4420.365,0,45,0,0.
 Scene,Geometry/Cuboid,1921,0,1,1,1,0,Cuboid,4824.392,46.29167,4420.1,0,45,0,1.25,0.8333333,0.075,Physical,Entities,Default,Default|25/25/25/255,;
 Scene,Geometry/Cuboid,1922,0,1,1,1,0,Cuboid,4824.092,46.29167,4419.799,0,45,0,1.15,0.7333333,0.01,Physical,Entities,Default,Default|63/127/255/255,;
 Scene,Nature/Leaf0,1923,0,1,1,1,0,Leaf0,4849.099,30.19018,4395.346,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Geometry/Sphere,1924,0,1,1,1,0,Sphere,4847.697,34.2,4396.736,0,45,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,;
+Scene,Geometry/Sphere,1924,0,1,1,1,0,Egg,4847.697,34.2,4396.736,0,45,0,0.7272727,0.9090909,0.7272727,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,Egg|CustomEggText:|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Buildings/House8,1925,0,1,1,1,0,House8,4871.14,85.46019,4331.531,0,45,0,2.48,3.12,4.01765,Physical,Entities,Default,Basic|255/255/255/255|Brick/Brick1|0.4/0.6|0/0,;
 Scene,Geometry/Sphere,1926,0,1,1,1,0,Sphere,-33.17912,669.6815,1090.804,0,8.362916,0,0.8,1,0.8,Physical,Entities,Default,Basic|255/255/0/255|Metal/Metal1|2/1|0/0,
 /// Logic
+component Egg
+{
+    _Touched = false;
+    
+    CustomEggText = "";
+    CustomFontColor = "";
+    CustomFontSize = 0;
 
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+
+    CustomEggTextTooltip = "Overrides the default EggText of the EggHandler for this specific egg.";
+    CustomFontColorTooltip = "Overrides the default EggFontColor for this specific egg.";
+    CustomFontSizeTooltip = "Overrides the default EggFontSize for this specific egg.";
+    
+    ObjectsToShowTooltip = "Enter multiple MapObject IDs separated by space (e.g., 10 11 12) to SHOW when touched. These are hidden on start.";
+    ObjectsToHideTooltip = "Enter multiple MapObject IDs separated by space (e.g., 13 14 15) to HIDE when touched. These reappear on reset.";
+
+
+    function Init()
+    {
+    }
+
+
+    function ResetStatus()
+    {
+        self._Touched = false;
+        self.MapObject.Active = true;
+
+
+        idsS = String.Split(self.ObjectsToShow, " ");
+        for (i in Range(0, idsS.Count, 1)) {
+            id = idsS.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+        
+        idsH = String.Split(self.ObjectsToHide, " ");
+        for (i in Range(0, idsH.Count, 1)) {
+            id = idsH.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = true; }
+            }
+        }
+    }
+
+
+    function OnCollisionEnter(other) 
+    {
+        if (other.Type == "Human" && other.IsMine && !self._Touched)
+        {
+            self._Touched = true;
+
+
+            idsS = String.Split(self.ObjectsToShow, " ");
+            for (i in Range(0, idsS.Count, 1)) {
+                id = idsS.Get(i);
+                if (id != "" && id != " ") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = true; }
+                }
+            }
+
+
+            idsH = String.Split(self.ObjectsToHide, " ");
+            for (i in Range(0, idsH.Count, 1)) {
+                id = idsH.Get(i);
+                if (id != "" && id != " ") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = false; }
+                }
+            }
+        }
+    }
+}
+
+
+component EggHandler
+{
+    Description = "Do not use semicolons (;) to avoid system errors.";
+
+
+    EggText = "O";
+    UseSpace = false;
+    EggFontColor = "#FFCC00";
+    EggFontSize = "25";
+    
+    ExtraText = "Eggs to Find∶";
+    ExtraFontColor = "White";
+    ExtraFontSize = "20";
+    ExtraTextPosition = "Above";
+    HideExtraTextOnFinish = "Yes";
+    
+    FinishText = "";
+    FinishFontColor = "Red";
+    FinishFontSize = "20";
+
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+
+    LabelPosition = "MiddleRight";
+    PaddingTop = 0;
+    PaddingBottom = 0;
+    PaddingLeft = 0;    
+    PaddingRight = 0;
+
+
+    ShowServerMessage = true;
+    ServerMessage = "has found all the eggs!";
+
+
+    UseSpaceTooltip = "Add a space between each egg text icon.";
+    EggFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextTooltip = "This text will be displayed near the egg count.";
+    ExtraFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextPositionTooltip = "Choose whether ExtraText appears Above or Below the egg icons.";
+    HideExtraTextOnFinishTooltip = "Hide the ExtraText after all eggs are collected.";
+    
+    FinishTextTooltip = "This message appears only after all eggs are found.";
+    FinishFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    
+    ObjectsToShowTooltip = "Enter Object IDs to SHOW after finding all eggs. These will be HIDDEN on game start.";
+    ObjectsToHideTooltip = "Enter Object IDs to HIDE after finding all eggs. These will REAPPEAR on reset.";
+
+
+    LabelPositionTooltip = "Select the UI position on the screen.";
+    PaddingTopTooltip = "Push the entire UI down.";
+    PaddingBottomTooltip = "Push the entire UI up.";
+    PaddingLeftTooltip = "Push the entire UI to the right.";
+    PaddingRightTooltip = "Push the entire UI to the left.";
+
+
+    ExtraTextPositionDropbox = "Above, Below";
+    HideExtraTextOnFinishDropbox = "Yes, No";
+    LabelPositionDropbox = "TopLeft, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomRight";
+
+
+    _StaticEggList = List();
+    _TotalEggs = 0;
+    _Finished = false;
+    _Initialized = false;
+    _ResetLockFrame = false;
+
+
+    function Init()
+    {
+        self._StaticEggList = Map.FindMapObjectsByComponent("Egg");
+        self._TotalEggs = self._StaticEggList.Count;
+    }
+
+
+    function ResetAll()
+    {
+        self._Finished = false;
+        self._ResetLockFrame = true;
+
+
+        for (i in Range(0, self._StaticEggList.Count, 1)) {
+            eggObj = self._StaticEggList.Get(i);
+            if (eggObj != null) {
+                eggObj.Active = true;
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null) { eggComp.ResetStatus(); }
+            }
+        }
+
+
+        idsH = String.Split(self.ObjectsToHide, " ");
+        for (i in Range(0, idsH.Count, 1)) {
+            id = idsH.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = true; }
+            }
+        }
+
+
+        idsS = String.Split(self.ObjectsToShow, " ");
+        for (i in Range(0, idsS.Count, 1)) {
+            id = idsS.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+    }
+
+
+    function OnTick()
+    {
+        if (!self._Initialized) {
+            self._Initialized = true;
+            self.ResetAll();
+            return;
+        }
+
+
+        currentCount = 0;
+        eggIcons = "";
+        for (i in Range(0, self._StaticEggList.Count, 1)) {
+            eggObj = self._StaticEggList.Get(i);
+            if (eggObj != null && eggObj.Active) {
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null && !eggComp._Touched) {
+                    currentCount = currentCount + 1;
+                    if (eggComp.CustomEggText != "") { tText = eggComp.CustomEggText; } else { tText = self.EggText; }
+                    if (eggComp.CustomFontColor != "") { tColor = eggComp.CustomFontColor; } else { tColor = self.EggFontColor; }
+                    if (eggComp.CustomFontSize > 0) { tSize = Convert.ToString(eggComp.CustomFontSize); } else { tSize = self.EggFontSize; }
+                    styled = "<size=" + tSize + "><color=" + tColor + ">" + tText + "</color></size>";
+                    if (self.UseSpace) { eggIcons = eggIcons + styled + " "; } else { eggIcons = eggIcons + styled; }
+                }
+            }
+        }
+
+
+        if (self._ResetLockFrame) {
+            if (currentCount == self._TotalEggs) {
+                self._ResetLockFrame = false;
+            }
+        }
+
+
+        if (self._TotalEggs > 0 && currentCount == 0 && !self._ResetLockFrame) {
+            if (!self._Finished) {
+                self._Finished = true;
+                
+                idsS = String.Split(self.ObjectsToShow, " ");
+                for (i in Range(0, idsS.Count, 1)) {
+                    id = idsS.Get(i);
+                    if (id != "" && id != " ") {
+                        obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                        if (obj != null) { obj.Active = true; }
+                    }
+                }
+                
+                idsH = String.Split(self.ObjectsToHide, " ");
+                for (i in Range(0, idsH.Count, 1)) {
+                    id = idsH.Get(i);
+                    if (id != "" && id != " ") {
+                        obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                        if (obj != null) { obj.Active = false; }
+                    }
+                }
+                if (self.ShowServerMessage) { Game.PrintAll(Network.MyPlayer.Name + " " + self.ServerMessage); }
+            }
+        } else {
+            if (currentCount > 0) {
+                self._Finished = false;
+            }
+        }
+
+
+        lSpace = ""; for (i in Range(0, self.PaddingLeft, 1)) { lSpace = lSpace + "  "; }
+        rSpace = ""; for (i in Range(0, self.PaddingRight, 1)) { rSpace = rSpace + "  "; }
+        tSpace = ""; for (i in Range(0, self.PaddingTop, 1)) { tSpace = tSpace + String.Newline; }
+        bSpace = ""; for (i in Range(0, self.PaddingBottom, 1)) { bSpace = bSpace + String.Newline; }
+        
+        extraS = "";
+        if (!(self._Finished && self.HideExtraTextOnFinish == "Yes") && self.ExtraText != "") {
+            extraS = "<size=" + self.ExtraFontSize + "><color=" + self.ExtraFontColor + ">" + self.ExtraText + "</color></size>";
+        }
+        
+        content = "";
+        if (self.ExtraTextPosition == "Above") {
+            if (extraS != "") { content = extraS + String.Newline; }
+            content = content + eggIcons;
+        } else {
+            content = eggIcons;
+            if (extraS != "") { content = content + String.Newline + extraS; }
+        }
+        
+        if (self._Finished && self.FinishText != "") {
+            content = content + String.Newline + "<size=" + self.FinishFontSize + "><color=" + self.FinishFontColor + ">" + self.FinishText + "</color></size>";
+        }
+        
+        dot = "<color=#00000000>.</color>";
+        UI.SetLabel(self.LabelPosition, tSpace + dot + String.Newline + lSpace + content + rSpace + String.Newline + dot + bSpace);
+    }
+}
+
+
+component EggResetter
+{
+    function OnCollisionEnter(other)
+    {
+        if (other.Type == "Human" && other.IsMine) {
+            hObjs = Map.FindMapObjectsByComponent("EggHandler");
+            if (hObjs.Count > 0) {
+                h = hObjs.Get(0).GetComponent("EggHandler");
+                if (h != null) { h.ResetAll(); }
+            }
+        }
+    }
+}
 /// Weather
 {
     "Skybox" : "Day1",
