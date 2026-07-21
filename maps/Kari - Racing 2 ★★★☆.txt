@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:Fixed finish by Fruity on 2026-07-21|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -106,7 +106,7 @@ Scene,Geometry/Cuboid,100,0,1,1,1,0,Kill Region Cuboid,104.3316,42.99371,-7.8410
 Scene,Geometry/Cuboid,101,0,1,1,1,0,Cuboid,104.3129,42.95371,-7.805315,0,302.8125,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
 Scene,Geometry/Cuboid,102,0,1,1,1,0,Kill Region Cuboid,205.8364,50.88393,-209.5459,0,286.7933,0,1.97,1.97,1.97,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,103,0,1,1,1,0,Cuboid,205.848,50.88395,-209.6263,0,286.7933,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
-Scene,Geometry/Cuboid,104,0,1,1,1,0,Racing Finish Region Cuboid,56.51752,57.04312,-82.62717,0,63.52287,0,0.99,1.97,1.97,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cuboid,104,0,1,1,1,0,Racing Finish Region Cuboid,56.51752,57.04312,-82.62717,0,63.52287,0,0.99,1.97,1.97,Region,Characters,Default,Transparent|209/255/0/255|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,105,0,1,1,1,0,Kill Region Cuboid,52.09065,57.00312,-73.75555,0,63.52287,0,0.99,1.97,1.97,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,106,0,1,1,1,0,Cuboid,54.39678,57.08314,-78.19424,0,63.52287,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
 Scene,Geometry/Cuboid,107,0,1,1,1,0,Cuboid,112.7526,39.04226,-289.1023,0,13.99442,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
@@ -313,7 +313,7 @@ Scene,Geometry/Cuboid,307,0,1,1,1,0,Kill Region Cuboid,104.3316,42.99371,-7.8410
 Scene,Geometry/Cuboid,308,0,1,1,1,0,Cuboid,104.3129,42.95371,-7.805315,0,302.8125,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
 Scene,Geometry/Cuboid,309,0,1,1,1,0,Kill Region Cuboid,205.8364,50.88393,-209.5459,0,286.7933,0,1.97,1.97,1.97,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,310,0,1,1,1,0,Cuboid,205.848,50.88395,-209.6263,0,286.7933,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
-Scene,Geometry/Cuboid,311,0,1,1,1,0,Racing Finish Region Cuboid,56.51752,57.04312,-82.62717,0,63.52287,0,0.99,1.97,1.97,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
+Scene,Geometry/Cuboid,311,0,1,1,0,0,Racing Finish Region Cuboid,56.51752,57.04312,-82.80707,0,63.52287,0,0.99,1.97,1.97,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cuboid,312,0,1,1,1,0,Kill Region Cuboid,52.09065,57.00312,-73.75555,0,63.52287,0,0.99,1.97,1.97,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,313,0,1,1,1,0,Cuboid,54.39678,57.08314,-78.19424,0,63.52287,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
 Scene,Geometry/Cuboid,314,0,1,1,1,0,Cuboid,112.7526,39.04226,-289.1023,0,13.99442,0,2,2,2,Physical,Entities,Default,Basic|255/255/255/255|Misc/Crystal2|1/1|0/0,;
@@ -504,5 +504,6 @@ Scene,Geometry/Cuboid,443,0,1,1,1,0,Racing Checkpoint Region Cuboid,-134.7054,77
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "4e362396-0426-4e31-9c8e-5b076ad73aff"
 }
