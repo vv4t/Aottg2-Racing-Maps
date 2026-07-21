@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2026-01-23|HasWeather:0
+EditorVersion:1.0|Description:Fixed holes by Fruity on 2026-07-21|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -281,7 +281,10 @@ Scene,Geometry/Cuboid,275,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,1
 Scene,Geometry/Cuboid,276,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,277,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,278,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,;
-Scene,Geometry/Cuboid,279,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,
+Scene,Geometry/Cuboid,279,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Sphere,282,0,1,1,1,0,Kill Region Sphere,-151.8847,67.68774,298.3777,0,0,0,3,3,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Sphere,283,0,1,1,1,0,Kill Region Sphere,-211.4713,60.30994,305.9682,0,0,0,2,2,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Sphere,284,0,1,1,1,0,Kill Region Sphere,-216.7033,122.2453,305.9682,0,0,0,1,2,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server
 /// Logic
 
 /// Weather
@@ -340,5 +343,6 @@ Scene,Geometry/Cuboid,279,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "6a6b2893-11de-47c8-a91f-ec406f09a6c0"
 }
