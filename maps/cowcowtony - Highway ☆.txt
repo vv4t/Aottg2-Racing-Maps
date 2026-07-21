@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2025-11-27|HasWeather:0
+EditorVersion:1.0|Description:Fixed holes by Fruity on 2026-07-21|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -4596,7 +4596,12 @@ Scene,Geometry/Cuboid,4590,0,1,1,0,0,LegacyBarrier,-700,745.8,0.01,0,0,0,10,160,
 Scene,Geometry/Cuboid,4591,0,1,1,0,0,LegacyBarrier,0,745.8,-700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,4592,0,1,1,0,0,LegacyBarrier,0,745.8,700,0,0,0,160,160,10,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,4593,0,1,1,0,0,LegacyBarrier,700,745.8,0.01,0,0,0,10,160,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,4594,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
+Scene,Geometry/Cuboid,4594,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,160,10,160,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,4595,0,1,1,0,0,LegacyBarrier,281.8978,149.8224,442.6776,0,270,0,0.5,5,7,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,4596,0,1,1,0,0,LegacyBarrier,290.198,167.3224,452.0684,0,300,0,3,1.1,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,4597,0,1,1,0,0,LegacyBarrier,312.7037,167.3224,530.0873,0,300,0,3,1.1,5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,4598,0,1,1,0,0,LegacyBarrier,306.0998,158.7124,447.1902,30,230,9.85853E-07,0.5,1.5,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,4599,0,1,1,0,0,LegacyBarrier,294.4264,158.5428,538.7846,320,230,0,0.5,1.5,2,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
 /// Logic
 
 /// Weather
@@ -4655,5 +4660,6 @@ Scene,Geometry/Cuboid,4594,0,1,1,0,0,LegacyBarrier,-2.23,1253.07,17.889,0,0,0,16
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "e1efb61e-063b-43f0-9002-ea79237056f1"
 }
