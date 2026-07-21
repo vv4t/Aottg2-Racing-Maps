@@ -31,7 +31,7 @@ map_id|author|name|difficulty|tags|notes
 31|Loki|Racing 123 (Sigh Edit by Antigasp)|4.0||Fixed on 2026-01-24
 32|Saif|Custom Map Racing 1|1.5||
 33|cowcowtony|Isolated City Racing (Hard)|5.0||
-34|cowcowtony|Highway|0.5||Fixed on 2025-11-27
+34|cowcowtony|Highway|0.5||Fixed holes reported by Naked Heart (2026-07-21)
 35|Zil|reeeeeeeeeeeeeeeeeeeee|1.0||
 36|Mb12|Original Lava Madness|3.5||
 37|Eliope|District Racers|0.5||
@@ -85,7 +85,7 @@ map_id|author|name|difficulty|tags|notes
 87|Eliope|Makina Dro Special Training|5.5||
 88|Eliope|Port Racers III|0.5||
 89|Eliope|Makina Royal + Fire + Ice + TWotR (Fused by Riblei)|4.0||
-90|cowcowtony|Racing Volcano (Lava)|3.5||Fixed on 2026-04-18
+90|cowcowtony|Racing Volcano (Lava)|3.5||Removed double walls reported by Tralalero (2026-07-21)
 91|cowcowtony|Bug on the Rose (HD)|5.0|Fixed on 2026-05-18|
 92|Rayzu & Riblei|Ex'd II|2.0||
 93|Eliope|Makina Dro|3.5||
@@ -124,7 +124,7 @@ map_id|author|name|difficulty|tags|notes
 128|Eliope|Makina Source LV1 (Texture Edit by Riblei)|1.0||
 129|Jaydensofye|Boo Hoo Race Map|1.0|inactive|
 130|Eliope|ZYX_ZYX (Drunk Edit by Riblei)|4.0||
-131|Kari|Racing 2|3.5||
+131|Kari|Racing 2|3.5||Improved finish trigger reported by Gray (2026-07-21)
 132|Zil|Irì last|1.0||
 133|NexS7|The Box (Turns Marked by Fruity)|0.5||Updated on 2026-01-24
 134|Eliope|Nano Racing Zig-Zag V|0.5||
@@ -198,7 +198,7 @@ map_id|author|name|difficulty|tags|notes
 204|Eliope|Blood of the Racers 1 Spoopy Edition (Edit by Riblei, Alex4win)|4.5|botr botr1|Updated by Riblei on 2026-07-04
 205|Riblei|Celestial Automatic (Short)|4.5||
 207|Sebas Tian|SAC - Underground Hunt|3.0||
-209|Kari|The Lava Cave|4.0||
+209|Kari|The Lava Cave|4.0||Fixed a hole reported by Gray (2026-07-21)
 210|oNoto|LaLy Rainracer (Color)|0.5||
 211|Charlotte|Chess lll “Knight”|6.5||Fixed on 2025-11-19
 213|Mb12|Unfinished Lava Map|4.5||Finish Added
@@ -217,7 +217,7 @@ map_id|author|name|difficulty|tags|notes
 227|Regen|Swing Swing|1.0|inactive|
 228|Nabsin|Akina 2.0 |0.5||
 229|Eliope|Nawak 2|3.5||
-230|Kari|Racing 2 (Nightmare)|4.0||
+230|Kari|Racing 2 (Nightmare)|4.0||Improved finish trigger reported by Gray (2026-07-21)
 231|Alpi|Galactic Hell|4.0||Fixed on 2026-05-28
 232|Eliope|Makina Fire|1.0||
 233|Puttepers & Sylvy|PS2|5.0||Fixed on 2025-11-18
@@ -299,7 +299,7 @@ map_id|author|name|difficulty|tags|notes
 311|cowcowtony|Circular Race (Lava)|3.0||
 312|cowcowtony|Rainbow Road SNES (Hookable)|1.0||
 313|Hong Yao|Hong’s Racing Akina (Brown Walls)|2.0||
-314|Appolina|Endless Lava Obstacles 3 'Tribute' (Final)|3.5||Fixed skating on 2026-04-19
+314|Appolina|Endless Lava Obstacles 3 'Tribute' (Final)|3.5||Added Egg Logic on 2026-07-21
 315|Eliope|The Way of the Racers (Dark)|1.0|twotr twor inactive|Fixed on 2026-03-20
 316|Eliope|Makina Fire + Ice (Fused by Riblei)|1.0||
 317|Hong Yao|Going Around|1.0||
@@ -350,7 +350,7 @@ map_id|author|name|difficulty|tags|notes
 364|MASKSLAVE|MASKSLAVE 2|3.5||
 365|Zil|Easy af|4.0||
 366|oNoto|Circle Lava|4.0||
-367|Naito|NTK 5|5.0||Fixed on 2026-06-21
+367|Naito|NTK 5|5.0||Fixed a hole reported by Lyeis on 2026-07-21
 368|Rayzu & Riblei|Ex'd III|3.0||
 369|Loki|Unknown (1)|4.5||
 370|Konor|Hot Lava (Hard)|3.0||Fixed on 2026-02-10
@@ -384,7 +384,7 @@ map_id|author|name|difficulty|tags|notes
 398|John|Indoor Racing|1.0||
 399|Eliope|BotR 1 & 2 (Fused by Joshy)|5.0||Fixed on 2026-06-13
 400|oNoto|Racing Lava Hard|3.5||
-401|AndyXest|Hare Troop|4.0||
+401|AndyXest|Hare Troop|4.0||Removed barriers reported by Tralalero (2026-07-21)
 402|Riblei|Loope le Loope|4.0||Updated on 2025-10-26
 403|Chrysoprase|The Space Cube in Space (ft. Riblei) [Lite Edit]|4.0||
 404|cowcowtony|Future Trax 4|6.0||
@@ -424,10 +424,10 @@ map_id|author|name|difficulty|tags|notes
 439|Eliope|Nano Racing 40 Yards Quadrated (Edit by Unknown)|0.5||
 440|oNoto|LaLy Blocky Lava (Recolored by Eliope)|4.0||
 441|Riblei|Ultra Steps|3.0||
-442|Eliope|Flowers of the Racers (Edit by Unknown)|0.5||
+442|Eliope|Flowers of the Racers (Edit by Unknown)|0.5||Fixed skating reported by Gray (2026-07-21)
 443|Eliope|Makina Honor (Misty Lava Edit by Riblei)|2.0|inactive|
 444|El_Mata_Pokemon|No Hook No Gas Map|2.0||Fixed by Eliope
-445|Pixell|Pixo Map|3.0||Fixed on 2026-01-24
+445|Pixell|Pixo Map|3.0||Fixed holes reported by Fizz (2026-07-21)
 446|cowcowtony|No Room for Hesitation|3.5||
 447|Aila|A-12|4.0||
 448|Hong Yao|Hong's Laboratory (Lava)|1.0||
