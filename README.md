@@ -36,6 +36,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-07-24** Riblei - Deathdream ▶ Fixed a hole by Riblei
 - NEW | **2026-07-21** Eliope - Flowers of the Racers (Edit by Unknown) ▶ Fixed skating
 - NEW | **2026-07-21** Kari - Racing 2 | Kari - Racing 2 (Nightmare) ▶ Improved finish trigger
 - NEW | **2026-07-21** Kari - The Lava Cave | Pixell - Pixo Map | cowcowtony - Highway | Naito - NTK 5 ▶ Blocked holes
