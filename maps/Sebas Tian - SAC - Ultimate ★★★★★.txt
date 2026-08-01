@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2026-01-23|HasWeather:0
+EditorVersion:1.0|Description:Added Anti-Cheat Logic by Fruity on 2026-08-02|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -186,7 +186,7 @@ Scene,Geometry/Plane,180,0,1,1,1,0,Kill Region Plane,354.3546,99.03722,29.79662,
 Scene,Geometry/Plane,181,0,1,1,1,0,Kill Region Plane,349.9876,99.75466,58.63493,271.3959,274.2033,84.48302,3,1,3,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Tube,182,0,1,1,1,0,Kill Region Tube,354.621,51.65379,43.79744,0,271.64,0,4,10,4,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Arc180,183,0,1,1,1,0,Kill Region Arc180,356.4808,9.061801,29.29578,0,265.9856,0,3,4,3,Physical,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,Geometry/Plane,184,0,1,1,1,0,Racing Checkpoint Region Plane,355.04,20.74709,41.74353,0,217.8551,0,3,4,3,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
+Scene,Geometry/Plane,184,0,1,1,1,0,Racing Checkpoint Region Plane,355.04,20.74709,41.74353,0,217.8551,0,3,4,3,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,Nature/Boulder1,185,0,1,1,1,0,Boulder1,330.6575,3.474337,131.2924,0,181.9848,0,1,2,3,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,186,0,1,1,1,0,Boulder1,384.2448,8.12273,48.89748,0,213.2431,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder1,187,0,1,1,1,0,Boulder1,332.7736,7.805959,68.13832,2.958026,354.7899,4.007403E-08,1,1,3,Physical,Entities,Default,Default|255/255/255/255,;
@@ -338,7 +338,7 @@ Scene,Decor/Wagon1,332,0,1,1,1,0,Wagon1,554.3241,22.08075,-487.0277,350.5823,177
 Scene,Decor/Wagon1,333,0,1,1,1,0,Wagon1,568.0887,27.08909,-487.3161,346.8647,288.0314,165.0211,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Plane,334,0,1,1,1,0,Kill Region Plane,566.3878,36.68077,-231.2197,0,180,0,25,1,50,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,335,0,1,1,1,0,Kill Region Plane,564.4683,36.77649,-580.7166,0,180.3098,0,20,1,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Plane,336,0,1,1,1,0,Racing Checkpoint Region Plane,582.375,19.51791,-560.5651,270.5599,302.0026,0,4,2,4,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
+Scene,Geometry/Plane,336,0,1,1,1,0,Racing Checkpoint Region Plane,582.375,19.51791,-560.5651,270.5599,302.0026,0,4,2,4,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,Buildings/Wall3,337,0,1,1,1,0,Wall3,644.1343,-0.7786387,-493.0631,5.760001,353.0049,-5.363163E-08,0.2,0.2,0.2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Wall4,338,0,1,1,1,0,Wall4,648.8784,28.29458,-491.0403,0,353.6008,0,0.2,0.2,0.2,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Canal1,339,0,1,1,1,0,Canal1,642.8011,-1.499963,-435.8621,0,356.2248,0,0.6,2,0.5,Physical,Entities,Default,Default|255/255/255/255,;
@@ -368,7 +368,7 @@ Scene,Nature/Boulder3,362,0,1,1,1,0,Boulder3,651.5157,13.40946,97.50657,0,275.51
 Scene,Buildings/House1,363,0,1,1,1,0,House1,519.6732,15.90536,92.0393,0,87.38792,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Tower4,364,0,1,1,1,0,Tower4,557.1069,43.63654,109.7812,3.975871E-08,175.6871,5.465107E-07,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Plane,365,0,1,1,1,0,Kill Region Plane,577.4935,37.48367,52.25261,0,265.4881,0,10,1,20,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Cuboid,366,0,1,1,1,0,Racing Checkpoint Region Cuboid,533.98,4.583543,53.38551,0,265.8976,0,1,1,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|;
+Scene,Geometry/Cuboid,366,0,1,1,1,0,Racing Checkpoint Region Cuboid,533.98,4.583543,53.38551,0,265.8976,0,1,1,1,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false;
 Scene,Buildings/House7,367,0,1,1,1,0,House7,520.061,15.07364,51.45148,0,178.0543,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Wall3,368,0,1,1,1,0,Wall3,580.8027,-0.2543273,118.9525,0,177.4694,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Buildings/Wall4,369,0,1,1,1,0,Wall4,654.0624,21.26729,203.3478,0,270.2446,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,;
@@ -1307,7 +1307,7 @@ Scene,Geometry/Plane,1301,0,1,1,1,0,Kill Region Plane,-331.6489,88.54204,-441.82
 Scene,Nature/Boulder3,1302,0,1,1,1,0,Boulder3,-387.7248,76.77716,-425.7957,0,114.4874,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Nature/Boulder3,1303,0,1,1,1,0,Boulder3,-381.1364,53.20192,-402.3907,0,137.9863,0,1,3,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Geometry/Plane,1304,0,1,1,1,0,Kill Region Plane,-326.8018,63.89139,-380.7093,326.6,174.2321,358.2,10,3,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
-Scene,Geometry/Plane,1305,0,1,1,1,0,Kill Region Plane,-338.409,40.90103,-315.8517,346.8382,168.8862,0.953853,10,3,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Plane,1305,0,1,1,1,0,Kill Region Plane,-334.1581,40.92101,-315.4207,346.8071,174.2732,359.7249,10,3,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Plane,1306,0,1,1,1,0,Kill Region Plane,-262.7022,45.30201,-314.3039,344.2,173.2152,353.6,5,3,5,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Plane,1307,0,1,1,1,0,Kill Region Plane,-277.9084,74.66891,-403.646,341.1999,177.9589,20.40014,3,3,10,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Plane,1308,0,1,1,1,0,Kill Region Plane,-272.6371,76.23191,-467.8141,283.4,251.9492,9.578549E-05,3,3,6,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
@@ -1421,9 +1421,317 @@ Scene,Geometry/Cuboid,1423,0,1,1,1,0,Kill Region Cuboid,347.6352,125,-358.6086,0
 Scene,Geometry/Cuboid,1424,0,1,1,1,0,Kill Region Cuboid,327.9432,250,-500,0,90,0,30,0.1,25,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,1425,0,1,1,1,0,Kill Region Cuboid,230,135,-483,0,0,90,25,0.1,2,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
 Scene,Geometry/Cuboid,1426,0,1,1,1,0,Kill Region Cuboid,230,125,-402,0,0,90,25,0.1,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
-Scene,Geometry/Cuboid,1427,0,1,1,1,0,Kill Region Cuboid,230,125,-567,0,0,90,25,0.1,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server
+Scene,Geometry/Cuboid,1427,0,1,1,1,0,Kill Region Cuboid,230,125,-567,0,0,90,25,0.1,15,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cuboid,1428,0,1,1,0,0,Cuboid,-5.049484,4.898515,-2.690497,0,0,0,1,1,1,Region,Characters,Default,Default|255/255/255/255,EggResetter|,Tag|Name:RacingStartBarrier;
+Scene,General/EditorHumanSpawnPoint,1429,0,1,1,0,0,Human SpawnPoint,-5,1,-10,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Geometry/Cuboid,1432,0,1,1,0,0,Cuboid,3.035638,4.898515,-10.36894,0,0,0,1,1,1,Region,Characters,Default,Default|255/255/255/255,EggResetter|,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,1433,0,1,1,0,0,Cuboid,-12.76881,4.898515,-10.00747,0,0,0,1,1,1,Region,Characters,Default,Default|255/255/255/255,EggResetter|,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,1434,0,1,1,0,0,Cuboid,-5.665454,4.898515,-17.65242,0,0,0,1,1,1,Region,Characters,Default,Default|255/255/255/255,EggResetter|,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,1435,0,1,1,0,0,Cuboid,-5.049484,9.672235,-10.78968,0,0,0,1,1,1,Region,Characters,Default,Default|255/255/255/255,EggResetter|,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,1436,0,1,1,0,0,Cuboid,-5.049484,-4.929496,-10.78968,0,0,0,1,1,1,Region,Characters,Default,Default|255/255/255/255,EggResetter|,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cuboid,1437,0,1,1,1,0,Egg 1 + Handler,355.6238,55.91933,43.48066,0,0,0,3,1,3,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:1|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:,EggHandler|EggText:O|UseSpace:true|EggFontColor:#FF00FF|EggFontSize:25|ExtraText:Sections to Pass∶|ExtraFontColor:White|ExtraFontSize:20|ExtraTextPosition:Above|HideExtraTextOnFinish:Yes|FinishText:Finish Appeared!|FinishFontColor:#FFCC00|FinishFontSize:20|ObjectsToShow:1338|ObjectsToHide:|LabelPosition:MiddleRight|PaddingTop:0|PaddingBottom:0|PaddingLeft:0|PaddingRight:0|ShowServerMessage:false|ServerMessage:;
+Scene,Geometry/Cuboid,1438,0,1,1,1,0,Egg 2,356.4753,17.32265,-48.30946,0,20,0,1,3.5,2,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:2|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1439,0,1,1,1,0,Egg 3,643.5225,4.42884,-489.9351,0,352,0,1,1,1,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:3|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1440,0,1,1,1,0,Egg 4,501.7393,11.18894,254.8669,0,352,0,3,3,1,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:4|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1441,0,1,1,1,0,Egg 5,87.69682,19.26446,628.8723,0,0,0,1,4,4.5,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:5|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1442,0,1,1,1,0,Egg 6,2.490526,18.912,478.3191,0,90,0,1,4,2,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:6|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1443,0,1,1,1,0,Egg 7,-451.8399,-5.524541,620.4888,0,358,0,1,3,6,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:7|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1444,0,1,1,1,0,Egg 8,-625.5399,193.5961,393.2848,0,0,0,2,3,1,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:8|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1445,0,1,1,1,0,Egg 9,-633.7616,27.59457,-37.90659,0,0,0,3,5,5,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:9|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1446,0,1,1,1,0,Egg 10,-620.7125,490.5422,-612.2679,0,0,0,4,1,2,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:10|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1447,0,1,1,1,0,Egg 11,-330.487,55.29607,-416.3069,20,0,0,1,3,2,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:11|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
+Scene,Geometry/Cuboid,1448,0,1,1,1,0,Egg 12,61.27037,23.56551,-252.2891,0,0,0,1,5,5.5,Region,Characters,Default,Transparent|255/0/255/255|Misc/Gradient6|100/100|0/0,Egg|CustomEggText:12|CustomFontColor:|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:
 /// Logic
+component Egg
+{
+    _Touched = false;
+    
+    CustomEggText = "";
+    CustomFontColor = "";
+    CustomFontSize = 0;
 
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+
+    CustomEggTextTooltip = "Overrides the default EggText of the EggHandler for this specific egg.";
+    CustomFontColorTooltip = "Overrides the default EggFontColor for this specific egg.";
+    CustomFontSizeTooltip = "Overrides the default EggFontSize for this specific egg.";
+    
+    ObjectsToShowTooltip = "Enter multiple MapObject IDs separated by space (e.g., 10 11 12) to SHOW when touched. These are hidden on start.";
+    ObjectsToHideTooltip = "Enter multiple MapObject IDs separated by space (e.g., 13 14 15) to HIDE when touched.";
+
+
+    function Init()
+    {
+        self.ResetStatus();
+    }
+
+
+    function ResetStatus()
+    {
+        self._Touched = false;
+        self.MapObject.Active = true;
+
+
+        for (id in String.Split(self.ObjectsToShow, " ")) {
+            if (id != "") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+        for (id in String.Split(self.ObjectsToHide, " ")) {
+            if (id != "") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = true; }
+            }
+        }
+    }
+
+
+    function OnCollisionEnter(other) 
+    {
+        if (other.Type == "Human" && other.IsMine && !self._Touched)
+        {
+            self._Touched = true;
+
+
+            for (id in String.Split(self.ObjectsToShow, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = true; }
+                }
+            }
+            for (id in String.Split(self.ObjectsToHide, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = false; }
+                }
+            }
+
+
+            self.MapObject.Active = false;
+        }
+    }
+}
+
+
+component EggHandler
+{
+    Description = "Do not use semicolons (;) to avoid system errors.";
+
+
+    EggText = "O";
+    UseSpace = false;
+    EggFontColor = "#FFCC00";
+    EggFontSize = "25";
+    
+    ExtraText = "Eggs to Find∶";
+    ExtraFontColor = "White";
+    ExtraFontSize = "20";
+    ExtraTextPosition = "Above";
+    HideExtraTextOnFinish = "Yes";
+    
+    FinishText = "";
+    FinishFontColor = "Red";
+    FinishFontSize = "20";
+
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+
+    LabelPosition = "MiddleRight";
+    PaddingTop = 0;
+    PaddingBottom = 0;
+    PaddingLeft = 0;    
+    PaddingRight = 0;
+
+
+    ShowServerMessage = true;
+    ServerMessage = "has found all the eggs!";
+
+
+    UseSpaceTooltip = "Add a space between each egg text icon.";
+    EggFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextTooltip = "This text will be displayed near the egg count.";
+    ExtraFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextPositionTooltip = "Choose whether ExtraText appears Above or Below the egg icons.";
+    HideExtraTextOnFinishTooltip = "Hide the ExtraText after all eggs are collected.";
+    
+    FinishTextTooltip = "This message appears only after all eggs are found.";
+    FinishFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    
+    ObjectsToShowTooltip = "Enter Object IDs to SHOW after finding all eggs (e.g. 4 5 6). These will be HIDDEN on game start.";
+    ObjectsToHideTooltip = "Enter Object IDs to HIDE after finding all eggs (e.g. 7 8 9).";
+
+
+    LabelPositionTooltip = "Select the UI position on the screen.";
+    PaddingTopTooltip = "Push the entire UI down.";
+    PaddingBottomTooltip = "Push the entire UI up.";
+    PaddingLeftTooltip = "Push the entire UI to the right.";
+    PaddingRightTooltip = "Push the entire UI to the left.";
+
+
+    ExtraTextPositionDropbox = "Above, Below";
+    HideExtraTextOnFinishDropbox = "Yes, No";
+    LabelPositionDropbox = "TopLeft, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomRight";
+
+
+    _EggList = List();
+    _TotalEggs = 0;
+    _Finished = false;
+
+
+    function Init()
+    {
+        self._EggList = Map.FindMapObjectsByComponent("Egg");
+        self._TotalEggs = self._EggList.Count;
+        self.ResetAll();
+    }
+
+
+    function ResetAll()
+    {
+        self._Finished = false;
+        
+        for (i in Range(0, self._EggList.Count, 1)) {
+            eggObj = self._EggList.Get(i);
+            if (eggObj != null) {
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null) { eggComp.ResetStatus(); }
+            }
+        }
+
+
+        for (id in String.Split(self.ObjectsToShow, " ")) {
+            if (id != "") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+        for (id in String.Split(self.ObjectsToHide, " ")) {
+            if (id != "") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = true; }
+            }
+        }
+    }
+
+
+    function OnTick()
+    {
+        currentCount = 0;
+        eggIcons = "";
+        
+        for (i in Range(0, self._EggList.Count, 1))
+        {
+            eggObj = self._EggList.Get(i);
+            if (eggObj != null)
+            {
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null && !eggComp._Touched)
+                {
+                    currentCount = currentCount + 1;
+                    
+                    if (eggComp.CustomEggText != "") { tText = eggComp.CustomEggText; } else { tText = self.EggText; }
+                    if (eggComp.CustomFontColor != "") { tColor = eggComp.CustomFontColor; } else { tColor = self.EggFontColor; }
+                    if (eggComp.CustomFontSize > 0) { tSize = Convert.ToString(eggComp.CustomFontSize); } else { tSize = self.EggFontSize; }
+
+
+                    styled = "<size=" + tSize + "><color=" + tColor + ">" + tText + "</color></size>";
+                    if (self.UseSpace) { eggIcons = eggIcons + styled + " "; } else { eggIcons = eggIcons + styled; }
+                }
+            }
+        }
+
+
+        if (self._TotalEggs > 0 && currentCount == 0 && !self._Finished)
+        {
+            self._Finished = true;
+
+
+            for (id in String.Split(self.ObjectsToShow, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = true; }
+                }
+            }
+            for (id in String.Split(self.ObjectsToHide, " ")) {
+                if (id != "") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = false; }
+                }
+            }
+
+
+            if (self.ShowServerMessage)
+            {
+                playerName = Network.MyPlayer.Name;
+                Game.PrintAll(playerName + " " + self.ServerMessage);
+            }
+        }
+
+
+        lSpace = ""; for (i in Range(0, self.PaddingLeft, 1)) { lSpace = lSpace + "  "; }
+        rSpace = ""; for (i in Range(0, self.PaddingRight, 1)) { rSpace = rSpace + "  "; }
+        tSpace = ""; for (i in Range(0, self.PaddingTop, 1)) { tSpace = tSpace + String.Newline; }
+        bSpace = ""; for (i in Range(0, self.PaddingBottom, 1)) { bSpace = bSpace + String.Newline; }
+
+
+        extraStyled = "";
+        shouldShowExtra = true;
+        if (self._Finished && self.HideExtraTextOnFinish == "Yes") { shouldShowExtra = false; }
+
+
+        if (self.ExtraText != "" && shouldShowExtra) {
+            extraStyled = "<size=" + self.ExtraFontSize + "><color=" + self.ExtraFontColor + ">" + self.ExtraText + "</color></size>";
+        }
+
+
+        displayContent = "";
+        if (self.ExtraTextPosition == "Above") {
+            if (extraStyled != "") { displayContent = extraStyled + String.Newline; }
+            displayContent = displayContent + eggIcons;
+        } else {
+            displayContent = eggIcons;
+            if (extraStyled != "") { displayContent = displayContent + String.Newline + extraStyled; }
+        }
+
+
+        if (self._Finished && self.FinishText != "") {
+            displayContent = displayContent + String.Newline + "<size=" + self.FinishFontSize + "><color=" + self.FinishFontColor + ">" + self.FinishText + "</color></size>";
+        }
+
+
+        dot = "<color=#00000000>.</color>";
+        finalStr = tSpace + dot + String.Newline + lSpace + displayContent + rSpace + String.Newline + dot + bSpace;
+
+
+        UI.SetLabel(self.LabelPosition, finalStr);
+    }
+}
+
+
+component EggResetter
+{
+    function OnCollisionEnter(other)
+    {
+        if (other.Type == "Human" && other.IsMine)
+        {
+            handlerObjs = Map.FindMapObjectsByComponent("EggHandler");
+            if (handlerObjs.Count > 0)
+            {
+                handler = handlerObjs.Get(0).GetComponent("EggHandler");
+                if (handler != null)
+                {
+                    handler.ResetAll();
+                }
+            }
+        }
+    }
+}
 /// Weather
 {
     "Skybox" : "Day1",
@@ -1480,5 +1788,6 @@ Scene,Geometry/Cuboid,1427,0,1,1,1,0,Kill Region Cuboid,230,125,-567,0,0,90,25,0
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "2b1081af-08d7-4517-9b03-a3bd3090d383"
 }
