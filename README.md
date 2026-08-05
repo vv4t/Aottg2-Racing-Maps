@@ -36,6 +36,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-08-05** Sebas Tian - SAC - Underground Hunt ▶ Added Anti-Cheat Logic
 - NEW | **2026-08-02** Eliope - Makina Fire + Ice (Fused by Riblei) | Sebas Tian - SAC - Ultimate ▶ Added Anti-Cheat Logic
 - NEW | **2026-08-02** Pixell - Pixo Map ▶ Fixed a hole
 - **2026-07-24** Riblei - Deathdream ▶ Fixed a hole by Riblei
