@@ -1238,6 +1238,7 @@ extension SettingsManager
 
     function LoadKeybinds()
     {   
+        return;
         fileName = self._fileName;
         keybindFileExists = PersistentData.FileExists(fileName);
         if(!keybindFileExists) {
