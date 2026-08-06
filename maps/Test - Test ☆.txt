@@ -1,7 +1,7 @@
 /// Options
 EditorVersion:1.0|Description:Usui Pass is a historic mountain pass on the border of Gunma Prefecture and Nagano Prefecture, known for steep grades, dense forests, and a winding old road packed with tight hairpins.|HasWeather:1
 /// CustomAssets
-cruisetg,https://www.dropbox.com/scl/fi/wpx8238ed4sye664zd5dz/cruisetg?rlkey=lczwmel6tmlbyhnuj7lwzpqrd&st=q2f400m1&dl=1
+cruisetg,https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/assets/cruisetg
 /// Objects
 Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
 Scene,Custom/cruisetg/usui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint|255/255/255/255,PrintOnStart|;
