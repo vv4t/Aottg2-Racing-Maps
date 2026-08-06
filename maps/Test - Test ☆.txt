@@ -20,13 +20,7 @@ component PrintOnStart
     function OnGameStart()
     {
         self.DelayPrint();
-        # self.SpawnCar();
-    }
-
-    function OnCharacterSpawn(character) {
-        if (character.IsMine) {
-            self.SpawnCar();
-        }
+        RoomData.SetProperty("HasCar", false);
     }
 
     function SpawnCar()
@@ -101,6 +95,7 @@ component PrintOnStart
         brakeButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Brake")), red);
         accelerateButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Accelerate")), red);
         keybindSettingsButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Keybinds Popup")), red);
+        spawnCarButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Spawn Car")), red);
         
         nl = String.Newline;
         message = "Press " + turnUprightButton + " to turn car upright" + nl + "Press " + lockedCamChangeButton + " to Change Camera Mode" + nl +
@@ -109,7 +104,16 @@ component PrintOnStart
         message += nl + "Press " + brakeButton + " to Brake";
         message += nl + "Press " + accelerateButton + " to Accelerate";
         message += nl + "Press " + keybindSettingsButton + " to Open the Keybind Settings Menu";
+        message += nl + "<size=30>Press " + spawnCarButton + " to Spawn Car</size>";
         Game.Print(message);  
+    }
+
+    function OnTick() {
+        me = Network.MyPlayer.Character;
+        if (me != null) {
+            me.CurrentGas = 0;
+        }
+
     }
 }
 
@@ -131,6 +135,21 @@ component Settings
         openKeybindSettingsPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString("Keybinds Popup"));
         if(openKeybindSettingsPressed) {
             SettingsManager.ShowKeybindPopup();
+        }
+
+        hasCar = RoomData.GetProperty("HasCar", false);
+        spawnCarPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString("Spawn Car"));
+        spawnCarButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Spawn Car")), "#ff0000");
+        if (hasCar != true) {
+            UI.SetLabelForTime("BottomCenter", "<size=30>Press [" + spawnCarButton + "] to spawn a car.</size>" + String.Newline + String.Newline + String.Newline + String.Newline, 0.3);
+        }
+        if (spawnCarPressed) {
+            if (hasCar != true) {
+                Map.FindMapObjectByComponent("PrintOnStart").GetComponent("PrintOnStart").SpawnCar();
+                RoomData.SetProperty("HasCar", true);
+            } else {
+                Game.Print("<color=red>You already have a car.</color>");
+            }
         }
     }
 
@@ -383,6 +402,7 @@ component Car
         if (victim.IsMine) {
             Camera.SetManual(false);
             Map.DestroyMapObject(self.MapObject, true);
+            RoomData.SetProperty("HasCar", false);
         }
 
         return;
@@ -1077,7 +1097,8 @@ extension SettingsManager
         self.SetSetting(keybindID + "Change Camera", InputGeneralEnum.ChangeCamera);
         self.SetSetting(keybindID + "Accelerate", InputGeneralEnum.Forward);
         self.SetSetting(keybindID + "Toggle Camera Lock", InputInteractionEnum.QuickSelect1);
-        self.SetSetting(keybindID + "Keybinds Popup", InputInteractionEnum.QuickSelect2);
+        self.SetSetting(keybindID + "Spawn Car", InputInteractionEnum.QuickSelect2);
+        self.SetSetting(keybindID + "Keybinds Popup", InputInteractionEnum.QuickSelect5);
         
     }
 
