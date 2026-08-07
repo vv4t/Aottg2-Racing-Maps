@@ -371,6 +371,7 @@ component Car
 
 	function OnPlayerLeave(player)
 	{
+        return;
         if (player.ID == Network.MyPlayer.ID)
         {
             if (self._isPassenger)
@@ -382,7 +383,7 @@ component Car
             elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
             {
                 self._inUse = false;
-			    self.NetworkView.Transfer(Network.MasterClient);
+                self.NetworkView.Transfer(Network.MasterClient);
             }
         }
 	}
@@ -731,6 +732,7 @@ component Car
             
             if (self.NetworkView.Owner.Character == null || self.NetworkView.Owner.Character.Type != "Human" || self.NetworkView.Owner.Character.MountedTransform != self._transform)
             {
+                return;
                 self.NetworkView.Transfer(Network.MasterClient);
                 self._inUse = false;
                 return;
@@ -798,7 +800,7 @@ component Car
         self._human = null;
         self.MapObject.Position += self.MapObject.Right * -1.0;
         
-        self.NetworkView.Transfer(Network.MasterClient);
+        # self.NetworkView.Transfer(Network.MasterClient);
         self._inUse = false;
         if(Camera.IsManual) { Camera.SetManual(false); }
         Input.SetKeyDefaultEnabled(InputGeneralEnum.ChangeCamera, true);
