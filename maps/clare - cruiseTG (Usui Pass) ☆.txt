@@ -1,20 +1,20 @@
- Options
-EditorVersion1.0DescriptionUsui Pass is a historic mountain pass on the border of Gunma Prefecture and Nagano Prefecture, known for steep grades, dense forests, and a winding old road packed with tight hairpins.HasWeather1
- CustomAssets
-cruisetg,httpsgithub.comvv4tAottg2-Racing-Mapsrawrefsheadsmasterassetscruisetg
- Objects
-Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default255255255255,DaylightColor255255255255Intensity1WeatherControlledtrue;
-Scene,Customcruisetgusui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint255255255255,PrintOnStart;
-Scene,GeneralEditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6561.45,1353.458,-55.41149,0,328.178,0,1,1,1,None,Entities,Default,Default255255255255,TagNameHumanSpawnPoint;
-Scene,GeneralEditorCameraSpawnPoint,122001,0,1,1,0,0,Camera SpawnPoint,6531.097,1357.967,-18.63662,359.9849,255.8374,359.7614,1,1,1,None,Entities,Default,Default255255255255,TagNameCameraSpawnPoint;
-Scene,GeometryCube1,122003,0,1,1,1,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent2092550128MiscNone1100,RacingFinishRegionNumberOfLaps1;
-Scene,GeometryCube1,122007,0,1,0,1,0,RacingStartBarrier,6551.268,1375.01,-25.77735,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
-Scene,GeometryCube1,122008,0,1,0,1,0,RacingStartBarrier,6645.222,1375.01,-81.71515,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
-Scene,GeometryCube1,122009,0,1,0,1,0,RacingStartBarrier,6565.556,1375.01,-132.7459,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
-Scene,GeometryCube1,122010,0,1,0,1,0,RacingStartBarrier,6657.447,1375.01,-186.6838,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
-Scene,Customcruisetgroad-collision,122011,0,1,1,0,0,S,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,Default255255255255,;
-Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default255255255255,SettingsDisabledBaseKeysSettingsFileNameInitialDSettings
- Logic
+/// Options
+EditorVersion:1.0|Description:Usui Pass is a historic mountain pass on the border of Gunma Prefecture and Nagano Prefecture, known for steep grades, dense forests, and a winding old road packed with tight hairpins.|HasWeather:1
+/// CustomAssets
+cruisetg,https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/assets/cruisetg
+/// Objects
+Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
+Scene,Custom/cruisetg/usui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint|255/255/255/255,PrintOnStart|;
+Scene,General/EditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6561.45,1353.458,-55.41149,0,328.178,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,General/EditorCameraSpawnPoint,122001,0,1,1,0,0,Camera SpawnPoint,6531.097,1357.967,-18.63662,359.9849,255.8374,359.7614,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:CameraSpawnPoint;
+Scene,Geometry/Cube1,122003,0,1,1,1,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122007,0,1,0,1,0,RacingStartBarrier,6551.268,1375.01,-25.77735,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cube1,122008,0,1,0,1,0,RacingStartBarrier,6645.222,1375.01,-81.71515,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cube1,122009,0,1,0,1,0,RacingStartBarrier,6565.556,1375.01,-132.7459,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cube1,122010,0,1,0,1,0,RacingStartBarrier,6657.447,1375.01,-186.6838,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Custom/cruisetg/road-collision,122011,0,1,1,0,0,S,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Settings|DisabledBaseKeys:|SettingsFileName:InitialDSettings
+/// Logic
 component PrintOnStart
 {
     function OnGameStart()
@@ -32,19 +32,19 @@ component PrintOnStart
 
     function SpawnCar()
     {
-        o = Map.CreateMapObjectRaw(Scene,Customcruisetgae86,121997,0,1,0,1,1,ae86,6558.299,1352.199,-56.1908,0,327.0331,0,2.1,2.1,2.1,Region,MapObjects,Default,DefaultNoTint255255255255,;);
-        o.SetCollideMode(Physical);
+        o = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86,121997,0,1,0,1,1,ae86,6558.299,1352.199,-56.1908,0,327.0331,0,2.1,2.1,2.1,Region,MapObjects,Default,DefaultNoTint|255/255/255/255,;");
+        o.SetCollideMode("Physical");
         
-        o.AddComponent(Rigidbody);
+        o.AddComponent("Rigidbody");
         o.Rigidbody.Mass = 2000;
         o.Rigidbody.Gravity = Vector3(0, -157000, 0);
         o.Rigidbody.FreezeAllRotations = false;
         o.Rigidbody.Interpolate = false;
 
-        c = o.AddComponent(Car);
-        c.CarName = AE86;
-        c.CarPath = ae86AE86;
-        c.SoundPath = ae86;
+        c = o.AddComponent("Car");
+        c.CarName = "AE86";
+        c.CarPath = "ae86/AE86";
+        c.SoundPath = "ae86";
         c.Health = 300;
         c.CrashDecelerationThreshold = 30;
         c.MoveForce = 115;
@@ -73,7 +73,7 @@ component PrintOnStart
         c.DriftDurationMin = 0.8;
         c.DriftDurationMax = 3;
         c.DriftExitBoost = 1.01;
-        c.StartingCamera = ThirdPerson;
+        c.StartingCamera = "ThirdPerson";
         c.FirstPersonCameraOffset = Vector3(-0.7,1.1,2);
         c.BumperViewCameraOffset = Vector3(1,2.5,0);
         c.ThirdPersonCameraOffset = Vector3(-12,5,0);
@@ -94,23 +94,23 @@ component PrintOnStart
     coroutine DelayPrint()
     {
         wait 2;
-        red = #ff0000;
-        lockedCamChangeButton = color=#ff0000 + Input.GetKeyName(SettingsManager.ReturnKeyString(Change Camera)) + color;
-        toggleLockedCameraButton = color=#ff0000 + Input.GetKeyName(SettingsManager.ReturnKeyString(Toggle Camera Lock)) + color;
+        red = "#ff0000";
+        lockedCamChangeButton = "<color=#ff0000>" + Input.GetKeyName(SettingsManager.ReturnKeyString("Change Camera")) + "</color>";
+        toggleLockedCameraButton = "<color=#ff0000>" + Input.GetKeyName(SettingsManager.ReturnKeyString("Toggle Camera Lock")) + "</color>";
         
-        turnUprightButton = color=#ff0000 + Input.GetKeyName(SettingsManager.ReturnKeyString(Flip Car)) + color;
-        driftButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Drift)), red);
-        brakeButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Brake)), red);
-        accelerateButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Accelerate)), red);
-        keybindSettingsButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Keybinds Popup)), red);
+        turnUprightButton = "<color=#ff0000>" + Input.GetKeyName(SettingsManager.ReturnKeyString("Flip Car")) + "</color>";
+        driftButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Drift")), red);
+        brakeButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Brake")), red);
+        accelerateButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Accelerate")), red);
+        keybindSettingsButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Keybinds Popup")), red);
         
         nl = String.Newline;
-        message = Press  + turnUprightButton +  to turn car upright + nl + Press  + lockedCamChangeButton +  to Change Camera Mode + nl +
-                    Press  + toggleLockedCameraButton +  to Unlock Camera;
-        message += nl + Press  + driftButton +  to Drift;
-        message += nl + Press  + brakeButton +  to Brake;
-        message += nl + Press  + accelerateButton +  to Accelerate;
-        message += nl + Press  + keybindSettingsButton +  to Open the Keybind Settings Menu;
+        message = "Press " + turnUprightButton + " to turn car upright" + nl + "Press " + lockedCamChangeButton + " to Change Camera Mode" + nl +
+                    "Press " + toggleLockedCameraButton + " to Unlock Camera";
+        message += nl + "Press " + driftButton + " to Drift";
+        message += nl + "Press " + brakeButton + " to Brake";
+        message += nl + "Press " + accelerateButton + " to Accelerate";
+        message += nl + "Press " + keybindSettingsButton + " to Open the Keybind Settings Menu";
         Game.Print(message);  
     }
 
@@ -124,20 +124,20 @@ component PrintOnStart
 
 component Settings
 {
-    DisabledBaseKeys = ;
-    DisabledBaseKeysTooltip = Custom Keybind Slots to disable the Games Default Key Binding for(Separate with , [e.g - Drift,Brake,Flip Car, Change Camera, Keybinds Popup]);
-    SettingsFileName = InitialDSettings;
+    DisabledBaseKeys = "";
+    DisabledBaseKeysTooltip = "Custom Keybind Slots to disable the Games Default Key Binding for(Separate with , [e.g - Drift,Brake,Flip Car, Change Camera, Keybinds Popup])";
+    SettingsFileName = "InitialDSettings";
 
     function OnGameStart()
     {
         SettingsManager.SetCustomSettings(self.SettingsFileName);
         SettingsManager.LoadKeybinds();
-        SettingsManager.CreatePopup(KeybindSettings, Keybing Settings);
+        SettingsManager.CreatePopup("KeybindSettings", "Keybing Settings");
     }
 
     function OnFrame()
     {
-        openKeybindSettingsPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString(Keybinds Popup));
+        openKeybindSettingsPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString("Keybinds Popup"));
         if(openKeybindSettingsPressed) {
             SettingsManager.ShowKeybindPopup();
         }
@@ -151,10 +151,10 @@ component Settings
 
 component Car
 {   
-    CarName = AE86;
-    CarNameDropbox = AE86,RX7;
-    CarPath = ae86AE86;
-    SoundPath = ae86;
+    CarName = "AE86";
+    CarNameDropbox = "AE86,RX7";
+    CarPath = "ae86/AE86";
+    SoundPath = "ae86";
     Health = 500;
     CrashDecelerationThreshold = 30.0;
     MoveForce = 45.0;
@@ -197,8 +197,8 @@ component Car
     DriftExitBoost = 1.12;
 
     CameraStartLocked = true;
-    StartingCamera = ThirdPerson;
-    StartingCameraDropbox = ThirdPerson,ThirdPersonExtended,FirstPerson,BumperView;
+    StartingCamera = "ThirdPerson";
+    StartingCameraDropbox = "ThirdPerson,ThirdPersonExtended,FirstPerson,BumperView";
 
     FirstPersonCameraOffset = Vector3(0.15, 1.0,0);
     BumperViewCameraOffset = Vector3(1.0, 2.5,0);
@@ -269,7 +269,7 @@ component Car
         self._settings = SettingsManager._settings;
 
         for(key in self._settings.Keys) {
-            Game.Print(key +    + self._settings.Get(key));
+            Game.Print(key + " | " + self._settings.Get(key));
         }
     }
     
@@ -279,16 +279,16 @@ component Car
         carPath = self.CarPath;
         soundPath = self.SoundPath;
 
-        self._leftFrontWheel = self.MapObject.GetTransform(carPath + -wheel-1);
-        self._rightFrontWheel = self.MapObject.GetTransform(carPath + -wheel-2);
-        self._leftBackWheel = self.MapObject.GetTransform(carPath + -wheel-3);
-        self._rightBackWheel = self.MapObject.GetTransform(carPath + -wheel-4);
-        self._steeringWheel = self.MapObject.GetTransform(carPath + -Steering-Wheel);
-        self._ignition = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -ignition,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
-        self._exhaust = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -exhaust,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
-        self._lowRumble = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -slow-rumble,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
-        self._highRumble = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -fast-rumble,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
-        self._driftingSFX = Map.CreateMapObjectRaw(Scene,Customcruisetgdrifting,122025,0,0,0,0,0,drifting,6570.609,1365.88,-51.67888,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint255255255255,);
+        self._leftFrontWheel = self.MapObject.GetTransform(carPath + "-wheel-1");
+        self._rightFrontWheel = self.MapObject.GetTransform(carPath + "-wheel-2");
+        self._leftBackWheel = self.MapObject.GetTransform(carPath + "-wheel-3");
+        self._rightBackWheel = self.MapObject.GetTransform(carPath + "-wheel-4");
+        self._steeringWheel = self.MapObject.GetTransform(carPath + "-Steering-Wheel");
+        self._ignition = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-ignition,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._exhaust = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-exhaust,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._lowRumble = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-slow-rumble,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._highRumble = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-fast-rumble,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._driftingSFX = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/drifting,122025,0,0,0,0,0,drifting,6570.609,1365.88,-51.67888,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,");
         self._wheels.Add(self._leftFrontWheel);
         self._wheels.Add(self._rightFrontWheel);
         self._wheels.Add(self._leftBackWheel);
@@ -299,8 +299,8 @@ component Car
     function ParentSmokeToCar()
     {   
         mapObjTransform = self.MapObject.Transform;
-        self._leftBackWheelSmoke = Map.CreateMapObjectRaw(Scene,Customcruisetgsmoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
-        self._rightBackWheelSmoke = Map.CreateMapObjectRaw(Scene,Customcruisetgsmoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+        self._leftBackWheelSmoke = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/smoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
+        self._rightBackWheelSmoke = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/smoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
 
         self._leftBackWheelSmoke.Position = self._leftBackWheel.Position;
         self._rightBackWheelSmoke.Position = self._rightBackWheel.Position;
@@ -308,15 +308,15 @@ component Car
         self._rightBackWheelSmoke.Rotation = Vector3(0,-90,0);
         self._leftBackWheelSmoke.Parent = mapObjTransform;
         self._rightBackWheelSmoke.Parent = mapObjTransform;
-        self._leftBackWheelSmoke.LocalPosition = self.MapObject.Forward  -2;
-        self._rightBackWheelSmoke.LocalPosition = self.MapObject.Forward  -2;
+        self._leftBackWheelSmoke.LocalPosition = self.MapObject.Forward * -2;
+        self._rightBackWheelSmoke.LocalPosition = self.MapObject.Forward * -2;
 
         self._leftBackWheelSmoke.Scale = Vector3(0.9);
         self._rightBackWheelSmoke.Scale = Vector3(0.9);
         self._leftBackWheelSmoke.Active = false;
         self._rightBackWheelSmoke.Active = false;
 
-        self._explosion = Map.CreateMapObjectRaw(Scene,Customcruisetgzero-hp-car,122024,0,0,0,1,0,zero-hp-car,6559.316,1356.862,-50.91142,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint255255255255,);
+        self._explosion = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/zero-hp-car,122024,0,0,0,1,0,zero-hp-car,6559.316,1356.862,-50.91142,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,");
         self._explosion.Position = self.MapObject.Position;
         self._explosion.Parent = mapObjTransform;
         self._explosion.LocalPosition = Vector3();
@@ -326,20 +326,20 @@ component Car
 
     function Init()
     {   
-        self._cameraNames.Set(0, FirstPerson);
-        self._cameraNames.Set(1, BumperView);
-        self._cameraNames.Set(2, ThirdPerson);
-        self._cameraNames.Set(3, ThirdPersonExtended);
+        self._cameraNames.Set(0, "FirstPerson");
+        self._cameraNames.Set(1, "BumperView");
+        self._cameraNames.Set(2, "ThirdPerson");
+        self._cameraNames.Set(3, "ThirdPersonExtended");
 
-        self._cameraIDs.Set(FirstPerson, 0);
-        self._cameraIDs.Set(BumperView, 1);
-        self._cameraIDs.Set(ThirdPerson, 2);
-        self._cameraIDs.Set(ThirdPersonExtended, 3);
+        self._cameraIDs.Set("FirstPerson", 0);
+        self._cameraIDs.Set("BumperView", 1);
+        self._cameraIDs.Set("ThirdPerson", 2);
+        self._cameraIDs.Set("ThirdPersonExtended", 3);
         self._isCameraLocked = self.CameraStartLocked;
         self._currentCamera = self._cameraIDs.Get(self.StartingCamera);
 
-        self._rigidbody = self.MapObject.GetComponent(Rigidbody);
-        self.MapObject.AddSphereCollider(Region, Characters, Vector3.Zero, 1  self.MapObject.Scale.X);
+        self._rigidbody = self.MapObject.GetComponent("Rigidbody");
+        self.MapObject.AddSphereCollider("Region", "Characters", Vector3.Zero, 1 * self.MapObject.Scale.X);
 
         self.InitCarType();
         
@@ -354,11 +354,11 @@ component Car
     {
         if (Network.IsMasterClient) 
         { 
-            self.NetworkView.SendMessage(player, p + Convert.ToString(self._hasPassenger)); 
+            self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
         }
 
         if(character.IsMine) {
-            character.SetWeapon(Blade);
+            character.SetWeapon("Blade");
             character.CurrentBladeDurability = 0;
             character.CurrentBlade = 0;
             character.MaxBlade = 0;
@@ -378,9 +378,9 @@ component Car
             {
                 self._isPassenger = false;
                 self._hasPassenger = false;
-                self.NetworkView.SendMessage(player, p + Convert.ToString(self._hasPassenger)); 
+                self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
             }
-            elif(self.NetworkView.Owner == Network.MyPlayer  Network.IsMasterClient)
+            elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
             {
                 self._inUse = false;
                 self.NetworkView.Transfer(Network.MasterClient);
@@ -398,7 +398,7 @@ component Car
 
         return;
 
-        if (victim.Type != Human) { return; }
+        if (victim.Type != "Human") { return; }
 
         if (victim.Player.ID == Network.MyPlayer.ID)
         {
@@ -406,9 +406,9 @@ component Car
             {
                 self._isPassenger = false;
                 self._hasPassenger = false;
-                self.NetworkView.SendMessage(victim.Player, p + Convert.ToString(self._hasPassenger)); 
+                self.NetworkView.SendMessage(victim.Player, "p" + Convert.ToString(self._hasPassenger)); 
             }
-            elif(self.NetworkView.Owner == Network.MyPlayer  Network.IsMasterClient)
+            elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
             {
                 self._inUse = false;
 			    self.NetworkView.Transfer(Network.MasterClient);
@@ -433,15 +433,15 @@ component Car
 
     function OnNetworkMessage(sender, message)
     {
-        if (Network.IsMasterClient && self.NetworkView.Owner == Network.MyPlayer && !self._inUse && message == request)
+        if (Network.IsMasterClient && self.NetworkView.Owner == Network.MyPlayer && !self._inUse && message == "request")
         {
             self.NetworkView.Transfer(sender);
         }
-        elif (String.StartsWith(message, p))
+        elif (String.StartsWith(message, "p"))
         {
             self._hasPassenger = Convert.ToBool(String.Substring(message, 1));
         }
-        elif(message == enter) {
+        elif(message == "enter") {
             self._doorSlamAudio.Active = true;
             return;
         }
@@ -456,7 +456,7 @@ component Car
         elif (newOwner == Network.MyPlayer)
         {
             human = self._collidingHuman;
-            if (human != null && human.Type == Human)
+            if (human != null && human.Type == "Human")
             {
                 self.OnEnterCarRider();
             }
@@ -466,26 +466,26 @@ component Car
             }
         }
         if(Network.IsMasterClient && newOwner != Network.MyPlayer) {
-            Game.Print(newOwner.ID + ] Name  + newOwner.Name);
+            Game.Print(newOwner.ID + "] Name: " + newOwner.Name);
             self._human = newOwner.Character;
         }
     }
 
     function OnCollisionStay(other)
     {
-        if (other.Type != Human  !other.IsMine) { return; }
+        if (other.Type != "Human" || !other.IsMine) { return; }
         
         vector = other.Position - self.MapObject.Position;
         project = Vector3.Project(vector, self.MapObject.Right);
         if (project.Normalized == self.MapObject.Right && !self._inUse && !other.IsMounted)
         {
-            UI.SetLabelForTime(MiddleCenter, Press  + Input.GetKeyName(InteractionInteract) +  to drive, 0.1);
+            UI.SetLabelForTime("MiddleCenter", "Press " + Input.GetKeyName("Interaction/Interact") + " to drive", 0.1);
             self._collidingHuman = other;
             self._collidingDrive = true;
         }
         elif (project.Normalized != self.MapObject.Right && !self._hasPassenger && !other.IsMounted)
         {
-            UI.SetLabelForTime(MiddleCenter, Press  + Input.GetKeyName(InteractionInteract) +  to get in, 0.1);
+            UI.SetLabelForTime("MiddleCenter", "Press " + Input.GetKeyName("Interaction/Interact") + " to get in", 0.1);
             self._collidingHuman = other;
             self._collidingPassenger = true;
         }
@@ -509,8 +509,8 @@ component Car
             currentMax = self.MaxSteeringAngle;
 
             if (self._isDrifting) { currentMax = self.DriftMaxSteeringAngle; }
-            yRotation = Math.Clamp(self._drivingAngle  (currentMax  45), -45, 45);
-            xRotation = Math.Sign(self._enginePower)  rotationSpeed;
+            yRotation = Math.Clamp(self._drivingAngle / (currentMax / 45), -45, 45);
+            xRotation = Math.Sign(self._enginePower) * rotationSpeed;
 
             self._leftFrontWheel.LocalRotation = Vector3(self._leftFrontWheel.LocalRotation.X + xRotation, yRotation, self._leftFrontWheel.LocalRotation.Z);
             self._rightFrontWheel.LocalRotation = Vector3(self._rightFrontWheel.LocalRotation.X + xRotation, yRotation, self._rightFrontWheel.LocalRotation.Z);
@@ -521,19 +521,19 @@ component Car
 
         if(self._inUse && self._human != null) {
             speedDrop = self._previousSpeed - velocity;
-            if(speedDrop = self.CrashDecelerationThreshold) { self.OnCrash(speedDrop); }
+            if(speedDrop >= self.CrashDecelerationThreshold) { self.OnCrash(speedDrop); }
             self._previousSpeed = velocity;
 
-            UI.SetLabel(UILabelEnum.MiddleRight, Speed[ + String.FormatFloat(velocity, 2) + ]);
+            UI.SetLabel(UILabelEnum.MiddleRight, "Speed[" + String.FormatFloat(velocity, 2) + "]");
             Network.MyPlayer.Character.Rigidbody.Velocity = vector;
             self._soundEngine = self._enginePower;
             self._soundVelocity = velocity;
             self.CheckIsGrounded();
 
             project = Vector3.Project(vector, self.MapObject.Forward);
-            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString(Brake));
+            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString("Brake"));
             
-            if(self._driftTimer  0.0) {
+            if(self._driftTimer > 0.0) {
                 self._driftTimer -= Time.TickTime;
                 self._isDrifting = true;
             } else {
@@ -548,15 +548,15 @@ component Car
             if(project.Normalized != self.MapObject.Forward && !self._isDrifting) { forwardMultiplier = -1.0; }
 
             rotatePower = 1.0;
-            if(velocity  0.001) { rotatePower = 0; }
-            elif(velocity  self._lowVelocityThreshold) { rotatePower = velocity  self._lowVelocityThreshold; }
+            if(velocity < 0.001) { rotatePower = 0; }
+            elif(velocity < self._lowVelocityThreshold) { rotatePower = velocity / self._lowVelocityThreshold; }
             
-            rotatePower = forwardMultiplier;
-            if(self._isBraking) { rotatePower = self._currentBrakingMultiplier; }
-            if(self._isDrifting) { rotatePower = self.DriftSteeringScale; }
+            rotatePower *= forwardMultiplier;
+            if(self._isBraking) { rotatePower *= self._currentBrakingMultiplier; }
+            if(self._isDrifting) { rotatePower *= self.DriftSteeringScale; }
 
-            if(Input.GetKeyHold(GeneralBack)) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed  -1, self.EngineSpeed); }
-            elif(Input.GetKeyHold(SettingsManager.ReturnKeyString(Accelerate))) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed, self.EngineSpeed); }
+            if(Input.GetKeyHold("General/Back")) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed * -1, self.EngineSpeed); }
+            elif(Input.GetKeyHold(SettingsManager.ReturnKeyString("Accelerate"))) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed, self.EngineSpeed); }
             else{ self._enginePower = Math.Lerp(self._enginePower, 0, 0.05); }
 
             currentSteeringSpeed = self.SteeringSpeed;
@@ -570,12 +570,12 @@ component Car
             } else {
                 self._driftHoldTime = Math.Lerp(self._driftHoldTime, 0.0, self.DriftSteeringRampDown);
             }
-            if (Input.GetKeyHold(GeneralLeft)) { self._drivingAngle = Math.Lerp(self._drivingAngle, (-1.0  currentMaxAngle), currentSteeringSpeed); }
-            elif (Input.GetKeyHold(GeneralRight)) { self._drivingAngle = Math.Lerp(self._drivingAngle, currentMaxAngle, currentSteeringSpeed); }
+            if (Input.GetKeyHold("General/Left")) { self._drivingAngle = Math.Lerp(self._drivingAngle, (-1.0 * currentMaxAngle), currentSteeringSpeed); }
+            elif (Input.GetKeyHold("General/Right")) { self._drivingAngle = Math.Lerp(self._drivingAngle, currentMaxAngle, currentSteeringSpeed); }
             else { self._drivingAngle = Math.Lerp(self._drivingAngle, 0, 0.1); }
 
             if(self._steeringWheel != null) {
-                visualWheelTurn = self._drivingAngle  2.5;
+                visualWheelTurn = self._drivingAngle * 2.5;
                 tiltX = self._steeringWheel.LocalRotation.X;
                 tiltY = self._steeringWheel.LocalRotation.Y;
 
@@ -583,58 +583,58 @@ component Car
             }
 
             if(self._isGrounded) {
-                self.MapObject.Transform.Rotate(Vector3(0, self._drivingAngle  Time.TickTime  rotatePower, 0));
+                self.MapObject.Transform.Rotate(Vector3(0, self._drivingAngle * Time.TickTime * rotatePower, 0));
                 forceDirection = self.MapObject.Forward;
                 engineMultiplier = 1.0;
-                if(self._isDrifting && velocity  2.0)  {
+                if(self._isDrifting && velocity > 2.0)  {
                     self._driftAngle = Vector3.Angle(vector.Normalized, self.MapObject.Forward);
 
-                    speedFactor = Math.Clamp(velocity  self.MaxMoveSpeed, 0.3, 1.0);
-                    blendAmount = 0.4 + (speedFactor  0.3);
+                    speedFactor = Math.Clamp(velocity / self.MaxMoveSpeed, 0.3, 1.0);
+                    blendAmount = 0.4 + (speedFactor * 0.3);
                     forceDirection = Vector3.Lerp(self.MapObject.Forward, vector.Normalized, blendAmount);
-                    engineMultiplier = 0.75 + (speedFactor  0.15);
+                    engineMultiplier = 0.75 + (speedFactor * 0.15);
 
-                    if(self._driftAngle  25.0) {
-                        counterSteerAmount = Math.Clamp((self._driftAngle - 25.0)  65.0, 0.0, 1.0);
+                    if(self._driftAngle > 25.0) {
+                        counterSteerAmount = Math.Clamp((self._driftAngle - 25.0) / 65.0, 0.0, 1.0);
                         cross = Vector3.Cross(self.MapObject.Forward, vector.Normalized);
-                        counterDirection = Math.Sign(cross.Y)  -1.0;
-                        assistAngle = counterDirection  currentMaxAngle  self.DriftCounterSteerAssist  counterSteerAmount;
+                        counterDirection = Math.Sign(cross.Y) * -1.0;
+                        assistAngle = counterDirection * currentMaxAngle * self.DriftCounterSteerAssist * counterSteerAmount;
                         self._drivingAngle = Math.Lerp(self._drivingAngle, self._drivingAngle + assistAngle, 0.3);
                     }
                 }
 
-                self._rigidbody.AddForce(forceDirection  (self.MoveForce  engineMultiplier)  (self._enginePower  self.MaxEngineSpeed));
-                if(Math.Abs(self._enginePower)  1) { self.SlowToStop(); }
+                self._rigidbody.AddForce(forceDirection * (self.MoveForce * engineMultiplier) * (self._enginePower / self.MaxEngineSpeed));
+                if(Math.Abs(self._enginePower) < 1) { self.SlowToStop(); }
                 if(self._isDrifting) { self._driftTransition = Math.Lerp(self._driftTransition, 1.0, 0.15); }
                 else { self._driftTransition = Math.Lerp(self._driftTransition, 0.0, 0.05); }
 
-                baseGrip = self.VelocityFacing - (self._velocityFacingDiff  velocity  self.MaxMoveSpeed);
+                baseGrip = self.VelocityFacing - (self._velocityFacingDiff * velocity / self.MaxMoveSpeed);
                 targetGrip = Math.Lerp(baseGrip, self.DriftGrip, self._driftTransition);
 
-                if(self._isBraking && !self._isDrifting) { targetGrip = self.BrakingVelocityFacingScale  (self._currentBrakingMultiplier  1.0); }
+                if(self._isBraking && !self._isDrifting) { targetGrip *= self.BrakingVelocityFacingScale * (self._currentBrakingMultiplier / 1.0); }
                 self._currentGrip = Math.Lerp(self._currentGrip, targetGrip, 0.02);
 
-                newVector = Vector3.Lerp(vector.Normalized, self.MapObject.Transform.Forward  forwardMultiplier, self._currentGrip)  velocity;
+                newVector = Vector3.Lerp(vector.Normalized, self.MapObject.Transform.Forward * forwardMultiplier, self._currentGrip) * velocity;
 
                 if(self._isDrifting) {
 
                     sidewaysFactor = Math.Abs(Vector3.Dot(newVector.Normalized, self.MapObject.Right));
-                    speedLossFactor = 1.0 - (self.DriftSpeedLoss  sidewaysFactor);
+                    speedLossFactor = 1.0 - (self.DriftSpeedLoss * sidewaysFactor);
 
-                    newVector = newVector.Magnitude  speedLossFactor  newVector.Normalized;
+                    newVector = newVector.Magnitude * speedLossFactor * newVector.Normalized;
                 } 
-                elif(self._isBraking) { newVector = newVector.Magnitude  (1.0 - (self.BrakingScale  self._currentBrakingMultiplier  1.0))  newVector.Normalized; }
+                elif(self._isBraking) { newVector = newVector.Magnitude * (1.0 - (self.BrakingScale * self._currentBrakingMultiplier / 1.0)) * newVector.Normalized; }
                 newVector.Y = y;
 
                 self._rigidbody.SetVelocity(newVector);
                 self.LimitSpeed();
                 self.FaceSurface();
                 
-                if(self._wasDriftingLastFrame && !self._isDrifting && velocity  5.0) {
+                if(self._wasDriftingLastFrame && !self._isDrifting && velocity > 5.0) {
                     currentVel = self._rigidbody.GetVelocity();
                     currentVel.Y = 0;
-                    if(currentVel.Magnitude  0.1) {
-                        boostedVel = currentVel.Normalized  Math.Min(currentVel.Magnitude  self.DriftExitBoost, self.MaxMoveSpeed);
+                    if(currentVel.Magnitude > 0.1) {
+                        boostedVel = currentVel.Normalized * Math.Min(currentVel.Magnitude * self.DriftExitBoost, self.MaxMoveSpeed);
                         boostedVel.Y = y;
                         self._rigidbody.SetVelocity(boostedVel);
                     }
@@ -642,10 +642,10 @@ component Car
                 self._wasDriftingLastFrame = self._isDrifting;
 
                 if(self._leftBackWheelSmoke != null) {
-                    if(self._isDrifting && velocity  30.0) {
-                        smokeIntensity = Math.Clamp(self._driftAngle  35.0, 0.5, 1.5);
-                        self._leftBackWheelSmoke.Scale = Vector3(0.5  smokeIntensity);
-                        self._rightBackWheelSmoke.Scale = Vector3(0.5  smokeIntensity);
+                    if(self._isDrifting && velocity > 30.0) {
+                        smokeIntensity = Math.Clamp(self._driftAngle / 35.0, 0.5, 1.5);
+                        self._leftBackWheelSmoke.Scale = Vector3(0.5 * smokeIntensity);
+                        self._rightBackWheelSmoke.Scale = Vector3(0.5 * smokeIntensity);
                         self._leftBackWheelSmoke.Active = true;
                         self._rightBackWheelSmoke.Active = true;
                         self._driftingSFX.Active = true;
@@ -664,21 +664,21 @@ component Car
     {   
         me = Network.MyPlayer.Character;
         self.Health -= damage;
-        if(self.Health = 0) { 
-            self._explosion.Scale = Vector3((damage  10)  0.5);
+        if(self.Health <= 0) { 
+            self._explosion.Scale = Vector3((damage / 10) * 0.5);
             self._explosion.Active = true;
             self.Health = 0;
         }
         if(self._driftingSFX.Active) { self._driftingSFX.Active = false; }
-        #Game.Print(damage +  Health  + self.Health);
+        #Game.Print(damage + " Health: " + self.Health);
         
-        Game.SpawnEffect(EffectNameEnum.Boom5, self._leftFrontWheel.Position, Vector3(), (damage  10)  0.5);
+        Game.SpawnEffect(EffectNameEnum.Boom5, self._leftFrontWheel.Position, Vector3(), (damage / 10) * 0.5);
 
-        if(damage = self.Health) {
+        if(damage >= self.Health) {
             if(me != null) {
                 self.OnExitCarRider();
                 carVelocity = self._rigidbody.GetVelocity();
-                if(carVelocity.Magnitude  0) { me.Velocity = carVelocity  (damage  20); }
+                if(carVelocity.Magnitude > 0) { me.Velocity = carVelocity * (damage / 20); }
             }
         }
     }
@@ -688,16 +688,16 @@ component Car
         if (self._human != null) 
         {
             if(self._human != Network.MyPlayer.Character) { return; }
-            self._human.PlayAnimation(Armaturehorse_idle); 
-            changeCamKey = Input.GetKeyDown(SettingsManager.ReturnKeyString(Change Camera));
-            toggleCamLockKey = Input.GetKeyDown(SettingsManager.ReturnKeyString(Toggle Camera Lock));
+            self._human.PlayAnimation("Armature|horse_idle"); 
+            changeCamKey = Input.GetKeyDown(SettingsManager.ReturnKeyString("Change Camera"));
+            toggleCamLockKey = Input.GetKeyDown(SettingsManager.ReturnKeyString("Toggle Camera Lock"));
             if (changeCamKey) {
                 if(self._isCameraLocked) {
                     if(!Camera.IsManual) { Camera.SetManual(true); }
                     self._currentCamera = Math.Mod(self._currentCamera + 1, 4); 
                     if(self._currentCamera == 0) { Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(false); }
                     else { Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
-                    Game.Print(Camera  + self._cameraNames.Get(self._currentCamera)); 
+                    Game.Print("Camera: " + self._cameraNames.Get(self._currentCamera)); 
                 }
                 else { self.ToggleCameraMode(); }
             }
@@ -709,28 +709,28 @@ component Car
         if (self.NetworkView.Owner == Network.MyPlayer && self._inUse)
         {
             self._human = self.NetworkView.Owner.Character;
-            if (Input.GetKeyDown(InteractionInteract))
+            if (Input.GetKeyDown("Interaction/Interact"))
             {
                 self.OnExitCarRider();
                 return;
             }
-            flipCarKey = Input.GetKeyDown(SettingsManager.ReturnKeyString(Flip Car));
-            driftKey = Input.GetKeyHold(SettingsManager.ReturnKeyString(Drift));
+            flipCarKey = Input.GetKeyDown(SettingsManager.ReturnKeyString("Flip Car"));
+            driftKey = Input.GetKeyHold(SettingsManager.ReturnKeyString("Drift"));
             if (flipCarKey)
             {   
                 self._rigidbody.SetVelocity(Vector3.Zero);
-                self.MapObject.Transform.Position = self.MapObject.Transform.Position + Vector3.Up  3.0;
+                self.MapObject.Transform.Position = self.MapObject.Transform.Position + Vector3.Up * 3.0;
                 self.MapObject.Rotation = Vector3(0,Camera.Rotation.Y, 0);
             }
             if(driftKey) { 
                 if(self._isDrifting) { return; }
-                speedFraction = Math.Clamp(self._currentVelocity  self.MaxMoveSpeed, 0.0, 1.0);
+                speedFraction = Math.Clamp(self._currentVelocity / self.MaxMoveSpeed, 0.0, 1.0);
                 self._driftTimer = Math.Lerp(self.DriftDurationMin, self.DriftDurationMax, speedFraction);
             } 
 
-            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString(Brake));
+            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString("Brake"));
             
-            if (self.NetworkView.Owner.Character == null  self.NetworkView.Owner.Character.Type != Human  self.NetworkView.Owner.Character.MountedTransform != self._transform)
+            if (self.NetworkView.Owner.Character == null || self.NetworkView.Owner.Character.Type != "Human" || self.NetworkView.Owner.Character.MountedTransform != self._transform)
             {
                 return;
                 self.NetworkView.Transfer(Network.MasterClient);
@@ -740,23 +740,23 @@ component Car
         }
         elif (self._hasPassenger && self._human != null)
         {
-            if (self._human == null  self._human.MountedMapObject != self.MapObject)
+            if (self._human == null || self._human.MountedMapObject != self.MapObject)
             {
                 self._hasPassenger = false;
                 return;
             }
-            if (Input.GetKeyDown(InteractionInteract))
+            if (Input.GetKeyDown("Interaction/Interact"))
             {
                 self._human.Unmount();
                 self._human = null;
-                self.MapObject.Position += self.MapObject.Right  1.0;
+                self.MapObject.Position += self.MapObject.Right * 1.0;
                 Camera.SetManual(false);
                 self._hasPassenger = false;
                 self._isPassenger = false;
-                self.NetworkView.SendMessageOthers(p + Convert.ToString(self._hasPassenger));
+                self.NetworkView.SendMessageOthers("p" + Convert.ToString(self._hasPassenger));
             }
         }
-        if (self._collidingHuman != null && !self._collidingHuman.IsMounted && Input.GetKeyDown(InteractionInteract))
+        if (self._collidingHuman != null && !self._collidingHuman.IsMounted && Input.GetKeyDown("Interaction/Interact"))
         {
             if (self._collidingDrive && !self._inUse)
             {
@@ -766,7 +766,7 @@ component Car
                 }
                 else
                 {
-                    self.NetworkView.SendMessage(self.NetworkView.Owner, request);
+                    self.NetworkView.SendMessage(self.NetworkView.Owner, "request");
                 }
             }
             elif (self._collidingPassenger && !self._hasPassenger)
@@ -776,7 +776,7 @@ component Car
                 self._human.ClearHooks();
                 self._hasPassenger = true;
                 self._isPassenger = true;
-                self.NetworkView.SendMessageOthers(p + Convert.ToString(self._hasPassenger));
+                self.NetworkView.SendMessageOthers("p" + Convert.ToString(self._hasPassenger));
             }
         }
     }
@@ -784,7 +784,7 @@ component Car
     
     function OnEnterCarRider()
     {
-        if(self.Health = 0) { return; }
+        if(self.Health <= 0) { return; }
         self._human = self._collidingHuman;
         self._human.MountTransform(self._transform, self.MountPositionOffsetRider, Vector3.Zero);
         self._human.ClearHooks();
@@ -798,7 +798,7 @@ component Car
     {
         self._human.Unmount();
         self._human = null;
-        self.MapObject.Position += self.MapObject.Right  -1.0;
+        self.MapObject.Position += self.MapObject.Right * -1.0;
         
         # self.NetworkView.Transfer(Network.MasterClient);
         self._inUse = false;
@@ -821,7 +821,7 @@ component Car
         if(camMode == CameraModeEnum.TPS) { Camera.SetCameraMode(CameraModeEnum.Original); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
         elif(camMode == CameraModeEnum.Original) { Camera.SetCameraMode(CameraModeEnum.FPS); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(false); }
         else { Camera.SetCameraMode(CameraModeEnum.TPS); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
-        Game.Print(Camera Mode  + Camera.CameraMode);
+        Game.Print("Camera Mode: " + Camera.CameraMode);
     }
 
         function OnLateFrame()
@@ -836,7 +836,7 @@ component Car
                 velocityDir = self._rigidbody.GetVelocity();
                 velocityDir.Y = 0;
                 
-                if (velocityDir.Magnitude  1.0) { velocityDir = self.MapObject.Forward; }
+                if (velocityDir.Magnitude < 1.0) { velocityDir = self.MapObject.Forward; }
                 else { velocityDir = velocityDir.Normalized; }
 
                 camForward = Vector3.Lerp(self.MapObject.Forward, velocityDir, 0.6).Normalized;
@@ -844,26 +844,26 @@ component Car
                 if (currentCamera == 0)
                 {   
                     firstPersonCameraOffset = self.FirstPersonCameraOffset;
-                    cameraSetPosition = self._human.Position + self.MapObject.Up  firstPersonCameraOffset.Y + self.MapObject.Forward  firstPersonCameraOffset.X;
-                    lookAt = mapObjectPos + self.MapObject.Forward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y;
+                    cameraSetPosition = self._human.Position + self.MapObject.Up * firstPersonCameraOffset.Y + self.MapObject.Forward * firstPersonCameraOffset.X;
+                    lookAt = mapObjectPos + self.MapObject.Forward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y;
                 }
                 elif (currentCamera == 1)
                 {   
                     bumperCameraOffset = self.BumperViewCameraOffset;
-                    cameraSetPosition = mapObjectPos + self.MapObject.Up  bumperCameraOffset.Y + self.MapObject.Forward  bumperCameraOffset.X;
-                    lookAt = mapObjectPos + self.MapObject.Forward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y;
+                    cameraSetPosition = mapObjectPos + self.MapObject.Up * bumperCameraOffset.Y + self.MapObject.Forward * bumperCameraOffset.X;
+                    lookAt = mapObjectPos + self.MapObject.Forward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y;
                 }
                 elif (currentCamera == 2)
                 {   
                     thirdPersonCameraOffset = self.ThirdPersonCameraOffset;
-                    cameraSetPosition = mapObjectPos + self.MapObject.Up  thirdPersonCameraOffset.Y + camForward  thirdPersonCameraOffset.X;
-                    lookAt = mapObjectPos + camForward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y;
+                    cameraSetPosition = mapObjectPos + self.MapObject.Up * thirdPersonCameraOffset.Y + camForward * thirdPersonCameraOffset.X;
+                    lookAt = mapObjectPos + camForward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y;
                 }
                 elif (currentCamera == 3)
                 {   
                     thirdPersonExtendedCameraOffset = self.ThirdPersonExtendedCameraOffset;
-                    cameraSetPosition = mapObjectPos + self.MapObject.Up  thirdPersonExtendedCameraOffset.Y + camForward  thirdPersonExtendedCameraOffset.X;
-                    lookAt = mapObjectPos + camForward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y; 
+                    cameraSetPosition = mapObjectPos + self.MapObject.Up * thirdPersonExtendedCameraOffset.Y + camForward * thirdPersonExtendedCameraOffset.X;
+                    lookAt = mapObjectPos + camForward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y; 
                 }
 
                 if(self._isCameraLocked) {
@@ -879,8 +879,8 @@ component Car
             velocityY = velocity.Y;
             velocity.Y = 0;
 
-            if (velocity.Magnitude  1) { self._rigidbody.SetVelocity(Vector3.Up  velocityY); }
-            else { self._rigidbody.AddForce(self.SlowDownScale  -1.0  velocity + velocityY  Vector3.Up); }
+            if (velocity.Magnitude < 1) { self._rigidbody.SetVelocity(Vector3.Up * velocityY); }
+            else { self._rigidbody.AddForce(self.SlowDownScale * -1.0 * velocity + velocityY * Vector3.Up); }
         }
 
         function LimitSpeed()
@@ -888,17 +888,17 @@ component Car
             velocity = self._rigidbody.GetVelocity();
             velocityY = velocity.Y;
             velocity.Y = 0;
-            velocity = velocity.Normalized  Math.Min(velocity.Magnitude, self.MaxMoveSpeed);
+            velocity = velocity.Normalized * Math.Min(velocity.Magnitude, self.MaxMoveSpeed);
             velocity.Y = velocityY;
             self._rigidbody.SetVelocity(velocity);
         }
 
         function CheckIsGrounded()
         {
-            offset = self.MapObject.Up  self.MapObject.Scale.X  -0.5;
+            offset = self.MapObject.Up * self.MapObject.Scale.X * -0.5;
             for (wheel in self._wheels)
             {
-                hit = Physics.LineCast(wheel.Position, wheel.Position + offset, MapObjects);
+                hit = Physics.LineCast(wheel.Position, wheel.Position + offset, "MapObjects");
                 if (hit != null)
                 {
                     self._isGrounded = true;
@@ -910,11 +910,11 @@ component Car
 
         function FaceSurface()
         {
-            hit = Physics.LineCast(self.MapObject.Transform.Position, self.MapObject.Transform.Position + self.MapObject.Transform.Up  -2.0, MapObjects);
+            hit = Physics.LineCast(self.MapObject.Transform.Position, self.MapObject.Transform.Position + self.MapObject.Transform.Up * -2.0, "MapObjects");
             if (hit == null) { return; }
             difference = hit.Normal - self.MapObject.Transform.Up;
             difference.Y = 0;
-            self._rigidbody.AddTorque(difference  self.TorqueForce, ForceModeEnum.Acceleration);
+            self._rigidbody.AddTorque(difference * self.TorqueForce, ForceModeEnum.Acceleration);
         }
 
         function PlaySounds(engine, velocity)
@@ -935,15 +935,15 @@ component Car
                 self.Ignition();
             }
 
-            if (self._engineOn && Math.Abs(engine)  5) { self._canExhaust = true; }
-            elif (self._engineOn && engine  5 && self._canExhaust) 
+            if (self._engineOn && Math.Abs(engine) < 5) { self._canExhaust = true; }
+            elif (self._engineOn && engine > 5 && self._canExhaust) 
             { 
                 self._canExhaust = false; 
                 self.Exhaust();
             }
 
-            if(velocity  1 && self._engineOn) { self.HighRumble(); }
-            if (Math.Abs(engine)  self.MaxEngineSpeed  5) { self._highRumble.Active = false; }
+            if(velocity > 1 && self._engineOn) { self.HighRumble(); }
+            if (Math.Abs(engine) < self.MaxEngineSpeed / 5) { self._highRumble.Active = false; }
         }
 
         function StopSounds()
@@ -990,92 +990,92 @@ component Car
 
 extension HumanTransformEnum
 {
-    Armature = Armature;
-    Core = ArmatureCore;
+    Armature = "Armature";
+    Core = "Armature/Core";
 
-    PlayerWindTrail = ArmatureCorePlayerWindTrailEffect;
+    PlayerWindTrail = "Armature/Core/PlayerWindTrailEffect";
 
-    Hip = ArmatureCoreController_Bodyhip;
-    Spine = ArmatureCoreController_Bodyhipspine;
-    Chest = ArmatureCoreController_Bodyhipspinechest;
-    Neck = ArmatureCoreController_Bodyhipspinechestneck;
-    Head = ArmatureCoreController_Bodyhipspinechestneckhead;
-    CharHead = ArmatureCoreController_Bodyhipspinechestneckheadchar_head;
+    Hip = "Armature/Core/Controller_Body/hip";
+    Spine = "Armature/Core/Controller_Body/hip/spine";
+    Chest = "Armature/Core/Controller_Body/hip/spine/chest";
+    Neck = "Armature/Core/Controller_Body/hip/spine/chest/neck";
+    Head = "Armature/Core/Controller_Body/hip/spine/chest/neck/head";
+    CharHead = "Armature/Core/Controller_Body/hip/spine/chest/neck/head/char_head";
 
-    ShoulderL = ArmatureCoreController_Bodyhipspinechestshoulder_L;
-    UpperArmL = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_L;
-    ForearmL = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_L;
-    HandL = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_Lhand_L;
-    HandLHookRef = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_Lhand_LhookRef;
-    HandLCheckbox = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_Lhand_LcheckBox;
+    ShoulderL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L";
+    UpperArmL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L";
+    ForearmL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L";
+    HandL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L";
+    HandLHookRef = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/hookRef";
+    HandLCheckbox = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/checkBox";
 
-    ShoulderR = ArmatureCoreController_Bodyhipspinechestshoulder_R;
-    UpperArmR = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_R;
-    ForearmR = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_R;
-    HandR = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_Rhand_R;
-    HandRHookRef = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_Rhand_RhookRef;
-    HandRCheckbox = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_Rhand_RcheckBox;
+    ShoulderR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R";
+    UpperArmR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R";
+    ForearmR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R";
+    HandR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R";
+    HandRHookRef = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/hookRef";
+    HandRCheckbox = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/checkBox";
 
-    ThighL = ArmatureCoreController_Bodyhipthigh_L;
-    ShinL = ArmatureCoreController_Bodyhipthigh_Lshin_L;
-    FootL = ArmatureCoreController_Bodyhipthigh_Lshin_Lfoot_L;
+    ThighL = "Armature/Core/Controller_Body/hip/thigh_L";
+    ShinL = "Armature/Core/Controller_Body/hip/thigh_L/shin_L";
+    FootL = "Armature/Core/Controller_Body/hip/thigh_L/shin_L/foot_L";
 
-    ThighR = ArmatureCoreController_Bodyhipthigh_R;
-    ShinR = ArmatureCoreController_Bodyhipthigh_Rshin_R;
-    FootR = ArmatureCoreController_Bodyhipthigh_Rshin_Rfoot_R;
+    ThighR = "Armature/Core/Controller_Body/hip/thigh_R";
+    ShinR = "Armature/Core/Controller_Body/hip/thigh_R/shin_R";
+    FootR = "Armature/Core/Controller_Body/hip/thigh_R/shin_R/foot_R";
 
-    IkL = ArmatureCoreIK_L;
-    KneeL = ArmatureCoreIK_Lknee_L;
+    IkL = "Armature/Core/IK_L";
+    KneeL = "Armature/Core/IK_L/knee_L";
 
-    IkR = ArmatureCoreIK_R;
-    KneeR = ArmatureCoreIK_Rknee_R;
+    IkR = "Armature/Core/IK_R";
+    KneeR = "Armature/Core/IK_R/knee_R";
 
-    OdmgSmoke = HumanPlayer3dmg_smoke;
-    SpeedFx = HumanPlayerspeedFX;
-    SpeedEffect = HumanPlayerspeedEffect;
-    SlideSparks = HumanPlayerslideSparks;
+    OdmgSmoke = "HumanPlayer/3dmg_smoke";
+    SpeedFx = "HumanPlayer/speedFX";
+    SpeedEffect = "HumanPlayer/speedEffect";
+    SlideSparks = "HumanPlayer/slideSparks";
 
-    CharacterChest = Armaturecharacter_chest;
-    CharacterLeg = Armaturecharacter_leg;
-    CharacterArmL = Armaturecharacter_arm_l;
-    CharacterArmR = Armaturecharacter_arm_r;
-    CharacterBody = Armaturecharacter_body;
-    CharacterHandL = Armaturecharacter_hand_l;
-    CharacterHandR = Armaturecharacter_hand_r;
+    CharacterChest = "Armature/character_chest";
+    CharacterLeg = "Armature/character_leg";
+    CharacterArmL = "Armature/character_arm_l";
+    CharacterArmR = "Armature/character_arm_r";
+    CharacterBody = "Armature/character_body";
+    CharacterHandL = "Armature/character_hand_l";
+    CharacterHandR = "Armature/character_hand_r";
 
-    GroundLeft = ArmatureGroundLeft;
-    GroundRight = ArmatureGroundRight;
+    GroundLeft = "Armature/GroundLeft";
+    GroundRight = "Armature/GroundRight";
 
-    Buff1 = Armaturebuff1;
-    LeviSpinTest = Armaturebuff1LeviSpinTest1;
-    ParticleSystem = Armaturebuff1Particle System;
+    Buff1 = "Armature/buff1";
+    LeviSpinTest = "Armature/buff1/LeviSpinTest1";
+    ParticleSystem = "Armature/buff1/Particle System";
 
-    Buff2 = HumanPlayerbuff2;
-    Fire1 = HumanPlayerfire1;
-    Sparks = HumanPlayerfire1Sparks;
-    SteamEffect = HumanPlayerfire1SteamEffect;
+    Buff2 = "HumanPlayer/buff2";
+    Fire1 = "HumanPlayer/fire1";
+    Sparks = "HumanPlayer/fire1/Sparks";
+    SteamEffect = "HumanPlayer/fire1/SteamEffect";
 }
 
 extension SettingsManager
 {
-    DisabledBaseKeys = ;
+    DisabledBaseKeys = "";
 
-    PrimaryUIColor = #df56f4;
-    SecondaryUIColor = #ffb0de;
-    AccentUIColor = #ff0000;
-    _fileName = ;
-    _pendingRebind = ;
-    _popupName = ;
+    PrimaryUIColor = "#df56f4";
+    SecondaryUIColor = "#ffb0de";
+    AccentUIColor = "#ff0000";
+    _fileName = "";
+    _pendingRebind = "";
+    _popupName = "";
     _settings = Dict(); #Key = PropertyName, Value = Keybind String
     _allAvailableKeybinds = List();
     _disabledPropKeys = List();
 
-    _keybindIdentifier = K_;
-    _settingIdentifier = S_;
+    _keybindIdentifier = "K_";
+    _settingIdentifier = "S_";
 
-    function SetCustomSettings(fileName) #Set your Custom KeybindsSettings here, key = Identifier + Custom KeySetting Name, value = Default Keybind or Default truefalse
+    function SetCustomSettings(fileName) #Set your Custom Keybinds/Settings here, key = Identifier + "Custom Key/Setting Name", value = Default Keybind or Default true/false
     {   
-        settingsComponent = Map.FindMapObjectByComponent(Settings).GetComponent(Settings);
+        settingsComponent = Map.FindMapObjectByComponent("Settings").GetComponent("Settings");
         self.DisabledBaseKeys = settingsComponent.DisabledBaseKeys; 
 
         self.SetAvailableKeys();
@@ -1083,31 +1083,31 @@ extension SettingsManager
         keybindID = self._keybindIdentifier;
         settingID = self._settingIdentifier;
 
-        self.SetSetting(keybindID + Drift, InputHumanEnum.Dash);
-        self.SetSetting(keybindID + Brake, InputHumanEnum.HorseJump);
-        self.SetSetting(keybindID + Flip Car, InputHumanEnum.Reload);
-        self.SetSetting(keybindID + Change Camera, InputGeneralEnum.ChangeCamera);
-        self.SetSetting(keybindID + Accelerate, InputGeneralEnum.Forward);
-        self.SetSetting(keybindID + Toggle Camera Lock, InputInteractionEnum.QuickSelect1);
-        self.SetSetting(keybindID + Keybinds Popup, InputInteractionEnum.QuickSelect2);
+        self.SetSetting(keybindID + "Drift", InputHumanEnum.Dash);
+        self.SetSetting(keybindID + "Brake", InputHumanEnum.HorseJump);
+        self.SetSetting(keybindID + "Flip Car", InputHumanEnum.Reload);
+        self.SetSetting(keybindID + "Change Camera", InputGeneralEnum.ChangeCamera);
+        self.SetSetting(keybindID + "Accelerate", InputGeneralEnum.Forward);
+        self.SetSetting(keybindID + "Toggle Camera Lock", InputInteractionEnum.QuickSelect1);
+        self.SetSetting(keybindID + "Keybinds Popup", InputInteractionEnum.QuickSelect2);
         
     }
 
     function GetAndDisableKeybindSlots()
     {
         disabledKeys = self.DisabledBaseKeys;
-        if(disabledKeys == ) { return; }
-        Game.Print(Utils.ColorStr(Disabled Base Game Keys for Custom Key Slots , self.PrimaryUIColor));
+        if(disabledKeys == "") { return; }
+        Game.Print(Utils.ColorStr("Disabled Base Game Keys for Custom Key Slots: ", self.PrimaryUIColor));
         secondaryColor = self.SecondaryUIColor;
         accentColor = self.AccentUIColor;
         keybindID = self._keybindIdentifier;
         settingID = self._settingIdentifier;
 
-        for(prop in String.Split(disabledKeys, ,)) {
+        for(prop in String.Split(disabledKeys, ",")) {
             key = self._settings.Get(keybindID + prop);
             keyName = Utils.ColorStr(Input.GetKeyName(key), accentColor);
             
-            Game.Print(Utils.ColorStr(prop, self.PrimaryUIColor) +  [ + keyName + ]  + Utils.ColorStr(key, secondaryColor));
+            Game.Print(Utils.ColorStr(prop, self.PrimaryUIColor) + " [" + keyName + "] " + Utils.ColorStr(key, secondaryColor));
             self._disabledPropKeys.Add(key);
             Input.SetKeyDefaultEnabled(key, false); 
         }
@@ -1115,22 +1115,22 @@ extension SettingsManager
 
     function OnButtonClick(buttonName)
     {
-        args = String.Split(buttonName, );
+        args = String.Split(buttonName, "|");
         button = args.Get(0);
 
-        if(button == Key) {
+        if(button == "Key") {
             self._pendingRebind = args.Get(1);
             #Game.Print(self._pendingRebind);
             self.ShowAllBindsPopup(self._pendingRebind);
             return;
         }
-        elif(button == Rebind) {
+        elif(button == "Rebind") {
             pendingRebind = args.Get(1);
             popupName = self._popupName;
             if(self._pendingRebind != pendingRebind) {
                 UI.ClearPopup(popupName);
                 UI.HidePopup(popupName);
-                Game.Print(Error try again);
+                Game.Print("Error try again");
                 return;
             }
             key = args.Get(2);
@@ -1139,25 +1139,25 @@ extension SettingsManager
             if(self._disabledPropKeys.Contains(pendingRebind)) {
                 Input.SetKeyDefaultEnabled(key, false);
                 Input.SetKeyDefaultEnabled(previousKey, true);
-                #Game.Print(previousKey +  Current Key  + key);
+                #Game.Print(previousKey + " Current Key: " + key);
             }
-            #Game.Print(key +   KeyName  + Input.GetKeyName(key));
+            #Game.Print(key + " | KeyName: " + Input.GetKeyName(key));
             self.SetSetting(pendingRebind, key);
             self.SaveSettings();
             self.ShowKeybindPopup();
-            self._pendingRebind = ;
+            self._pendingRebind = "";
             return;
         }
     }
 
     function IsKeybind(propString)
     {
-        return String.SubstringWithLength(propString, 0, 1) == K;
+        return String.SubstringWithLength(propString, 0, 1) == "K";
     }
 
     function IsSetting(propString)
     {
-        return String.SubstringWithLength(propString, 0, 1) == S;
+        return String.SubstringWithLength(propString, 0, 1) == "S";
     }
 
     function CreatePopup(popupName, title)
@@ -1181,16 +1181,16 @@ extension SettingsManager
         primaryColor = self.PrimaryUIColor;
         secondaryColor = self.SecondaryUIColor;
         accentColor = self.AccentUIColor;
-        UI.AddPopupLabel(popupName, Utils.ColorStr(Rebinding the , primaryColor) + Utils.ColorStr(pendingRebind, accentColor) + Utils.ColorStr( Key, primaryColor));
+        UI.AddPopupLabel(popupName, Utils.ColorStr("Rebinding the ", primaryColor) + Utils.ColorStr(pendingRebind, accentColor) + Utils.ColorStr(" Key", primaryColor));
 
         for(key in self._allAvailableKeybinds) {
             if(self._settings.Values.Contains(key)) { continue; }
-            customKeyName = String.Split(pendingRebind, _).Get(1);
+            customKeyName = String.Split(pendingRebind, "_").Get(1);
             customKeybind = Utils.ColorStr(customKeyName, primaryColor);
             keyName = Utils.ColorStr(Input.GetKeyName(key), accentColor);
             keybindString = Utils.ColorStr(key, secondaryColor);
             
-            UI.AddPopupButton(popupName, Rebind + pendingRebind +  + key, Rebind  + customKeybind +  to [ + keyName + ]  + keybindString);
+            UI.AddPopupButton(popupName, "Rebind|" + pendingRebind + "|" + key, "Rebind " + customKeybind + " to [" + keyName + "] " + keybindString);
         }
     }
 
@@ -1204,11 +1204,11 @@ extension SettingsManager
             if(!self.IsKeybind(prop)) { continue; }
             keyName = Utils.ColorStr(Input.GetKeyName(self._settings.Get(prop)), accentColor);
             keybindString = Utils.ColorStr(self._settings.Get(prop), secondaryColor);
-            propName = String.Split(prop, _).Get(1);
+            propName = String.Split(prop, "_").Get(1);
             #Game.Print(prop);
             customKey = Utils.ColorStr(propName, primaryColor);
 
-            UI.AddPopupButton(popupName, Key + prop, Rebind  + customKey +  [ + keyName + ]  + keybindString);
+            UI.AddPopupButton(popupName, "Key|" + prop, "Rebind " + customKey + " [" + keyName + "] " + keybindString);
         }
     }
 
@@ -1224,7 +1224,7 @@ extension SettingsManager
 
     function SaveSettings()
     {   
-        PData.SaveToFile(self._fileName, , self._settings, false, false, true);
+        PData.SaveToFile(self._fileName, "", self._settings, false, false, true);
     }
 
     function LoadKeybinds()
@@ -1234,7 +1234,7 @@ extension SettingsManager
         keybindFileExists = PersistentData.FileExists(fileName);
         if(!keybindFileExists) {
             if(self._settings.Count == 0) {
-                Game.Print(Set your Keybinds first in function SetKeybinds());
+                Game.Print("Set your Keybinds first in function SetKeybinds()");
                 return;
             }
             self.SaveSettings();
@@ -1244,10 +1244,10 @@ extension SettingsManager
         for(prop in self._settings.Keys) {
             if(!self.IsKeybind(prop)) { continue; }
             savedKeybind = PData.LoadFromFile(fileName, prop, false, false);
-            if (savedKeybind == InteractionFunction4) {
-                savedKeybind = InteractionQuickSelect1;
+            if (savedKeybind == "Interaction/Function4") {
+                savedKeybind = "Interaction/QuickSelect1";
             }
-            if(savedKeybind != Empty) {
+            if(savedKeybind != "Empty") {
                 self._settings.Set(prop, savedKeybind);
             }
         }
@@ -1318,13 +1318,13 @@ extension SettingsManager
 
 extension PData
 {
-    _lastSaveFile = ;
-    _lastLoadFile = ;
+    _lastSaveFile = "";
+    _lastLoadFile = "";
 
     function SaveToFile(fileName, propName, value, encrypted, serialized, isMultiple) #If isMultiple value should = Dict
     {   
         if(!PersistentData.IsValidFileName(fileName)) {
-            Game.Print(Invalid File Name  + fileName);
+            Game.Print("Invalid File Name: " + fileName);
             return;
         }
         if(self._lastSaveFile != fileName) {
@@ -1349,7 +1349,7 @@ extension PData
         }
 
         PersistentData.LoadFromFile(fileName, encrypted);
-        data = PersistentData.GetProperty(propName, Empty);
+        data = PersistentData.GetProperty(propName, "Empty");
         if(serialized) { return Json.LoadFromString(data); }
         return data;
     }
@@ -1359,75 +1359,75 @@ extension Utils
 {
     function ColorStr(string, color)
     {
-        return color= + color +  + string + color;
+        return "<color=" + color + ">" + string + "</color>";
     }
 
     function SizeStr(string, size)
     {
-        return size= + size +  + string + size;
+        return "<size=" + size + ">" + string + "</size>";
     }
 
     function BoldStr(string)
     {
-        return b + string + b;
+        return "<b>" + string + "</b>";
     }
 }
- Weather
+/// Weather
 {
-    Skybox  Night1,
-    SkyboxColor  [
+    "Skybox" : "Night1",
+    "SkyboxColor" : [
         4,
         2,
         5,
         255
     ],
-    Daylight  [
+    "Daylight" : [
         50,
         48,
         47,
         255
     ],
-    DaylightIntensity  0.253452956676483,
-    DaylightDirection  [
+    "DaylightIntensity" : 0.253452956676483,
+    "DaylightDirection" : [
         45,
         45,
         0
     ],
-    AmbientLight  [
+    "AmbientLight" : [
         50,
         59,
         79,
         255
     ],
-    Flashlight  [
+    "Flashlight" : [
         255,
         255,
         255,
         255
     ],
-    FogDensity  0.00700000021606684,
-    FogColor  [
+    "FogDensity" : 0.00700000021606684,
+    "FogColor" : [
         37,
         45,
         67,
         255
     ],
-    Rain  0,
-    Thunder  0,
-    Snow  0,
-    Wind  0,
-    WindDirection  [
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
         0,
         0,
         0
     ],
-    RainForce  0,
-    SnowForce  0,
-    WindForce  0,
-    UseSchedule  false,
-    ScheduleLoop  false,
-    Schedule  ,
-    Name  Set 1,
-    Preset  false,
-    UniqueId  ad703064-754e-4a89-951e-cd33341f9fd3
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false,
+    "UniqueId" : "ad703064-754e-4a89-951e-cd33341f9fd3"
 }
