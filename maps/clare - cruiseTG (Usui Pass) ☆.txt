@@ -1,0 +1,1433 @@
+ Options
+EditorVersion1.0DescriptionUsui Pass is a historic mountain pass on the border of Gunma Prefecture and Nagano Prefecture, known for steep grades, dense forests, and a winding old road packed with tight hairpins.HasWeather1
+ CustomAssets
+cruisetg,httpsgithub.comvv4tAottg2-Racing-Mapsrawrefsheadsmasterassetscruisetg
+ Objects
+Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default255255255255,DaylightColor255255255255Intensity1WeatherControlledtrue;
+Scene,Customcruisetgusui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint255255255255,PrintOnStart;
+Scene,GeneralEditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6561.45,1353.458,-55.41149,0,328.178,0,1,1,1,None,Entities,Default,Default255255255255,TagNameHumanSpawnPoint;
+Scene,GeneralEditorCameraSpawnPoint,122001,0,1,1,0,0,Camera SpawnPoint,6531.097,1357.967,-18.63662,359.9849,255.8374,359.7614,1,1,1,None,Entities,Default,Default255255255255,TagNameCameraSpawnPoint;
+Scene,GeometryCube1,122003,0,1,1,1,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent2092550128MiscNone1100,RacingFinishRegionNumberOfLaps1;
+Scene,GeometryCube1,122007,0,1,0,1,0,RacingStartBarrier,6551.268,1375.01,-25.77735,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
+Scene,GeometryCube1,122008,0,1,0,1,0,RacingStartBarrier,6645.222,1375.01,-81.71515,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
+Scene,GeometryCube1,122009,0,1,0,1,0,RacingStartBarrier,6565.556,1375.01,-132.7459,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
+Scene,GeometryCube1,122010,0,1,0,1,0,RacingStartBarrier,6657.447,1375.01,-186.6838,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent475225599MiscNone1100,TagNameRacingStartBarrier;
+Scene,Customcruisetgroad-collision,122011,0,1,1,0,0,S,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,Default255255255255,;
+Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default255255255255,SettingsDisabledBaseKeysSettingsFileNameInitialDSettings
+ Logic
+component PrintOnStart
+{
+    function OnGameStart()
+    {
+        self.DelayPrint();
+    }
+    
+    function OnPlayerSpawn(player, character)
+    {
+        if(character.IsMine)
+        {
+            self.SpawnCar();
+        }
+    }
+
+    function SpawnCar()
+    {
+        o = Map.CreateMapObjectRaw(Scene,Customcruisetgae86,121997,0,1,0,1,1,ae86,6558.299,1352.199,-56.1908,0,327.0331,0,2.1,2.1,2.1,Region,MapObjects,Default,DefaultNoTint255255255255,;);
+        o.SetCollideMode(Physical);
+        
+        o.AddComponent(Rigidbody);
+        o.Rigidbody.Mass = 2000;
+        o.Rigidbody.Gravity = Vector3(0, -157000, 0);
+        o.Rigidbody.FreezeAllRotations = false;
+        o.Rigidbody.Interpolate = false;
+
+        c = o.AddComponent(Car);
+        c.CarName = AE86;
+        c.CarPath = ae86AE86;
+        c.SoundPath = ae86;
+        c.Health = 300;
+        c.CrashDecelerationThreshold = 30;
+        c.MoveForce = 115;
+        c.MaxMoveSpeed = 140;
+        c.MaxSteeringAngle = 45;
+        c.VelocityFacing = 0.07;
+        c.MinVelocityFacing = 0.04;
+        c.TorqueForce = 600;
+        c.BrakingScale = 0.02;
+        c.EngineSpeed = 0.02;
+        c.SteeringSpeed = 0.08;
+        c.MaxEngineSpeed = 120;
+        c.BrakingVelocityFacingScale = 0.06;
+        c.BrakingSteeringScale = 1.5;
+        c.BrakingMultiplierLerpScale = 0.07;
+        c.SlowDownScale = 0.003;
+        c.DriftMaxSteeringAngle = 70;
+        c.DriftGrip = 0.01;
+        c.DriftSteeringScale = 1.78;
+        c.DriftSpeedLoss = 0.002;
+        c.DriftCounterSteerAssist = 0.19;
+        c.DriftSteeringSpeedMin = 0.002;
+        c.DriftSteeringSpeedMax = 0.12;
+        c.DriftSteeringRampUp = 0.02;
+        c.DriftSteeringRampDown = 0.04;
+        c.DriftDurationMin = 0.8;
+        c.DriftDurationMax = 3;
+        c.DriftExitBoost = 1.01;
+        c.StartingCamera = ThirdPerson;
+        c.FirstPersonCameraOffset = Vector3(-0.7,1.1,2);
+        c.BumperViewCameraOffset = Vector3(1,2.5,0);
+        c.ThirdPersonCameraOffset = Vector3(-12,5,0);
+        c.ThirdPersonExtendedCameraOffset = Vector3(-14,6,0);
+        c.CameraLookAtOffset = Vector3(10,1,0);
+        c.MountPositionOffsetRider = Vector3(0.3,0.6,-0.1);
+        c.DriftSteeringSpeed = 0.1;
+        c.FirstPersonCameraLookAtOffset = Vector3(10,1,0);
+        c.BumperViewCameraLookAtOffset = Vector3(10,1,0);
+        c.ThirdPersonCameraLookAtOffset = Vector3(10,1,0);
+        c.ThirdPersonExtendedCameraLookAtOffset = Vector3(10,1,0);
+        c.FirstPersonCameraLockOffset = Vector3(10,1,0);
+        c.BumperViewCameraLockOffset = Vector3(10,1,0);
+        c.ThirdPersonCameraLockOffset = Vector3(10,1,0);
+        c.ThirdPersonExtendedCameraLockOffset = Vector3(10,1,0);
+    }
+
+    coroutine DelayPrint()
+    {
+        wait 2;
+        red = #ff0000;
+        lockedCamChangeButton = color=#ff0000 + Input.GetKeyName(SettingsManager.ReturnKeyString(Change Camera)) + color;
+        toggleLockedCameraButton = color=#ff0000 + Input.GetKeyName(SettingsManager.ReturnKeyString(Toggle Camera Lock)) + color;
+        
+        turnUprightButton = color=#ff0000 + Input.GetKeyName(SettingsManager.ReturnKeyString(Flip Car)) + color;
+        driftButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Drift)), red);
+        brakeButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Brake)), red);
+        accelerateButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Accelerate)), red);
+        keybindSettingsButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString(Keybinds Popup)), red);
+        
+        nl = String.Newline;
+        message = Press  + turnUprightButton +  to turn car upright + nl + Press  + lockedCamChangeButton +  to Change Camera Mode + nl +
+                    Press  + toggleLockedCameraButton +  to Unlock Camera;
+        message += nl + Press  + driftButton +  to Drift;
+        message += nl + Press  + brakeButton +  to Brake;
+        message += nl + Press  + accelerateButton +  to Accelerate;
+        message += nl + Press  + keybindSettingsButton +  to Open the Keybind Settings Menu;
+        Game.Print(message);  
+    }
+
+    function OnTick() {
+        me = Network.MyPlayer.Character;
+        if (me != null) {
+            me.CurrentGas = 0;
+        }
+    }
+}
+
+component Settings
+{
+    DisabledBaseKeys = ;
+    DisabledBaseKeysTooltip = Custom Keybind Slots to disable the Games Default Key Binding for(Separate with , [e.g - Drift,Brake,Flip Car, Change Camera, Keybinds Popup]);
+    SettingsFileName = InitialDSettings;
+
+    function OnGameStart()
+    {
+        SettingsManager.SetCustomSettings(self.SettingsFileName);
+        SettingsManager.LoadKeybinds();
+        SettingsManager.CreatePopup(KeybindSettings, Keybing Settings);
+    }
+
+    function OnFrame()
+    {
+        openKeybindSettingsPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString(Keybinds Popup));
+        if(openKeybindSettingsPressed) {
+            SettingsManager.ShowKeybindPopup();
+        }
+    }
+
+    function OnButtonClick(buttonName)
+    {
+        SettingsManager.OnButtonClick(buttonName);
+    }
+}
+
+component Car
+{   
+    CarName = AE86;
+    CarNameDropbox = AE86,RX7;
+    CarPath = ae86AE86;
+    SoundPath = ae86;
+    Health = 500;
+    CrashDecelerationThreshold = 30.0;
+    MoveForce = 45.0;
+    MaxMoveSpeed = 60.0;
+    MaxSteeringAngle = 45.0;
+    VelocityFacing = 0.07;
+    MinVelocityFacing = 0.04;
+    TorqueForce = 300.0;
+    BrakingScale = 0.02;
+    EngineSpeed = 0.02;
+    SteeringSpeed = 0.04;
+    MaxEngineSpeed = 100.0;
+    BrakingVelocityFacingScale = 0.05;
+    BrakingSteeringScale = 1.5;
+    BrakingMultiplierLerpScale = 0.001;
+    SlowDownScale = 0.003;
+
+    DriftMaxSteeringAngle = 120.0;
+    DriftGrip = 0.0003; 
+    DriftSteeringScale = 4.0;
+    DriftSpeedLoss = 0.003;
+    _currentGrip = 0.07;
+
+    DriftCounterSteerAssist = 0.15;
+
+    DriftSteeringSpeedMin = 0.03;
+    DriftSteeringSpeedMax = 0.13;
+    DriftSteeringRampUp = 0.02;
+    DriftSteeringRampDown = 0.08;
+
+    DriftDurationMin = 0.8;
+    DriftDurationMax = 4.0;
+    _driftTimer = 0.0;
+    _currentVelocity = 0.0;
+    _driftHoldTime = 0.0;
+
+    _driftAngle = 0.0;
+    _driftTransition = 0.0;
+    _wasDriftingLastFrame = false;
+    DriftExitBoost = 1.12;
+
+    CameraStartLocked = true;
+    StartingCamera = ThirdPerson;
+    StartingCameraDropbox = ThirdPerson,ThirdPersonExtended,FirstPerson,BumperView;
+
+    FirstPersonCameraOffset = Vector3(0.15, 1.0,0);
+    BumperViewCameraOffset = Vector3(1.0, 2.5,0);
+    ThirdPersonCameraOffset = Vector3(-12.0, 5.0,0);
+    ThirdPersonExtendedCameraOffset = Vector3(-14.0, 6.0,0);
+
+    CameraLookAtOffset = Vector3(10.0, 1.0);
+    MountPositionOffsetRider = Vector3(0.3, 0.6, -0.1);
+
+    _cameraNames = Dict();
+    _cameraIDs = Dict();
+
+    _isCameraLocked = true;
+
+    _inUse = false;
+    _hasPassenger = false;
+    _isPassenger = false;
+    _human = null;
+    _collidingHuman = null;
+    _collidingDrive = false;
+    _collidingPassenger = false;
+    _rigidbody = null;
+    
+    _leftFrontWheel = null;
+    _rightFrontWheel = null;
+    _leftBackWheel = null;
+    _rightBackWheel = null;
+    _wheels = List();
+
+    _transform = null;
+
+    _enginePower = 0.0;
+    _drivingAngle = 0.0;
+    _isGrounded = false;
+    _isBraking = false;
+    _currentCamera = 2;
+    _currentBrakingMultiplier = 1.0;
+
+    #Sounds
+    _ignition = null;
+    _exhaust = null;
+    _lowRumble = null;
+    _highRumble = null;
+    _driftingSFX = null;
+    _doorSlamAudio = null;
+    _engineOn = false;
+    _canExhaust = false;
+    _soundEngine = 0;
+    _soundVelocity = 0;
+
+    #Visual FX
+    _explosion = null;
+    _rightBackWheelSmoke = null;
+    _leftBackWheelSmoke = null;
+    
+    _velocityFacingDiff = 0;
+    _lowVelocityThreshold = 15.0;
+    
+    _previousSpeed = 0.0;
+    _canMove = false;
+    _steeringWheel = null;
+
+    _isDrifting = false;
+    _settings = Dict();
+
+    function GetKeybinds()
+    {
+        self._settings = SettingsManager._settings;
+
+        for(key in self._settings.Keys) {
+            Game.Print(key +    + self._settings.Get(key));
+        }
+    }
+    
+    function InitCarType()
+    {
+        carType = self.CarName;
+        carPath = self.CarPath;
+        soundPath = self.SoundPath;
+
+        self._leftFrontWheel = self.MapObject.GetTransform(carPath + -wheel-1);
+        self._rightFrontWheel = self.MapObject.GetTransform(carPath + -wheel-2);
+        self._leftBackWheel = self.MapObject.GetTransform(carPath + -wheel-3);
+        self._rightBackWheel = self.MapObject.GetTransform(carPath + -wheel-4);
+        self._steeringWheel = self.MapObject.GetTransform(carPath + -Steering-Wheel);
+        self._ignition = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -ignition,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+        self._exhaust = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -exhaust,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+        self._lowRumble = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -slow-rumble,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+        self._highRumble = Map.CreateMapObjectRaw(Scene,Customcruisetg + soundPath + -fast-rumble,121971,0,1,0,0,0, + soundPath + -slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+        self._driftingSFX = Map.CreateMapObjectRaw(Scene,Customcruisetgdrifting,122025,0,0,0,0,0,drifting,6570.609,1365.88,-51.67888,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint255255255255,);
+        self._wheels.Add(self._leftFrontWheel);
+        self._wheels.Add(self._rightFrontWheel);
+        self._wheels.Add(self._leftBackWheel);
+        self._wheels.Add(self._rightBackWheel);
+        self.ParentSmokeToCar();
+    }
+
+    function ParentSmokeToCar()
+    {   
+        mapObjTransform = self.MapObject.Transform;
+        self._leftBackWheelSmoke = Map.CreateMapObjectRaw(Scene,Customcruisetgsmoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+        self._rightBackWheelSmoke = Map.CreateMapObjectRaw(Scene,Customcruisetgsmoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint255255255255,);
+
+        self._leftBackWheelSmoke.Position = self._leftBackWheel.Position;
+        self._rightBackWheelSmoke.Position = self._rightBackWheel.Position;
+        self._leftBackWheelSmoke.Rotation = Vector3(0,90,0);
+        self._rightBackWheelSmoke.Rotation = Vector3(0,-90,0);
+        self._leftBackWheelSmoke.Parent = mapObjTransform;
+        self._rightBackWheelSmoke.Parent = mapObjTransform;
+        self._leftBackWheelSmoke.LocalPosition = self.MapObject.Forward  -2;
+        self._rightBackWheelSmoke.LocalPosition = self.MapObject.Forward  -2;
+
+        self._leftBackWheelSmoke.Scale = Vector3(0.9);
+        self._rightBackWheelSmoke.Scale = Vector3(0.9);
+        self._leftBackWheelSmoke.Active = false;
+        self._rightBackWheelSmoke.Active = false;
+
+        self._explosion = Map.CreateMapObjectRaw(Scene,Customcruisetgzero-hp-car,122024,0,0,0,1,0,zero-hp-car,6559.316,1356.862,-50.91142,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint255255255255,);
+        self._explosion.Position = self.MapObject.Position;
+        self._explosion.Parent = mapObjTransform;
+        self._explosion.LocalPosition = Vector3();
+        self._driftingSFX.Position = mapObjTransform.Position;
+        self._driftingSFX.Parent = mapObjTransform;
+    }
+
+    function Init()
+    {   
+        self._cameraNames.Set(0, FirstPerson);
+        self._cameraNames.Set(1, BumperView);
+        self._cameraNames.Set(2, ThirdPerson);
+        self._cameraNames.Set(3, ThirdPersonExtended);
+
+        self._cameraIDs.Set(FirstPerson, 0);
+        self._cameraIDs.Set(BumperView, 1);
+        self._cameraIDs.Set(ThirdPerson, 2);
+        self._cameraIDs.Set(ThirdPersonExtended, 3);
+        self._isCameraLocked = self.CameraStartLocked;
+        self._currentCamera = self._cameraIDs.Get(self.StartingCamera);
+
+        self._rigidbody = self.MapObject.GetComponent(Rigidbody);
+        self.MapObject.AddSphereCollider(Region, Characters, Vector3.Zero, 1  self.MapObject.Scale.X);
+
+        self.InitCarType();
+        
+        self.StopSounds();
+
+        self._transform = self.MapObject.Transform;
+
+        self._velocityFacingDiff = self.VelocityFacing - self.MinVelocityFacing;
+    }
+
+    function OnPlayerSpawn(player, character)
+    {
+        if (Network.IsMasterClient) 
+        { 
+            self.NetworkView.SendMessage(player, p + Convert.ToString(self._hasPassenger)); 
+        }
+
+        if(character.IsMine) {
+            character.SetWeapon(Blade);
+            character.CurrentBladeDurability = 0;
+            character.CurrentBlade = 0;
+            character.MaxBlade = 0;
+            character.MaxGas = 0;
+            character.CurrentGas = 0;
+            UI.SetBottomHUDActive(false);
+        }
+
+    }
+
+	function OnPlayerLeave(player)
+	{
+        return;
+        if (player.ID == Network.MyPlayer.ID)
+        {
+            if (self._isPassenger)
+            {
+                self._isPassenger = false;
+                self._hasPassenger = false;
+                self.NetworkView.SendMessage(player, p + Convert.ToString(self._hasPassenger)); 
+            }
+            elif(self.NetworkView.Owner == Network.MyPlayer  Network.IsMasterClient)
+            {
+                self._inUse = false;
+                self.NetworkView.Transfer(Network.MasterClient);
+            }
+        }
+	}
+
+	function OnCharacterDie(victim, killer, killerName)
+	{
+        if (victim.IsMine)
+        {
+            Camera.SetManual(false);
+            Map.DestroyMapObject(self.MapObject, true);
+        }
+
+        return;
+
+        if (victim.Type != Human) { return; }
+
+        if (victim.Player.ID == Network.MyPlayer.ID)
+        {
+            if (self._isPassenger)
+            {
+                self._isPassenger = false;
+                self._hasPassenger = false;
+                self.NetworkView.SendMessage(victim.Player, p + Convert.ToString(self._hasPassenger)); 
+            }
+            elif(self.NetworkView.Owner == Network.MyPlayer  Network.IsMasterClient)
+            {
+                self._inUse = false;
+			    self.NetworkView.Transfer(Network.MasterClient);
+                Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true);
+            }
+        }
+	}
+
+    function OnNetworkStream()
+    {
+        self._inUse = self.NetworkView.ReceiveStream();
+        self._soundEngine = self.NetworkView.ReceiveStream();
+        self._soundVelocity = self.NetworkView.ReceiveStream();
+    }
+
+    function SendNetworkStream()
+    {
+        self.NetworkView.SendStream(self._inUse);
+        self.NetworkView.SendStream(self._soundEngine);
+        self.NetworkView.SendStream(self._soundVelocity);
+    }
+
+    function OnNetworkMessage(sender, message)
+    {
+        if (Network.IsMasterClient && self.NetworkView.Owner == Network.MyPlayer && !self._inUse && message == request)
+        {
+            self.NetworkView.Transfer(sender);
+        }
+        elif (String.StartsWith(message, p))
+        {
+            self._hasPassenger = Convert.ToBool(String.Substring(message, 1));
+        }
+        elif(message == enter) {
+            self._doorSlamAudio.Active = true;
+            return;
+        }
+    }
+
+    function OnNetworkTransfer(oldOwner, newOwner)
+    {
+        if (newOwner == Network.MasterClient && Network.IsMasterClient)
+        {
+            self._inUse = false;
+        }
+        elif (newOwner == Network.MyPlayer)
+        {
+            human = self._collidingHuman;
+            if (human != null && human.Type == Human)
+            {
+                self.OnEnterCarRider();
+            }
+            else
+            {
+                self.NetworkView.Transfer(Network.MasterClient);
+            }
+        }
+        if(Network.IsMasterClient && newOwner != Network.MyPlayer) {
+            Game.Print(newOwner.ID + ] Name  + newOwner.Name);
+            self._human = newOwner.Character;
+        }
+    }
+
+    function OnCollisionStay(other)
+    {
+        if (other.Type != Human  !other.IsMine) { return; }
+        
+        vector = other.Position - self.MapObject.Position;
+        project = Vector3.Project(vector, self.MapObject.Right);
+        if (project.Normalized == self.MapObject.Right && !self._inUse && !other.IsMounted)
+        {
+            UI.SetLabelForTime(MiddleCenter, Press  + Input.GetKeyName(InteractionInteract) +  to drive, 0.1);
+            self._collidingHuman = other;
+            self._collidingDrive = true;
+        }
+        elif (project.Normalized != self.MapObject.Right && !self._hasPassenger && !other.IsMounted)
+        {
+            UI.SetLabelForTime(MiddleCenter, Press  + Input.GetKeyName(InteractionInteract) +  to get in, 0.1);
+            self._collidingHuman = other;
+            self._collidingPassenger = true;
+        }
+    }
+
+    function OnTick()
+    {
+        self._collidingHuman = null;
+        self._collidingDrive = false;
+        self._collidingPassenger = false;
+
+        vector = self._rigidbody.GetVelocity();
+        y = vector.Y;
+        vector.Y = 0;
+        velocity = vector.Magnitude;
+
+        self.PlaySounds(self._soundEngine, self._soundVelocity);
+
+        if(self._leftBackWheel != null) {
+            rotationSpeed = Math.Clamp(velocity, 0, 10);
+            currentMax = self.MaxSteeringAngle;
+
+            if (self._isDrifting) { currentMax = self.DriftMaxSteeringAngle; }
+            yRotation = Math.Clamp(self._drivingAngle  (currentMax  45), -45, 45);
+            xRotation = Math.Sign(self._enginePower)  rotationSpeed;
+
+            self._leftFrontWheel.LocalRotation = Vector3(self._leftFrontWheel.LocalRotation.X + xRotation, yRotation, self._leftFrontWheel.LocalRotation.Z);
+            self._rightFrontWheel.LocalRotation = Vector3(self._rightFrontWheel.LocalRotation.X + xRotation, yRotation, self._rightFrontWheel.LocalRotation.Z);
+            self._leftBackWheel.Rotate(Vector3(xRotation, 0, 0));
+            self._rightBackWheel.Rotate(Vector3(xRotation, 0, 0));
+        }
+        if(self.NetworkView.Owner != Network.MyPlayer) { return; } 
+
+        if(self._inUse && self._human != null) {
+            speedDrop = self._previousSpeed - velocity;
+            if(speedDrop = self.CrashDecelerationThreshold) { self.OnCrash(speedDrop); }
+            self._previousSpeed = velocity;
+
+            UI.SetLabel(UILabelEnum.MiddleRight, Speed[ + String.FormatFloat(velocity, 2) + ]);
+            Network.MyPlayer.Character.Rigidbody.Velocity = vector;
+            self._soundEngine = self._enginePower;
+            self._soundVelocity = velocity;
+            self.CheckIsGrounded();
+
+            project = Vector3.Project(vector, self.MapObject.Forward);
+            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString(Brake));
+            
+            if(self._driftTimer  0.0) {
+                self._driftTimer -= Time.TickTime;
+                self._isDrifting = true;
+            } else {
+                self._driftTimer = 0.0;
+                self._isDrifting = false;
+            }
+
+            if(self._isBraking) { self._currentBrakingMultiplier = Math.Lerp(self._currentBrakingMultiplier, self.BrakingSteeringScale, self.BrakingMultiplierLerpScale); }
+            else { self._currentBrakingMultiplier = Math.Lerp(self._currentBrakingMultiplier, 1.0, self.BrakingMultiplierLerpScale); }
+
+            forwardMultiplier = 1.0;
+            if(project.Normalized != self.MapObject.Forward && !self._isDrifting) { forwardMultiplier = -1.0; }
+
+            rotatePower = 1.0;
+            if(velocity  0.001) { rotatePower = 0; }
+            elif(velocity  self._lowVelocityThreshold) { rotatePower = velocity  self._lowVelocityThreshold; }
+            
+            rotatePower = forwardMultiplier;
+            if(self._isBraking) { rotatePower = self._currentBrakingMultiplier; }
+            if(self._isDrifting) { rotatePower = self.DriftSteeringScale; }
+
+            if(Input.GetKeyHold(GeneralBack)) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed  -1, self.EngineSpeed); }
+            elif(Input.GetKeyHold(SettingsManager.ReturnKeyString(Accelerate))) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed, self.EngineSpeed); }
+            else{ self._enginePower = Math.Lerp(self._enginePower, 0, 0.05); }
+
+            currentSteeringSpeed = self.SteeringSpeed;
+            currentMaxAngle = self.MaxSteeringAngle;
+
+            if(self._isDrifting) {
+                self._driftHoldTime = Math.Lerp(self._driftHoldTime, 1.0, self.DriftSteeringRampUp);
+                currentSteeringSpeed = Math.Lerp(self.DriftSteeringSpeedMin, self.DriftSteeringSpeedMax, self._driftHoldTime);
+                currentSteeringSpeed = Math.Clamp(currentSteeringSpeed, self.DriftSteeringSpeedMin, self.DriftSteeringSpeedMax);
+                currentMaxAngle = self.DriftMaxSteeringAngle;
+            } else {
+                self._driftHoldTime = Math.Lerp(self._driftHoldTime, 0.0, self.DriftSteeringRampDown);
+            }
+            if (Input.GetKeyHold(GeneralLeft)) { self._drivingAngle = Math.Lerp(self._drivingAngle, (-1.0  currentMaxAngle), currentSteeringSpeed); }
+            elif (Input.GetKeyHold(GeneralRight)) { self._drivingAngle = Math.Lerp(self._drivingAngle, currentMaxAngle, currentSteeringSpeed); }
+            else { self._drivingAngle = Math.Lerp(self._drivingAngle, 0, 0.1); }
+
+            if(self._steeringWheel != null) {
+                visualWheelTurn = self._drivingAngle  2.5;
+                tiltX = self._steeringWheel.LocalRotation.X;
+                tiltY = self._steeringWheel.LocalRotation.Y;
+
+                self._steeringWheel.LocalRotation = Vector3(tiltX, tiltY, visualWheelTurn);
+            }
+
+            if(self._isGrounded) {
+                self.MapObject.Transform.Rotate(Vector3(0, self._drivingAngle  Time.TickTime  rotatePower, 0));
+                forceDirection = self.MapObject.Forward;
+                engineMultiplier = 1.0;
+                if(self._isDrifting && velocity  2.0)  {
+                    self._driftAngle = Vector3.Angle(vector.Normalized, self.MapObject.Forward);
+
+                    speedFactor = Math.Clamp(velocity  self.MaxMoveSpeed, 0.3, 1.0);
+                    blendAmount = 0.4 + (speedFactor  0.3);
+                    forceDirection = Vector3.Lerp(self.MapObject.Forward, vector.Normalized, blendAmount);
+                    engineMultiplier = 0.75 + (speedFactor  0.15);
+
+                    if(self._driftAngle  25.0) {
+                        counterSteerAmount = Math.Clamp((self._driftAngle - 25.0)  65.0, 0.0, 1.0);
+                        cross = Vector3.Cross(self.MapObject.Forward, vector.Normalized);
+                        counterDirection = Math.Sign(cross.Y)  -1.0;
+                        assistAngle = counterDirection  currentMaxAngle  self.DriftCounterSteerAssist  counterSteerAmount;
+                        self._drivingAngle = Math.Lerp(self._drivingAngle, self._drivingAngle + assistAngle, 0.3);
+                    }
+                }
+
+                self._rigidbody.AddForce(forceDirection  (self.MoveForce  engineMultiplier)  (self._enginePower  self.MaxEngineSpeed));
+                if(Math.Abs(self._enginePower)  1) { self.SlowToStop(); }
+                if(self._isDrifting) { self._driftTransition = Math.Lerp(self._driftTransition, 1.0, 0.15); }
+                else { self._driftTransition = Math.Lerp(self._driftTransition, 0.0, 0.05); }
+
+                baseGrip = self.VelocityFacing - (self._velocityFacingDiff  velocity  self.MaxMoveSpeed);
+                targetGrip = Math.Lerp(baseGrip, self.DriftGrip, self._driftTransition);
+
+                if(self._isBraking && !self._isDrifting) { targetGrip = self.BrakingVelocityFacingScale  (self._currentBrakingMultiplier  1.0); }
+                self._currentGrip = Math.Lerp(self._currentGrip, targetGrip, 0.02);
+
+                newVector = Vector3.Lerp(vector.Normalized, self.MapObject.Transform.Forward  forwardMultiplier, self._currentGrip)  velocity;
+
+                if(self._isDrifting) {
+
+                    sidewaysFactor = Math.Abs(Vector3.Dot(newVector.Normalized, self.MapObject.Right));
+                    speedLossFactor = 1.0 - (self.DriftSpeedLoss  sidewaysFactor);
+
+                    newVector = newVector.Magnitude  speedLossFactor  newVector.Normalized;
+                } 
+                elif(self._isBraking) { newVector = newVector.Magnitude  (1.0 - (self.BrakingScale  self._currentBrakingMultiplier  1.0))  newVector.Normalized; }
+                newVector.Y = y;
+
+                self._rigidbody.SetVelocity(newVector);
+                self.LimitSpeed();
+                self.FaceSurface();
+                
+                if(self._wasDriftingLastFrame && !self._isDrifting && velocity  5.0) {
+                    currentVel = self._rigidbody.GetVelocity();
+                    currentVel.Y = 0;
+                    if(currentVel.Magnitude  0.1) {
+                        boostedVel = currentVel.Normalized  Math.Min(currentVel.Magnitude  self.DriftExitBoost, self.MaxMoveSpeed);
+                        boostedVel.Y = y;
+                        self._rigidbody.SetVelocity(boostedVel);
+                    }
+                }
+                self._wasDriftingLastFrame = self._isDrifting;
+
+                if(self._leftBackWheelSmoke != null) {
+                    if(self._isDrifting && velocity  30.0) {
+                        smokeIntensity = Math.Clamp(self._driftAngle  35.0, 0.5, 1.5);
+                        self._leftBackWheelSmoke.Scale = Vector3(0.5  smokeIntensity);
+                        self._rightBackWheelSmoke.Scale = Vector3(0.5  smokeIntensity);
+                        self._leftBackWheelSmoke.Active = true;
+                        self._rightBackWheelSmoke.Active = true;
+                        self._driftingSFX.Active = true;
+                    } 
+                    else {
+                        self._leftBackWheelSmoke.Active = false;
+                        self._rightBackWheelSmoke.Active = false;
+                        self._driftingSFX.Active = false;
+                    }
+                }
+            }
+        }
+    }
+
+    function OnCrash(damage)
+    {   
+        me = Network.MyPlayer.Character;
+        self.Health -= damage;
+        if(self.Health = 0) { 
+            self._explosion.Scale = Vector3((damage  10)  0.5);
+            self._explosion.Active = true;
+            self.Health = 0;
+        }
+        if(self._driftingSFX.Active) { self._driftingSFX.Active = false; }
+        #Game.Print(damage +  Health  + self.Health);
+        
+        Game.SpawnEffect(EffectNameEnum.Boom5, self._leftFrontWheel.Position, Vector3(), (damage  10)  0.5);
+
+        if(damage = self.Health) {
+            if(me != null) {
+                self.OnExitCarRider();
+                carVelocity = self._rigidbody.GetVelocity();
+                if(carVelocity.Magnitude  0) { me.Velocity = carVelocity  (damage  20); }
+            }
+        }
+    }
+
+    function OnFrame()
+    {   
+        if (self._human != null) 
+        {
+            if(self._human != Network.MyPlayer.Character) { return; }
+            self._human.PlayAnimation(Armaturehorse_idle); 
+            changeCamKey = Input.GetKeyDown(SettingsManager.ReturnKeyString(Change Camera));
+            toggleCamLockKey = Input.GetKeyDown(SettingsManager.ReturnKeyString(Toggle Camera Lock));
+            if (changeCamKey) {
+                if(self._isCameraLocked) {
+                    if(!Camera.IsManual) { Camera.SetManual(true); }
+                    self._currentCamera = Math.Mod(self._currentCamera + 1, 4); 
+                    if(self._currentCamera == 0) { Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(false); }
+                    else { Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
+                    Game.Print(Camera  + self._cameraNames.Get(self._currentCamera)); 
+                }
+                else { self.ToggleCameraMode(); }
+            }
+            elif(toggleCamLockKey) {
+                self.ToggleCameraLock();
+            }
+        }
+        
+        if (self.NetworkView.Owner == Network.MyPlayer && self._inUse)
+        {
+            self._human = self.NetworkView.Owner.Character;
+            if (Input.GetKeyDown(InteractionInteract))
+            {
+                self.OnExitCarRider();
+                return;
+            }
+            flipCarKey = Input.GetKeyDown(SettingsManager.ReturnKeyString(Flip Car));
+            driftKey = Input.GetKeyHold(SettingsManager.ReturnKeyString(Drift));
+            if (flipCarKey)
+            {   
+                self._rigidbody.SetVelocity(Vector3.Zero);
+                self.MapObject.Transform.Position = self.MapObject.Transform.Position + Vector3.Up  3.0;
+                self.MapObject.Rotation = Vector3(0,Camera.Rotation.Y, 0);
+            }
+            if(driftKey) { 
+                if(self._isDrifting) { return; }
+                speedFraction = Math.Clamp(self._currentVelocity  self.MaxMoveSpeed, 0.0, 1.0);
+                self._driftTimer = Math.Lerp(self.DriftDurationMin, self.DriftDurationMax, speedFraction);
+            } 
+
+            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString(Brake));
+            
+            if (self.NetworkView.Owner.Character == null  self.NetworkView.Owner.Character.Type != Human  self.NetworkView.Owner.Character.MountedTransform != self._transform)
+            {
+                return;
+                self.NetworkView.Transfer(Network.MasterClient);
+                self._inUse = false;
+                return;
+            }
+        }
+        elif (self._hasPassenger && self._human != null)
+        {
+            if (self._human == null  self._human.MountedMapObject != self.MapObject)
+            {
+                self._hasPassenger = false;
+                return;
+            }
+            if (Input.GetKeyDown(InteractionInteract))
+            {
+                self._human.Unmount();
+                self._human = null;
+                self.MapObject.Position += self.MapObject.Right  1.0;
+                Camera.SetManual(false);
+                self._hasPassenger = false;
+                self._isPassenger = false;
+                self.NetworkView.SendMessageOthers(p + Convert.ToString(self._hasPassenger));
+            }
+        }
+        if (self._collidingHuman != null && !self._collidingHuman.IsMounted && Input.GetKeyDown(InteractionInteract))
+        {
+            if (self._collidingDrive && !self._inUse)
+            {
+                if (self.NetworkView.Owner == Network.MyPlayer) 
+                {
+                    self.OnEnterCarRider();
+                }
+                else
+                {
+                    self.NetworkView.SendMessage(self.NetworkView.Owner, request);
+                }
+            }
+            elif (self._collidingPassenger && !self._hasPassenger)
+            {
+                self._human = self._collidingHuman;
+                self._human.MountTransform(self._transform, Vector3(-0.3, 0.6, -0.1), Vector3.Zero);
+                self._human.ClearHooks();
+                self._hasPassenger = true;
+                self._isPassenger = true;
+                self.NetworkView.SendMessageOthers(p + Convert.ToString(self._hasPassenger));
+            }
+        }
+    }
+
+    
+    function OnEnterCarRider()
+    {
+        if(self.Health = 0) { return; }
+        self._human = self._collidingHuman;
+        self._human.MountTransform(self._transform, self.MountPositionOffsetRider, Vector3.Zero);
+        self._human.ClearHooks();
+        self._inUse = true;
+        if(self._isCameraLocked) { Camera.SetManual(true); }
+        Input.SetKeyDefaultEnabled(InputGeneralEnum.ChangeCamera, false);
+        
+    }
+
+    function OnExitCarRider()
+    {
+        self._human.Unmount();
+        self._human = null;
+        self.MapObject.Position += self.MapObject.Right  -1.0;
+        
+        # self.NetworkView.Transfer(Network.MasterClient);
+        self._inUse = false;
+        if(Camera.IsManual) { Camera.SetManual(false); }
+        Input.SetKeyDefaultEnabled(InputGeneralEnum.ChangeCamera, true);
+        Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true);
+    }
+
+
+    function ToggleCameraLock()
+    {
+        self._isCameraLocked = !self._isCameraLocked;
+        Camera.SetManual(self._isCameraLocked);
+    }
+
+    function ToggleCameraMode()
+    {   
+        if(Camera.IsManual) { Camera.SetManual(false); }
+        camMode = Camera.CameraMode;
+        if(camMode == CameraModeEnum.TPS) { Camera.SetCameraMode(CameraModeEnum.Original); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
+        elif(camMode == CameraModeEnum.Original) { Camera.SetCameraMode(CameraModeEnum.FPS); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(false); }
+        else { Camera.SetCameraMode(CameraModeEnum.TPS); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
+        Game.Print(Camera Mode  + Camera.CameraMode);
+    }
+
+        function OnLateFrame()
+        {   
+            me = Network.MyPlayer.Character;
+            if(self._human != null && self._human == me) 
+            {   
+                currentCamera = self._currentCamera;
+                mapObjectPos = self.MapObject.Position;
+                lookAtOffset = self.CameraLookAtOffset;
+
+                velocityDir = self._rigidbody.GetVelocity();
+                velocityDir.Y = 0;
+                
+                if (velocityDir.Magnitude  1.0) { velocityDir = self.MapObject.Forward; }
+                else { velocityDir = velocityDir.Normalized; }
+
+                camForward = Vector3.Lerp(self.MapObject.Forward, velocityDir, 0.6).Normalized;
+
+                if (currentCamera == 0)
+                {   
+                    firstPersonCameraOffset = self.FirstPersonCameraOffset;
+                    cameraSetPosition = self._human.Position + self.MapObject.Up  firstPersonCameraOffset.Y + self.MapObject.Forward  firstPersonCameraOffset.X;
+                    lookAt = mapObjectPos + self.MapObject.Forward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y;
+                }
+                elif (currentCamera == 1)
+                {   
+                    bumperCameraOffset = self.BumperViewCameraOffset;
+                    cameraSetPosition = mapObjectPos + self.MapObject.Up  bumperCameraOffset.Y + self.MapObject.Forward  bumperCameraOffset.X;
+                    lookAt = mapObjectPos + self.MapObject.Forward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y;
+                }
+                elif (currentCamera == 2)
+                {   
+                    thirdPersonCameraOffset = self.ThirdPersonCameraOffset;
+                    cameraSetPosition = mapObjectPos + self.MapObject.Up  thirdPersonCameraOffset.Y + camForward  thirdPersonCameraOffset.X;
+                    lookAt = mapObjectPos + camForward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y;
+                }
+                elif (currentCamera == 3)
+                {   
+                    thirdPersonExtendedCameraOffset = self.ThirdPersonExtendedCameraOffset;
+                    cameraSetPosition = mapObjectPos + self.MapObject.Up  thirdPersonExtendedCameraOffset.Y + camForward  thirdPersonExtendedCameraOffset.X;
+                    lookAt = mapObjectPos + camForward  lookAtOffset.X + self.MapObject.Up  lookAtOffset.Y; 
+                }
+
+                if(self._isCameraLocked) {
+                    Camera.SetPosition(cameraSetPosition); 
+                    Camera.LookAt(lookAt);
+                }
+            }
+        }
+
+        function SlowToStop()
+        {
+            velocity = self._rigidbody.GetVelocity();
+            velocityY = velocity.Y;
+            velocity.Y = 0;
+
+            if (velocity.Magnitude  1) { self._rigidbody.SetVelocity(Vector3.Up  velocityY); }
+            else { self._rigidbody.AddForce(self.SlowDownScale  -1.0  velocity + velocityY  Vector3.Up); }
+        }
+
+        function LimitSpeed()
+        {
+            velocity = self._rigidbody.GetVelocity();
+            velocityY = velocity.Y;
+            velocity.Y = 0;
+            velocity = velocity.Normalized  Math.Min(velocity.Magnitude, self.MaxMoveSpeed);
+            velocity.Y = velocityY;
+            self._rigidbody.SetVelocity(velocity);
+        }
+
+        function CheckIsGrounded()
+        {
+            offset = self.MapObject.Up  self.MapObject.Scale.X  -0.5;
+            for (wheel in self._wheels)
+            {
+                hit = Physics.LineCast(wheel.Position, wheel.Position + offset, MapObjects);
+                if (hit != null)
+                {
+                    self._isGrounded = true;
+                    return;
+                }
+            }
+            self._isGrounded = false;
+        }
+
+        function FaceSurface()
+        {
+            hit = Physics.LineCast(self.MapObject.Transform.Position, self.MapObject.Transform.Position + self.MapObject.Transform.Up  -2.0, MapObjects);
+            if (hit == null) { return; }
+            difference = hit.Normal - self.MapObject.Transform.Up;
+            difference.Y = 0;
+            self._rigidbody.AddTorque(difference  self.TorqueForce, ForceModeEnum.Acceleration);
+        }
+
+        function PlaySounds(engine, velocity)
+        {
+            self._ignition.Position = self.MapObject.Position;
+            self._exhaust.Position = self.MapObject.Position;
+            self._lowRumble.Position = self.MapObject.Position;
+            self._highRumble.Position = self.MapObject.Position;
+
+            if (!self._inUse && self._engineOn)
+            {
+                self._engineOn = false;
+                self.StopSounds();
+            }
+            elif (self._inUse && !self._engineOn)
+            {
+                self._engineOn = true;
+                self.Ignition();
+            }
+
+            if (self._engineOn && Math.Abs(engine)  5) { self._canExhaust = true; }
+            elif (self._engineOn && engine  5 && self._canExhaust) 
+            { 
+                self._canExhaust = false; 
+                self.Exhaust();
+            }
+
+            if(velocity  1 && self._engineOn) { self.HighRumble(); }
+            if (Math.Abs(engine)  self.MaxEngineSpeed  5) { self._highRumble.Active = false; }
+        }
+
+        function StopSounds()
+        {
+            self._ignition.Active = false;
+            self._exhaust.Active = false;
+            self._lowRumble.Active = false;
+            self._highRumble.Active = false;
+        }
+
+        coroutine LowRumble()
+        {
+            if (self._lowRumble.Active) { return; }
+            self._lowRumble.Active = true;
+            wait 3.0;
+            self._lowRumble.Active = false;
+        }
+
+        coroutine HighRumble()
+        {
+            if (self._highRumble.Active) { return; }
+            self._highRumble.Active = true;
+            wait 12.0;
+            self._highRumble.Active = false;
+        }
+
+        coroutine Ignition()
+        {
+            self._ignition.Active = false;
+            wait 0.1;
+            self._ignition.Active = true;
+        }
+
+        coroutine Exhaust()
+        {
+            if (self._exhaust.Active) { return; }
+            self._exhaust.Active = false;
+            wait 0.1;
+            self._exhaust.Active = true;
+            wait 4.7;
+            self._exhaust.Active = false;
+        }
+}
+
+extension HumanTransformEnum
+{
+    Armature = Armature;
+    Core = ArmatureCore;
+
+    PlayerWindTrail = ArmatureCorePlayerWindTrailEffect;
+
+    Hip = ArmatureCoreController_Bodyhip;
+    Spine = ArmatureCoreController_Bodyhipspine;
+    Chest = ArmatureCoreController_Bodyhipspinechest;
+    Neck = ArmatureCoreController_Bodyhipspinechestneck;
+    Head = ArmatureCoreController_Bodyhipspinechestneckhead;
+    CharHead = ArmatureCoreController_Bodyhipspinechestneckheadchar_head;
+
+    ShoulderL = ArmatureCoreController_Bodyhipspinechestshoulder_L;
+    UpperArmL = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_L;
+    ForearmL = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_L;
+    HandL = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_Lhand_L;
+    HandLHookRef = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_Lhand_LhookRef;
+    HandLCheckbox = ArmatureCoreController_Bodyhipspinechestshoulder_Lupper_arm_Lforearm_Lhand_LcheckBox;
+
+    ShoulderR = ArmatureCoreController_Bodyhipspinechestshoulder_R;
+    UpperArmR = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_R;
+    ForearmR = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_R;
+    HandR = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_Rhand_R;
+    HandRHookRef = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_Rhand_RhookRef;
+    HandRCheckbox = ArmatureCoreController_Bodyhipspinechestshoulder_Rupper_arm_Rforearm_Rhand_RcheckBox;
+
+    ThighL = ArmatureCoreController_Bodyhipthigh_L;
+    ShinL = ArmatureCoreController_Bodyhipthigh_Lshin_L;
+    FootL = ArmatureCoreController_Bodyhipthigh_Lshin_Lfoot_L;
+
+    ThighR = ArmatureCoreController_Bodyhipthigh_R;
+    ShinR = ArmatureCoreController_Bodyhipthigh_Rshin_R;
+    FootR = ArmatureCoreController_Bodyhipthigh_Rshin_Rfoot_R;
+
+    IkL = ArmatureCoreIK_L;
+    KneeL = ArmatureCoreIK_Lknee_L;
+
+    IkR = ArmatureCoreIK_R;
+    KneeR = ArmatureCoreIK_Rknee_R;
+
+    OdmgSmoke = HumanPlayer3dmg_smoke;
+    SpeedFx = HumanPlayerspeedFX;
+    SpeedEffect = HumanPlayerspeedEffect;
+    SlideSparks = HumanPlayerslideSparks;
+
+    CharacterChest = Armaturecharacter_chest;
+    CharacterLeg = Armaturecharacter_leg;
+    CharacterArmL = Armaturecharacter_arm_l;
+    CharacterArmR = Armaturecharacter_arm_r;
+    CharacterBody = Armaturecharacter_body;
+    CharacterHandL = Armaturecharacter_hand_l;
+    CharacterHandR = Armaturecharacter_hand_r;
+
+    GroundLeft = ArmatureGroundLeft;
+    GroundRight = ArmatureGroundRight;
+
+    Buff1 = Armaturebuff1;
+    LeviSpinTest = Armaturebuff1LeviSpinTest1;
+    ParticleSystem = Armaturebuff1Particle System;
+
+    Buff2 = HumanPlayerbuff2;
+    Fire1 = HumanPlayerfire1;
+    Sparks = HumanPlayerfire1Sparks;
+    SteamEffect = HumanPlayerfire1SteamEffect;
+}
+
+extension SettingsManager
+{
+    DisabledBaseKeys = ;
+
+    PrimaryUIColor = #df56f4;
+    SecondaryUIColor = #ffb0de;
+    AccentUIColor = #ff0000;
+    _fileName = ;
+    _pendingRebind = ;
+    _popupName = ;
+    _settings = Dict(); #Key = PropertyName, Value = Keybind String
+    _allAvailableKeybinds = List();
+    _disabledPropKeys = List();
+
+    _keybindIdentifier = K_;
+    _settingIdentifier = S_;
+
+    function SetCustomSettings(fileName) #Set your Custom KeybindsSettings here, key = Identifier + Custom KeySetting Name, value = Default Keybind or Default truefalse
+    {   
+        settingsComponent = Map.FindMapObjectByComponent(Settings).GetComponent(Settings);
+        self.DisabledBaseKeys = settingsComponent.DisabledBaseKeys; 
+
+        self.SetAvailableKeys();
+        self._fileName = fileName;
+        keybindID = self._keybindIdentifier;
+        settingID = self._settingIdentifier;
+
+        self.SetSetting(keybindID + Drift, InputHumanEnum.Dash);
+        self.SetSetting(keybindID + Brake, InputHumanEnum.HorseJump);
+        self.SetSetting(keybindID + Flip Car, InputHumanEnum.Reload);
+        self.SetSetting(keybindID + Change Camera, InputGeneralEnum.ChangeCamera);
+        self.SetSetting(keybindID + Accelerate, InputGeneralEnum.Forward);
+        self.SetSetting(keybindID + Toggle Camera Lock, InputInteractionEnum.QuickSelect1);
+        self.SetSetting(keybindID + Keybinds Popup, InputInteractionEnum.QuickSelect2);
+        
+    }
+
+    function GetAndDisableKeybindSlots()
+    {
+        disabledKeys = self.DisabledBaseKeys;
+        if(disabledKeys == ) { return; }
+        Game.Print(Utils.ColorStr(Disabled Base Game Keys for Custom Key Slots , self.PrimaryUIColor));
+        secondaryColor = self.SecondaryUIColor;
+        accentColor = self.AccentUIColor;
+        keybindID = self._keybindIdentifier;
+        settingID = self._settingIdentifier;
+
+        for(prop in String.Split(disabledKeys, ,)) {
+            key = self._settings.Get(keybindID + prop);
+            keyName = Utils.ColorStr(Input.GetKeyName(key), accentColor);
+            
+            Game.Print(Utils.ColorStr(prop, self.PrimaryUIColor) +  [ + keyName + ]  + Utils.ColorStr(key, secondaryColor));
+            self._disabledPropKeys.Add(key);
+            Input.SetKeyDefaultEnabled(key, false); 
+        }
+    }
+
+    function OnButtonClick(buttonName)
+    {
+        args = String.Split(buttonName, );
+        button = args.Get(0);
+
+        if(button == Key) {
+            self._pendingRebind = args.Get(1);
+            #Game.Print(self._pendingRebind);
+            self.ShowAllBindsPopup(self._pendingRebind);
+            return;
+        }
+        elif(button == Rebind) {
+            pendingRebind = args.Get(1);
+            popupName = self._popupName;
+            if(self._pendingRebind != pendingRebind) {
+                UI.ClearPopup(popupName);
+                UI.HidePopup(popupName);
+                Game.Print(Error try again);
+                return;
+            }
+            key = args.Get(2);
+            previousKey = self._settings.Get(pendingRebind);
+            
+            if(self._disabledPropKeys.Contains(pendingRebind)) {
+                Input.SetKeyDefaultEnabled(key, false);
+                Input.SetKeyDefaultEnabled(previousKey, true);
+                #Game.Print(previousKey +  Current Key  + key);
+            }
+            #Game.Print(key +   KeyName  + Input.GetKeyName(key));
+            self.SetSetting(pendingRebind, key);
+            self.SaveSettings();
+            self.ShowKeybindPopup();
+            self._pendingRebind = ;
+            return;
+        }
+    }
+
+    function IsKeybind(propString)
+    {
+        return String.SubstringWithLength(propString, 0, 1) == K;
+    }
+
+    function IsSetting(propString)
+    {
+        return String.SubstringWithLength(propString, 0, 1) == S;
+    }
+
+    function CreatePopup(popupName, title)
+    {
+        self._popupName = popupName;
+        UI.CreatePopup(popupName, title, 900, 1050);
+    }
+
+    function ShowKeybindPopup()
+    {
+        popupName = self._popupName;
+        UI.ClearPopup(popupName);
+        self.AddSavedKeybinds(popupName);
+        UI.ShowPopup(popupName);
+    }
+
+    function ShowAllBindsPopup(pendingRebind)
+    {
+        popupName = self._popupName; 
+        UI.ClearPopup(popupName);
+        primaryColor = self.PrimaryUIColor;
+        secondaryColor = self.SecondaryUIColor;
+        accentColor = self.AccentUIColor;
+        UI.AddPopupLabel(popupName, Utils.ColorStr(Rebinding the , primaryColor) + Utils.ColorStr(pendingRebind, accentColor) + Utils.ColorStr( Key, primaryColor));
+
+        for(key in self._allAvailableKeybinds) {
+            if(self._settings.Values.Contains(key)) { continue; }
+            customKeyName = String.Split(pendingRebind, _).Get(1);
+            customKeybind = Utils.ColorStr(customKeyName, primaryColor);
+            keyName = Utils.ColorStr(Input.GetKeyName(key), accentColor);
+            keybindString = Utils.ColorStr(key, secondaryColor);
+            
+            UI.AddPopupButton(popupName, Rebind + pendingRebind +  + key, Rebind  + customKeybind +  to [ + keyName + ]  + keybindString);
+        }
+    }
+
+    function AddSavedKeybinds(popupName)
+    {
+        primaryColor = self.PrimaryUIColor;
+        secondaryColor = self.SecondaryUIColor;
+        accentColor = self.AccentUIColor;
+
+        for(prop in self._settings.Keys) {
+            if(!self.IsKeybind(prop)) { continue; }
+            keyName = Utils.ColorStr(Input.GetKeyName(self._settings.Get(prop)), accentColor);
+            keybindString = Utils.ColorStr(self._settings.Get(prop), secondaryColor);
+            propName = String.Split(prop, _).Get(1);
+            #Game.Print(prop);
+            customKey = Utils.ColorStr(propName, primaryColor);
+
+            UI.AddPopupButton(popupName, Key + prop, Rebind  + customKey +  [ + keyName + ]  + keybindString);
+        }
+    }
+
+    function SetSetting(propertyName, keyString)
+    {
+        self._settings.Set(propertyName, keyString);
+    }
+
+    function ReturnKeyString(propertyName)
+    {
+        return self._settings.Get(self._keybindIdentifier + propertyName);
+    }
+
+    function SaveSettings()
+    {   
+        PData.SaveToFile(self._fileName, , self._settings, false, false, true);
+    }
+
+    function LoadKeybinds()
+    {   
+        return;
+        fileName = self._fileName;
+        keybindFileExists = PersistentData.FileExists(fileName);
+        if(!keybindFileExists) {
+            if(self._settings.Count == 0) {
+                Game.Print(Set your Keybinds first in function SetKeybinds());
+                return;
+            }
+            self.SaveSettings();
+            return;
+        }
+
+        for(prop in self._settings.Keys) {
+            if(!self.IsKeybind(prop)) { continue; }
+            savedKeybind = PData.LoadFromFile(fileName, prop, false, false);
+            if (savedKeybind == InteractionFunction4) {
+                savedKeybind = InteractionQuickSelect1;
+            }
+            if(savedKeybind != Empty) {
+                self._settings.Set(prop, savedKeybind);
+            }
+        }
+        self.GetAndDisableKeybindSlots();
+    }
+
+    function SetAvailableKeys()
+    {
+        self._allAvailableKeybinds.Add(InputHumanEnum.AttackDefault);
+        self._allAvailableKeybinds.Add(InputHumanEnum.AttackSpecial);
+        self._allAvailableKeybinds.Add(InputHumanEnum.HookLeft);
+        self._allAvailableKeybinds.Add(InputHumanEnum.HookRight);
+        self._allAvailableKeybinds.Add(InputHumanEnum.HookBoth);
+        self._allAvailableKeybinds.Add(InputHumanEnum.Dash);
+        self._allAvailableKeybinds.Add(InputHumanEnum.ReelIn);
+        self._allAvailableKeybinds.Add(InputHumanEnum.ReelOut);
+        self._allAvailableKeybinds.Add(InputHumanEnum.Dodge);
+        self._allAvailableKeybinds.Add(InputHumanEnum.Jump);
+        self._allAvailableKeybinds.Add(InputHumanEnum.Reload);
+        self._allAvailableKeybinds.Add(InputHumanEnum.HorseMount);
+        self._allAvailableKeybinds.Add(InputHumanEnum.HorseWalk);
+        self._allAvailableKeybinds.Add(InputHumanEnum.HorseJump);
+        self._allAvailableKeybinds.Add(InputHumanEnum.NapeLock);
+
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Interact);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Interact2);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Interact3);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.ItemMenu);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.EmoteMenu);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.MenuNext);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect1);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect2);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect3);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect4);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect5);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect6);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect7);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect8);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Function1);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Function2);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Function3);
+        self._allAvailableKeybinds.Add(InputInteractionEnum.Function4);
+
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Forward);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Back);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Left);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Right);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Up);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Down);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Modifier);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Autorun);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Pause);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.ChangeCharacter);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.RestartGame);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.ToggleScoreboard);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.ToggleMap);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.Chat);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.PushToTalk);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.ChangeCamera);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.HideCursor);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.SpectatePreviousPlayer);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.SpectateNextPlayer);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.SkipCutscene);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.HideUI);
+        self._allAvailableKeybinds.Add(InputGeneralEnum.DebugWindow);
+    }
+}
+
+extension PData
+{
+    _lastSaveFile = ;
+    _lastLoadFile = ;
+
+    function SaveToFile(fileName, propName, value, encrypted, serialized, isMultiple) #If isMultiple value should = Dict
+    {   
+        if(!PersistentData.IsValidFileName(fileName)) {
+            Game.Print(Invalid File Name  + fileName);
+            return;
+        }
+        if(self._lastSaveFile != fileName) {
+            self._lastSaveFile = fileName;
+            PersistentData.Clear();
+        }
+
+        if(isMultiple) {
+            for(prop in value.Keys) { PersistentData.SetProperty(prop, value.Get(prop)); }
+            PersistentData.SaveToFile(fileName, encrypted);
+            return;
+        }
+        PersistentData.SetProperty(propName, value);
+        PersistentData.SaveToFile(fileName, encrypted);
+    }
+
+    function LoadFromFile(fileName, propName, encrypted, serialized)
+    {
+        if(self._lastLoadFile != fileName) {
+            PersistentData.Clear();
+            self._lastLoadFile = fileName;
+        }
+
+        PersistentData.LoadFromFile(fileName, encrypted);
+        data = PersistentData.GetProperty(propName, Empty);
+        if(serialized) { return Json.LoadFromString(data); }
+        return data;
+    }
+}
+
+extension Utils
+{
+    function ColorStr(string, color)
+    {
+        return color= + color +  + string + color;
+    }
+
+    function SizeStr(string, size)
+    {
+        return size= + size +  + string + size;
+    }
+
+    function BoldStr(string)
+    {
+        return b + string + b;
+    }
+}
+ Weather
+{
+    Skybox  Night1,
+    SkyboxColor  [
+        4,
+        2,
+        5,
+        255
+    ],
+    Daylight  [
+        50,
+        48,
+        47,
+        255
+    ],
+    DaylightIntensity  0.253452956676483,
+    DaylightDirection  [
+        45,
+        45,
+        0
+    ],
+    AmbientLight  [
+        50,
+        59,
+        79,
+        255
+    ],
+    Flashlight  [
+        255,
+        255,
+        255,
+        255
+    ],
+    FogDensity  0.00700000021606684,
+    FogColor  [
+        37,
+        45,
+        67,
+        255
+    ],
+    Rain  0,
+    Thunder  0,
+    Snow  0,
+    Wind  0,
+    WindDirection  [
+        0,
+        0,
+        0
+    ],
+    RainForce  0,
+    SnowForce  0,
+    WindForce  0,
+    UseSchedule  false,
+    ScheduleLoop  false,
+    Schedule  ,
+    Name  Set 1,
+    Preset  false,
+    UniqueId  ad703064-754e-4a89-951e-cd33341f9fd3
+}
