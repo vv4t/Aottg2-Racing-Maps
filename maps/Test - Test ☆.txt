@@ -5,7 +5,7 @@ cruisetg,https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/assets
 /// Objects
 Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
 Scene,Custom/cruisetg/usui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint|255/255/255/255,PrintOnStart|;
-Scene,General/EditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6576.886,1353.458,-74.47564,0,328.178,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,General/EditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6561.45,1353.458,-55.41149,0,328.178,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
 Scene,General/EditorCameraSpawnPoint,122001,0,1,1,0,0,Camera SpawnPoint,6531.097,1357.967,-18.63662,359.9849,255.8374,359.7614,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:CameraSpawnPoint;
 Scene,Geometry/Cube1,122003,0,1,1,1,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cube1,122007,0,1,0,1,0,RacingStartBarrier,6551.268,1375.01,-25.77735,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
@@ -20,12 +20,20 @@ component PrintOnStart
     function OnGameStart()
     {
         self.DelayPrint();
-        RoomData.SetProperty("HasCar", false);
+    }
+    
+    function OnPlayerSpawn(player, character)
+    {
+        if(character.IsMine)
+        {
+            self.SpawnCar();
+        }
     }
 
     function SpawnCar()
     {
-        o = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86,121997,0,1,0,1,1,ae86,6558.299,1352.199,-56.1908,0,327.0331,0,2.1,2.1,2.1,Physical,All,Default,DefaultNoTint|255/255/255/255,;");
+        o = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86,121997,0,1,0,1,1,ae86,6558.299,1352.199,-56.1908,0,327.0331,0,2.1,2.1,2.1,Region,MapObjects,Default,DefaultNoTint|255/255/255/255,;");
+        o.SetCollideMode("Physical");
         
         o.AddComponent("Rigidbody");
         o.Rigidbody.Mass = 2000;
@@ -95,7 +103,6 @@ component PrintOnStart
         brakeButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Brake")), red);
         accelerateButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Accelerate")), red);
         keybindSettingsButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Keybinds Popup")), red);
-        spawnCarButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Spawn Car")), red);
         
         nl = String.Newline;
         message = "Press " + turnUprightButton + " to turn car upright" + nl + "Press " + lockedCamChangeButton + " to Change Camera Mode" + nl +
@@ -104,7 +111,6 @@ component PrintOnStart
         message += nl + "Press " + brakeButton + " to Brake";
         message += nl + "Press " + accelerateButton + " to Accelerate";
         message += nl + "Press " + keybindSettingsButton + " to Open the Keybind Settings Menu";
-        message += nl + "<size=30>Press " + spawnCarButton + " to Spawn Car</size>";
         Game.Print(message);  
     }
 
@@ -113,7 +119,6 @@ component PrintOnStart
         if (me != null) {
             me.CurrentGas = 0;
         }
-
     }
 }
 
@@ -135,21 +140,6 @@ component Settings
         openKeybindSettingsPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString("Keybinds Popup"));
         if(openKeybindSettingsPressed) {
             SettingsManager.ShowKeybindPopup();
-        }
-
-        hasCar = RoomData.GetProperty("HasCar", false);
-        spawnCarPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString("Spawn Car"));
-        spawnCarButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Spawn Car")), "#ff0000");
-        if (hasCar != true) {
-            UI.SetLabelForTime("BottomCenter", "<size=30>Press [" + spawnCarButton + "] to spawn a car.</size>" + String.Newline + String.Newline + String.Newline + String.Newline, 0.3);
-        }
-        if (spawnCarPressed) {
-            if (hasCar != true) {
-                Map.FindMapObjectByComponent("PrintOnStart").GetComponent("PrintOnStart").SpawnCar();
-                RoomData.SetProperty("HasCar", true);
-            } else {
-                Game.Print("<color=red>You already have a car.</color>");
-            }
         }
     }
 
@@ -372,8 +362,8 @@ component Car
             character.CurrentBladeDurability = 0;
             character.CurrentBlade = 0;
             character.MaxBlade = 0;
-            character.MaxGas = 99999;
-            character.CurrentGas = 99999;
+            character.MaxGas = 0;
+            character.CurrentGas = 0;
             UI.SetBottomHUDActive(false);
         }
 
@@ -399,10 +389,10 @@ component Car
 
 	function OnCharacterDie(victim, killer, killerName)
 	{
-        if (victim.IsMine) {
+        if (victim.IsMine)
+        {
             Camera.SetManual(false);
             Map.DestroyMapObject(self.MapObject, true);
-            RoomData.SetProperty("HasCar", false);
         }
 
         return;
@@ -1097,8 +1087,7 @@ extension SettingsManager
         self.SetSetting(keybindID + "Change Camera", InputGeneralEnum.ChangeCamera);
         self.SetSetting(keybindID + "Accelerate", InputGeneralEnum.Forward);
         self.SetSetting(keybindID + "Toggle Camera Lock", InputInteractionEnum.QuickSelect1);
-        self.SetSetting(keybindID + "Spawn Car", InputInteractionEnum.QuickSelect2);
-        self.SetSetting(keybindID + "Keybinds Popup", InputInteractionEnum.QuickSelect5);
+        self.SetSetting(keybindID + "Keybinds Popup", InputInteractionEnum.QuickSelect2);
         
     }
 
