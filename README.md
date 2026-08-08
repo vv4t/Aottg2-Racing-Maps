@@ -38,9 +38,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 
 ## Updated Maps
 - NEW | **2026-08-08** Pixell - Pixo Map ▶ Fixed most barriers
-- NEW | **2026-08-05** Sebas Tian - SAC - Underground Hunt ▶ Added Anti-Cheat Logic
-- NEW | **2026-08-02** Eliope - Makina Fire + Ice (Fused by Riblei) | Sebas Tian - SAC - Ultimate ▶ Added Anti-Cheat Logic
-- NEW | **2026-08-02** Pixell - Pixo Map ▶ Fixed a hole
+- **2026-08-05** Sebas Tian - SAC - Underground Hunt ▶ Added Anti-Cheat Logic
+- **2026-08-02** Eliope - Makina Fire + Ice (Fused by Riblei) | Sebas Tian - SAC - Ultimate ▶ Added Anti-Cheat Logic
+- **2026-08-02** Pixell - Pixo Map ▶ Fixed a hole
 - **2026-07-24** Riblei - Deathdream ▶ Fixed a hole by Riblei
 - **2026-07-21** Eliope - Flowers of the Racers (Edit by Unknown) ▶ Fixed skating
 - **2026-07-21** Kari - Racing 2 | Kari - Racing 2 (Nightmare) ▶ Improved finish trigger
