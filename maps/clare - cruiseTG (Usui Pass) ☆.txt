@@ -13,7 +13,12 @@ Scene,Geometry/Cube1,122008,0,1,0,1,0,RacingStartBarrier,6645.222,1375.01,-81.71
 Scene,Geometry/Cube1,122009,0,1,0,1,0,RacingStartBarrier,6565.556,1375.01,-132.7459,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cube1,122010,0,1,0,1,0,RacingStartBarrier,6657.447,1375.01,-186.6838,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Custom/cruisetg/road-collision,122011,0,1,1,0,0,S,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Settings|DisabledBaseKeys:|SettingsFileName:InitialDSettings
+Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Settings|DisabledBaseKeys:|SettingsFileName:InitialDSettings;
+Scene,Geometry/Cube1,122013,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122014,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3922.064,0,0,0,41.31068,13.81701,10,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122015,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122016,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122017,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3921.786,0,0,0,41.31068,13.81701,10,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1
 /// Logic
 component PrintOnStart
 {
