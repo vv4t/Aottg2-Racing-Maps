@@ -7,7 +7,7 @@ Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entitie
 Scene,Custom/cruisetg/usui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint|255/255/255/255,PrintOnStart|;
 Scene,General/EditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6561.45,1353.458,-55.41149,0,328.178,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
 Scene,General/EditorCameraSpawnPoint,122001,0,1,1,0,0,Camera SpawnPoint,6531.097,1357.967,-18.63662,359.9849,255.8374,359.7614,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:CameraSpawnPoint;
-Scene,Geometry/Cube1,122003,0,1,1,1,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122003,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Cube1,122007,0,1,0,1,0,RacingStartBarrier,6551.268,1375.01,-25.77735,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cube1,122008,0,1,0,1,0,RacingStartBarrier,6645.222,1375.01,-81.71515,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
 Scene,Geometry/Cube1,122009,0,1,0,1,0,RacingStartBarrier,6565.556,1375.01,-132.7459,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
@@ -15,10 +15,67 @@ Scene,Geometry/Cube1,122010,0,1,0,1,0,RacingStartBarrier,6657.447,1375.01,-186.6
 Scene,Custom/cruisetg/road-collision,122011,0,1,1,0,0,S,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Settings|DisabledBaseKeys:|SettingsFileName:InitialDSettings;
 Scene,Geometry/Cube1,122013,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
-Scene,Geometry/Cube1,122014,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3932.382,0,0,0,41.31068,13.81701,10,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
-Scene,Geometry/Cube1,122015,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
-Scene,Geometry/Cube1,122016,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
-Scene,Geometry/Cube1,122017,0,1,1,0,0,Racing Finish Region,-512.7355,622.9208,-3932.166,0,0,0,41.31068,13.81701,10,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1
+Scene,Geometry/Cube1,122020,0,1,1,1,0,Cube1,-512.5,631.5,-3926.5,0,0,0,24.5,3,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|1/0|0/0,;
+Scene,Geometry/Cube1,122019,0,1,1,1,0,Cube1,-500,625,-3926.5,0,0,0,0.5,16,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|0.25/0|0/0,;
+Scene,Geometry/Cube1,122018,0,1,1,1,0,Cube1,-525,624.75,-3926.5,0,0,0,0.5,16.5,0.5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|0.25/0|0/0,;
+Scene,Geometry/Cube1,122022,0,1,1,1,0,Cube1,-501,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122023,0,1,1,1,0,Cube1,-501,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122024,0,1,1,1,0,Cube1,-503,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122025,0,1,1,1,0,Cube1,-503,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122026,0,1,1,1,0,Cube1,-502,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122027,0,1,1,1,0,Cube1,-502,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122028,0,1,1,1,0,Cube1,-505,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122029,0,1,1,1,0,Cube1,-506,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122030,0,1,1,1,0,Cube1,-505,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122031,0,1,1,1,0,Cube1,-506,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122032,0,1,1,1,0,Cube1,-507,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122033,0,1,1,1,0,Cube1,-507,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122034,0,1,1,1,0,Cube1,-509,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122035,0,1,1,1,0,Cube1,-510,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122036,0,1,1,1,0,Cube1,-509,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122037,0,1,1,1,0,Cube1,-510,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122038,0,1,1,1,0,Cube1,-511,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122039,0,1,1,1,0,Cube1,-511,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122040,0,1,1,1,0,Cube1,-513,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122041,0,1,1,1,0,Cube1,-514,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122042,0,1,1,1,0,Cube1,-513,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122043,0,1,1,1,0,Cube1,-514,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122044,0,1,1,1,0,Cube1,-515,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122045,0,1,1,1,0,Cube1,-515,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122046,0,1,1,1,0,Cube1,-517,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122047,0,1,1,1,0,Cube1,-518,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122048,0,1,1,1,0,Cube1,-517,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122049,0,1,1,1,0,Cube1,-518,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122050,0,1,1,1,0,Cube1,-519,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122051,0,1,1,1,0,Cube1,-519,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122052,0,1,1,1,0,Cube1,-521,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122053,0,1,1,1,0,Cube1,-522,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122054,0,1,1,1,0,Cube1,-521,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122055,0,1,1,1,0,Cube1,-522,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122056,0,1,1,1,0,Cube1,-523,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122057,0,1,1,1,0,Cube1,-523,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122058,0,1,1,1,0,Cube1,-504,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122059,0,1,1,1,0,Cube1,-504,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122060,0,1,1,1,0,Cube1,-508,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122061,0,1,1,1,0,Cube1,-508,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122062,0,1,1,1,0,Cube1,-512,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122063,0,1,1,1,0,Cube1,-512,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122064,0,1,1,1,0,Cube1,-516,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122065,0,1,1,1,0,Cube1,-516,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122066,0,1,1,1,0,Cube1,-520,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122067,0,1,1,1,0,Cube1,-520,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122068,0,1,1,1,0,Cube1,-524,632,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|255/255/255/255|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122069,0,1,1,1,0,Cube1,-524,631,-3926.5,0,0,0,1,1,0.55,Physical,Entities,Default,Basic|0/0/0/0|Misc/None|16/2|0/0,;
+Scene,Geometry/Cube1,122070,0,1,1,1,0,Racing Finish Region,-512.5,623,-3926.5,0,0,0,24.5,14,0.499,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122071,0,1,1,0,0,Racing Finish Region,-512.5,623,-3926.5,0,0,0,24.5,14,0.499,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122072,0,1,1,0,0,Racing Finish Region,-512.5,623,-3926.5,0,0,0,24.5,14,0.499,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122073,0,1,1,0,0,Racing Finish Region,-512.5,623,-3927.5,0,0,0,24.5,14,2,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122074,0,1,1,0,0,Racing Finish Region,-512.5,623,-3928.5,0,0,0,24.5,14,4,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122075,0,1,1,0,0,Racing Finish Region,-512.5,623,-3932,0,0,0,24.5,14,10,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,122076,0,1,1,1,0,Cube1,-500,617.75,-3926.5,0,0,0,1,2,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|0.1/0|0/0,;
+Scene,Geometry/Cube1,122077,0,1,1,1,0,Cube1,-525,617.75,-3926.5,0,0,0,1,2,1,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|0.1/0|0/0,;
+Scene,Geometry/GeoRamp2,122078,0,1,1,1,0,GeoRamp2,-502.75,627.5,-3926.5,90,270,0,0.5,5,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|0/1.75|0/0,;
+Scene,Geometry/GeoRamp2,122079,0,1,1,1,0,GeoRamp2,-522.25,627.5,-3926.5,90,270,0,0.5,-5,5,Physical,Entities,Default,Basic|255/255/255/255|Stone/Stone21|0/1.75|0/0,
 /// Logic
 component PrintOnStart
 {
@@ -1435,5 +1492,4 @@ extension Utils
     "Name" : "Set 1",
     "Preset" : false,
     "UniqueId" : "ad703064-754e-4a89-951e-cd33341f9fd3"
-
 }
