@@ -148,8 +148,6 @@ Scene,FX/FallingLeavesFX1,172,0,1,0,1,0,FallingLeavesFX1,75,30,25,0,0,0,3,3,3,No
 Scene,Decor/Wagon1a,173,0,1,1,1,0,Wagon1a,113.5917,3.952315,32.84916,14.66262,50.12472,1.765029E-06,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Decor/Wagon1a,174,0,1,1,1,0,Wagon1a,58.589,3.952315,32.84916,14.66264,338.1179,2.206286E-06,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
 Scene,Decor/Wagon1a,175,0,1,1,1,0,Wagon1a,58.589,3.952315,117.0145,14.66265,31.51559,3.971315E-06,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Decor/Chair1,176,0,1,1,1,0,Chair1,115,6,65,0,302.013,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,Decor/Goober1,177,0,1,1,1,0,Goober1,115,7.421008,65,0,82.58195,0,0.5,0.5,0.5,Physical,Entities,Default,Default|255/255/255/255,MovePingPong|RelativePositions:true|StartPosition:115/6/65|EndPosition:115/8/65|Speed:10|PauseTime:0;
 Scene,Geometry/Cube1,178,0,1,1,0,0,Human Barrier,85.47497,20,-75,0,0,0,210,45,5,Physical,Humans,Default,Default|255/255/255/255,;
 Scene,Geometry/Cube1,179,0,1,1,0,0,Human Barrier,-25,20,35,0,90,0,210,45,5,Physical,Humans,Default,Default|255/255/255/255,;
 Scene,Geometry/Cube1,180,0,1,1,0,0,Human Barrier,-25,20,255,0,90,0,210,45,5,Physical,Humans,Default,Default|255/255/255/255,;
@@ -488,5 +486,6 @@ Scene,Nature/Boulder4,464,0,1,1,1,0,Boulder4,390.6705,-7.348748,415.8642,0,89.99
     "ScheduleLoop" : false,
     "Schedule" : "",
     "Name" : "Set 1",
-    "Preset" : false
+    "Preset" : false,
+    "UniqueId" : "c5c9089c-4019-48a2-b194-c5d0401bbab7"
 }
