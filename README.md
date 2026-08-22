@@ -37,8 +37,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-08-20** Rayzu - Town Laps 2 ▶ Fixed an invisible hitbox issue
-- NEW | **2026-08-17** ZeroX - Long Long Lava Turn Practice Racing Map ▶ Fixed a hole
+- NEW | **2026-08-22** Eliope - Makina IcecI / Makina Ice Extended ▶ Added Anti-Cheat Logic
+- **2026-08-20** Rayzu - Town Laps 2 ▶ Fixed an invisible hitbox issue
+- **2026-08-17** ZeroX - Long Long Lava Turn Practice Racing Map ▶ Fixed a hole
 - **2026-08-08** Pixell - Pixo Map ▶ Fixed most barriers
 - **2026-08-05** Sebas Tian - SAC - Underground Hunt ▶ Added Anti-Cheat Logic
 - **2026-08-02** Eliope - Makina Fire + Ice (Fused by Riblei) / Sebas Tian - SAC - Ultimate ▶ Added Anti-Cheat Logic
