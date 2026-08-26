@@ -37,7 +37,8 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-08-22** Eliope - Makina IcecI / Makina Ice Extended ▶ Added Anti-Cheat Logic
+- NEW | **2026-08-27** cowcowtony - Racing Volcano (Lava) ▶ Restored hookable property of walls
+- **2026-08-22** Eliope - Makina IcecI / Makina Ice Extended ▶ Added Anti-Cheat Logic
 - **2026-08-20** Rayzu - Town Laps 2 ▶ Fixed an invisible hitbox issue
 - **2026-08-17** ZeroX - Long Long Lava Turn Practice Racing Map ▶ Fixed a hole
 - **2026-08-08** Pixell - Pixo Map ▶ Fixed most barriers
