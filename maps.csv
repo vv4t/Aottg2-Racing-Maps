@@ -39,7 +39,7 @@ map_id|author|name|difficulty|tags|notes
 39|cowcowtony|Future Trax 9|3.5||
 40|Chrysoprase|Another Brick in the Wall|0.5||
 41|Eliope|The Way of the Racers (Luxueux)|1.0|twotr twor inactive|Fixed on 2026-03-20
-42|Esli|Esli's Balltower|6.0||Fixed on 2026-05-05
+42|Esli|Esli's Ball Tower|6.0||Fixed on 2026-05-05
 43|Zil|puzzle|1.0||
 44|oNoto|The End of Laly (Transparent Tube)|4.5||Fixed on 2026-02-21
 46|Mb12|Tomb Escape 2|3.5||Fixed holes on 2026-02-01
@@ -196,7 +196,7 @@ map_id|author|name|difficulty|tags|notes
 202|Incendium|Inferno 1|6.5||
 203|PR0XY|The Sandstone Temple (Lava)|3.5||Fixed on 2026-06-17
 204|Eliope|Blood of the Racers 1 Spoopy Edition (Edit by Riblei, Alex4win)|4.5|botr botr1|Updated by Riblei on 2026-07-04
-205|Riblei|Celestial Automatic (Short)|4.5||
+205|Riblei|Celestial Automatic (Short)|5.5||
 207|Sebas Tian|SAC - Underground Hunt|3.0||Added Anti-Cheat Logic on 2026-08-05
 209|Kari|The Lava Cave|4.0||Fixed a hole on 2026-07-21
 210|oNoto|LaLy Rainracer (Color)|0.5||
@@ -395,7 +395,7 @@ map_id|author|name|difficulty|tags|notes
 409|oNoto|Obstacle Rooms|4.0||
 410|Naito|NTK 4|4.5||
 411|Kari|Lucky Volcano (V6)|5.5||
-412|Naito|NTK 8|5.0||
+412|Naito|NTK 8|6.0||
 413|cowcowtony|Escape from Punk|1.0||
 414|Eliope|Nawak 1|1.5||
 415|Eliope|Makina Royal + TWotR (Tourney Version by Riblei)|4.0||
@@ -403,7 +403,7 @@ map_id|author|name|difficulty|tags|notes
 417|cowcowtony|Isolated City Racing (Easy)|0.5||
 418|Appolina|Endless Lava Obstacles 5 (WIP)|4.0||
 419|Titan TV|Ball Face|5.5||
-420|Eliope|BotR Moving|5.0||
+420|Eliope|BotR Moving|6.0||
 421|Eliope|Blood of the Racers 2|5.0|botr botr2|
 422|Eliope|Makina Source Lv1|1.0||
 424|Chrysoprase|Pistachio|3.5||
@@ -563,6 +563,6 @@ map_id|author|name|difficulty|tags|notes
 585|cowcowtony|Galactic Spherical Solar Panel|2.0||
 586|Feng Lee|Akina|1.0||
 587|Tralalero|Bluebay Circuit|0.5||Released on 2026-05-17;Updated on 2026-06-09
-588|AndyXest|Hare Troop 2|4.0||Released on 2026-06-14
+588|AndyXest|Hare Troop 2|4.5||Released on 2026-06-14
 589|Sylvia|Pinku (3x Scaled by Fruity)|4.0||Added on 2026-06-26
 590|clare|cruiseTG (Usui Pass)|0.5||Added on 2026-08-08;Logic tweaks by wok, Finish design by Eliope
