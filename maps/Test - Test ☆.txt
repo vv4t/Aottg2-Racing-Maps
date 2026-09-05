@@ -1,1415 +1,272 @@
 /// Options
-EditorVersion:1.0|Description:Usui Pass is a historic mountain pass on the border of Gunma Prefecture and Nagano Prefecture, known for steep grades, dense forests, and a winding old road packed with tight hairpins.|HasWeather:1
+EditorVersion:1.0|Description:Classic Forest, originally made by Feng, remade 1-1 by Thyme and DesertFalcon.|HasWeather:0
 /// CustomAssets
-cruisetg,https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/assets/cruisetg
+
 /// Objects
-Scene,None,2,0,1,1,1,0,Daylight,0,0,0,50.3,121.9,1.399998,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
-Scene,Custom/cruisetg/usui,121992,0,1,1,1,0,usui,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,DefaultNoTint|255/255/255/255,PrintOnStart|;
-Scene,General/EditorHumanSpawnPoint,122000,0,1,1,0,0,Human SpawnPoint,6561.45,1353.458,-55.41149,0,328.178,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
-Scene,General/EditorCameraSpawnPoint,122001,0,1,1,0,0,Camera SpawnPoint,6531.097,1357.967,-18.63662,359.9849,255.8374,359.7614,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:CameraSpawnPoint;
-Scene,Geometry/Cube1,122003,0,1,1,1,0,Racing Finish Region,-512.7355,622.9208,-3926.658,0,0,0,41.31068,13.81701,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
-Scene,Geometry/Cube1,122007,0,1,0,1,0,RacingStartBarrier,6551.268,1375.01,-25.77735,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cube1,122008,0,1,0,1,0,RacingStartBarrier,6645.222,1375.01,-81.71515,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cube1,122009,0,1,0,1,0,RacingStartBarrier,6565.556,1375.01,-132.7459,0,236.6383,0,200,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cube1,122010,0,1,0,1,0,RacingStartBarrier,6657.447,1375.01,-186.6838,0,147.0712,0,100,50,5,Physical,MapObjects,Default,Transparent|47/52/255/99|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Custom/cruisetg/road-collision,122011,0,1,1,0,0,S,-6169.133,-844.0623,-5290.089,0,0,0,165,165,165,Physical,Entities,Default,Default|255/255/255/255,;
-Scene,None,122012,0,1,1,1,0,Empty Object,6597.266,1354.099,-39.82129,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,Settings|DisabledBaseKeys:|SettingsFileName:InitialDSettings
+Scene,Nature/Tree2c,0,0,1,1,1,0,Tree2,-397.07,0,228.49,0,100.3,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,1,0,1,1,1,0,Tree2,-242.96,0,97.29,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,2,0,1,1,1,0,Tree2,-204.92,0,-529.01,0,246.02,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,3,0,1,1,1,0,Tree2,75.33,0,445.96,0,173.26,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,4,0,1,1,1,0,Tree2,-58.9,0,-242.3,0,173.26,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,5,0,1,1,1,0,Tree2,388.32,0,-260.02,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,6,0,1,1,1,0,Tree2,-180,0,357.34,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,7,0,1,1,1,0,Tree2,-558.35,0,58.6,0,110.25,0,0.71,0.71,0.71,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,8,0,1,1,1,0,Tree2,-263.19,0,-472.53,0,26.59,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,9,0,1,1,1,0,Tree2,166.72,0,372,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,10,0,1,1,1,0,Tree2,228.32,0,181.65,0,232.93,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,11,0,1,1,1,0,Tree2,119.68,0,-415.93,0,173.26,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,12,0,1,1,1,0,Tree2,-300.6,0,-379.53,0,86.78,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,13,0,1,1,1,0,Tree2,-266.57,0,338.32,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,14,0,1,1,1,0,Tree2,-377.05,0,-358.16,0,209.08,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,15,0,1,1,1,0,Tree2,-288.51,0,427.23,0,85.99,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,16,0,1,1,1,0,Tree2,-551.37,0,-73.58,0,286.03,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,17,0,1,1,1,0,Tree2,-189.06,0,189.27,0,120.32,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,18,0,1,1,1,0,Tree2,152.53,0,430.3,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,19,0,1,1,1,0,Tree2,181.68,0,-482,0,136.63,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,20,0,1,1,1,0,Tree2,415.94,0,377.13,0,173.26,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,21,0,1,1,1,0,Tree2,-407.47,0,-166.23,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,22,0,1,1,1,0,Tree2,-94.73,0,455.88,0,0,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,23,0,1,1,1,0,Tree2,-201.73,0,274.51,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,24,0,1,1,1,0,Tree2,32.25,0,247.98,0,17.79,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,25,0,1,1,1,0,Tree2,438.03,0,-103.91,0,173.26,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,26,0,1,1,1,0,Tree2,463.1,0,-31.56,0,268.96,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,27,0,1,1,1,0,Tree2,58.71,0,-317.91,0,228.76,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,28,0,1,1,1,0,Tree2,-299.02,0,114.03,0,329.1,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,29,0,1,1,1,0,Tree2,-469.65,0,75.61,0,79.26,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,30,0,1,1,1,0,Tree2,-306.29,0,-2.47,0,107.69,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,31,0,1,1,1,0,Tree2,-174.65,0,-265.79,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,32,0,1,1,1,0,Tree2,346.85,0,288.94,0,0,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,33,0,1,1,1,0,Tree2,-62.01,0,-513.35,0,173.26,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,34,0,1,1,1,0,Tree2,126.84,0,-126.44,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,35,0,1,1,1,0,Tree2,114.14,0,147.74,0,146.51,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,36,0,1,1,1,0,Tree2,323.21,0,432,0,173.26,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,37,0,1,1,1,0,Tree2,75.58,0,-4.83,0,242.45,0,1.28,1.28,1.28,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,38,0,1,1,1,0,Tree2,455.47,0,301.18,0,173.26,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,39,0,1,1,1,0,Tree2,192.62,0,-305.3,0,270.97,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,40,0,1,1,1,0,Tree2,225.53,0,-228.61,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,41,0,1,1,1,0,Tree2,-105.74,0,248.07,0,29.58,0,1.18,1.18,1.18,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,42,0,1,1,1,0,Tree2,340,0,-146.33,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,43,0,1,1,1,0,Tree2,108.28,0,317.42,0,173.26,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,44,0,1,1,1,0,Tree2,270.12,0,-271.24,0,68.45,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,45,0,1,1,1,0,Tree2,189.37,0,169.14,0,0,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,46,0,1,1,1,0,Tree2,-281.25,0,-159.14,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,47,0,1,1,1,0,Tree2,200.74,0,-35.49,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,48,0,1,1,1,0,Tree2,523,0,132.83,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,49,0,1,1,1,0,Tree2,443.02,0,170.99,0,173.26,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,50,0,1,1,1,0,Tree2,74.79,0,-240.44,0,0,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,51,0,1,1,1,0,Tree2,-163.37,0,429.75,0,0,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,52,0,1,1,1,0,Tree2,63.17,0,-154.32,0,311.66,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,53,0,1,1,1,0,Tree2,-202.22,0,-398.77,0,311.36,0,1.1,1.1,1.1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,54,0,1,1,1,0,Tree2,-164.7,0,120.9,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,55,0,1,1,1,0,Tree2,77.22,0,71.14,0,315.95,0,1.25,1.25,1.25,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,56,0,1,1,1,0,Tree2,489.58,0,231.12,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,57,0,1,1,1,0,Tree2,-356.11,0,-222.46,0,76.76,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,58,0,1,1,1,0,Tree2,155.16,0,13.92,0,180.31,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,59,0,1,1,1,0,Tree2,-80.82,0,-73.31,0,173.26,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,60,0,1,1,1,0,Tree2,519.05,0,-95.17,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,61,0,1,1,1,0,Tree2,156.24,0,252.55,0,80.03,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,62,0,1,1,1,0,Tree2,527.58,0,41.25,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,63,0,1,1,1,0,Tree2,27.48,0,433.14,0,0,0,1.08,1.08,1.08,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,64,0,1,1,1,0,Tree2,-284.56,0,-264.05,0,19.24,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,65,0,1,1,1,0,Tree2,-85.71,0,86.93,0,95.29,0,1.3,1.3,1.3,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,66,0,1,1,1,0,Tree2,-479.37,0,-198.98,0,0,0,0.83,0.83,0.83,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,67,0,1,1,1,0,Tree2,403.91,0,-309.5,0,173.26,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,68,0,1,1,1,0,Tree2,438.6,0,-177.62,0,115.6,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,69,0,1,1,1,0,Tree2,297.41,0,-33.65,0,173.26,0,1.02,1.02,1.02,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,70,0,1,1,1,0,Tree2,-84.87,0,8.89,0,127.14,0,1.31,1.31,1.31,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,71,0,1,1,1,0,Tree2,-157.89,0,-321.93,0,173.26,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,72,0,1,1,1,0,Tree2,-406.59,0,-434.65,0,34.63,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,73,0,1,1,1,0,Tree2,-539.08,0,-173.49,0,309.23,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,74,0,1,1,1,0,Tree2,242.2,0,-75.47,0,147.41,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,75,0,1,1,1,0,Tree2,-89.78,0,-346.77,0,324.15,0,1.29,1.29,1.29,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,76,0,1,1,1,0,Tree2,-449.59,0,170.17,0,0,0,0.83,0.83,0.83,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,77,0,1,1,1,0,Tree2,352.75,0,232.79,0,173.26,0,1.02,1.02,1.02,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,78,0,1,1,1,0,Tree2,39.34,0,156.87,0,329.01,0,1.26,1.26,1.26,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,79,0,1,1,1,0,Tree2,-390.42,0,362.4,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,80,0,1,1,1,0,Tree2,350.86,0,157.97,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,81,0,1,1,1,0,Tree2,-467.88,0,-331.11,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,82,0,1,1,1,0,Tree2,-379.32,0,128.64,0,173.26,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,83,0,1,1,1,0,Tree2,-150.45,0,510.6,0,65.86,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,84,0,1,1,1,0,Tree2,-168.91,0,-61.07,0,195.09,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,85,0,1,1,1,0,Tree2,-145.46,0,-422.01,0,173.26,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,86,0,1,1,1,0,Tree2,-67.46,0,-459.04,0,227.99,0,1.05,1.05,1.05,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,87,0,1,1,1,0,Tree2,73.83,0,-489.13,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,88,0,1,1,1,0,Tree2,67.25,0,-382.95,0,0,0,1.05,1.05,1.05,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,89,0,1,1,1,0,Tree2,230.27,0,-156.59,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,90,0,1,1,1,0,Tree2,282.77,0,42.79,0,173.26,0,1.05,1.05,1.05,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,91,0,1,1,1,0,Tree2,317.62,0,-412.37,0,47.52,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,92,0,1,1,1,0,Tree2,315.46,0,377.5,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,93,0,1,1,1,0,Tree2,162.88,0,80.25,0,173.26,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,94,0,1,1,1,0,Tree2,-343.57,0,-488.92,0,173.26,0,0.72,0.72,0.72,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,95,0,1,1,1,0,Tree2,-551.75,0,129.43,0,53.56,0,0.7,0.7,0.71,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,96,0,1,1,1,0,Tree2,36,0,347.88,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,97,0,1,1,1,0,Tree2,-299.16,0,-106.46,0,181.96,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,98,0,1,1,1,0,Tree2,-151.53,0,-118.03,0,28.21,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,99,0,1,1,1,0,Tree2,69.44,0,-75.59,0,0,0,1.2,1.2,1.2,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,100,0,1,1,1,0,Tree2,-136.78,0,-199.67,0,105.05,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,101,0,1,1,1,0,Tree2,-444.42,0,257.25,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,102,0,1,1,1,0,Tree2,153.47,0,-216.99,0,162.4,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,103,0,1,1,1,0,Tree2,294.53,0,-342.44,0,0,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,104,0,1,1,1,0,Tree2,-310.84,0,476.09,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,105,0,1,1,1,0,Tree2,207.03,0,-378.17,0,66.41,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,106,0,1,1,1,0,Tree2,101.37,0,538.3,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,107,0,1,1,1,0,Tree2,-104.29,0,379.35,0,143.11,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,108,0,1,1,1,0,Tree2,213.5,0,332.31,0,60.63,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,109,0,1,1,1,0,Tree2,-104.79,0,173.96,0,137.16,0,1.23,1.23,1.23,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,110,0,1,1,1,0,Tree2,499.16,0,-169.07,0,0,0,0.71,0.71,0.71,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,111,0,1,1,1,0,Tree2,371.26,0,468.43,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,112,0,1,1,1,0,Tree2,201.19,0,533.29,0,173.26,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,113,0,1,1,1,0,Tree2,-202.14,0,-194.2,0,173.26,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,114,0,1,1,1,0,Tree2,-476.48,0,-271.93,0,290.4,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,115,0,1,1,1,0,Tree2,288.84,0,95.25,0,0,0,0.82,0.82,0.82,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,116,0,1,1,1,0,Tree2,-370.55,0,316.35,0,357.11,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,117,0,1,1,1,0,Tree2,-237.6,0,37.7,0,115.12,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,118,0,1,1,1,0,Tree2,281.61,0,509.1,0,0,0,0.7,0.7,0.7,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,119,0,1,1,1,0,Tree2,-493.99,0,-16.31,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,120,0,1,1,1,0,Tree2,-164.17,0,17.19,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,121,0,1,1,1,0,Tree2,-68.29,0,-154.55,0,221.26,0,1.27,1.27,1.27,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,122,0,1,1,1,0,Tree2,-470.46,0,-110.35,0,0,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,123,0,1,1,1,0,Tree2,409.71,0,87.35,0,173.26,0,0.91,0.91,0.91,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,124,0,1,1,1,0,Tree2,-278.99,0,225.33,0,62.29,0,1.03,1.03,1.03,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Nature/Tree2c,125,0,1,1,1,0,Tree2,118.32,0,211.77,0,0,0,1.14,1.14,1.14,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,General/EditorHumanSpawnPoint,196,0,1,1,0,0,Human SpawnPoint,-45.74356,0,-513.7239,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Decor/Goober1,206,0,1,1,1,0,Goober1,0.4401548,-12.05062,49.65606,26.11497,180,180,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,General/EditorDaylight,207,0,1,1,0,0,Daylight,-52.64412,90.2121,48.7079,32.46612,142.2099,176.8563,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true;
+Scene,Decor/Table1,208,0,1,1,1,0,Table1,0.1518734,-10,41.96515,0,180,180,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/Teapot1,209,0,1,1,1,0,Teapot1,-1.489067,-15.95189,43.36904,0,0,180,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/Chair1,210,0,1,1,1,0,Chair1,0.341823,-11.86304,48.6939,-5.008956E-06,5.008956E-06,180,1,1,1,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Decor/Book1,211,0,1,1,1,0,Book1,-0.3190949,-15.14989,46.69358,49.85479,180,180,2,2,2,Physical,Entities,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,212,0,1,1,1,0,Cuboid,-50.53821,-5,122.4464,0,180,0,600,1,600,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass5|160/160|0/0,;
+Scene,Interact/Supply2,213,0,1,1,1,0,Supply2,-53,-0.04145937,-511,0,74.26,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0;
+Scene,Geometry/Cuboid,214,0,1,1,0,0,Barrier,-850,1100,0,0,0,0,10,225,200,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,219,0,1,1,0,0,Barrier,850,1100,0,0,0,0,10,225,200,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,216,0,1,1,0,0,Barrier,0,1100,-850,0,90,0,10,225,200,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,217,0,1,1,0,0,Barrier,0,1100,850,0,90,0,10,225,200,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,218,0,1,1,0,0,Barrier,0,2200,0,0,90,90,10,250,250,Physical,Characters,Default,Default|255/255/255/255,;
+Scene,Geometry/Cuboid,221,0,1,1,0,0,Cuboid,0,7,-0.000669116,0,0,0,600,1,600,Physical,Characters,Default,Transparent|255/255/255/255|Misc/None|1/1|0/0,;
+Scene,None,222,0,1,1,1,0,FengGameManagerMKII,0,0,0,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,FengGameManagerMKII|;
+Scene,Geometry/Cube1,227,0,1,1,1,0,Cube1,-179.7585,14.80329,-360.9861,0,121.9499,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,224,0,1,1,1,0,Cube1,-63.72131,14.80329,-198.1487,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,225,0,1,1,1,0,Cube1,-68.22498,14.80329,-115.1242,0,78,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Frame1d,226,0,1,0,1,0,Frame1d,-52.45029,48.08174,-507.1589,0,0,0,50,1000,50,Physical,Entities,Default,Transparent|0/255/232/100|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cube1,228,0,1,1,1,0,Cube1,-318.3452,14.80329,-240.5612,0,211.3589,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,229,0,1,1,1,0,Cube1,-339.7836,14.80329,122.1058,0,193.4254,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,230,0,1,1,1,0,Cube1,-168.2837,14.80329,394.9746,0,280.3237,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,231,0,1,1,1,0,Cube1,-80.27346,14.80329,-32.31882,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,232,0,1,1,1,0,Cube1,-384.1055,14.80329,-192.9935,0,230.6156,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,233,0,1,1,1,0,Cube1,-83.62836,14.80329,46.34628,0,78,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,234,0,1,1,1,0,Cube1,-93.93317,14.80329,130.9357,0,80.23696,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,235,0,1,1,1,0,Cube1,-106.3193,14.80329,219.4178,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,236,0,1,1,1,0,Cube1,-272.0862,14.80329,282.2166,0,279.733,0,100,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,237,0,1,1,1,0,Cube1,68.1588,14.80329,-281.068,0,102.4672,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,238,0,1,1,1,0,Cube1,202.2987,14.80329,-341.9264,0,81.35327,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,239,0,1,1,1,0,Cube1,269.1857,14.80329,-55.38314,0,143.292,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,240,0,1,1,1,0,Cube1,381.7656,14.80329,123.6637,0,228.8508,0,90,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,241,0,1,1,1,0,Cube1,352.4105,14.80329,261.6397,0,260.328,0,60,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,242,0,1,1,1,0,Cube1,136.0722,14.80329,343.5149,0,318.1073,0,90,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,243,0,1,1,1,0,Cube1,73.29604,14.80329,37.16023,0,86.10073,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,244,0,1,1,1,0,Cube1,71.65809,14.80329,-44.95687,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,245,0,1,1,1,0,Cube1,58.82132,14.80329,113.6077,0,62.91553,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,246,0,1,1,1,0,Cube1,34.87671,14.80329,202.6885,0,88.05109,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,247,0,1,1,1,0,Cube1,35.78625,14.80329,298.5554,0,92.13521,0,80,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Pyramid3b,257,0,1,0,1,0,Pyramid3b,22.6712,46.76458,-513.6179,0,0,0,50,500,50,Physical,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
+Scene,Geometry/Cube1,250,0,1,1,1,0,Cube1,435.648,14.80329,-140.8346,0,266.4174,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,253,0,1,1,1,0,Cube1,-481.1706,14.72633,28.59789,0,106.3328,0,90,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,254,0,1,1,1,0,Cube1,397.9436,14.80329,-283.2654,0,70.51978,0,50,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,255,0,1,1,1,0,Cube1,364.9571,14.80329,-198.1921,0,67.4688,0,130,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|
 /// Logic
-component PrintOnStart
-{
-    function OnGameStart()
-    {
-        self.DelayPrint();
-    }
-    
-    function OnPlayerSpawn(player, character)
-    {
-        if(character.IsMine)
-        {
-            self.SpawnCar();
-        }
-    }
 
-    function SpawnCar()
-    {
-        o = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/ae86,121997,0,1,0,1,1,ae86,6558.299,1352.199,-56.1908,0,327.0331,0,2.1,2.1,2.1,Region,MapObjects,Default,DefaultNoTint|255/255/255/255,;");
-        o.SetCollideMode("Physical");
-        
-        o.AddComponent("Rigidbody");
-        o.Rigidbody.Mass = 2000;
-        o.Rigidbody.Gravity = Vector3(0, -157000, 0);
-        o.Rigidbody.FreezeAllRotations = false;
-        o.Rigidbody.Interpolate = false;
+component FengGameManagerMKII {
+  _captured = 0;
 
-        c = o.AddComponent("Car");
-        c.CarName = "AE86";
-        c.CarPath = "ae86/AE86";
-        c.SoundPath = "ae86";
-        c.Health = 300;
-        c.CrashDecelerationThreshold = 30;
-        c.MoveForce = 115;
-        c.MaxMoveSpeed = 140;
-        c.MaxSteeringAngle = 45;
-        c.VelocityFacing = 0.07;
-        c.MinVelocityFacing = 0.04;
-        c.TorqueForce = 600;
-        c.BrakingScale = 0.02;
-        c.EngineSpeed = 0.02;
-        c.SteeringSpeed = 0.08;
-        c.MaxEngineSpeed = 120;
-        c.BrakingVelocityFacingScale = 0.06;
-        c.BrakingSteeringScale = 1.5;
-        c.BrakingMultiplierLerpScale = 0.07;
-        c.SlowDownScale = 0.003;
-        c.DriftMaxSteeringAngle = 70;
-        c.DriftGrip = 0.01;
-        c.DriftSteeringScale = 1.78;
-        c.DriftSpeedLoss = 0.002;
-        c.DriftCounterSteerAssist = 0.19;
-        c.DriftSteeringSpeedMin = 0.002;
-        c.DriftSteeringSpeedMax = 0.12;
-        c.DriftSteeringRampUp = 0.02;
-        c.DriftSteeringRampDown = 0.04;
-        c.DriftDurationMin = 0.8;
-        c.DriftDurationMax = 3;
-        c.DriftExitBoost = 1.01;
-        c.StartingCamera = "ThirdPerson";
-        c.FirstPersonCameraOffset = Vector3(-0.7,1.1,2);
-        c.BumperViewCameraOffset = Vector3(1,2.5,0);
-        c.ThirdPersonCameraOffset = Vector3(-12,5,0);
-        c.ThirdPersonExtendedCameraOffset = Vector3(-14,6,0);
-        c.CameraLookAtOffset = Vector3(10,1,0);
-        c.MountPositionOffsetRider = Vector3(0.3,0.6,-0.1);
-        c.DriftSteeringSpeed = 0.1;
-        c.FirstPersonCameraLookAtOffset = Vector3(10,1,0);
-        c.BumperViewCameraLookAtOffset = Vector3(10,1,0);
-        c.ThirdPersonCameraLookAtOffset = Vector3(10,1,0);
-        c.ThirdPersonExtendedCameraLookAtOffset = Vector3(10,1,0);
-        c.FirstPersonCameraLockOffset = Vector3(10,1,0);
-        c.BumperViewCameraLockOffset = Vector3(10,1,0);
-        c.ThirdPersonCameraLockOffset = Vector3(10,1,0);
-        c.ThirdPersonExtendedCameraLockOffset = Vector3(10,1,0);
-    }
+  function OnGameStart() {
+    self._goals = Map.FindMapObjectsByComponent("RacingGoal");
+    self._finish = Map.FindMapObjectByComponent("RacingFinishRegion");
+    self.OnResetRace();
+  }
 
-    coroutine DelayPrint()
-    {
-        wait 2;
-        red = "#ff0000";
-        lockedCamChangeButton = "<color=#ff0000>" + Input.GetKeyName(SettingsManager.ReturnKeyString("Change Camera")) + "</color>";
-        toggleLockedCameraButton = "<color=#ff0000>" + Input.GetKeyName(SettingsManager.ReturnKeyString("Toggle Camera Lock")) + "</color>";
-        
-        turnUprightButton = "<color=#ff0000>" + Input.GetKeyName(SettingsManager.ReturnKeyString("Flip Car")) + "</color>";
-        driftButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Drift")), red);
-        brakeButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Brake")), red);
-        accelerateButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Accelerate")), red);
-        keybindSettingsButton = Utils.ColorStr(Input.GetKeyName(SettingsManager.ReturnKeyString("Keybinds Popup")), red);
-        
-        nl = String.Newline;
-        message = "Press " + turnUprightButton + " to turn car upright" + nl + "Press " + lockedCamChangeButton + " to Change Camera Mode" + nl +
-                    "Press " + toggleLockedCameraButton + " to Unlock Camera";
-        message += nl + "Press " + driftButton + " to Drift";
-        message += nl + "Press " + brakeButton + " to Brake";
-        message += nl + "Press " + accelerateButton + " to Accelerate";
-        message += nl + "Press " + keybindSettingsButton + " to Open the Keybind Settings Menu";
-        Game.Print(message);  
+  function OnCharacterSpawn(c) {
+    if (c.Type == "Human" && c.IsMine) {
+      c.Speed = 100;
     }
+  }
 
-    function OnTick() {
-        me = Network.MyPlayer.Character;
-        if (me != null) {
-            me.CurrentGas = 0;
-        }
+  function OnSecond() {
+    me = Network.MyPlayer.Character;
+    if (me != null) {
+      me.SetSpecial(SpecialEnum.Potato);
     }
+  }
+
+  function OnResetRace() {
+    self._captured = 0;
+    for (goal in self._goals) {
+      goal.Active = true;
+    }
+    self._finish.Active = false;
+  }
+
+  function CaptureGoal() {
+    self._captured += 1;
+    UI.SetLabelForTime("MiddleCenter", "Captured <color=#aaffaa>" + self._captured + "/" + self._goals.Count + "</color>.", 1.0);
+
+    if (self._captured == self._goals.Count) {
+      self._finish.Active  = true;
+    }
+  }
 }
 
-component Settings
-{
-    DisabledBaseKeys = "";
-    DisabledBaseKeysTooltip = "Custom Keybind Slots to disable the Games Default Key Binding for(Separate with , [e.g - Drift,Brake,Flip Car, Change Camera, Keybinds Popup])";
-    SettingsFileName = "InitialDSettings";
+component RacingGoal {
+  function OnGameStart() {
+    self.g = Map.FindMapObjectByName("FengGameManagerMKII").GetComponent("FengGameManagerMKII");
+  }
 
-    function OnGameStart()
-    {
-        SettingsManager.SetCustomSettings(self.SettingsFileName);
-        SettingsManager.LoadKeybinds();
-        SettingsManager.CreatePopup("KeybindSettings", "Keybing Settings");
+  function OnCollisionEnter(c) {
+    if (c.Type == "Human" && c.IsMine) {
+      self.g.CaptureGoal();
+      self.MapObject.Active = false;
     }
-
-    function OnFrame()
-    {
-        openKeybindSettingsPressed = Input.GetKeyDown(SettingsManager.ReturnKeyString("Keybinds Popup"));
-        if(openKeybindSettingsPressed) {
-            SettingsManager.ShowKeybindPopup();
-        }
-    }
-
-    function OnButtonClick(buttonName)
-    {
-        SettingsManager.OnButtonClick(buttonName);
-    }
+  }
 }
 
-component Car
-{   
-    CarName = "AE86";
-    CarNameDropbox = "AE86,RX7";
-    CarPath = "ae86/AE86";
-    SoundPath = "ae86";
-    Health = 500;
-    CrashDecelerationThreshold = 30.0;
-    MoveForce = 45.0;
-    MaxMoveSpeed = 60.0;
-    MaxSteeringAngle = 45.0;
-    VelocityFacing = 0.07;
-    MinVelocityFacing = 0.04;
-    TorqueForce = 300.0;
-    BrakingScale = 0.02;
-    EngineSpeed = 0.02;
-    SteeringSpeed = 0.04;
-    MaxEngineSpeed = 100.0;
-    BrakingVelocityFacingScale = 0.05;
-    BrakingSteeringScale = 1.5;
-    BrakingMultiplierLerpScale = 0.001;
-    SlowDownScale = 0.003;
-
-    DriftMaxSteeringAngle = 120.0;
-    DriftGrip = 0.0003; 
-    DriftSteeringScale = 4.0;
-    DriftSpeedLoss = 0.003;
-    _currentGrip = 0.07;
-
-    DriftCounterSteerAssist = 0.15;
-
-    DriftSteeringSpeedMin = 0.03;
-    DriftSteeringSpeedMax = 0.13;
-    DriftSteeringRampUp = 0.02;
-    DriftSteeringRampDown = 0.08;
-
-    DriftDurationMin = 0.8;
-    DriftDurationMax = 4.0;
-    _driftTimer = 0.0;
-    _currentVelocity = 0.0;
-    _driftHoldTime = 0.0;
-
-    _driftAngle = 0.0;
-    _driftTransition = 0.0;
-    _wasDriftingLastFrame = false;
-    DriftExitBoost = 1.12;
-
-    CameraStartLocked = true;
-    StartingCamera = "ThirdPerson";
-    StartingCameraDropbox = "ThirdPerson,ThirdPersonExtended,FirstPerson,BumperView";
-
-    FirstPersonCameraOffset = Vector3(0.15, 1.0,0);
-    BumperViewCameraOffset = Vector3(1.0, 2.5,0);
-    ThirdPersonCameraOffset = Vector3(-12.0, 5.0,0);
-    ThirdPersonExtendedCameraOffset = Vector3(-14.0, 6.0,0);
-
-    CameraLookAtOffset = Vector3(10.0, 1.0);
-    MountPositionOffsetRider = Vector3(0.3, 0.6, -0.1);
-
-    _cameraNames = Dict();
-    _cameraIDs = Dict();
-
-    _isCameraLocked = true;
-
-    _inUse = false;
-    _hasPassenger = false;
-    _isPassenger = false;
-    _human = null;
-    _collidingHuman = null;
-    _collidingDrive = false;
-    _collidingPassenger = false;
-    _rigidbody = null;
-    
-    _leftFrontWheel = null;
-    _rightFrontWheel = null;
-    _leftBackWheel = null;
-    _rightBackWheel = null;
-    _wheels = List();
-
-    _transform = null;
-
-    _enginePower = 0.0;
-    _drivingAngle = 0.0;
-    _isGrounded = false;
-    _isBraking = false;
-    _currentCamera = 2;
-    _currentBrakingMultiplier = 1.0;
-
-    #Sounds
-    _ignition = null;
-    _exhaust = null;
-    _lowRumble = null;
-    _highRumble = null;
-    _driftingSFX = null;
-    _doorSlamAudio = null;
-    _engineOn = false;
-    _canExhaust = false;
-    _soundEngine = 0;
-    _soundVelocity = 0;
-
-    #Visual FX
-    _explosion = null;
-    _rightBackWheelSmoke = null;
-    _leftBackWheelSmoke = null;
-    
-    _velocityFacingDiff = 0;
-    _lowVelocityThreshold = 15.0;
-    
-    _previousSpeed = 0.0;
-    _canMove = false;
-    _steeringWheel = null;
-
-    _isDrifting = false;
-    _settings = Dict();
-
-    function GetKeybinds()
-    {
-        self._settings = SettingsManager._settings;
-
-        for(key in self._settings.Keys) {
-            Game.Print(key + " | " + self._settings.Get(key));
-        }
-    }
-    
-    function InitCarType()
-    {
-        carType = self.CarName;
-        carPath = self.CarPath;
-        soundPath = self.SoundPath;
-
-        self._leftFrontWheel = self.MapObject.GetTransform(carPath + "-wheel-1");
-        self._rightFrontWheel = self.MapObject.GetTransform(carPath + "-wheel-2");
-        self._leftBackWheel = self.MapObject.GetTransform(carPath + "-wheel-3");
-        self._rightBackWheel = self.MapObject.GetTransform(carPath + "-wheel-4");
-        self._steeringWheel = self.MapObject.GetTransform(carPath + "-Steering-Wheel");
-        self._ignition = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-ignition,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._exhaust = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-exhaust,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._lowRumble = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-slow-rumble,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._highRumble = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/" + soundPath + "-fast-rumble,121971,0,1,0,0,0," + soundPath + "-slow-rumble,-8.145931,375.8683,-759.3201,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._driftingSFX = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/drifting,122025,0,0,0,0,0,drifting,6570.609,1365.88,-51.67888,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._wheels.Add(self._leftFrontWheel);
-        self._wheels.Add(self._rightFrontWheel);
-        self._wheels.Add(self._leftBackWheel);
-        self._wheels.Add(self._rightBackWheel);
-        self.ParentSmokeToCar();
-    }
-
-    function ParentSmokeToCar()
-    {   
-        mapObjTransform = self.MapObject.Transform;
-        self._leftBackWheelSmoke = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/smoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._rightBackWheelSmoke = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/smoke-5,122018,0,0,0,1,0,WheelSmoke,-5355.312,2231.409,-6456.91,0,0,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,");
-
-        self._leftBackWheelSmoke.Position = self._leftBackWheel.Position;
-        self._rightBackWheelSmoke.Position = self._rightBackWheel.Position;
-        self._leftBackWheelSmoke.Rotation = Vector3(0,90,0);
-        self._rightBackWheelSmoke.Rotation = Vector3(0,-90,0);
-        self._leftBackWheelSmoke.Parent = mapObjTransform;
-        self._rightBackWheelSmoke.Parent = mapObjTransform;
-        self._leftBackWheelSmoke.LocalPosition = self.MapObject.Forward * -2;
-        self._rightBackWheelSmoke.LocalPosition = self.MapObject.Forward * -2;
-
-        self._leftBackWheelSmoke.Scale = Vector3(0.9);
-        self._rightBackWheelSmoke.Scale = Vector3(0.9);
-        self._leftBackWheelSmoke.Active = false;
-        self._rightBackWheelSmoke.Active = false;
-
-        self._explosion = Map.CreateMapObjectRaw("Scene,Custom/cruisetg/zero-hp-car,122024,0,0,0,1,0,zero-hp-car,6559.316,1356.862,-50.91142,0,0,0,1,1,1,Physical,Entities,Default,DefaultNoTint|255/255/255/255,");
-        self._explosion.Position = self.MapObject.Position;
-        self._explosion.Parent = mapObjTransform;
-        self._explosion.LocalPosition = Vector3();
-        self._driftingSFX.Position = mapObjTransform.Position;
-        self._driftingSFX.Parent = mapObjTransform;
-    }
-
-    function Init()
-    {   
-        self._cameraNames.Set(0, "FirstPerson");
-        self._cameraNames.Set(1, "BumperView");
-        self._cameraNames.Set(2, "ThirdPerson");
-        self._cameraNames.Set(3, "ThirdPersonExtended");
-
-        self._cameraIDs.Set("FirstPerson", 0);
-        self._cameraIDs.Set("BumperView", 1);
-        self._cameraIDs.Set("ThirdPerson", 2);
-        self._cameraIDs.Set("ThirdPersonExtended", 3);
-        self._isCameraLocked = self.CameraStartLocked;
-        self._currentCamera = self._cameraIDs.Get(self.StartingCamera);
-
-        self._rigidbody = self.MapObject.GetComponent("Rigidbody");
-        self.MapObject.AddSphereCollider("Region", "Characters", Vector3.Zero, 1 * self.MapObject.Scale.X);
-
-        self.InitCarType();
-        
-        self.StopSounds();
-
-        self._transform = self.MapObject.Transform;
-
-        self._velocityFacingDiff = self.VelocityFacing - self.MinVelocityFacing;
-    }
-
-    function OnPlayerSpawn(player, character)
-    {
-        if (Network.IsMasterClient) 
-        { 
-            self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
-        }
-
-        if(character.IsMine) {
-            character.SetWeapon("Blade");
-            character.CurrentBladeDurability = 0;
-            character.CurrentBlade = 0;
-            character.MaxBlade = 0;
-            character.MaxGas = 0;
-            character.CurrentGas = 0;
-            UI.SetBottomHUDActive(false);
-        }
-
-    }
-
-	function OnPlayerLeave(player)
-	{
-        return;
-        if (player.ID == Network.MyPlayer.ID)
-        {
-            if (self._isPassenger)
-            {
-                self._isPassenger = false;
-                self._hasPassenger = false;
-                self.NetworkView.SendMessage(player, "p" + Convert.ToString(self._hasPassenger)); 
-            }
-            elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
-            {
-                self._inUse = false;
-                self.NetworkView.Transfer(Network.MasterClient);
-            }
-        }
-	}
-
-	function OnCharacterDie(victim, killer, killerName)
-	{
-        if (victim.IsMine)
-        {
-            Camera.SetManual(false);
-            Map.DestroyMapObject(self.MapObject, true);
-        }
-
-        return;
-
-        if (victim.Type != "Human") { return; }
-
-        if (victim.Player.ID == Network.MyPlayer.ID)
-        {
-            if (self._isPassenger)
-            {
-                self._isPassenger = false;
-                self._hasPassenger = false;
-                self.NetworkView.SendMessage(victim.Player, "p" + Convert.ToString(self._hasPassenger)); 
-            }
-            elif(self.NetworkView.Owner == Network.MyPlayer || Network.IsMasterClient)
-            {
-                self._inUse = false;
-			    self.NetworkView.Transfer(Network.MasterClient);
-                Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true);
-            }
-        }
-	}
-
-    function OnNetworkStream()
-    {
-        self._inUse = self.NetworkView.ReceiveStream();
-        self._soundEngine = self.NetworkView.ReceiveStream();
-        self._soundVelocity = self.NetworkView.ReceiveStream();
-    }
-
-    function SendNetworkStream()
-    {
-        self.NetworkView.SendStream(self._inUse);
-        self.NetworkView.SendStream(self._soundEngine);
-        self.NetworkView.SendStream(self._soundVelocity);
-    }
-
-    function OnNetworkMessage(sender, message)
-    {
-        if (Network.IsMasterClient && self.NetworkView.Owner == Network.MyPlayer && !self._inUse && message == "request")
-        {
-            self.NetworkView.Transfer(sender);
-        }
-        elif (String.StartsWith(message, "p"))
-        {
-            self._hasPassenger = Convert.ToBool(String.Substring(message, 1));
-        }
-        elif(message == "enter") {
-            self._doorSlamAudio.Active = true;
-            return;
-        }
-    }
-
-    function OnNetworkTransfer(oldOwner, newOwner)
-    {
-        if (newOwner == Network.MasterClient && Network.IsMasterClient)
-        {
-            self._inUse = false;
-        }
-        elif (newOwner == Network.MyPlayer)
-        {
-            human = self._collidingHuman;
-            if (human != null && human.Type == "Human")
-            {
-                self.OnEnterCarRider();
-            }
-            else
-            {
-                self.NetworkView.Transfer(Network.MasterClient);
-            }
-        }
-        if(Network.IsMasterClient && newOwner != Network.MyPlayer) {
-            Game.Print(newOwner.ID + "] Name: " + newOwner.Name);
-            self._human = newOwner.Character;
-        }
-    }
-
-    function OnCollisionStay(other)
-    {
-        if (other.Type != "Human" || !other.IsMine) { return; }
-        
-        vector = other.Position - self.MapObject.Position;
-        project = Vector3.Project(vector, self.MapObject.Right);
-        if (project.Normalized == self.MapObject.Right && !self._inUse && !other.IsMounted)
-        {
-            UI.SetLabelForTime("MiddleCenter", "Press " + Input.GetKeyName("Interaction/Interact") + " to drive", 0.1);
-            self._collidingHuman = other;
-            self._collidingDrive = true;
-        }
-        elif (project.Normalized != self.MapObject.Right && !self._hasPassenger && !other.IsMounted)
-        {
-            UI.SetLabelForTime("MiddleCenter", "Press " + Input.GetKeyName("Interaction/Interact") + " to get in", 0.1);
-            self._collidingHuman = other;
-            self._collidingPassenger = true;
-        }
-    }
-
-    function OnTick()
-    {
-        self._collidingHuman = null;
-        self._collidingDrive = false;
-        self._collidingPassenger = false;
-
-        vector = self._rigidbody.GetVelocity();
-        y = vector.Y;
-        vector.Y = 0;
-        velocity = vector.Magnitude;
-
-        self.PlaySounds(self._soundEngine, self._soundVelocity);
-
-        if(self._leftBackWheel != null) {
-            rotationSpeed = Math.Clamp(velocity, 0, 10);
-            currentMax = self.MaxSteeringAngle;
-
-            if (self._isDrifting) { currentMax = self.DriftMaxSteeringAngle; }
-            yRotation = Math.Clamp(self._drivingAngle / (currentMax / 45), -45, 45);
-            xRotation = Math.Sign(self._enginePower) * rotationSpeed;
-
-            self._leftFrontWheel.LocalRotation = Vector3(self._leftFrontWheel.LocalRotation.X + xRotation, yRotation, self._leftFrontWheel.LocalRotation.Z);
-            self._rightFrontWheel.LocalRotation = Vector3(self._rightFrontWheel.LocalRotation.X + xRotation, yRotation, self._rightFrontWheel.LocalRotation.Z);
-            self._leftBackWheel.Rotate(Vector3(xRotation, 0, 0));
-            self._rightBackWheel.Rotate(Vector3(xRotation, 0, 0));
-        }
-        if(self.NetworkView.Owner != Network.MyPlayer) { return; } 
-
-        if(self._inUse && self._human != null) {
-            speedDrop = self._previousSpeed - velocity;
-            if(speedDrop >= self.CrashDecelerationThreshold) { self.OnCrash(speedDrop); }
-            self._previousSpeed = velocity;
-
-            UI.SetLabel(UILabelEnum.MiddleRight, "Speed[" + String.FormatFloat(velocity, 2) + "]");
-            Network.MyPlayer.Character.Rigidbody.Velocity = vector;
-            self._soundEngine = self._enginePower;
-            self._soundVelocity = velocity;
-            self.CheckIsGrounded();
-
-            project = Vector3.Project(vector, self.MapObject.Forward);
-            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString("Brake"));
-            
-            if(self._driftTimer > 0.0) {
-                self._driftTimer -= Time.TickTime;
-                self._isDrifting = true;
-            } else {
-                self._driftTimer = 0.0;
-                self._isDrifting = false;
-            }
-
-            if(self._isBraking) { self._currentBrakingMultiplier = Math.Lerp(self._currentBrakingMultiplier, self.BrakingSteeringScale, self.BrakingMultiplierLerpScale); }
-            else { self._currentBrakingMultiplier = Math.Lerp(self._currentBrakingMultiplier, 1.0, self.BrakingMultiplierLerpScale); }
-
-            forwardMultiplier = 1.0;
-            if(project.Normalized != self.MapObject.Forward && !self._isDrifting) { forwardMultiplier = -1.0; }
-
-            rotatePower = 1.0;
-            if(velocity < 0.001) { rotatePower = 0; }
-            elif(velocity < self._lowVelocityThreshold) { rotatePower = velocity / self._lowVelocityThreshold; }
-            
-            rotatePower *= forwardMultiplier;
-            if(self._isBraking) { rotatePower *= self._currentBrakingMultiplier; }
-            if(self._isDrifting) { rotatePower *= self.DriftSteeringScale; }
-
-            if(Input.GetKeyHold("General/Back")) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed * -1, self.EngineSpeed); }
-            elif(Input.GetKeyHold(SettingsManager.ReturnKeyString("Accelerate"))) { self._enginePower = Math.Lerp(self._enginePower, self.MaxEngineSpeed, self.EngineSpeed); }
-            else{ self._enginePower = Math.Lerp(self._enginePower, 0, 0.05); }
-
-            currentSteeringSpeed = self.SteeringSpeed;
-            currentMaxAngle = self.MaxSteeringAngle;
-
-            if(self._isDrifting) {
-                self._driftHoldTime = Math.Lerp(self._driftHoldTime, 1.0, self.DriftSteeringRampUp);
-                currentSteeringSpeed = Math.Lerp(self.DriftSteeringSpeedMin, self.DriftSteeringSpeedMax, self._driftHoldTime);
-                currentSteeringSpeed = Math.Clamp(currentSteeringSpeed, self.DriftSteeringSpeedMin, self.DriftSteeringSpeedMax);
-                currentMaxAngle = self.DriftMaxSteeringAngle;
-            } else {
-                self._driftHoldTime = Math.Lerp(self._driftHoldTime, 0.0, self.DriftSteeringRampDown);
-            }
-            if (Input.GetKeyHold("General/Left")) { self._drivingAngle = Math.Lerp(self._drivingAngle, (-1.0 * currentMaxAngle), currentSteeringSpeed); }
-            elif (Input.GetKeyHold("General/Right")) { self._drivingAngle = Math.Lerp(self._drivingAngle, currentMaxAngle, currentSteeringSpeed); }
-            else { self._drivingAngle = Math.Lerp(self._drivingAngle, 0, 0.1); }
-
-            if(self._steeringWheel != null) {
-                visualWheelTurn = self._drivingAngle * 2.5;
-                tiltX = self._steeringWheel.LocalRotation.X;
-                tiltY = self._steeringWheel.LocalRotation.Y;
-
-                self._steeringWheel.LocalRotation = Vector3(tiltX, tiltY, visualWheelTurn);
-            }
-
-            if(self._isGrounded) {
-                self.MapObject.Transform.Rotate(Vector3(0, self._drivingAngle * Time.TickTime * rotatePower, 0));
-                forceDirection = self.MapObject.Forward;
-                engineMultiplier = 1.0;
-                if(self._isDrifting && velocity > 2.0)  {
-                    self._driftAngle = Vector3.Angle(vector.Normalized, self.MapObject.Forward);
-
-                    speedFactor = Math.Clamp(velocity / self.MaxMoveSpeed, 0.3, 1.0);
-                    blendAmount = 0.4 + (speedFactor * 0.3);
-                    forceDirection = Vector3.Lerp(self.MapObject.Forward, vector.Normalized, blendAmount);
-                    engineMultiplier = 0.75 + (speedFactor * 0.15);
-
-                    if(self._driftAngle > 25.0) {
-                        counterSteerAmount = Math.Clamp((self._driftAngle - 25.0) / 65.0, 0.0, 1.0);
-                        cross = Vector3.Cross(self.MapObject.Forward, vector.Normalized);
-                        counterDirection = Math.Sign(cross.Y) * -1.0;
-                        assistAngle = counterDirection * currentMaxAngle * self.DriftCounterSteerAssist * counterSteerAmount;
-                        self._drivingAngle = Math.Lerp(self._drivingAngle, self._drivingAngle + assistAngle, 0.3);
-                    }
-                }
-
-                self._rigidbody.AddForce(forceDirection * (self.MoveForce * engineMultiplier) * (self._enginePower / self.MaxEngineSpeed));
-                if(Math.Abs(self._enginePower) < 1) { self.SlowToStop(); }
-                if(self._isDrifting) { self._driftTransition = Math.Lerp(self._driftTransition, 1.0, 0.15); }
-                else { self._driftTransition = Math.Lerp(self._driftTransition, 0.0, 0.05); }
-
-                baseGrip = self.VelocityFacing - (self._velocityFacingDiff * velocity / self.MaxMoveSpeed);
-                targetGrip = Math.Lerp(baseGrip, self.DriftGrip, self._driftTransition);
-
-                if(self._isBraking && !self._isDrifting) { targetGrip *= self.BrakingVelocityFacingScale * (self._currentBrakingMultiplier / 1.0); }
-                self._currentGrip = Math.Lerp(self._currentGrip, targetGrip, 0.02);
-
-                newVector = Vector3.Lerp(vector.Normalized, self.MapObject.Transform.Forward * forwardMultiplier, self._currentGrip) * velocity;
-
-                if(self._isDrifting) {
-
-                    sidewaysFactor = Math.Abs(Vector3.Dot(newVector.Normalized, self.MapObject.Right));
-                    speedLossFactor = 1.0 - (self.DriftSpeedLoss * sidewaysFactor);
-
-                    newVector = newVector.Magnitude * speedLossFactor * newVector.Normalized;
-                } 
-                elif(self._isBraking) { newVector = newVector.Magnitude * (1.0 - (self.BrakingScale * self._currentBrakingMultiplier / 1.0)) * newVector.Normalized; }
-                newVector.Y = y;
-
-                self._rigidbody.SetVelocity(newVector);
-                self.LimitSpeed();
-                self.FaceSurface();
-                
-                if(self._wasDriftingLastFrame && !self._isDrifting && velocity > 5.0) {
-                    currentVel = self._rigidbody.GetVelocity();
-                    currentVel.Y = 0;
-                    if(currentVel.Magnitude > 0.1) {
-                        boostedVel = currentVel.Normalized * Math.Min(currentVel.Magnitude * self.DriftExitBoost, self.MaxMoveSpeed);
-                        boostedVel.Y = y;
-                        self._rigidbody.SetVelocity(boostedVel);
-                    }
-                }
-                self._wasDriftingLastFrame = self._isDrifting;
-
-                if(self._leftBackWheelSmoke != null) {
-                    if(self._isDrifting && velocity > 30.0) {
-                        smokeIntensity = Math.Clamp(self._driftAngle / 35.0, 0.5, 1.5);
-                        self._leftBackWheelSmoke.Scale = Vector3(0.5 * smokeIntensity);
-                        self._rightBackWheelSmoke.Scale = Vector3(0.5 * smokeIntensity);
-                        self._leftBackWheelSmoke.Active = true;
-                        self._rightBackWheelSmoke.Active = true;
-                        self._driftingSFX.Active = true;
-                    } 
-                    else {
-                        self._leftBackWheelSmoke.Active = false;
-                        self._rightBackWheelSmoke.Active = false;
-                        self._driftingSFX.Active = false;
-                    }
-                }
-            }
-        }
-    }
-
-    function OnCrash(damage)
-    {   
-        me = Network.MyPlayer.Character;
-        self.Health -= damage;
-        if(self.Health <= 0) { 
-            self._explosion.Scale = Vector3((damage / 10) * 0.5);
-            self._explosion.Active = true;
-            self.Health = 0;
-        }
-        if(self._driftingSFX.Active) { self._driftingSFX.Active = false; }
-        #Game.Print(damage + " Health: " + self.Health);
-        
-        Game.SpawnEffect(EffectNameEnum.Boom5, self._leftFrontWheel.Position, Vector3(), (damage / 10) * 0.5);
-
-        if(damage >= self.Health) {
-            if(me != null) {
-                self.OnExitCarRider();
-                carVelocity = self._rigidbody.GetVelocity();
-                if(carVelocity.Magnitude > 0) { me.Velocity = carVelocity * (damage / 20); }
-            }
-        }
-    }
-
-    function OnFrame()
-    {   
-        if (self._human != null) 
-        {
-            if(self._human != Network.MyPlayer.Character) { return; }
-            self._human.PlayAnimation("Armature|horse_idle"); 
-            changeCamKey = Input.GetKeyDown(SettingsManager.ReturnKeyString("Change Camera"));
-            toggleCamLockKey = Input.GetKeyDown(SettingsManager.ReturnKeyString("Toggle Camera Lock"));
-            if (changeCamKey) {
-                if(self._isCameraLocked) {
-                    if(!Camera.IsManual) { Camera.SetManual(true); }
-                    self._currentCamera = Math.Mod(self._currentCamera + 1, 4); 
-                    if(self._currentCamera == 0) { Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(false); }
-                    else { Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
-                    Game.Print("Camera: " + self._cameraNames.Get(self._currentCamera)); 
-                }
-                else { self.ToggleCameraMode(); }
-            }
-            elif(toggleCamLockKey) {
-                self.ToggleCameraLock();
-            }
-        }
-        
-        if (self.NetworkView.Owner == Network.MyPlayer && self._inUse)
-        {
-            self._human = self.NetworkView.Owner.Character;
-            if (Input.GetKeyDown("Interaction/Interact"))
-            {
-                self.OnExitCarRider();
-                return;
-            }
-            flipCarKey = Input.GetKeyDown(SettingsManager.ReturnKeyString("Flip Car"));
-            driftKey = Input.GetKeyHold(SettingsManager.ReturnKeyString("Drift"));
-            if (flipCarKey)
-            {   
-                self._rigidbody.SetVelocity(Vector3.Zero);
-                self.MapObject.Transform.Position = self.MapObject.Transform.Position + Vector3.Up * 3.0;
-                self.MapObject.Rotation = Vector3(0,Camera.Rotation.Y, 0);
-            }
-            if(driftKey) { 
-                if(self._isDrifting) { return; }
-                speedFraction = Math.Clamp(self._currentVelocity / self.MaxMoveSpeed, 0.0, 1.0);
-                self._driftTimer = Math.Lerp(self.DriftDurationMin, self.DriftDurationMax, speedFraction);
-            } 
-
-            self._isBraking = Input.GetKeyHold(SettingsManager.ReturnKeyString("Brake"));
-            
-            if (self.NetworkView.Owner.Character == null || self.NetworkView.Owner.Character.Type != "Human" || self.NetworkView.Owner.Character.MountedTransform != self._transform)
-            {
-                return;
-                self.NetworkView.Transfer(Network.MasterClient);
-                self._inUse = false;
-                return;
-            }
-        }
-        elif (self._hasPassenger && self._human != null)
-        {
-            if (self._human == null || self._human.MountedMapObject != self.MapObject)
-            {
-                self._hasPassenger = false;
-                return;
-            }
-            if (Input.GetKeyDown("Interaction/Interact"))
-            {
-                self._human.Unmount();
-                self._human = null;
-                self.MapObject.Position += self.MapObject.Right * 1.0;
-                Camera.SetManual(false);
-                self._hasPassenger = false;
-                self._isPassenger = false;
-                self.NetworkView.SendMessageOthers("p" + Convert.ToString(self._hasPassenger));
-            }
-        }
-        if (self._collidingHuman != null && !self._collidingHuman.IsMounted && Input.GetKeyDown("Interaction/Interact"))
-        {
-            if (self._collidingDrive && !self._inUse)
-            {
-                if (self.NetworkView.Owner == Network.MyPlayer) 
-                {
-                    self.OnEnterCarRider();
-                }
-                else
-                {
-                    self.NetworkView.SendMessage(self.NetworkView.Owner, "request");
-                }
-            }
-            elif (self._collidingPassenger && !self._hasPassenger)
-            {
-                self._human = self._collidingHuman;
-                self._human.MountTransform(self._transform, Vector3(-0.3, 0.6, -0.1), Vector3.Zero);
-                self._human.ClearHooks();
-                self._hasPassenger = true;
-                self._isPassenger = true;
-                self.NetworkView.SendMessageOthers("p" + Convert.ToString(self._hasPassenger));
-            }
-        }
-    }
-
-    
-    function OnEnterCarRider()
-    {
-        if(self.Health <= 0) { return; }
-        self._human = self._collidingHuman;
-        self._human.MountTransform(self._transform, self.MountPositionOffsetRider, Vector3.Zero);
-        self._human.ClearHooks();
-        self._inUse = true;
-        if(self._isCameraLocked) { Camera.SetManual(true); }
-        Input.SetKeyDefaultEnabled(InputGeneralEnum.ChangeCamera, false);
-        
-    }
-
-    function OnExitCarRider()
-    {
-        self._human.Unmount();
-        self._human = null;
-        self.MapObject.Position += self.MapObject.Right * -1.0;
-        
-        # self.NetworkView.Transfer(Network.MasterClient);
-        self._inUse = false;
-        if(Camera.IsManual) { Camera.SetManual(false); }
-        Input.SetKeyDefaultEnabled(InputGeneralEnum.ChangeCamera, true);
-        Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true);
-    }
-
-
-    function ToggleCameraLock()
-    {
-        self._isCameraLocked = !self._isCameraLocked;
-        Camera.SetManual(self._isCameraLocked);
-    }
-
-    function ToggleCameraMode()
-    {   
-        if(Camera.IsManual) { Camera.SetManual(false); }
-        camMode = Camera.CameraMode;
-        if(camMode == CameraModeEnum.TPS) { Camera.SetCameraMode(CameraModeEnum.Original); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
-        elif(camMode == CameraModeEnum.Original) { Camera.SetCameraMode(CameraModeEnum.FPS); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(false); }
-        else { Camera.SetCameraMode(CameraModeEnum.TPS); Network.MyPlayer.Character.Transform.GetTransform(HumanTransformEnum.Armature).SetRenderersEnabled(true); }
-        Game.Print("Camera Mode: " + Camera.CameraMode);
-    }
-
-        function OnLateFrame()
-        {   
-            me = Network.MyPlayer.Character;
-            if(self._human != null && self._human == me) 
-            {   
-                currentCamera = self._currentCamera;
-                mapObjectPos = self.MapObject.Position;
-                lookAtOffset = self.CameraLookAtOffset;
-
-                velocityDir = self._rigidbody.GetVelocity();
-                velocityDir.Y = 0;
-                
-                if (velocityDir.Magnitude < 1.0) { velocityDir = self.MapObject.Forward; }
-                else { velocityDir = velocityDir.Normalized; }
-
-                camForward = Vector3.Lerp(self.MapObject.Forward, velocityDir, 0.6).Normalized;
-
-                if (currentCamera == 0)
-                {   
-                    firstPersonCameraOffset = self.FirstPersonCameraOffset;
-                    cameraSetPosition = self._human.Position + self.MapObject.Up * firstPersonCameraOffset.Y + self.MapObject.Forward * firstPersonCameraOffset.X;
-                    lookAt = mapObjectPos + self.MapObject.Forward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y;
-                }
-                elif (currentCamera == 1)
-                {   
-                    bumperCameraOffset = self.BumperViewCameraOffset;
-                    cameraSetPosition = mapObjectPos + self.MapObject.Up * bumperCameraOffset.Y + self.MapObject.Forward * bumperCameraOffset.X;
-                    lookAt = mapObjectPos + self.MapObject.Forward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y;
-                }
-                elif (currentCamera == 2)
-                {   
-                    thirdPersonCameraOffset = self.ThirdPersonCameraOffset;
-                    cameraSetPosition = mapObjectPos + self.MapObject.Up * thirdPersonCameraOffset.Y + camForward * thirdPersonCameraOffset.X;
-                    lookAt = mapObjectPos + camForward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y;
-                }
-                elif (currentCamera == 3)
-                {   
-                    thirdPersonExtendedCameraOffset = self.ThirdPersonExtendedCameraOffset;
-                    cameraSetPosition = mapObjectPos + self.MapObject.Up * thirdPersonExtendedCameraOffset.Y + camForward * thirdPersonExtendedCameraOffset.X;
-                    lookAt = mapObjectPos + camForward * lookAtOffset.X + self.MapObject.Up * lookAtOffset.Y; 
-                }
-
-                if(self._isCameraLocked) {
-                    Camera.SetPosition(cameraSetPosition); 
-                    Camera.LookAt(lookAt);
-                }
-            }
-        }
-
-        function SlowToStop()
-        {
-            velocity = self._rigidbody.GetVelocity();
-            velocityY = velocity.Y;
-            velocity.Y = 0;
-
-            if (velocity.Magnitude < 1) { self._rigidbody.SetVelocity(Vector3.Up * velocityY); }
-            else { self._rigidbody.AddForce(self.SlowDownScale * -1.0 * velocity + velocityY * Vector3.Up); }
-        }
-
-        function LimitSpeed()
-        {
-            velocity = self._rigidbody.GetVelocity();
-            velocityY = velocity.Y;
-            velocity.Y = 0;
-            velocity = velocity.Normalized * Math.Min(velocity.Magnitude, self.MaxMoveSpeed);
-            velocity.Y = velocityY;
-            self._rigidbody.SetVelocity(velocity);
-        }
-
-        function CheckIsGrounded()
-        {
-            offset = self.MapObject.Up * self.MapObject.Scale.X * -0.5;
-            for (wheel in self._wheels)
-            {
-                hit = Physics.LineCast(wheel.Position, wheel.Position + offset, "MapObjects");
-                if (hit != null)
-                {
-                    self._isGrounded = true;
-                    return;
-                }
-            }
-            self._isGrounded = false;
-        }
-
-        function FaceSurface()
-        {
-            hit = Physics.LineCast(self.MapObject.Transform.Position, self.MapObject.Transform.Position + self.MapObject.Transform.Up * -2.0, "MapObjects");
-            if (hit == null) { return; }
-            difference = hit.Normal - self.MapObject.Transform.Up;
-            difference.Y = 0;
-            self._rigidbody.AddTorque(difference * self.TorqueForce, ForceModeEnum.Acceleration);
-        }
-
-        function PlaySounds(engine, velocity)
-        {
-            self._ignition.Position = self.MapObject.Position;
-            self._exhaust.Position = self.MapObject.Position;
-            self._lowRumble.Position = self.MapObject.Position;
-            self._highRumble.Position = self.MapObject.Position;
-
-            if (!self._inUse && self._engineOn)
-            {
-                self._engineOn = false;
-                self.StopSounds();
-            }
-            elif (self._inUse && !self._engineOn)
-            {
-                self._engineOn = true;
-                self.Ignition();
-            }
-
-            if (self._engineOn && Math.Abs(engine) < 5) { self._canExhaust = true; }
-            elif (self._engineOn && engine > 5 && self._canExhaust) 
-            { 
-                self._canExhaust = false; 
-                self.Exhaust();
-            }
-
-            if(velocity > 1 && self._engineOn) { self.HighRumble(); }
-            if (Math.Abs(engine) < self.MaxEngineSpeed / 5) { self._highRumble.Active = false; }
-        }
-
-        function StopSounds()
-        {
-            self._ignition.Active = false;
-            self._exhaust.Active = false;
-            self._lowRumble.Active = false;
-            self._highRumble.Active = false;
-        }
-
-        coroutine LowRumble()
-        {
-            if (self._lowRumble.Active) { return; }
-            self._lowRumble.Active = true;
-            wait 3.0;
-            self._lowRumble.Active = false;
-        }
-
-        coroutine HighRumble()
-        {
-            if (self._highRumble.Active) { return; }
-            self._highRumble.Active = true;
-            wait 12.0;
-            self._highRumble.Active = false;
-        }
-
-        coroutine Ignition()
-        {
-            self._ignition.Active = false;
-            wait 0.1;
-            self._ignition.Active = true;
-        }
-
-        coroutine Exhaust()
-        {
-            if (self._exhaust.Active) { return; }
-            self._exhaust.Active = false;
-            wait 0.1;
-            self._exhaust.Active = true;
-            wait 4.7;
-            self._exhaust.Active = false;
-        }
-}
-
-extension HumanTransformEnum
-{
-    Armature = "Armature";
-    Core = "Armature/Core";
-
-    PlayerWindTrail = "Armature/Core/PlayerWindTrailEffect";
-
-    Hip = "Armature/Core/Controller_Body/hip";
-    Spine = "Armature/Core/Controller_Body/hip/spine";
-    Chest = "Armature/Core/Controller_Body/hip/spine/chest";
-    Neck = "Armature/Core/Controller_Body/hip/spine/chest/neck";
-    Head = "Armature/Core/Controller_Body/hip/spine/chest/neck/head";
-    CharHead = "Armature/Core/Controller_Body/hip/spine/chest/neck/head/char_head";
-
-    ShoulderL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L";
-    UpperArmL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L";
-    ForearmL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L";
-    HandL = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L";
-    HandLHookRef = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/hookRef";
-    HandLCheckbox = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/checkBox";
-
-    ShoulderR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R";
-    UpperArmR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R";
-    ForearmR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R";
-    HandR = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R";
-    HandRHookRef = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/hookRef";
-    HandRCheckbox = "Armature/Core/Controller_Body/hip/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/checkBox";
-
-    ThighL = "Armature/Core/Controller_Body/hip/thigh_L";
-    ShinL = "Armature/Core/Controller_Body/hip/thigh_L/shin_L";
-    FootL = "Armature/Core/Controller_Body/hip/thigh_L/shin_L/foot_L";
-
-    ThighR = "Armature/Core/Controller_Body/hip/thigh_R";
-    ShinR = "Armature/Core/Controller_Body/hip/thigh_R/shin_R";
-    FootR = "Armature/Core/Controller_Body/hip/thigh_R/shin_R/foot_R";
-
-    IkL = "Armature/Core/IK_L";
-    KneeL = "Armature/Core/IK_L/knee_L";
-
-    IkR = "Armature/Core/IK_R";
-    KneeR = "Armature/Core/IK_R/knee_R";
-
-    OdmgSmoke = "HumanPlayer/3dmg_smoke";
-    SpeedFx = "HumanPlayer/speedFX";
-    SpeedEffect = "HumanPlayer/speedEffect";
-    SlideSparks = "HumanPlayer/slideSparks";
-
-    CharacterChest = "Armature/character_chest";
-    CharacterLeg = "Armature/character_leg";
-    CharacterArmL = "Armature/character_arm_l";
-    CharacterArmR = "Armature/character_arm_r";
-    CharacterBody = "Armature/character_body";
-    CharacterHandL = "Armature/character_hand_l";
-    CharacterHandR = "Armature/character_hand_r";
-
-    GroundLeft = "Armature/GroundLeft";
-    GroundRight = "Armature/GroundRight";
-
-    Buff1 = "Armature/buff1";
-    LeviSpinTest = "Armature/buff1/LeviSpinTest1";
-    ParticleSystem = "Armature/buff1/Particle System";
-
-    Buff2 = "HumanPlayer/buff2";
-    Fire1 = "HumanPlayer/fire1";
-    Sparks = "HumanPlayer/fire1/Sparks";
-    SteamEffect = "HumanPlayer/fire1/SteamEffect";
-}
-
-extension SettingsManager
-{
-    DisabledBaseKeys = "";
-
-    PrimaryUIColor = "#df56f4";
-    SecondaryUIColor = "#ffb0de";
-    AccentUIColor = "#ff0000";
-    _fileName = "";
-    _pendingRebind = "";
-    _popupName = "";
-    _settings = Dict(); #Key = PropertyName, Value = Keybind String
-    _allAvailableKeybinds = List();
-    _disabledPropKeys = List();
-
-    _keybindIdentifier = "K_";
-    _settingIdentifier = "S_";
-
-    function SetCustomSettings(fileName) #Set your Custom Keybinds/Settings here, key = Identifier + "Custom Key/Setting Name", value = Default Keybind or Default true/false
-    {   
-        settingsComponent = Map.FindMapObjectByComponent("Settings").GetComponent("Settings");
-        self.DisabledBaseKeys = settingsComponent.DisabledBaseKeys; 
-
-        self.SetAvailableKeys();
-        self._fileName = fileName;
-        keybindID = self._keybindIdentifier;
-        settingID = self._settingIdentifier;
-
-        self.SetSetting(keybindID + "Drift", InputHumanEnum.Dash);
-        self.SetSetting(keybindID + "Brake", InputHumanEnum.HorseJump);
-        self.SetSetting(keybindID + "Flip Car", InputHumanEnum.Reload);
-        self.SetSetting(keybindID + "Change Camera", InputGeneralEnum.ChangeCamera);
-        self.SetSetting(keybindID + "Accelerate", InputGeneralEnum.Forward);
-        self.SetSetting(keybindID + "Toggle Camera Lock", InputInteractionEnum.QuickSelect1);
-        self.SetSetting(keybindID + "Keybinds Popup", InputInteractionEnum.QuickSelect2);
-        
-    }
-
-    function GetAndDisableKeybindSlots()
-    {
-        disabledKeys = self.DisabledBaseKeys;
-        if(disabledKeys == "") { return; }
-        Game.Print(Utils.ColorStr("Disabled Base Game Keys for Custom Key Slots: ", self.PrimaryUIColor));
-        secondaryColor = self.SecondaryUIColor;
-        accentColor = self.AccentUIColor;
-        keybindID = self._keybindIdentifier;
-        settingID = self._settingIdentifier;
-
-        for(prop in String.Split(disabledKeys, ",")) {
-            key = self._settings.Get(keybindID + prop);
-            keyName = Utils.ColorStr(Input.GetKeyName(key), accentColor);
-            
-            Game.Print(Utils.ColorStr(prop, self.PrimaryUIColor) + " [" + keyName + "] " + Utils.ColorStr(key, secondaryColor));
-            self._disabledPropKeys.Add(key);
-            Input.SetKeyDefaultEnabled(key, false); 
-        }
-    }
-
-    function OnButtonClick(buttonName)
-    {
-        args = String.Split(buttonName, "|");
-        button = args.Get(0);
-
-        if(button == "Key") {
-            self._pendingRebind = args.Get(1);
-            #Game.Print(self._pendingRebind);
-            self.ShowAllBindsPopup(self._pendingRebind);
-            return;
-        }
-        elif(button == "Rebind") {
-            pendingRebind = args.Get(1);
-            popupName = self._popupName;
-            if(self._pendingRebind != pendingRebind) {
-                UI.ClearPopup(popupName);
-                UI.HidePopup(popupName);
-                Game.Print("Error try again");
-                return;
-            }
-            key = args.Get(2);
-            previousKey = self._settings.Get(pendingRebind);
-            
-            if(self._disabledPropKeys.Contains(pendingRebind)) {
-                Input.SetKeyDefaultEnabled(key, false);
-                Input.SetKeyDefaultEnabled(previousKey, true);
-                #Game.Print(previousKey + " Current Key: " + key);
-            }
-            #Game.Print(key + " | KeyName: " + Input.GetKeyName(key));
-            self.SetSetting(pendingRebind, key);
-            self.SaveSettings();
-            self.ShowKeybindPopup();
-            self._pendingRebind = "";
-            return;
-        }
-    }
-
-    function IsKeybind(propString)
-    {
-        return String.SubstringWithLength(propString, 0, 1) == "K";
-    }
-
-    function IsSetting(propString)
-    {
-        return String.SubstringWithLength(propString, 0, 1) == "S";
-    }
-
-    function CreatePopup(popupName, title)
-    {
-        self._popupName = popupName;
-        UI.CreatePopup(popupName, title, 900, 1050);
-    }
-
-    function ShowKeybindPopup()
-    {
-        popupName = self._popupName;
-        UI.ClearPopup(popupName);
-        self.AddSavedKeybinds(popupName);
-        UI.ShowPopup(popupName);
-    }
-
-    function ShowAllBindsPopup(pendingRebind)
-    {
-        popupName = self._popupName; 
-        UI.ClearPopup(popupName);
-        primaryColor = self.PrimaryUIColor;
-        secondaryColor = self.SecondaryUIColor;
-        accentColor = self.AccentUIColor;
-        UI.AddPopupLabel(popupName, Utils.ColorStr("Rebinding the ", primaryColor) + Utils.ColorStr(pendingRebind, accentColor) + Utils.ColorStr(" Key", primaryColor));
-
-        for(key in self._allAvailableKeybinds) {
-            if(self._settings.Values.Contains(key)) { continue; }
-            customKeyName = String.Split(pendingRebind, "_").Get(1);
-            customKeybind = Utils.ColorStr(customKeyName, primaryColor);
-            keyName = Utils.ColorStr(Input.GetKeyName(key), accentColor);
-            keybindString = Utils.ColorStr(key, secondaryColor);
-            
-            UI.AddPopupButton(popupName, "Rebind|" + pendingRebind + "|" + key, "Rebind " + customKeybind + " to [" + keyName + "] " + keybindString);
-        }
-    }
-
-    function AddSavedKeybinds(popupName)
-    {
-        primaryColor = self.PrimaryUIColor;
-        secondaryColor = self.SecondaryUIColor;
-        accentColor = self.AccentUIColor;
-
-        for(prop in self._settings.Keys) {
-            if(!self.IsKeybind(prop)) { continue; }
-            keyName = Utils.ColorStr(Input.GetKeyName(self._settings.Get(prop)), accentColor);
-            keybindString = Utils.ColorStr(self._settings.Get(prop), secondaryColor);
-            propName = String.Split(prop, "_").Get(1);
-            #Game.Print(prop);
-            customKey = Utils.ColorStr(propName, primaryColor);
-
-            UI.AddPopupButton(popupName, "Key|" + prop, "Rebind " + customKey + " [" + keyName + "] " + keybindString);
-        }
-    }
-
-    function SetSetting(propertyName, keyString)
-    {
-        self._settings.Set(propertyName, keyString);
-    }
-
-    function ReturnKeyString(propertyName)
-    {
-        return self._settings.Get(self._keybindIdentifier + propertyName);
-    }
-
-    function SaveSettings()
-    {   
-        PData.SaveToFile(self._fileName, "", self._settings, false, false, true);
-    }
-
-    function LoadKeybinds()
-    {   
-        return;
-        fileName = self._fileName;
-        keybindFileExists = PersistentData.FileExists(fileName);
-        if(!keybindFileExists) {
-            if(self._settings.Count == 0) {
-                Game.Print("Set your Keybinds first in function SetKeybinds()");
-                return;
-            }
-            self.SaveSettings();
-            return;
-        }
-
-        for(prop in self._settings.Keys) {
-            if(!self.IsKeybind(prop)) { continue; }
-            savedKeybind = PData.LoadFromFile(fileName, prop, false, false);
-            if (savedKeybind == "Interaction/Function4") {
-                savedKeybind = "Interaction/QuickSelect1";
-            }
-            if(savedKeybind != "Empty") {
-                self._settings.Set(prop, savedKeybind);
-            }
-        }
-        self.GetAndDisableKeybindSlots();
-    }
-
-    function SetAvailableKeys()
-    {
-        self._allAvailableKeybinds.Add(InputHumanEnum.AttackDefault);
-        self._allAvailableKeybinds.Add(InputHumanEnum.AttackSpecial);
-        self._allAvailableKeybinds.Add(InputHumanEnum.HookLeft);
-        self._allAvailableKeybinds.Add(InputHumanEnum.HookRight);
-        self._allAvailableKeybinds.Add(InputHumanEnum.HookBoth);
-        self._allAvailableKeybinds.Add(InputHumanEnum.Dash);
-        self._allAvailableKeybinds.Add(InputHumanEnum.ReelIn);
-        self._allAvailableKeybinds.Add(InputHumanEnum.ReelOut);
-        self._allAvailableKeybinds.Add(InputHumanEnum.Dodge);
-        self._allAvailableKeybinds.Add(InputHumanEnum.Jump);
-        self._allAvailableKeybinds.Add(InputHumanEnum.Reload);
-        self._allAvailableKeybinds.Add(InputHumanEnum.HorseMount);
-        self._allAvailableKeybinds.Add(InputHumanEnum.HorseWalk);
-        self._allAvailableKeybinds.Add(InputHumanEnum.HorseJump);
-        self._allAvailableKeybinds.Add(InputHumanEnum.NapeLock);
-
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Interact);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Interact2);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Interact3);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.ItemMenu);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.EmoteMenu);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.MenuNext);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect1);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect2);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect3);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect4);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect5);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect6);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect7);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.QuickSelect8);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Function1);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Function2);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Function3);
-        self._allAvailableKeybinds.Add(InputInteractionEnum.Function4);
-
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Forward);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Back);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Left);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Right);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Up);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Down);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Modifier);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Autorun);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Pause);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.ChangeCharacter);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.RestartGame);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.ToggleScoreboard);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.ToggleMap);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.Chat);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.PushToTalk);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.ChangeCamera);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.HideCursor);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.SpectatePreviousPlayer);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.SpectateNextPlayer);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.SkipCutscene);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.HideUI);
-        self._allAvailableKeybinds.Add(InputGeneralEnum.DebugWindow);
-    }
-}
-
-extension PData
-{
-    _lastSaveFile = "";
-    _lastLoadFile = "";
-
-    function SaveToFile(fileName, propName, value, encrypted, serialized, isMultiple) #If isMultiple value should = Dict
-    {   
-        if(!PersistentData.IsValidFileName(fileName)) {
-            Game.Print("Invalid File Name: " + fileName);
-            return;
-        }
-        if(self._lastSaveFile != fileName) {
-            self._lastSaveFile = fileName;
-            PersistentData.Clear();
-        }
-
-        if(isMultiple) {
-            for(prop in value.Keys) { PersistentData.SetProperty(prop, value.Get(prop)); }
-            PersistentData.SaveToFile(fileName, encrypted);
-            return;
-        }
-        PersistentData.SetProperty(propName, value);
-        PersistentData.SaveToFile(fileName, encrypted);
-    }
-
-    function LoadFromFile(fileName, propName, encrypted, serialized)
-    {
-        if(self._lastLoadFile != fileName) {
-            PersistentData.Clear();
-            self._lastLoadFile = fileName;
-        }
-
-        PersistentData.LoadFromFile(fileName, encrypted);
-        data = PersistentData.GetProperty(propName, "Empty");
-        if(serialized) { return Json.LoadFromString(data); }
-        return data;
-    }
-}
-
-extension Utils
-{
-    function ColorStr(string, color)
-    {
-        return "<color=" + color + ">" + string + "</color>";
-    }
-
-    function SizeStr(string, size)
-    {
-        return "<size=" + size + ">" + string + "</size>";
-    }
-
-    function BoldStr(string)
-    {
-        return "<b>" + string + "</b>";
-    }
-}
 /// Weather
 {
-    "Skybox" : "Night1",
+    "Skybox" : "Day1",
     "SkyboxColor" : [
-        4,
-        2,
-        5,
+        128,
+        128,
+        128,
         255
     ],
     "Daylight" : [
-        50,
-        48,
-        47,
+        255,
+        255,
+        255,
         255
     ],
-    "DaylightIntensity" : 0.253452956676483,
+    "DaylightIntensity" : 1,
     "DaylightDirection" : [
         45,
         45,
         0
     ],
     "AmbientLight" : [
-        50,
-        59,
-        79,
+        126,
+        122,
+        114,
         255
     ],
     "Flashlight" : [
         255,
         255,
         255,
-        255
+        0
     ],
-    "FogDensity" : 0.00700000021606684,
+    "FogDensity" : 0,
     "FogColor" : [
-        37,
-        45,
-        67,
+        128,
+        128,
+        128,
         255
     ],
     "Rain" : 0,
@@ -1417,7 +274,7 @@ extension Utils
     "Snow" : 0,
     "Wind" : 0,
     "WindDirection" : [
-        0,
+        1,
         0,
         0
     ],
@@ -1429,5 +286,5 @@ extension Utils
     "Schedule" : "",
     "Name" : "Set 1",
     "Preset" : false,
-    "UniqueId" : "ad703064-754e-4a89-951e-cd33341f9fd3"
+    "UniqueId" : "6ef5976a-3ee5-4455-8402-2d197d41eebc"
 }
