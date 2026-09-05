@@ -193,8 +193,7 @@ component FengGameManagerMKII {
 
   function OnCharacterSpawn(c) {
     if (c.Type == "Human" && c.IsMine) {
-      c.MaxSpeed = 1000;
-      c.Speed = 1000;
+      c.Speed = 100;
     }
   }
 
