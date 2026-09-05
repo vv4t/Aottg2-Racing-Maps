@@ -145,35 +145,35 @@ Scene,Geometry/Cuboid,217,0,1,1,0,0,Barrier,0,1100,850,0,90,0,10,225,200,Physica
 Scene,Geometry/Cuboid,218,0,1,1,0,0,Barrier,0,2200,0,0,90,90,10,250,250,Physical,Characters,Default,Default|255/255/255/255,;
 Scene,Geometry/Cuboid,221,0,1,1,0,0,Cuboid,0,7,-0.000669116,0,0,0,600,1,600,Physical,Characters,Default,Transparent|255/255/255/255|Misc/None|1/1|0/0,;
 Scene,None,222,0,1,1,1,0,FengGameManagerMKII,0,0,0,0,0,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,FengGameManagerMKII|;
-Scene,Geometry/Cube1,227,0,1,1,1,0,Cube1,-179.7585,14.80329,-360.9861,0,121.9499,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,224,0,1,1,1,0,Cube1,-63.72131,14.80329,-198.1487,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,225,0,1,1,1,0,Cube1,-68.22498,14.80329,-115.1242,0,78,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Frame1d,226,0,1,0,1,0,Frame1d,-52.45029,48.08174,-507.1589,0,0,0,50,1000,50,Physical,Entities,Default,Transparent|0/255/232/100|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
-Scene,Geometry/Cube1,228,0,1,1,1,0,Cube1,-318.3452,14.80329,-240.5612,0,211.3589,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,229,0,1,1,1,0,Cube1,-339.7836,14.80329,122.1058,0,193.4254,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,230,0,1,1,1,0,Cube1,-168.2837,14.80329,394.9746,0,280.3237,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,231,0,1,1,1,0,Cube1,-80.27346,14.80329,-32.31882,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,232,0,1,1,1,0,Cube1,-384.1055,14.80329,-192.9935,0,230.6156,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,233,0,1,1,1,0,Cube1,-83.62836,14.80329,46.34628,0,78,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,234,0,1,1,1,0,Cube1,-93.93317,14.80329,130.9357,0,80.23696,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,235,0,1,1,1,0,Cube1,-106.3193,14.80329,219.4178,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,236,0,1,1,1,0,Cube1,-272.0862,14.80329,282.2166,0,279.733,0,100,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,237,0,1,1,1,0,Cube1,68.1588,14.80329,-281.068,0,102.4672,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,238,0,1,1,1,0,Cube1,202.2987,14.80329,-341.9264,0,81.35327,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,239,0,1,1,1,0,Cube1,269.1857,14.80329,-55.38314,0,143.292,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,240,0,1,1,1,0,Cube1,381.7656,14.80329,123.6637,0,228.8508,0,90,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,241,0,1,1,1,0,Cube1,352.4105,14.80329,261.6397,0,260.328,0,60,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,242,0,1,1,1,0,Cube1,136.0722,14.80329,343.5149,0,318.1073,0,90,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,243,0,1,1,1,0,Cube1,73.29604,14.80329,37.16023,0,86.10073,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,244,0,1,1,1,0,Cube1,71.65809,14.80329,-44.95687,0,92,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,245,0,1,1,1,0,Cube1,58.82132,14.80329,113.6077,0,62.91553,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,246,0,1,1,1,0,Cube1,34.87671,14.80329,202.6885,0,88.05109,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,247,0,1,1,1,0,Cube1,35.78625,14.80329,298.5554,0,92.13521,0,80,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,227,0,1,1,1,0,Cube1,-179.7585,14.80329,-360.9861,0,121.9499,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,224,0,1,1,1,0,Cube1,-63.72131,14.80329,-198.1487,0,92,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,225,0,1,1,1,0,Cube1,-68.22498,14.80329,-115.1242,0,78,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Frame1d,226,0,1,0,1,0,Frame1d,-52.45029,48.08174,-507.1589,0,0,0,50,1000,50,Physical,Characters,Default,Transparent|0/255/232/100|Misc/None|1/1|0/0,Tag|Name:RacingStartBarrier;
+Scene,Geometry/Cube1,228,0,1,1,1,0,Cube1,-318.3452,14.80329,-240.5612,0,211.3589,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,229,0,1,1,1,0,Cube1,-339.7836,14.80329,122.1058,0,193.4254,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,230,0,1,1,1,0,Cube1,-168.2837,14.80329,394.9746,0,280.3237,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,231,0,1,1,1,0,Cube1,-80.27346,14.80329,-32.31882,0,92,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,232,0,1,1,1,0,Cube1,-384.1055,14.80329,-192.9935,0,230.6156,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,233,0,1,1,1,0,Cube1,-83.62836,14.80329,46.34628,0,78,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,234,0,1,1,1,0,Cube1,-93.93317,14.80329,130.9357,0,80.23696,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,235,0,1,1,1,0,Cube1,-106.3193,14.80329,219.4178,0,92,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,236,0,1,1,1,0,Cube1,-272.0862,14.80329,282.2166,0,279.733,0,100,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,237,0,1,1,1,0,Cube1,68.1588,14.80329,-281.068,0,102.4672,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,238,0,1,1,1,0,Cube1,202.2987,14.80329,-341.9264,0,81.35327,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,239,0,1,1,1,0,Cube1,269.1857,14.80329,-55.38314,0,143.292,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,240,0,1,1,1,0,Cube1,381.7656,14.80329,123.6637,0,228.8508,0,90,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,241,0,1,1,1,0,Cube1,352.4105,14.80329,261.6397,0,260.328,0,60,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,242,0,1,1,1,0,Cube1,136.0722,14.80329,343.5149,0,318.1073,0,90,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,243,0,1,1,1,0,Cube1,73.29604,14.80329,37.16023,0,86.10073,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,244,0,1,1,1,0,Cube1,71.65809,14.80329,-44.95687,0,92,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,245,0,1,1,1,0,Cube1,58.82132,14.80329,113.6077,0,62.91553,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,246,0,1,1,1,0,Cube1,34.87671,14.80329,202.6885,0,88.05109,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,247,0,1,1,1,0,Cube1,35.78625,14.80329,298.5554,0,92.13521,0,80,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
 Scene,Geometry/Pyramid3b,257,0,1,0,1,0,Pyramid3b,22.6712,46.76458,-513.6179,0,0,0,50,500,50,Physical,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
-Scene,Geometry/Cube1,250,0,1,1,1,0,Cube1,435.648,14.80329,-140.8346,0,266.4174,0,70,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,253,0,1,1,1,0,Cube1,-481.1706,14.72633,28.59789,0,106.3328,0,90,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,254,0,1,1,1,0,Cube1,397.9436,14.80329,-283.2654,0,70.51978,0,50,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
-Scene,Geometry/Cube1,255,0,1,1,1,0,Cube1,364.9571,14.80329,-198.1921,0,67.4688,0,130,30,1,Region,Entities,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|
+Scene,Geometry/Cube1,250,0,1,1,1,0,Cube1,435.648,14.80329,-140.8346,0,266.4174,0,70,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,253,0,1,1,1,0,Cube1,-481.1706,14.72633,28.59789,0,106.3328,0,90,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,254,0,1,1,1,0,Cube1,397.9436,14.80329,-283.2654,0,70.51978,0,50,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|;
+Scene,Geometry/Cube1,255,0,1,1,1,0,Cube1,364.9571,14.80329,-198.1921,0,67.4688,0,130,30,1,Region,Characters,Default,Transparent|79/255/0/100|Misc/None|1/1|0/0,RacingGoal|
 /// Logic
 
 component FengGameManagerMKII {
@@ -183,6 +183,12 @@ component FengGameManagerMKII {
     self._goals = Map.FindMapObjectsByComponent("RacingGoal");
     self._finish = Map.FindMapObjectByComponent("RacingFinishRegion");
     self.OnResetRace();
+    
+    if (RoomData.GetProperty("StartAlert", true)) {
+      text = "Capture all the goals in any order, then head to the finish.\nYou can stock or run through the course.";
+      Game.Print("<color=green>" + text + "</color>");
+      RoomData.SetProperty("StartAlert", false);
+    }
   }
 
   function OnCharacterSpawn(c) {
@@ -212,7 +218,13 @@ component FengGameManagerMKII {
 
     if (self._captured == self._goals.Count) {
       self._finish.Active  = true;
+      self.EndAlert();
     }
+  }
+
+  coroutine EndAlert() {
+    wait 1.0;
+    UI.SetLabelForTime("MiddleCenter", "<color=#FFBB00>Head to the finish.</color>", 3.0);
   }
 }
 
