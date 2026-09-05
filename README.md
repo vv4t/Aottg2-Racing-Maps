@@ -3,6 +3,7 @@
 A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unity).
 
 ## New Maps
+- NEW | **2026-09-05** [wok - Forest Stock](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/wok%20-%20Forest%20Stock%20%E2%98%86.txt)
 - **2026-08-08** [clare - cruiseTG (Usui Pass)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/clare%20-%20cruiseTG%20(Usui%20Pass)%20%E2%98%86.txt)
 - **2026-06-26** [Sylvia - Pinku (3x Scaled by Fruity)](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/Sylvia%20-%20Pinku%20(3x%20Scaled%20by%20Fruity)%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
 - **2026-06-14** [AndyXest - Hare Troop 2](https://github.com/vv4t/Aottg2-Racing-Maps/raw/refs/heads/master/maps/AndyXest%20-%20Hare%20Troop%202%20%E2%98%85%E2%98%85%E2%98%85%E2%98%85.txt)
