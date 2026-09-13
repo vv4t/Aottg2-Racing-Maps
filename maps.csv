@@ -52,12 +52,12 @@ map_id|author|name|difficulty|tags|notes
 53|Eliope|Nano + Makina Dro (Fused by Riblei)|4.0||
 54|Loki|Unknown (6)|4.0||
 55|Chrysoprase|Hall of Mirrors|3.0||
-56|oNoto|LaLy Rises|4.5||
+56|oNoto|LaLy Rises|4.0||
 57|Gameboy8|Nyan Racing Map|4.0||Full version fixed on 2026-01-24
 58|oNoto|LaLy Crystal the Blood|3.5||
 60|oNoto|Happy Birthday XII|4.0||Fixed by Eliope
 61|Eliope|Makina Ice Extended (CP Added by Fruity)|0.5||Added Anti-Cheat Logic on 2026-08-22
-62|cowcowtony|Speedy Long Jump|4.5||
+62|cowcowtony|Speedy Long Jump|4.0||
 63|Xynz|Unknown|1.0|inactive|
 64|AbsoluteS|Pace|2.5||
 65|Antigasp|Velocity Zones Demo Map|2.0||
@@ -73,7 +73,7 @@ map_id|author|name|difficulty|tags|notes
 75|Zil|Irì shaft|3.0||
 76|oNoto|LaLy Volcano Long|3.5||
 77|MASKSLAVE|M-Square Racing|3.0||
-78|Eliope|BotR Special Training|5.5||
+78|Eliope|BotR Special Training|5.0||
 79|Riblei|House Surfing|3.0||
 80|MASKSLAVE|MS Racing 1|4.0||Fixed on 2026-01-12
 81|ZeroX|FALR (Mini Version)|3.5||
@@ -131,7 +131,7 @@ map_id|author|name|difficulty|tags|notes
 135|Alex4win|Akina (Lava, Upside-Down)|3.5||
 136|oNoto|LaLy RaceZy|3.0||
 137|Riblei|Celestial Marine (Water Edit)|0.5|inactive|ft. Alex4win & Sylvia
-138|Parls|PNC|3.5||
+138|Parls|PNC|3.0||
 139|Dany|The Nuke (Hard)|5.0||Fixed on 2026-01-24
 140|Eliope|Blood of the Racers 4 (Edit by zender)|4.5|botr botr4|Fixed on 2026-06-13
 141|oNoto|Racing Lava (Tilted Stairs)|3.5||
@@ -283,7 +283,7 @@ map_id|author|name|difficulty|tags|notes
 295|Zil|Irì ash (Lava Edit by Riblei)|4.0||
 296|Eliope|Blood of the Racers 4 Eased (Edit by zender)|4.5|botr botr4|Fixed on 2026-06-13
 297|Zil|Ori|3.5||
-298|Eliope|Race King Volcano|4.5||
+298|Eliope|Race King Volcano|5.0||
 299|AndyXest|Devil's Corridor (Lava)|3.5||
 300|Zil|Irì shuriken|2.0||
 301|Riblei|Island Racers|3.5||
@@ -331,7 +331,7 @@ map_id|author|name|difficulty|tags|notes
 343|KhyleKa|Med Racing|2.0||
 345|zender|Eternal Haste (Hard)|4.5||
 346|oNoto|LaLy LowS|3.0||
-347|oNoto|LaLy Rises (Easy)|4.0||
+347|oNoto|LaLy Rises (Easy)|3.5||
 348|oNoto|Racing LavaEZ|3.5||
 349|Zil|Easy af 2.0|4.5||
 350|YukiharaSaiki|Metal Racing|1.5||Fixed skating on 2026-06-21
@@ -488,7 +488,7 @@ map_id|author|name|difficulty|tags|notes
 507|Sylcium|Feng's Akina|0.5|inactive|
 508|zender|Snail|3.0||
 509|Eliope|Makina Dro + Port Racers 1 (Fused by Zil)|3.5||Fixed on 2026-05-28
-510|Guest Creator|Lava Maze Map|5.0||
+510|Guest Creator|Lava Maze Map|4.5||
 511|oNoto|Racing 001 Easy (No Lava)|0.5||
 512|Eliope|The Way of the Racers (Lava)|3.5|twotr twor|Fixed on 2026-03-20
 513|zender|Eternal Haste|4.0||
@@ -514,7 +514,7 @@ map_id|author|name|difficulty|tags|notes
 534|Riblei & Eliope|Machina 2 (Later Half Cut, No Trap Edit by Riblei)|4.0||Fixed skating on 2026-06-17
 535|Riblei|Celestial Ellestra|4.0||
 536|Sub|Copied City|0.5|inactive|
-537|Yuukihito|Unnamed (Lava)|4.5||
+537|Yuukihito|Unnamed (Lava)|4.0||
 538|Eliope|Avenue + ZYX_ZYX (Tourney Version by Riblei)|4.0||
 539|cowcowtony|Random Turns|3.5||
 540|NexS7|The Box (Hard)|2.0||Updated on 2026-01-24
@@ -563,7 +563,7 @@ map_id|author|name|difficulty|tags|notes
 585|cowcowtony|Galactic Spherical Solar Panel|2.0||
 586|Feng Lee|Akina|1.0||
 587|Tralalero|Bluebay Circuit|0.5||Released on 2026-05-17;Updated on 2026-06-09
-588|AndyXest|Hare Troop 2|4.5||Released on 2026-06-14
+588|AndyXest|Hare Troop 2|4.0||Released on 2026-06-14;Adjusted map orientation on 2026-09-13
 589|Sylvia|Pinku (3x Scaled by Fruity)|4.0||Added on 2026-06-26
 590|clare|cruiseTG (Usui Pass)|0.5||Added on 2026-08-08;Logic tweaks by wok, Finish design by Eliope
 591|wok|The Way of the Roaches|0.5||Added on 2026-09-05
