@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:|HasWeather:0
+EditorVersion:1.0|Description:3x Scaled by Fruity|HasWeather:0
 /// CustomAssets
 
 /// Objects
