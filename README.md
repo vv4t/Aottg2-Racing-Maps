@@ -38,7 +38,8 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-09-13** AndyXest - Hare Troop 2 ▶ Adjusted map orientation
+- NEW | **2026-09-20** Charlotte - Chess l “Pawn” ▶ Fixed starting barrier
+- **2026-09-13** AndyXest - Hare Troop 2 ▶ Adjusted map orientation
 - **2026-09-08** cowcowtony - Roller Coaster Type B (Hard) ▶ Removed overlapping lava tubes
 - **2026-08-27** cowcowtony - Racing Volcano (Lava) ▶ Restored hookable property of walls
 - **2026-08-22** Eliope - Makina IcecI / Makina Ice Extended ▶ Added Anti-Cheat Logic
