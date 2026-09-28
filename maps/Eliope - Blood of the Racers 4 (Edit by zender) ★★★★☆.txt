@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed by Fruity on 2026-06-13|HasWeather:0
+EditorVersion:1.0|Description:Fixed by Fruity on 2026-09-28|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -366,14 +366,14 @@ Scene,Geometry/Cuboid,360,0,1,1,1,0,Kill Region Cuboid,-4162.5,95,-1705,0,0,0,12
 Scene,Geometry/Cuboid,361,0,1,1,1,0,Kill Region Cuboid,-4465,40,-1765,0,90,0,11,8,1,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,362,0,1,1,1,0,Kill Region Cuboid,-9121.794,-3.363248,-4202.827,0,274.4598,0,1111,1,1111,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,KillRegion|;
 Scene,Geometry/Cuboid,363,0,1,1,1,0,Racing Finish Region Cuboid,-4485.956,58.17331,-1768.375,0,270.2269,0,15,15,1,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|;
-Scene,Geometry/Cuboid,364,0,1,1,0,0,LegacyBarrier,-3998.845,65.46075,-4818.689,0,0.3646169,0,7,1,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
+Scene,Geometry/Cuboid,364,0,1,1,0,0,LegacyBarrier,-4000,65,-4815,0,0.3646169,0,7,1,80,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,365,0,1,1,0,0,LegacyBarrier,-4000.129,171.5838,-3813.658,0,0.7785868,0,7,1,120,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,366,0,1,1,0,0,LegacyBarrier,-3970.944,110.7543,-3315.536,0,359.9502,0,1,14,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,367,0,1,1,0,0,LegacyBarrier,-4024.443,110.3782,-3320.916,0,176.3958,0,1,14,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,368,0,1,1,0,0,LegacyBarrier,-3965.776,170.8582,-2576.265,0,179.353,0,100,1,150,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,369,0,1,1,0,0,LegacyBarrier,-3968.192,62.274,-1723.939,0,269.6725,0,20,0.5,20,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
 Scene,Geometry/Cuboid,370,0,1,1,0,0,LegacyBarrier,-4157.188,127.2903,-1071.783,0,268.9811,0,150,0.5,150,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround;
-Scene,Geometry/Cuboid,371,0,1,1,0,0,LegacyBarrier,-3998.544,57.68064,-5367.413,0,270.0568,0,30,0.5,30,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
+Scene,Geometry/Cuboid,371,0,1,1,0,0,LegacyBarrier,-4000,57.68064,-5365,0,270.0568,0,30,0.5,30,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
 /// Logic
 
 /// Weather
