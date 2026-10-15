@@ -38,7 +38,9 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
-- NEW | **2026-10-10** Hong Yao - Going Around ▶ Equalized barrier heights
+- NEW | **2026-10-16** Zil - Irì crystal ▶ Added Egg Hunt logic (added CP outside & fixed unreachable area accordingly) & adjusted transparency for some KillRegions
+- NEW | **2026-10-16** cowcowtony - Future Trax 10 / Zil - Ori / Zil - reeeeeeeeeeeeee2 ▶ Added Egg Hunt logic
+- **2026-10-10** Hong Yao - Going Around ▶ Equalized barrier heights
 - **2026-10-06** Eliope - Blood of the Racers 2 ▶ Fixed some checkpoints being hookable
 - **2026-09-28** [Blood of the Racers 4] & [Eased] ▶ Fixed holes
 - **2026-09-20** Charlotte - Chess l “Pawn” ▶ Fixed starting barrier
