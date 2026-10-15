@@ -63,7 +63,7 @@ map_id|author|name|difficulty|tags|notes
 65|Antigasp|Velocity Zones Demo Map|2.0||
 66|Yuukihito|Unnamed (Speed)|1.0||
 67|Eliope|Rayt Racing|3.5||
-68|cowcowtony|Future Trax 10|3.5||Fixed on 2026-04-05
+68|cowcowtony|Future Trax 10|3.5||Added Egg Hunt logic on 2026-10-16
 69|Eliope|Makina Honor (Grassy)|2.0|inactive|
 70|Naito|Double Hooks|4.5||
 71|Eliope & Riblei|Makina Royal (Lava)|3.5||
@@ -119,7 +119,7 @@ map_id|author|name|difficulty|tags|notes
 122|Eliope|Blood of the Racers 1 & 2 (Fused by oNoto)|5.0|botr botr1 botr2|Fixed on 2026-06-21
 123|cowcowtony|Three Lap Racing|0.5||Fixed on 2026-05-18
 124|Riblei|Island Racers 2nd Part Only|3.0||
-125|Zil|Irì crystal|3.0||Fixed holes on 2026-02-10
+125|Zil|Irì crystal|3.0||Added Egg Hunt logic & adjusted transparency for some KillRegions on 2026-10-16
 126|Eliope|Race B 1v1|0.5||
 128|Eliope|Makina Source LV1 (Texture Edit by Riblei)|1.0||
 129|Jaydensofye|Boo Hoo Race Map|1.0|inactive|
@@ -282,7 +282,7 @@ map_id|author|name|difficulty|tags|notes
 294|Sebas Tian|SAC - Feng City Run (Lv1)|1.0||
 295|Zil|Irì ash (Lava Edit by Riblei)|4.0||
 296|Eliope|Blood of the Racers 4 Eased (Edit by zender)|4.5|botr botr4|Fixed a hole on 2026-09-28
-297|Zil|Ori|3.5||
+297|Zil|Ori|3.5||Added Egg Hunt logic on 2026-10-16
 298|Eliope|Race King Volcano|5.0||
 299|AndyXest|Devil's Corridor (Lava)|3.5||
 300|Zil|Irì shuriken|2.0||
@@ -455,7 +455,7 @@ map_id|author|name|difficulty|tags|notes
 471|Hixan|The Large Maze V3|3.5||
 472|Ben|Smiley Face Map|1.0||
 473|MASKSLAVE|MS Racing 3|3.5||
-474|Zil|reeeeeeeeeeeeee2|1.5||
+474|Zil|reeeeeeeeeeeeee2|1.5||Added Egg Hunt logic on 2026-10-16
 475|Riblei|Chimera|4.5||
 476|cowcowtony|Watch Out Your Head|1.0||
 477|Eliope|Blood of the Racers 1 (Tilted by oNoto)|4.5|botr botr1|Fixed on 2026-06-13
