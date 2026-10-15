@@ -1,5 +1,5 @@
 /// Options
-EditorVersion:1.0|Description:Fixed skating by Fruity on 2026-04-05|HasWeather:0
+EditorVersion:1.0|Description:Added Egg Hunt logic by Fruity on 2026-10-16|HasWeather:0
 /// CustomAssets
 
 /// Objects
@@ -18,7 +18,7 @@ Scene,General/EditorHumanSpawnPointRed,12,0,1,1,0,0,Human SpawnPoint (red),-1650
 Scene,Geometry/Cuboid,13,0,1,1,1,0,Racing Finish Region Cuboid,-731.016,1318.128,2913.877,0,315.0004,0,8.75,8.75,3.5,Region,Characters,Default,Transparent|209/255/0/128|Misc/None|1/1|0/0,RacingFinishRegion|NumberOfLaps:1;
 Scene,Geometry/Sphere,14,0,1,1,1,0,Kill Region Sphere,-838.3734,1314.466,3025.375,5.078962,199.3698,345.8677,3.8,3.8,3.8,Region,Characters,Default,Transparent|255/0/0/130|Misc/None|1/1|0/0,;
 Scene,Geometry/Sphere,15,0,1,1,1,0,Racing Checkpoint Region Sphere,-838.3734,1314.466,3025.375,5.078962,199.3698,345.8677,3.8,3.8,3.8,Region,Characters,Default,Transparent|51/255/0/130|Misc/None|1/1|0/0,RacingCheckpointRegion|Refill:true|PlaySound:true|LapCheckpoint:false,TeleportRegion|RelativePosition:false|Position:647.9811/2591.475/84.10498|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
-Scene,Geometry/Sphere,16,0,1,1,1,0,Sphere,-856.9282,1698.982,1397.711,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/127/255/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,16,0,1,1,1,0,Egg + Handler,-856.9282,1698.982,1397.711,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/127/255/255|Legacy/Arena2Tex|2/1|0/0,EggHandler|EggText:O|UseSpace:false|EggFontColor:#FFCC00|EggFontSize:25|ExtraText:Cores to Find∶|ExtraFontColor:white|ExtraFontSize:20|ExtraTextPosition:Above|HideExtraTextOnFinish:Yes|FinishText:|FinishFontColor:Red|FinishFontSize:20|ObjectsToShow:|ObjectsToHide:|LabelPosition:MiddleRight|PaddingTop:0|PaddingBottom:0|PaddingLeft:0|PaddingRight:0|ShowServerMessage:true|ServerMessage:has found all the cores!,Egg|CustomEggText:|CustomFontColor:#007FFF|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,17,0,1,1,1,0,Torus,-856.5617,1700.379,1397.725,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/216/255/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,18,0,1,1,1,0,Torus,-855.8339,1700.379,1396.997,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/216/255/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,19,0,1,1,1,0,Torus,-856.7542,1700.186,1397.725,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/216/255/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -28,7 +28,7 @@ Scene,Geometry/Torus,22,0,1,1,1,0,Torus,-856.7735,1700.186,1397.798,0,0,0,1.4807
 Scene,Geometry/Torus,23,0,1,1,1,0,Torus,-856.5617,1700.417,1397.871,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,24,0,1,1,1,0,Torus,-855.6884,1700.417,1396.997,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,25,0,1,1,1,0,Torus,-856.7927,1700.186,1397.871,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,26,0,1,1,1,0,Sphere,2008.404,2538.981,-1666.922,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/255/127/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,26,0,1,1,1,0,Egg,2008.404,2538.981,-1666.922,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/255/127/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#00FF7F|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,27,0,1,1,1,0,Torus,2008.77,2540.378,-1666.907,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/216/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,28,0,1,1,1,0,Torus,2009.498,2540.378,-1667.635,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/216/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,29,0,1,1,1,0,Torus,2008.578,2540.186,-1666.907,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/216/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -38,7 +38,7 @@ Scene,Geometry/Torus,32,0,1,1,1,0,Torus,2008.558,2540.186,-1666.835,0,0,0,1.4807
 Scene,Geometry/Torus,33,0,1,1,1,0,Torus,2008.77,2540.417,-1666.762,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,34,0,1,1,1,0,Torus,2009.644,2540.417,-1667.635,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,35,0,1,1,1,0,Torus,2008.539,2540.186,-1666.762,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,36,0,1,1,1,0,Sphere,654.0075,1417.769,974.3278,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/255/255/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,36,0,1,1,1,0,Egg,654.0075,1417.769,974.3278,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/255/255/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#00FFFF|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,37,0,1,1,1,0,Torus,654.3739,1419.166,974.3419,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/255/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,38,0,1,1,1,0,Torus,655.1017,1419.166,973.614,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/255/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,39,0,1,1,1,0,Torus,654.1815,1418.973,974.3419,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/255/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -48,7 +48,7 @@ Scene,Geometry/Torus,42,0,1,1,1,0,Torus,654.1622,1418.973,974.4146,0,0,0,1.48074
 Scene,Geometry/Torus,43,0,1,1,1,0,Torus,654.3739,1419.204,974.4874,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,44,0,1,1,1,0,Torus,655.2473,1419.204,973.614,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,45,0,1,1,1,0,Torus,654.1429,1418.973,974.4874,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,46,0,1,1,1,0,Sphere,20.2651,1466.5,900.5856,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/0/255/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,46,0,1,1,1,0,Egg,20.2651,1466.5,900.5856,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/0/255/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#FF00FF|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,47,0,1,1,1,0,Torus,20.63152,1467.897,900.5997,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/127/255/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,48,0,1,1,1,0,Torus,21.35934,1467.897,899.8719,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/127/255/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,49,0,1,1,1,0,Torus,20.43902,1467.704,900.5997,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/127/255/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -58,7 +58,7 @@ Scene,Geometry/Torus,52,0,1,1,1,0,Torus,20.41977,1467.704,900.6725,0,0,0,1.48074
 Scene,Geometry/Torus,53,0,1,1,1,0,Torus,20.63152,1467.935,900.7452,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,54,0,1,1,1,0,Torus,21.50491,1467.935,899.8719,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,55,0,1,1,1,0,Torus,20.40052,1467.704,900.7452,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,56,0,1,1,1,0,Sphere,2202.391,2678.981,-1860.909,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/255/0/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,56,0,1,1,1,0,Egg,2202.391,2678.981,-1860.909,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/255/0/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#FFFF00|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,57,0,1,1,1,0,Torus,2202.758,2680.378,-1860.895,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/255/127/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,58,0,1,1,1,0,Torus,2203.485,2680.378,-1861.623,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/255/127/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,59,0,1,1,1,0,Torus,2202.565,2680.186,-1860.895,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/255/127/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -68,7 +68,7 @@ Scene,Geometry/Torus,62,0,1,1,1,0,Torus,2202.546,2680.186,-1860.822,0,0,0,1.4807
 Scene,Geometry/Torus,63,0,1,1,1,0,Torus,2202.758,2680.417,-1860.749,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,64,0,1,1,1,0,Torus,2203.631,2680.417,-1861.623,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,65,0,1,1,1,0,Torus,2202.527,2680.186,-1860.749,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,66,0,1,1,1,0,Sphere,1399.945,1566.23,-117.2345,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/255/0/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,66,0,1,1,1,0,Egg,1399.945,1566.23,-117.2345,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|0/255/0/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#00FF00|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,67,0,1,1,1,0,Torus,1400.311,1567.627,-117.2204,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/127/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,68,0,1,1,1,0,Torus,1401.039,1567.627,-117.9482,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/127/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,69,0,1,1,1,0,Torus,1400.119,1567.435,-117.2204,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|127/255/127/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -78,7 +78,7 @@ Scene,Geometry/Torus,72,0,1,1,1,0,Torus,1400.1,1567.435,-117.1476,0,0,0,1.480745
 Scene,Geometry/Torus,73,0,1,1,1,0,Torus,1400.311,1567.666,-117.0748,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,74,0,1,1,1,0,Torus,1401.185,1567.666,-117.9482,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,75,0,1,1,1,0,Torus,1400.08,1567.435,-117.0748,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,76,0,1,1,1,0,Sphere,-840.0549,2725.674,3028.657,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/127/0/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,76,0,1,1,1,0,Egg,-840.0549,2725.674,3028.657,0,0,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/127/0/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#FF7F00|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,77,0,1,1,1,0,Torus,-839.6885,2727.071,3028.671,0,0,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/127/0/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,78,0,1,1,1,0,Torus,-838.9606,2727.071,3027.943,0,90,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/127/0/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,79,0,1,1,1,0,Torus,-839.8809,2726.879,3028.671,0,0,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/127/0/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -88,7 +88,7 @@ Scene,Geometry/Torus,82,0,1,1,1,0,Torus,-839.9002,2726.879,3028.744,0,0,0,1.4807
 Scene,Geometry/Torus,83,0,1,1,1,0,Torus,-839.6885,2727.11,3028.817,0,0,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,84,0,1,1,1,0,Torus,-838.8151,2727.11,3027.943,0,90,270,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
 Scene,Geometry/Torus,85,0,1,1,1,0,Torus,-839.9194,2726.879,3028.817,0,0,0,1.615355,0.2916725,1.615355,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
-Scene,Geometry/Sphere,86,0,1,1,1,0,Sphere,-668.1935,946.4816,-15.94082,0,332.9995,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/0/0/255|Legacy/Arena2Tex|2/1|0/0,;
+Scene,Geometry/Sphere,86,0,1,1,1,0,Egg,-668.1935,946.4816,-15.94082,0,332.9995,0,1.304538,1.304538,1.304538,Physical,Entities,Default,Basic|255/0/0/255|Legacy/Arena2Tex|2/1|0/0,Egg|CustomEggText:|CustomFontColor:#FF0000|CustomFontSize:0|ObjectsToShow:|ObjectsToHide:;
 Scene,Geometry/Torus,87,0,1,1,1,0,Torus,-667.8734,947.8785,-15.76194,0,333.0002,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/63/63/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,88,0,1,1,1,0,Torus,-666.8945,947.8785,-16.08,0,62.99949,270,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/63/63/255|Metal/Metal4|0.4/0.8|0/0,;
 Scene,Geometry/Torus,89,0,1,1,1,0,Torus,-668.0449,947.686,-15.84933,0,332.9995,0,1.346135,1.346153,1.346135,Physical,Entities,Default,Basic|255/63/63/255|Metal/Metal4|0.4/0.8|0/0,;
@@ -10007,7 +10007,307 @@ Scene,Geometry/Sphere,10001,0,1,1,1,0,KillSphere,-726.3401,1546.821,-987.7794,0,
 Scene,Geometry/Sphere,10002,0,1,1,1,0,KillSphere,-814.8189,1416.742,-1056.787,0,0,0,0.4772775,0.4772775,0.4772775,None,Characters,Default,CannonRegionMat|0/255/0/255|1/1,;
 Scene,Geometry/Cuboid,10003,0,1,1,0,0,LegacyBarrier,2048.987,2568.186,-1707.852,0,315.0004,0,7,8.750017,3.5,Physical,Characters,Default,Default|255/255/255/255,Tag|Name:HumanIgnoreGround
 /// Logic
+component Egg
+{
+    _Touched = false;
+    
+    CustomEggText = "";
+    CustomFontColor = "";
+    CustomFontSize = 0;
 
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+
+    CustomEggTextTooltip = "Overrides the default EggText of the EggHandler for this specific egg.";
+    CustomFontColorTooltip = "Overrides the default EggFontColor for this specific egg.";
+    CustomFontSizeTooltip = "Overrides the default EggFontSize for this specific egg.";
+    
+    ObjectsToShowTooltip = "Enter multiple MapObject IDs separated by space (e.g., 10 11 12) to SHOW when touched. These are hidden on start.";
+    ObjectsToHideTooltip = "Enter multiple MapObject IDs separated by space (e.g., 13 14 15) to HIDE when touched. These reappear on reset.";
+
+
+    function Init()
+    {
+    }
+
+
+    function ResetStatus()
+    {
+        self._Touched = false;
+        self.MapObject.Active = true;
+
+
+        idsS = String.Split(self.ObjectsToShow, " ");
+        for (i in Range(0, idsS.Count, 1)) {
+            id = idsS.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+        
+        idsH = String.Split(self.ObjectsToHide, " ");
+        for (i in Range(0, idsH.Count, 1)) {
+            id = idsH.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = true; }
+            }
+        }
+    }
+
+
+    function OnCollisionEnter(other) 
+    {
+        if (other.Type == "Human" && other.IsMine && !self._Touched)
+        {
+            self._Touched = true;
+
+
+            idsS = String.Split(self.ObjectsToShow, " ");
+            for (i in Range(0, idsS.Count, 1)) {
+                id = idsS.Get(i);
+                if (id != "" && id != " ") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = true; }
+                }
+            }
+
+
+            idsH = String.Split(self.ObjectsToHide, " ");
+            for (i in Range(0, idsH.Count, 1)) {
+                id = idsH.Get(i);
+                if (id != "" && id != " ") {
+                    obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                    if (obj != null) { obj.Active = false; }
+                }
+            }
+        }
+    }
+}
+
+
+component EggHandler
+{
+    Description = "Do not use semicolons (;) to avoid system errors.";
+
+
+    EggText = "O";
+    UseSpace = false;
+    EggFontColor = "#FFCC00";
+    EggFontSize = "25";
+    
+    ExtraText = "Eggs to Find∶";
+    ExtraFontColor = "White";
+    ExtraFontSize = "20";
+    ExtraTextPosition = "Above";
+    HideExtraTextOnFinish = "Yes";
+    
+    FinishText = "";
+    FinishFontColor = "Red";
+    FinishFontSize = "20";
+
+
+    ObjectsToShow = "";
+    ObjectsToHide = "";
+
+
+    LabelPosition = "MiddleRight";
+    PaddingTop = 0;
+    PaddingBottom = 0;
+    PaddingLeft = 0;    
+    PaddingRight = 0;
+
+
+    ShowServerMessage = true;
+    ServerMessage = "has found all the eggs!";
+
+
+    UseSpaceTooltip = "Add a space between each egg text icon.";
+    EggFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextTooltip = "This text will be displayed near the egg count.";
+    ExtraFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    ExtraTextPositionTooltip = "Choose whether ExtraText appears Above or Below the egg icons.";
+    HideExtraTextOnFinishTooltip = "Hide the ExtraText after all eggs are collected.";
+    
+    FinishTextTooltip = "This message appears only after all eggs are found.";
+    FinishFontColorTooltip = "Use color names or Hex codes like #FFFFFF";
+    
+    ObjectsToShowTooltip = "Enter Object IDs to SHOW after finding all eggs. These will be HIDDEN on game start.";
+    ObjectsToHideTooltip = "Enter Object IDs to HIDE after finding all eggs. These will REAPPEAR on reset.";
+
+
+    LabelPositionTooltip = "Select the UI position on the screen.";
+    PaddingTopTooltip = "Push the entire UI down.";
+    PaddingBottomTooltip = "Push the entire UI up.";
+    PaddingLeftTooltip = "Push the entire UI to the right.";
+    PaddingRightTooltip = "Push the entire UI to the left.";
+
+
+    ExtraTextPositionDropbox = "Above, Below";
+    HideExtraTextOnFinishDropbox = "Yes, No";
+    LabelPositionDropbox = "TopLeft, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomRight";
+
+
+    _StaticEggList = List();
+    _TotalEggs = 0;
+    _Finished = false;
+    _Initialized = false;
+    _ResetLockFrame = false;
+
+
+    function Init()
+    {
+        self._StaticEggList = Map.FindMapObjectsByComponent("Egg");
+        self._TotalEggs = self._StaticEggList.Count;
+    }
+
+
+    function ResetAll()
+    {
+        self._Finished = false;
+        self._ResetLockFrame = true;
+
+
+        for (i in Range(0, self._StaticEggList.Count, 1)) {
+            eggObj = self._StaticEggList.Get(i);
+            if (eggObj != null) {
+                eggObj.Active = true;
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null) { eggComp.ResetStatus(); }
+            }
+        }
+
+
+        idsH = String.Split(self.ObjectsToHide, " ");
+        for (i in Range(0, idsH.Count, 1)) {
+            id = idsH.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = true; }
+            }
+        }
+
+
+        idsS = String.Split(self.ObjectsToShow, " ");
+        for (i in Range(0, idsS.Count, 1)) {
+            id = idsS.Get(i);
+            if (id != "" && id != " ") {
+                obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                if (obj != null) { obj.Active = false; }
+            }
+        }
+    }
+
+
+    function OnTick()
+    {
+        if (!self._Initialized) {
+            self._Initialized = true;
+            self.ResetAll();
+            return;
+        }
+
+
+        currentCount = 0;
+        eggIcons = "";
+        for (i in Range(0, self._StaticEggList.Count, 1)) {
+            eggObj = self._StaticEggList.Get(i);
+            if (eggObj != null && eggObj.Active) {
+                eggComp = eggObj.GetComponent("Egg");
+                if (eggComp != null && !eggComp._Touched) {
+                    currentCount = currentCount + 1;
+                    if (eggComp.CustomEggText != "") { tText = eggComp.CustomEggText; } else { tText = self.EggText; }
+                    if (eggComp.CustomFontColor != "") { tColor = eggComp.CustomFontColor; } else { tColor = self.EggFontColor; }
+                    if (eggComp.CustomFontSize > 0) { tSize = Convert.ToString(eggComp.CustomFontSize); } else { tSize = self.EggFontSize; }
+                    styled = "<size=" + tSize + "><color=" + tColor + ">" + tText + "</color></size>";
+                    if (self.UseSpace) { eggIcons = eggIcons + styled + " "; } else { eggIcons = eggIcons + styled; }
+                }
+            }
+        }
+
+
+        if (self._ResetLockFrame) {
+            if (currentCount == self._TotalEggs) {
+                self._ResetLockFrame = false;
+            }
+        }
+
+
+        if (self._TotalEggs > 0 && currentCount == 0 && !self._ResetLockFrame) {
+            if (!self._Finished) {
+                self._Finished = true;
+                
+                idsS = String.Split(self.ObjectsToShow, " ");
+                for (i in Range(0, idsS.Count, 1)) {
+                    id = idsS.Get(i);
+                    if (id != "" && id != " ") {
+                        obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                        if (obj != null) { obj.Active = true; }
+                    }
+                }
+                
+                idsH = String.Split(self.ObjectsToHide, " ");
+                for (i in Range(0, idsH.Count, 1)) {
+                    id = idsH.Get(i);
+                    if (id != "" && id != " ") {
+                        obj = Map.FindMapObjectByID(Convert.ToInt(id));
+                        if (obj != null) { obj.Active = false; }
+                    }
+                }
+                if (self.ShowServerMessage) { Game.PrintAll(Network.MyPlayer.Name + " " + self.ServerMessage); }
+            }
+        } else {
+            if (currentCount > 0) {
+                self._Finished = false;
+            }
+        }
+
+
+        lSpace = ""; for (i in Range(0, self.PaddingLeft, 1)) { lSpace = lSpace + "  "; }
+        rSpace = ""; for (i in Range(0, self.PaddingRight, 1)) { rSpace = rSpace + "  "; }
+        tSpace = ""; for (i in Range(0, self.PaddingTop, 1)) { tSpace = tSpace + String.Newline; }
+        bSpace = ""; for (i in Range(0, self.PaddingBottom, 1)) { bSpace = bSpace + String.Newline; }
+        
+        extraS = "";
+        if (!(self._Finished && self.HideExtraTextOnFinish == "Yes") && self.ExtraText != "") {
+            extraS = "<size=" + self.ExtraFontSize + "><color=" + self.ExtraFontColor + ">" + self.ExtraText + "</color></size>";
+        }
+        
+        content = "";
+        if (self.ExtraTextPosition == "Above") {
+            if (extraS != "") { content = extraS + String.Newline; }
+            content = content + eggIcons;
+        } else {
+            content = eggIcons;
+            if (extraS != "") { content = content + String.Newline + extraS; }
+        }
+        
+        if (self._Finished && self.FinishText != "") {
+            content = content + String.Newline + "<size=" + self.FinishFontSize + "><color=" + self.FinishFontColor + ">" + self.FinishText + "</color></size>";
+        }
+        
+        dot = "<color=#00000000>.</color>";
+        UI.SetLabel(self.LabelPosition, tSpace + dot + String.Newline + lSpace + content + rSpace + String.Newline + dot + bSpace);
+    }
+}
+
+
+component EggResetter
+{
+    function OnCollisionEnter(other)
+    {
+        if (other.Type == "Human" && other.IsMine) {
+            hObjs = Map.FindMapObjectsByComponent("EggHandler");
+            if (hObjs.Count > 0) {
+                h = hObjs.Get(0).GetComponent("EggHandler");
+                if (h != null) { h.ResetAll(); }
+            }
+        }
+    }
+}
 /// Weather
 {
     "Skybox" : "Day1",
