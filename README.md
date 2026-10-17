@@ -38,6 +38,7 @@ A repository of racing maps for [Aottg-2](https://github.com/AoTTG-2/Aottg2-Unit
 - **2025-10-09** Eliope - Aila 3 Remake
 
 ## Updated Maps
+- NEW | **2026-10-17** Eliope - Makina Slide ▶ Fixed hook disabling functionality
 - NEW | **2026-10-16** Zil - Irì crystal ▶ Added Egg Hunt logic (added CP outside & fixed unreachable area accordingly) & adjusted transparency for some KillRegions
 - NEW | **2026-10-16** cowcowtony - Future Trax 10 / Zil - Ori / Zil - reeeeeeeeeeeeee2 ▶ Added Egg Hunt logic
 - **2026-10-10** Hong Yao - Going Around ▶ Equalized barrier heights
